@@ -2,10 +2,10 @@
 Resist.Network Launcher Pack
 
 # modification credits
-Resist.Network Team: [Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
+Resist.Network Team: [Resist.Network Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
 
 # original author
-Daniel Scalzi: [WesterosCraft][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
+Daniel Scalzi: [WesterosCraft Website][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
 
 
 [westeroscraftweb]: https://www.westeroscraft.com/
