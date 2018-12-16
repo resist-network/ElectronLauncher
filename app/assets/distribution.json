@@ -218,7 +218,6 @@
           },
           "artifact": {
             "size": 2905493,
-            "path": "mods-required/ActuallyAdditions-1.12.2-r143.jar",
             "MD5": "a9c15c72028c92ef1b358c04258aa1fb",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ActuallyAdditions-1.12.2-r143.jar"
           }
@@ -233,7 +232,6 @@
           },
           "artifact": {
             "size": 11604,
-            "path": "mods-required/ActuallyBaubles-1.12-1.1.jar",
             "MD5": "71b8dfb3383bf90c615ff4be27f425b7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ActuallyBaubles-1.12-1.1.jar"
           }
@@ -248,7 +246,6 @@
           },
           "artifact": {
             "size": 19489,
-            "path": "mods-required/actuallycomputers-2.1.0.jar",
             "MD5": "f4de72dc35076036f4624c66a433c967",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/actuallycomputers-2.1.0.jar"
           }
@@ -263,7 +260,6 @@
           },
           "artifact": {
             "size": 316415,
-            "path": "mods-required/Advanced+Solar+Panels-4.2.0.jar",
             "MD5": "769582ec817b811563f94e41b040cb10",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Advanced+Solar+Panels-4.2.0.jar"
           }
@@ -278,7 +274,6 @@
           },
           "artifact": {
             "size": 12198691,
-            "path": "mods-required/AdvancedRocketry-1.12.2-1.4.1-108-universal.jar",
             "MD5": "af26e1f33503966f3a002c3cd0e5de7d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/AdvancedRocketry-1.12.2-1.4.1-108-universal.jar"
           }
@@ -293,7 +288,6 @@
           },
           "artifact": {
             "size": 44041,
-            "path": "mods-required/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar",
             "MD5": "da672a35350bb77a07b9c65bad992153",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar"
           }
@@ -308,7 +302,6 @@
           },
           "artifact": {
             "size": 910239,
-            "path": "mods-required/architecturecraft-1.12-3.80.jar",
             "MD5": "985961ff68f41d8c00d279894146b6c9",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/architecturecraft-1.12-3.80.jar"
           }
@@ -323,7 +316,6 @@
           },
           "artifact": {
             "size": 97062,
-            "path": "mods-required/AutoRegLib-1.3-20.jar",
             "MD5": "ccc9194e20d4339cc7dc42c895dde347",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/AutoRegLib-1.3-20.jar"
           }
@@ -338,7 +330,6 @@
           },
           "artifact": {
             "size": 131357,
-            "path": "mods-required/auxiliumequivalence-1.12.2-1.1.1.jar",
             "MD5": "5047db3b507496fa504857919789b256",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/auxiliumequivalence-1.12.2-1.1.1.jar"
           }
@@ -353,7 +344,6 @@
           },
           "artifact": {
             "size": 108450,
-            "path": "mods-required/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Baubles-1.12-1.5.2.jar"
           }
@@ -368,7 +358,6 @@
           },
           "artifact": {
             "size": 1962731,
-            "path": "mods-required/bdlib-1.14.3.12-mc1.12.2.jar",
             "MD5": "d2b8ba08414ac12737eb5ecbf92a19d9",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/bdlib-1.14.3.12-mc1.12.2.jar"
           }
@@ -383,7 +372,6 @@
           },
           "artifact": {
             "size": 243515,
-            "path": "mods-required/Bookshelf-1.12.2-2.3.567.jar",
             "MD5": "3ca12949ce1b3a76a1c8ea6b7245d5a8",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Bookshelf-1.12.2-2.3.567.jar"
           }
@@ -398,7 +386,6 @@
           },
           "artifact": {
             "size": 210042,
-            "path": "mods-required/catwalks-1.12.2-4.0.44.jar",
             "MD5": "b15b7fc6df2c85d0f0f78a1d29ca649b",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/catwalks-1.12.2-4.0.44.jar"
           }
@@ -413,7 +400,6 @@
           },
           "artifact": {
             "size": 96859,
-            "path": "mods-required/Chameleon-1.12-4.1.3.jar",
             "MD5": "e42efa8f4fd42d2918128a826b740e98",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Chameleon-1.12-4.1.3.jar"
           }
@@ -428,7 +414,6 @@
           },
           "artifact": {
             "size": 55622,
-            "path": "mods-required/ChickenASM-1.12-1.0.2.7.jar",
             "MD5": "6afc6ad00fd6bacd0c5b35d8342f0f79",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ChickenASM-1.12-1.0.2.7.jar"
           }
@@ -443,7 +428,6 @@
           },
           "artifact": {
             "size": 4310011,
-            "path": "mods-required/Chisel-MC1.12.2-0.2.1.35.jar",
             "MD5": "dbda5475859bcffc9f572c5a1506a1f4",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Chisel-MC1.12.2-0.2.1.35.jar"
           }
@@ -458,9 +442,22 @@
           },
           "artifact": {
             "size": 13723,
-            "path": "mods-required/Clumps-3.1.1.jar",
             "MD5": "727689d86739f9dc987e05259de1a68d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Clumps-3.1.1.jar"
+          }
+        },
+        {
+          "id": "f8.d2:b4843eccafb2213512ba9be17bfa",
+          "name": "CodeChickenLib-1.12.2-3.2.2.353-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 700785,
+            "MD5": "f8b4843eccafb2213512ba9be17bfad2",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
           }
         },
         {
@@ -473,7 +470,6 @@
           },
           "artifact": {
             "size": 838208,
-            "path": "mods-required/CoFHCore-1.12.2-4.5.3.20-universal.jar",
             "MD5": "6670912dc337991f2845001907212a2d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CoFHCore-1.12.2-4.5.3.20-universal.jar"
           }
@@ -488,24 +484,8 @@
           },
           "artifact": {
             "size": 449717,
-            "path": "mods-required/CoFHWorld-1.12.2-1.2.0.5-universal.jar",
             "MD5": "a5331d71497b0e670a3fa4684e25f4bc",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CoFHWorld-1.12.2-1.2.0.5-universal.jar"
-          }
-        },
-        {
-          "id": "f8.d2:b4843eccafb2213512ba9be17bfa",
-          "name": "CodeChickenLib-1.12.2-3.2.2.353-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 700785,
-            "path": "mods-required/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
-            "MD5": "f8b4843eccafb2213512ba9be17bfad2",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
           }
         },
         {
@@ -518,7 +498,6 @@
           },
           "artifact": {
             "size": 77016,
-            "path": "mods-required/CommonCapabilities-1.12-1.4.0.jar",
             "MD5": "8d99dc5e5df88b6be61a3d12a15e9e36",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CommonCapabilities-1.12-1.4.0.jar"
           }
@@ -533,7 +512,6 @@
           },
           "artifact": {
             "size": 590796,
-            "path": "mods-required/compactmachines3-1.12.2-3.0.12-b215.jar",
             "MD5": "851574ecc9803579a8a622925cc86202",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/compactmachines3-1.12.2-3.0.12-b215.jar"
           }
@@ -548,7 +526,6 @@
           },
           "artifact": {
             "size": 71767,
-            "path": "mods-required/CompactSolars-1.12.2-5.0.17.340-universal.jar",
             "MD5": "9c22fcb389f6469cd8fac7330cb19c33",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CompactSolars-1.12.2-5.0.17.340-universal.jar"
           }
@@ -563,7 +540,6 @@
           },
           "artifact": {
             "size": 1641429,
-            "path": "mods-required/ComputerCraft1.80pr1.jar",
             "MD5": "df638d71e9f8834cf7f0784cf4ab4f41",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ComputerCraft1.80pr1.jar"
           }
@@ -578,7 +554,6 @@
           },
           "artifact": {
             "size": 26034,
-            "path": "mods-required/Controlling-3.0.6.jar",
             "MD5": "0d9a0429c72bc1c06358f1166bdd8c59",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Controlling-3.0.6.jar"
           }
@@ -593,7 +568,6 @@
           },
           "artifact": {
             "size": 584467,
-            "path": "mods-required/CookingForBlockheads_1.12.2-6.4.65.jar",
             "MD5": "dfe4a46ba6daf56434a080edf5b1554f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CookingForBlockheads_1.12.2-6.4.65.jar"
           }
@@ -608,7 +582,6 @@
           },
           "artifact": {
             "size": 193477,
-            "path": "mods-required/CTM-MC1.12.2-0.3.2.20.jar",
             "MD5": "6efc0b781cd559201397cbee149a68c6",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CTM-MC1.12.2-0.3.2.20.jar"
           }
@@ -623,7 +596,6 @@
           },
           "artifact": {
             "size": 300222,
-            "path": "mods-required/Currency-1.12.0-1.3.6.jar",
             "MD5": "1e31b3192a0a31aed4a3f08b481647a8",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Currency-1.12.0-1.3.6.jar"
           }
@@ -638,7 +610,6 @@
           },
           "artifact": {
             "size": 658104,
-            "path": "mods-required/CustomLoadingScreen-1.12.2-1.4.0.1.jar.disabled",
             "MD5": "11e6d7df8ba77ba0786f9ee5116a8544",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CustomLoadingScreen-1.12.2-1.4.0.1.jar.disabled"
           }
@@ -653,7 +624,6 @@
           },
           "artifact": {
             "size": 176289,
-            "path": "mods-required/CustomMainMenu-MC1.12.2-2.0.8.jar",
             "MD5": "9b80cdafc4521d124dc87fef9ee3bbcd",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CustomMainMenu-MC1.12.2-2.0.8.jar"
           }
@@ -668,7 +638,6 @@
           },
           "artifact": {
             "size": 3641334,
-            "path": "mods-required/Cyclic-1.12.2-1.17.4.jar",
             "MD5": "c6281fcae2b7f62ba6f35433b1544955",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Cyclic-1.12.2-1.17.4.jar"
           }
@@ -683,7 +652,6 @@
           },
           "artifact": {
             "size": 823711,
-            "path": "mods-required/CyclopsCore-1.12.2-0.11.10.jar",
             "MD5": "182ca96d56cd29bfa77df024605fb1da",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/CyclopsCore-1.12.2-0.11.10.jar"
           }
@@ -698,7 +666,6 @@
           },
           "artifact": {
             "size": 418336,
-            "path": "mods-required/DarkUtils-1.12.2-1.8.211.jar",
             "MD5": "4b169977fd49a06fd3a2f36965a485df",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/DarkUtils-1.12.2-1.8.211.jar"
           }
@@ -713,7 +680,6 @@
           },
           "artifact": {
             "size": 16304269,
-            "path": "mods-required/Decocraft-2.6.2_1.12.2.jar",
             "MD5": "f1af752dd335560a3429242e361d15a4",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Decocraft-2.6.2_1.12.2.jar"
           }
@@ -728,7 +694,6 @@
           },
           "artifact": {
             "size": 912501,
-            "path": "mods-required/deepresonance-1.12-1.7.2.jar",
             "MD5": "d73abfa0b7b1ae40becbf7b84da7c581",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/deepresonance-1.12-1.7.2.jar"
           }
@@ -743,7 +708,6 @@
           },
           "artifact": {
             "size": 12973,
-            "path": "mods-required/DefaultOptions_1.12.2-9.2.7.jar",
             "MD5": "cd3204703288f67c318b355dc3baf739",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/DefaultOptions_1.12.2-9.2.7.jar"
           }
@@ -758,7 +722,6 @@
           },
           "artifact": {
             "size": 2733808,
-            "path": "mods-required/device-mod-0.4.1-1.12.2.jar",
             "MD5": "26fa65c0fa5462834d6eebfa4055a792",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/device-mod-0.4.1-1.12.2.jar"
           }
@@ -773,7 +736,6 @@
           },
           "artifact": {
             "size": 22507134,
-            "path": "mods-required/DynamicSurroundings-1.12.2-3.4.10.5.jar",
             "MD5": "3d75602c66b7ccfc23c342e8d5e07469",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/DynamicSurroundings-1.12.2-3.4.10.5.jar"
           }
@@ -788,7 +750,6 @@
           },
           "artifact": {
             "size": 585370,
-            "path": "mods-required/DynamicTrees-1.12.2-0.8.2.jar",
             "MD5": "7739e6c09a9fcc96ae7953d8cbccfde4",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/DynamicTrees-1.12.2-0.8.2.jar"
           }
@@ -803,7 +764,6 @@
           },
           "artifact": {
             "size": 845761,
-            "path": "mods-required/ElecCore-1.12.2-1.8.434.jar",
             "MD5": "ad6b16a7b1f6fdbcf44ff0f99cb5b097",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ElecCore-1.12.2-1.8.434.jar"
           }
@@ -818,7 +778,6 @@
           },
           "artifact": {
             "size": 614824,
-            "path": "mods-required/EnderCore-1.12.2-0.5.39.jar",
             "MD5": "cf0e51f05ead72e672b5b3cb0084cf29",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/EnderCore-1.12.2-0.5.39.jar"
           }
@@ -833,7 +792,6 @@
           },
           "artifact": {
             "size": 6769006,
-            "path": "mods-required/EnderIO-1.12.2-5.0.33.jar",
             "MD5": "1b0cf20dbb00ed0a291ed14dba10e0a4",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/EnderIO-1.12.2-5.0.33.jar"
           }
@@ -848,7 +806,6 @@
           },
           "artifact": {
             "size": 223227,
-            "path": "mods-required/EnderStorage-1.12.2-2.4.5.135-universal.jar",
             "MD5": "d7d6b1991449110cfa7b1844b5811f75",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/EnderStorage-1.12.2-2.4.5.135-universal.jar"
           }
@@ -863,7 +820,6 @@
           },
           "artifact": {
             "size": 131748,
-            "path": "mods-required/EquivalentIntegrations-0.1.9-PE1.3.1B.jar",
             "MD5": "3e10117f1aa2566e1da68b17cdef2300",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/EquivalentIntegrations-0.1.9-PE1.3.1B.jar"
           }
@@ -878,7 +834,6 @@
           },
           "artifact": {
             "size": 281052,
-            "path": "mods-required/Exchangers-1.12.2-2.8.jar",
             "MD5": "6a01826309531ba47dea317e5dd5b409",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Exchangers-1.12.2-2.8.jar"
           }
@@ -893,7 +848,6 @@
           },
           "artifact": {
             "size": 131676,
-            "path": "mods-required/ExpandedEquivalence-1.12.2-11b.jar",
             "MD5": "184612cc738ac7f22d82e378a0035bab",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ExpandedEquivalence-1.12.2-11b.jar"
           }
@@ -908,7 +862,6 @@
           },
           "artifact": {
             "size": 3226383,
-            "path": "mods-required/extrautils2-1.12-1.9.7.jar",
             "MD5": "be17432cee178c75356d5833bd855d46",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/extrautils2-1.12-1.9.7.jar"
           }
@@ -923,7 +876,6 @@
           },
           "artifact": {
             "size": 1085417,
-            "path": "mods-required/ExtremeReactors-1.12.2-0.4.5.49.jar",
             "MD5": "9a581e654f9bbb0f68d7c467de01a8ad",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ExtremeReactors-1.12.2-0.4.5.49.jar"
           }
@@ -938,7 +890,6 @@
           },
           "artifact": {
             "size": 242247,
-            "path": "mods-required/FarmingForBlockheads_1.12.2-3.1.26.jar",
             "MD5": "2f55dbd8c852fe4482a4be5de838aa80",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/FarmingForBlockheads_1.12.2-3.1.26.jar"
           }
@@ -953,7 +904,6 @@
           },
           "artifact": {
             "size": 5593209,
-            "path": "mods-required/FastAsyncWorldEdit-forge112-18.10.25-626169a-1227-21.5.14.jar",
             "MD5": "ed18f5ecae8a95f4ea5c695c6db8e9e5",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/FastAsyncWorldEdit-forge112-18.10.25-626169a-1227-21.5.14.jar"
           }
@@ -968,7 +918,6 @@
           },
           "artifact": {
             "size": 609733,
-            "path": "mods-required/fluxnetworks-1.12.2-3.0.19-21.jar",
             "MD5": "e870cf29234f47225501f124a021cf53",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/fluxnetworks-1.12.2-3.0.19-21.jar"
           }
@@ -983,7 +932,6 @@
           },
           "artifact": {
             "size": 4595089,
-            "path": "mods-required/Forgelin-1.7.4.jar",
             "MD5": "0ab4c2ac9bc3bc2f6c4929b70a7bf7d2",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Forgelin-1.7.4.jar"
           }
@@ -998,7 +946,6 @@
           },
           "artifact": {
             "size": 1304717,
-            "path": "mods-required/ForgeMultipart-1.12.2-2.6.0.79-universal.jar",
             "MD5": "a4b7b4319d42dfc188f0258764031af9",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ForgeMultipart-1.12.2-2.6.0.79-universal.jar"
           }
@@ -1013,7 +960,6 @@
           },
           "artifact": {
             "size": 18396,
-            "path": "mods-required/FullscreenWindowed-1.12-1.6.0.jar",
             "MD5": "c7679200bdf1f6cb71361555407a4c7f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/FullscreenWindowed-1.12-1.6.0.jar"
           }
@@ -1028,7 +974,6 @@
           },
           "artifact": {
             "size": 2306420,
-            "path": "mods-required/furniture-5.15.0-1.12.2.jar",
             "MD5": "6bc236fdc6305f8186bbc01cc3e54c39",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/furniture-5.15.0-1.12.2.jar"
           }
@@ -1043,7 +988,6 @@
           },
           "artifact": {
             "size": 23954934,
-            "path": "mods-required/Futurepack-1.12.2-26.3.461.jar",
             "MD5": "1f7a2db0f9e8238384c9b2322392b7fa",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Futurepack-1.12.2-26.3.461.jar"
           }
@@ -1058,7 +1002,6 @@
           },
           "artifact": {
             "size": 10355756,
-            "path": "mods-required/GalacticraftCore-1.12.2-4.0.1.181.jar",
             "MD5": "77ec351e75c81672c1096c8558db1f75",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/GalacticraftCore-1.12.2-4.0.1.181.jar"
           }
@@ -1073,7 +1016,6 @@
           },
           "artifact": {
             "size": 1674251,
-            "path": "mods-required/generators-0.9.20.12-mc1.12.2.jar",
             "MD5": "7873749b116958f22a3af9d66db06a37",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/generators-0.9.20.12-mc1.12.2.jar"
           }
@@ -1088,7 +1030,6 @@
           },
           "artifact": {
             "size": 257183,
-            "path": "mods-required/geneticsreborn-1.12-1.09.jar",
             "MD5": "9f28e855af019c7f72e702ccc999c65b",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/geneticsreborn-1.12-1.09.jar"
           }
@@ -1103,7 +1044,6 @@
           },
           "artifact": {
             "size": 169078,
-            "path": "mods-required/Guide-API-1.12-2.1.7-62.jar",
             "MD5": "3c830af92f231bb495bf67e4ba1c6c0e",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Guide-API-1.12-2.1.7-62.jar"
           }
@@ -1118,7 +1058,6 @@
           },
           "artifact": {
             "size": 2245224,
-            "path": "mods-required/HammerCore-1.12.2-2.0.4.1.jar",
             "MD5": "96d7b651c01f9437cdf7bfa7d79c3625",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/HammerCore-1.12.2-2.0.4.1.jar"
           }
@@ -1133,7 +1072,6 @@
           },
           "artifact": {
             "size": 20086,
-            "path": "mods-required/hotlock_v1.0.1_beta_1.12-1.12.2.jar",
             "MD5": "57ace9c5492256864e99b61908527f39",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/hotlock_v1.0.1_beta_1.12-1.12.2.jar"
           }
@@ -1148,7 +1086,6 @@
           },
           "artifact": {
             "size": 453778,
-            "path": "mods-required/Hwyla-1.8.26-B41_1.12.2.jar",
             "MD5": "bca1c069d9171d331d211d24e8a3b770",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Hwyla-1.8.26-B41_1.12.2.jar"
           }
@@ -1163,7 +1100,6 @@
           },
           "artifact": {
             "size": 6862073,
-            "path": "mods-required/ICBM-classic-1.12.2-3.0.0b29.jar",
             "MD5": "2f4471f36e903451a31dc0c7fccf4fa1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ICBM-classic-1.12.2-3.0.0b29.jar"
           }
@@ -1178,7 +1114,6 @@
           },
           "artifact": {
             "size": 550812,
-            "path": "mods-required/iChunUtil-1.12.2-7.1.4.jar",
             "MD5": "b81dab6549018c7b4b7829d30ef1d777",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/iChunUtil-1.12.2-7.1.4.jar"
           }
@@ -1193,7 +1128,6 @@
           },
           "artifact": {
             "size": 8067765,
-            "path": "mods-required/industrialcraft-2-2.8.101-ex112.jar",
             "MD5": "97e0d000b9a0e17ccba4db88f33ebdad",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/industrialcraft-2-2.8.101-ex112.jar"
           }
@@ -1208,7 +1142,6 @@
           },
           "artifact": {
             "size": 1526565,
-            "path": "mods-required/industrialforegoing-1.12.2-1.11.5-215.jar",
             "MD5": "2543e94660be76a19c2ff1a0d3b0dead",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/industrialforegoing-1.12.2-1.11.5-215.jar"
           }
@@ -1223,7 +1156,6 @@
           },
           "artifact": {
             "size": 48759,
-            "path": "mods-required/industrialmeat-1.12-1.0.2.jar",
             "MD5": "647c2b5fa3fa9a067762a2be26852b58",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/industrialmeat-1.12-1.0.2.jar"
           }
@@ -1238,7 +1170,6 @@
           },
           "artifact": {
             "size": 315455,
-            "path": "mods-required/InGameInfoXML-1.12.2-2.8.2.94-universal.jar",
             "MD5": "02a15a0cfbffc4bc530f2bd56b0b1a6c",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/InGameInfoXML-1.12.2-2.8.2.94-universal.jar"
           }
@@ -1253,7 +1184,6 @@
           },
           "artifact": {
             "size": 161427,
-            "path": "mods-required/IntegrationForegoing-1.12.2-1.7.4.jar",
             "MD5": "afd1c8c78050a565382500be64617be3",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/IntegrationForegoing-1.12.2-1.7.4.jar"
           }
@@ -1268,24 +1198,8 @@
           },
           "artifact": {
             "size": 129842,
-            "path": "mods-required/inventorygenerators-1.2.2.jar",
             "MD5": "7725064ccab1674e3cfce5cd09380b2a",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/inventorygenerators-1.2.2.jar"
-          }
-        },
-        {
-          "id": "1e.bd:2e33e5710394252abc4b014bc3dc",
-          "name": "InventoryTweaks-1.63",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 263258,
-            "path": "mods-required/InventoryTweaks-1.63.jar",
-            "MD5": "1e2e33e5710394252abc4b014bc3dcbd",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/InventoryTweaks-1.63.jar"
           }
         },
         {
@@ -1298,9 +1212,22 @@
           },
           "artifact": {
             "size": 1101965,
-            "path": "mods-required/ironchest-1.12.2-7.0.40.824.jar",
             "MD5": "dd941ee283cfc5507ed846a1f52e67be",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ironchest-1.12.2-7.0.40.824.jar"
+          }
+        },
+        {
+          "id": "1e.bd:2e33e5710394252abc4b014bc3dc",
+          "name": "InventoryTweaks-1.63",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 263258,
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/InventoryTweaks-1.63.jar"
           }
         },
         {
@@ -1313,7 +1240,6 @@
           },
           "artifact": {
             "size": 471733,
-            "path": "mods-required/JAOPCA-1.12.2-2.2.8.96.jar",
             "MD5": "15a298d8e06f0d8a924607bd28be3d06",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/JAOPCA-1.12.2-2.2.8.96.jar"
           }
@@ -1328,7 +1254,6 @@
           },
           "artifact": {
             "size": 84520,
-            "path": "mods-required/JAOPCAOC-1.12.2-1.0.9.jar",
             "MD5": "70cb843ea977da29c991c52cedfe8969",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/JAOPCAOC-1.12.2-1.0.9.jar"
           }
@@ -1343,7 +1268,6 @@
           },
           "artifact": {
             "size": 584096,
-            "path": "mods-required/jei_1.12.2-4.12.1.217.jar",
             "MD5": "7484928be203b32c0d4af2df9914dbc3",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/jei_1.12.2-4.12.1.217.jar"
           }
@@ -1358,7 +1282,6 @@
           },
           "artifact": {
             "size": 1822850,
-            "path": "mods-required/journeymap-1.12.2-5.5.2.jar",
             "MD5": "b743562dac1b5334c20ac87b54c0b518",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/journeymap-1.12.2-5.5.2.jar"
           }
@@ -1373,24 +1296,8 @@
           },
           "artifact": {
             "size": 12166,
-            "path": "mods-required/journeymapdefaults-1.0.jar",
             "MD5": "ca31d3265e17ba53644be979be226506",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/journeymapdefaults-1.0.jar"
-          }
-        },
-        {
-          "id": "d5.30:bd26aa1b4b854e80506c6d023191",
-          "name": "JurassiCraft-1.12.2-2.1.18",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 15448484,
-            "path": "mods-required/JurassiCraft-1.12.2-2.1.18.jar",
-            "MD5": "d5bd26aa1b4b854e80506c6d02319130",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/JurassiCraft-1.12.2-2.1.18.jar"
           }
         },
         {
@@ -1403,7 +1310,6 @@
           },
           "artifact": {
             "size": 49334,
-            "path": "mods-required/kjlib-1.0.4.jar",
             "MD5": "cee769b56139949905ea9221c20ea090",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/kjlib-1.0.4.jar"
           }
@@ -1418,7 +1324,6 @@
           },
           "artifact": {
             "size": 182590,
-            "path": "mods-required/knobcontrol-1.12-4.0.20.jar",
             "MD5": "dfd90421950fb6e49d7f7bf810a56392",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/knobcontrol-1.12-4.0.20.jar"
           }
@@ -1433,7 +1338,6 @@
           },
           "artifact": {
             "size": 497325,
-            "path": "mods-required/LibVulpes-1.12.2-0.2.8-39-universal.jar",
             "MD5": "88e70a9d6f98507e585ceaa2578e9a49",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/LibVulpes-1.12.2-0.2.8-39-universal.jar"
           }
@@ -1448,7 +1352,6 @@
           },
           "artifact": {
             "size": 869330,
-            "path": "mods-required/llibrary-1.7.15-1.12.2.jar",
             "MD5": "a0b6ee72d9c8da3223a0aa6e49588abc",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/llibrary-1.7.15-1.12.2.jar"
           }
@@ -1463,7 +1366,6 @@
           },
           "artifact": {
             "size": 779934,
-            "path": "mods-required/lostcities-1.12-2.0.12.jar.disabled",
             "MD5": "4b88aab12ee8cce6f904bb6200205dda",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/lostcities-1.12-2.0.12.jar.disabled"
           }
@@ -1478,7 +1380,6 @@
           },
           "artifact": {
             "size": 76753,
-            "path": "mods-required/LunatriusCore-1.12.2-1.2.0.42-universal.jar",
             "MD5": "0dae43ef5376822db0399ad254207aa3",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
           }
@@ -1493,7 +1394,6 @@
           },
           "artifact": {
             "size": 1857141,
-            "path": "mods-required/malisiscore-1.12.2-6.4.0.jar",
             "MD5": "5d702a1559e0f6b7981f9d018e505ac1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/malisiscore-1.12.2-6.4.0.jar"
           }
@@ -1508,7 +1408,6 @@
           },
           "artifact": {
             "size": 1741669,
-            "path": "mods-required/malisisdoors-1.12.2-7.3.0.jar",
             "MD5": "6d0f129ff9a05f84add5b2209a6d0284",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/malisisdoors-1.12.2-7.3.0.jar"
           }
@@ -1523,7 +1422,6 @@
           },
           "artifact": {
             "size": 95850,
-            "path": "mods-required/malisisswitches-1.12.2-5.1.0.jar",
             "MD5": "d031af11c1d0a64f080d9a472f4c14c1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/malisisswitches-1.12.2-5.1.0.jar"
           }
@@ -1538,7 +1436,6 @@
           },
           "artifact": {
             "size": 18214504,
-            "path": "mods-required/MatterOverdrive-1.12.2-0.6.1.0-universal.jar",
             "MD5": "c9fdb4a51ae044e69a956d357814730f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MatterOverdrive-1.12.2-0.6.1.0-universal.jar"
           }
@@ -1553,7 +1450,6 @@
           },
           "artifact": {
             "size": 492374,
-            "path": "mods-required/mcjtylib-1.12-3.0.6.jar",
             "MD5": "41fd12f5fe841e3844d2eb89ef2540a1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/mcjtylib-1.12-3.0.6.jar"
           }
@@ -1568,7 +1464,6 @@
           },
           "artifact": {
             "size": 111824,
-            "path": "mods-required/medicme-0.2.1.jar",
             "MD5": "9f3613de4aaed5eeeeb0ba743d59e207",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/medicme-0.2.1.jar"
           }
@@ -1583,7 +1478,6 @@
           },
           "artifact": {
             "size": 507200,
-            "path": "mods-required/MFFS-1.12.2-4.0.1.0_1.12_cc3a5aa.jar",
             "MD5": "cfa266ccd15d1475af88bffe8d759127",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MFFS-1.12.2-4.0.1.0_1.12_cc3a5aa.jar"
           }
@@ -1598,7 +1492,6 @@
           },
           "artifact": {
             "size": 52606,
-            "path": "mods-required/MicdoodleCore-1.12.2-4.0.1.181.jar",
             "MD5": "5a11e5698ce38fa62beb1cc694e595d7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MicdoodleCore-1.12.2-4.0.1.181.jar"
           }
@@ -1613,7 +1506,6 @@
           },
           "artifact": {
             "size": 951868,
-            "path": "mods-required/MobGrindingUtils-0.3.12.jar",
             "MD5": "b4f4472b991d15427e658333416f5b85",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MobGrindingUtils-0.3.12.jar"
           }
@@ -1628,7 +1520,6 @@
           },
           "artifact": {
             "size": 9698,
-            "path": "mods-required/modnametooltip_1.12.2-1.10.0.jar",
             "MD5": "6dda75b858fc93e2d18ccd42585aec03",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/modnametooltip_1.12.2-1.10.0.jar"
           }
@@ -1643,7 +1534,6 @@
           },
           "artifact": {
             "size": 2082753,
-            "path": "mods-required/ModularPowersuits-1.12.2-0.3.0.11.jar",
             "MD5": "2641a93183f6d1ee2b31da7e816bd9c0",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ModularPowersuits-1.12.2-0.3.0.11.jar"
           }
@@ -1658,7 +1548,6 @@
           },
           "artifact": {
             "size": 26285,
-            "path": "mods-required/Morph-o-Tool-1.2-16.jar",
             "MD5": "3b199ebf54475d8ab7fb1bd069325478",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Morph-o-Tool-1.2-16.jar"
           }
@@ -1673,7 +1562,6 @@
           },
           "artifact": {
             "size": 68793,
-            "path": "mods-required/MouseTweaks-2.8-mc1.12.1.jar",
             "MD5": "34343a214952bd0631e7692b1bf6e586",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MouseTweaks-2.8-mc1.12.1.jar"
           }
@@ -1688,7 +1576,6 @@
           },
           "artifact": {
             "size": 33102,
-            "path": "mods-required/mp3spi-1.9.5-1.jar",
             "MD5": "ff5140599f4ddd17e6df29980cc9805e",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/mp3spi-1.9.5-1.jar"
           }
@@ -1703,7 +1590,6 @@
           },
           "artifact": {
             "size": 799809,
-            "path": "mods-required/MrTJPCore-1.12.2-2.1.3.35-universal.jar",
             "MD5": "1442cc118c3c694121bf717a1d5b95c1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/MrTJPCore-1.12.2-2.1.3.35-universal.jar"
           }
@@ -1718,7 +1604,6 @@
           },
           "artifact": {
             "size": 86781489,
-            "path": "mods-required/mw-1.11.7.7_mc1.12.2.jar",
             "MD5": "359e12a0b15abbbfabbda52811734a0b",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/mw-1.11.7.7_mc1.12.2.jar"
           }
@@ -1733,7 +1618,6 @@
           },
           "artifact": {
             "size": 19451,
-            "path": "mods-required/nbtperipheral-1.1.jar",
             "MD5": "31ae3b6fbaa52499be80e469ad97af62",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/nbtperipheral-1.1.jar"
           }
@@ -1748,7 +1632,6 @@
           },
           "artifact": {
             "size": 18527,
-            "path": "mods-required/Neat 1.4-17.jar",
             "MD5": "c371deab2490ecd6a2689eed09302d23",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Neat 1.4-17.jar"
           }
@@ -1763,7 +1646,6 @@
           },
           "artifact": {
             "size": 109445,
-            "path": "mods-required/NetherPortalFix_1.12.1-5.3.17.jar",
             "MD5": "97ff3e60aa9725cedbc64f19e179f813",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/NetherPortalFix_1.12.1-5.3.17.jar"
           }
@@ -1778,7 +1660,6 @@
           },
           "artifact": {
             "size": 4053,
-            "path": "mods-required/noRecipeBook_v1.2.2formc1.12.2.jar",
             "MD5": "c4fa33c05a45db33c5dd0fa6bec82c61",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/noRecipeBook_v1.2.2formc1.12.2.jar"
           }
@@ -1793,7 +1674,6 @@
           },
           "artifact": {
             "size": 168253,
-            "path": "mods-required/notenoughwands-1.12-1.7.1.jar",
             "MD5": "6ff126751ca0ebf83618cbe56b0a092d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/notenoughwands-1.12-1.7.1.jar"
           }
@@ -1808,7 +1688,6 @@
           },
           "artifact": {
             "size": 62074,
-            "path": "mods-required/Notes-1.12-1.1.1.jar",
             "MD5": "42fc63a6cfc3c7da02deaf14125fec0c",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Notes-1.12-1.1.1.jar"
           }
@@ -1823,7 +1702,6 @@
           },
           "artifact": {
             "size": 6964642,
-            "path": "mods-required/NuclearCraft-2.12e--1.12.2.jar",
             "MD5": "7d9271d8252251b0e0b4af7a7818c3f0",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/NuclearCraft-2.12e--1.12.2.jar"
           }
@@ -1838,7 +1716,6 @@
           },
           "artifact": {
             "size": 81332,
-            "path": "mods-required/ocsensors-1.0.4-b23.jar",
             "MD5": "b4907f7bab0af39dd235a58082fdcdf7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ocsensors-1.0.4-b23.jar"
           }
@@ -1853,7 +1730,6 @@
           },
           "artifact": {
             "size": 96790,
-            "path": "mods-required/omlib-1.12.2-3.0.1-162.jar",
             "MD5": "222aa7b352c048346dc05ca3b3836b97",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/omlib-1.12.2-3.0.1-162.jar"
           }
@@ -1868,7 +1744,6 @@
           },
           "artifact": {
             "size": 3217313,
-            "path": "mods-required/OpenBlocks-1.12.2-1.8.jar",
             "MD5": "c6aafd334a6459705ca789ff16322935",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenBlocks-1.12.2-1.8.jar"
           }
@@ -1883,7 +1758,6 @@
           },
           "artifact": {
             "size": 15316083,
-            "path": "mods-required/OpenComputers-MC1.12.2-1.7.2.67.jar",
             "MD5": "45ee059c7e7a4c5ff9e9662f82a9c523",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenComputers-MC1.12.2-1.7.2.67.jar"
           }
@@ -1898,7 +1772,6 @@
           },
           "artifact": {
             "size": 11795,
-            "path": "mods-required/OpenDisks-MC1.12.2-0.1.0.3.jar",
             "MD5": "130f20d7e055035671acc8f28602fe80",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenDisks-MC1.12.2-0.1.0.3.jar"
           }
@@ -1913,7 +1786,6 @@
           },
           "artifact": {
             "size": 762642,
-            "path": "mods-required/OpenEntity-MC1.12.2-1.0.0-alpha_20180723.jar",
             "MD5": "9191c52f93d98692d4f90f70526c3ecb",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenEntity-MC1.12.2-1.0.0-alpha_20180723.jar"
           }
@@ -1928,7 +1800,6 @@
           },
           "artifact": {
             "size": 926519,
-            "path": "mods-required/OpenFM-1.12.2-0.1.0.19.jar",
             "MD5": "cfd531b1d2c89aea763bc5044fca38bd",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenFM-1.12.2-0.1.0.19.jar"
           }
@@ -1943,7 +1814,6 @@
           },
           "artifact": {
             "size": 374267,
-            "path": "mods-required/OpenGlasses-MC1.12.2-2.0.0.jar",
             "MD5": "279a40263e16b2c63e4d6047f228549e",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenGlasses-MC1.12.2-2.0.0.jar"
           }
@@ -1958,7 +1828,6 @@
           },
           "artifact": {
             "size": 2639564,
-            "path": "mods-required/OpenModsLib-1.12.2-0.12.1.jar",
             "MD5": "8dc58701a5c48958a68aca418390e4f3",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenModsLib-1.12.2-0.12.1.jar"
           }
@@ -1973,7 +1842,6 @@
           },
           "artifact": {
             "size": 965841,
-            "path": "mods-required/openmodularturrets-1.12.2-3.0.1-264.jar",
             "MD5": "77640deb178effc88a682ab313390948",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/openmodularturrets-1.12.2-3.0.1-264.jar"
           }
@@ -1988,7 +1856,6 @@
           },
           "artifact": {
             "size": 449500,
-            "path": "mods-required/OpenPeripheralAddons-1.7.10-0.6.jar",
             "MD5": "73f9ac8a80ebb978d8fd304cb78c77a9",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenPeripheralAddons-1.7.10-0.6.jar"
           }
@@ -2003,7 +1870,6 @@
           },
           "artifact": {
             "size": 425876,
-            "path": "mods-required/OpenPeripheralCore-1.7.10-1.4.jar",
             "MD5": "40a20aa1af43c8364293d7eeb0e1cbe2",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenPeripheralCore-1.7.10-1.4.jar"
           }
@@ -2018,7 +1884,6 @@
           },
           "artifact": {
             "size": 272855,
-            "path": "mods-required/OpenPeripheralIntegration-1.7.10-0.6.jar",
             "MD5": "9605fa8af0b27adf3417e3d8d9fa99a8",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenPeripheralIntegration-1.7.10-0.6.jar"
           }
@@ -2033,7 +1898,6 @@
           },
           "artifact": {
             "size": 210911,
-            "path": "mods-required/OpenPrinter-1.12.2-0.1.0.2.jar",
             "MD5": "4edd15f50e67ad280e9342fe0b4c5489",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenPrinter-1.12.2-0.1.0.2.jar"
           }
@@ -2048,7 +1912,6 @@
           },
           "artifact": {
             "size": 398577,
-            "path": "mods-required/OpenSecurity-MC1.12.2-1.0-12.jar",
             "MD5": "964e62e5222bbecdafea012bf97ee7f7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenSecurity-MC1.12.2-1.0-12.jar"
           }
@@ -2063,7 +1926,6 @@
           },
           "artifact": {
             "size": 1138314,
-            "path": "mods-required/OpenTerrainGenerator-1.12.2+-+v6.jar",
             "MD5": "6f4bcf42544bf1b0795078ab8c4219cd",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenTerrainGenerator-1.12.2+-+v6.jar"
           }
@@ -2078,7 +1940,6 @@
           },
           "artifact": {
             "size": 2444057,
-            "path": "mods-required/OptiFine_1.12.2_HD_U_E3.jar",
             "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OptiFine_1.12.2_HD_U_E3.jar"
           }
@@ -2093,7 +1954,6 @@
           },
           "artifact": {
             "size": 176934,
-            "path": "mods-required/OreExcavation-1.4.129.jar",
             "MD5": "e1fb998ddaefd03bc3cd0ac830ffedf1",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OreExcavation-1.4.129.jar"
           }
@@ -2108,7 +1968,6 @@
           },
           "artifact": {
             "size": 13665,
-            "path": "mods-required/OTG-Core.jar",
             "MD5": "50876f4b88d1b9aaf4efe7b01bbb0f8d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OTG-Core.jar"
           }
@@ -2123,7 +1982,6 @@
           },
           "artifact": {
             "size": 61797,
-            "path": "mods-required/Placebo-1.12.2-1.4.1.jar",
             "MD5": "067e0f212bd2aabd498af2cfa5017231",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Placebo-1.12.2-1.4.1.jar"
           }
@@ -2138,7 +1996,6 @@
           },
           "artifact": {
             "size": 987492,
-            "path": "mods-required/plethora-1.12.2-1.1.13.jar",
             "MD5": "aa70d19735db9794e11cd72fabffc0a2",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/plethora-1.12.2-1.1.13.jar"
           }
@@ -2153,7 +2010,6 @@
           },
           "artifact": {
             "size": 1790588,
-            "path": "mods-required/ProjectE-1.12-PE1.3.2h.jar",
             "MD5": "34341d2c5205c9212fe20e9adaffe475",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectE-1.12-PE1.3.2h.jar"
           }
@@ -2168,7 +2024,6 @@
           },
           "artifact": {
             "size": 2032359,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-Base.jar",
             "MD5": "d70bc67baad5c7739f39b88f22182450",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-Base.jar"
           }
@@ -2183,7 +2038,6 @@
           },
           "artifact": {
             "size": 62460,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-compat.jar",
             "MD5": "850041255fa6b555f4f4c53c26dc9f08",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-compat.jar"
           }
@@ -2198,7 +2052,6 @@
           },
           "artifact": {
             "size": 1886213,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-fabrication.jar",
             "MD5": "30830faa0777da6f0104acd3aaf336ce",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-fabrication.jar"
           }
@@ -2213,7 +2066,6 @@
           },
           "artifact": {
             "size": 3921871,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-integration.jar",
             "MD5": "b09e19b2005c2c48fd3001703d3e425d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-integration.jar"
           }
@@ -2228,7 +2080,6 @@
           },
           "artifact": {
             "size": 724243,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-lighting.jar",
             "MD5": "730390ea1cb64c8bc50c98bcd8ed6b8c",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar"
           }
@@ -2243,7 +2094,6 @@
           },
           "artifact": {
             "size": 2586694,
-            "path": "mods-required/ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
             "MD5": "206c601a3800e3ff0e21763f2e9e8b9c",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar"
           }
@@ -2258,7 +2108,6 @@
           },
           "artifact": {
             "size": 169399,
-            "path": "mods-required/PTRLib-1.0.3.jar",
             "MD5": "09c1721819d1ddd02ca01f97d7ac8eda",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/PTRLib-1.0.3.jar"
           }
@@ -2273,7 +2122,6 @@
           },
           "artifact": {
             "size": 219570,
-            "path": "mods-required/QuantumStorage-1.12-4.6.2.jar",
             "MD5": "307dc68af582653e76f359ca687f3e16",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/QuantumStorage-1.12-4.6.2.jar"
           }
@@ -2288,7 +2136,6 @@
           },
           "artifact": {
             "size": 1875001,
-            "path": "mods-required/Quark-r1.5-130.jar",
             "MD5": "df25e642bcde8f609a1044b7007045e3",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Quark-r1.5-130.jar"
           }
@@ -2303,7 +2150,6 @@
           },
           "artifact": {
             "size": 72744,
-            "path": "mods-required/randompatches-1.12.2-1.6.1.0.jar",
             "MD5": "fe3485f0243ffd0b63629eeef8a67a2d",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/randompatches-1.12.2-1.6.1.0.jar"
           }
@@ -2318,7 +2164,6 @@
           },
           "artifact": {
             "size": 2862573,
-            "path": "mods-required/RandomThings-MC1.12.2-4.2.2.jar",
             "MD5": "8fef8318024c2967642f80be9514f918",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RandomThings-MC1.12.2-4.2.2.jar"
           }
@@ -2333,7 +2178,6 @@
           },
           "artifact": {
             "size": 159991,
-            "path": "mods-required/randomtweaks-1.12.2-2.1.9.0.jar",
             "MD5": "a9bbfe873089ed8d38544f2b1a0a7cc2",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/randomtweaks-1.12.2-2.1.9.0.jar"
           }
@@ -2348,7 +2192,6 @@
           },
           "artifact": {
             "size": 21519,
-            "path": "mods-required/rangedpumps-0.5.jar",
             "MD5": "29512482818fe06791e9af63c611e4b2",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/rangedpumps-0.5.jar"
           }
@@ -2363,7 +2206,6 @@
           },
           "artifact": {
             "size": 65733,
-            "path": "mods-required/RealisticItemDrops-1.2.14.jar",
             "MD5": "7ecff9f80b9cd0986b18489405136e81",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RealisticItemDrops-1.2.14.jar"
           }
@@ -2378,7 +2220,6 @@
           },
           "artifact": {
             "size": 30446,
-            "path": "mods-required/reauth-3.6.0.jar",
             "MD5": "6024686e40df10b8739042ea2dce7f1a",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/reauth-3.6.0.jar"
           }
@@ -2393,7 +2234,6 @@
           },
           "artifact": {
             "size": 574516,
-            "path": "mods-required/RebornCore-1.12.2-3.10.1.335-universal.jar",
             "MD5": "e24a945437b369d6e66fc9075a214f97",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RebornCore-1.12.2-3.10.1.335-universal.jar"
           }
@@ -2408,7 +2248,6 @@
           },
           "artifact": {
             "size": 77546,
-            "path": "mods-required/RebornStorage-1.12.2-3.2.2.65.jar",
             "MD5": "978551274490c681fbddf19ade6eaea6",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RebornStorage-1.12.2-3.2.2.65.jar"
           }
@@ -2423,7 +2262,6 @@
           },
           "artifact": {
             "size": 254861,
-            "path": "mods-required/RedstoneArsenal-1.12.2-2.5.1.13-universal.jar",
             "MD5": "27b01b4f829ded381a98d4e160417255",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RedstoneArsenal-1.12.2-2.5.1.13-universal.jar"
           }
@@ -2438,7 +2276,6 @@
           },
           "artifact": {
             "size": 35219,
-            "path": "mods-required/RedstoneFlux-1.12-2.0.2.3-universal.jar",
             "MD5": "0d15cc1e59c8028cf17f6a78bda460dc",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/RedstoneFlux-1.12-2.0.2.3-universal.jar"
           }
@@ -2453,7 +2290,6 @@
           },
           "artifact": {
             "size": 73853,
-            "path": "mods-required/refinedexchange-2.0.3.jar",
             "MD5": "82a488edcb892f45646a971f5a42c3ff",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/refinedexchange-2.0.3.jar"
           }
@@ -2468,7 +2304,6 @@
           },
           "artifact": {
             "size": 1780464,
-            "path": "mods-required/refinedstorage-1.6.8.jar",
             "MD5": "4de56eb3ca923c523cccd555e7b78264",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/refinedstorage-1.6.8.jar"
           }
@@ -2483,7 +2318,6 @@
           },
           "artifact": {
             "size": 26524,
-            "path": "mods-required/refinedstorageaddons-0.4.2.jar",
             "MD5": "e5b4196ee3cacec125e601e038652983",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/refinedstorageaddons-0.4.2.jar"
           }
@@ -2498,7 +2332,6 @@
           },
           "artifact": {
             "size": 16612,
-            "path": "mods-required/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ResourceLoader-MC1.12.1-1.5.3.jar"
           }
@@ -2513,7 +2346,6 @@
           },
           "artifact": {
             "size": 2887710,
-            "path": "mods-required/rftools-1.12-7.56.jar",
             "MD5": "d27216666719be72daf021663a88b7a8",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/rftools-1.12-7.56.jar"
           }
@@ -2528,7 +2360,6 @@
           },
           "artifact": {
             "size": 590780,
-            "path": "mods-required/rftoolsctrl-1.12-1.9.1.jar",
             "MD5": "4b410eee1a8d62ae930859e90278ee11",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/rftoolsctrl-1.12-1.9.1.jar"
           }
@@ -2543,7 +2374,6 @@
           },
           "artifact": {
             "size": 1684019,
-            "path": "mods-required/rftoolsdim-1.12-5.61.jar",
             "MD5": "5082f64f67559e593fba692e5edf0e06",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/rftoolsdim-1.12-5.61.jar"
           }
@@ -2558,7 +2388,6 @@
           },
           "artifact": {
             "size": 149719,
-            "path": "mods-required/rftoolspower-1.12-1.1.1.jar",
             "MD5": "cf9da19863ffcf350bbba8e246e908bb",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/rftoolspower-1.12-1.1.1.jar"
           }
@@ -2573,7 +2402,6 @@
           },
           "artifact": {
             "size": 1360211,
-            "path": "mods-required/SecurityCraft+v1.8.9.jar",
             "MD5": "2a68256f482a348c0ecb4e0321e7e974",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SecurityCraft+v1.8.9.jar"
           }
@@ -2588,7 +2416,6 @@
           },
           "artifact": {
             "size": 1175045,
-            "path": "mods-required/SGCraft-1.3-mc1.12.2.jar",
             "MD5": "7cecb5ad4bcc154486f8e6f0e5760164",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SGCraft-1.3-mc1.12.2.jar"
           }
@@ -2603,7 +2430,6 @@
           },
           "artifact": {
             "size": 262341,
-            "path": "mods-required/simplegenerators-1.12.2-2.0.18.3.jar",
             "MD5": "08f6120eb44fef056826b3e0acb09171",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/simplegenerators-1.12.2-2.0.18.3.jar"
           }
@@ -2618,7 +2444,6 @@
           },
           "artifact": {
             "size": 664341,
-            "path": "mods-required/SimplyJetpacks2-1.12.2-2.2.8.56.jar",
             "MD5": "10dbfc4656ea4e00c983f35d063885ff",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SimplyJetpacks2-1.12.2-2.2.8.56.jar"
           }
@@ -2633,7 +2458,6 @@
           },
           "artifact": {
             "size": 4022,
-            "path": "mods-required/skeletontweaks_v1.0.0formc1.12.2.jar",
             "MD5": "7779c1b8007daa66c5595e1d33565396",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/skeletontweaks_v1.0.0formc1.12.2.jar"
           }
@@ -2648,7 +2472,6 @@
           },
           "artifact": {
             "size": 234312,
-            "path": "mods-required/SmoothFont-mc1.12.2-1.16.1.jar",
             "MD5": "86410c4f1e5898eece55efae2baf2c14",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SmoothFont-mc1.12.2-1.16.1.jar"
           }
@@ -2663,7 +2486,6 @@
           },
           "artifact": {
             "size": 606351,
-            "path": "mods-required/SolarFluxReborn_1.12.2-4.15r.jar",
             "MD5": "bbc14736281cf8657a9087c0f539dc03",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SolarFluxReborn_1.12.2-4.15r.jar"
           }
@@ -2678,7 +2500,6 @@
           },
           "artifact": {
             "size": 1160618,
-            "path": "mods-required/sonarcore-1.12.2-5.0.19-20.jar",
             "MD5": "02c6264bdfa66c5895aed1d739109420",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/sonarcore-1.12.2-5.0.19-20.jar"
           }
@@ -2693,7 +2514,6 @@
           },
           "artifact": {
             "size": 41838,
-            "path": "mods-required/SoundFilters-0.10_for_1.12.jar",
             "MD5": "da0bef083b7eb63136f5d7b3152ad7ed",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SoundFilters-0.10_for_1.12.jar"
           }
@@ -2708,7 +2528,6 @@
           },
           "artifact": {
             "size": 596191,
-            "path": "mods-required/StorageDrawers-1.12.2-5.3.7.jar",
             "MD5": "c3af20c48dcc71e1ae10ca0e8f17c528",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/StorageDrawers-1.12.2-5.3.7.jar"
           }
@@ -2723,7 +2542,6 @@
           },
           "artifact": {
             "size": 114596,
-            "path": "mods-required/StorageTech+R4.1.jar",
             "MD5": "ba83c244372f59d832575277fe6ab416",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/StorageTech+R4.1.jar"
           }
@@ -2738,7 +2556,6 @@
           },
           "artifact": {
             "size": 240155,
-            "path": "mods-required/Sync-1.12.2-7.0.2.jar",
             "MD5": "44d55aa0f628bd4119719c990a3d34bf",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Sync-1.12.2-7.0.2.jar"
           }
@@ -2753,7 +2570,6 @@
           },
           "artifact": {
             "size": 1140374,
-            "path": "mods-required/tesla-core-lib-1.12.2-1.0.15.jar",
             "MD5": "b0214b0a90243374c6bd89a023f2b26e",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/tesla-core-lib-1.12.2-1.0.15.jar"
           }
@@ -2768,7 +2584,6 @@
           },
           "artifact": {
             "size": 758676,
-            "path": "mods-required/ThermalDynamics-1.12.2-2.5.1.14-universal.jar",
             "MD5": "82d0bf008f5e48a6efca3f7739982351",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ThermalDynamics-1.12.2-2.5.1.14-universal.jar"
           }
@@ -2783,7 +2598,6 @@
           },
           "artifact": {
             "size": 2342103,
-            "path": "mods-required/ThermalExpansion-1.12.2-5.5.0.29-universal.jar",
             "MD5": "d2fd230e7ee573974b5964d8647b76df",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ThermalExpansion-1.12.2-5.5.0.29-universal.jar"
           }
@@ -2798,24 +2612,8 @@
           },
           "artifact": {
             "size": 2284786,
-            "path": "mods-required/ThermalFoundation-1.12.2-2.5.0.19-universal.jar",
             "MD5": "cb0ff0d6af0627792bdaaa23541dcad8",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ThermalFoundation-1.12.2-2.5.0.19-universal.jar"
-          }
-        },
-        {
-          "id": "c4.52:d2c0a13399e4410a99073e6a1a6b",
-          "name": "ThermalInnovation-1.12.2-0.3.0.7-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 194559,
-            "path": "mods-required/ThermalInnovation-1.12.2-0.3.0.7-universal.jar",
-            "MD5": "c4d2c0a13399e4410a99073e6a1a6b52",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ThermalInnovation-1.12.2-0.3.0.7-universal.jar"
           }
         },
         {
@@ -2828,9 +2626,22 @@
           },
           "artifact": {
             "size": 1129670,
-            "path": "mods-required/tinyprogressions-1.12.2-3.3.31-Release.jar",
             "MD5": "9a0caa213e0fc6d08004ec66b48285b6",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/tinyprogressions-1.12.2-3.3.31-Release.jar"
+          }
+        },
+        {
+          "id": "c4.52:d2c0a13399e4410a99073e6a1a6b",
+          "name": "ThermalInnovation-1.12.2-0.3.0.7-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 194559,
+            "MD5": "c4d2c0a13399e4410a99073e6a1a6b52",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/ThermalInnovation-1.12.2-0.3.0.7-universal.jar"
           }
         },
         {
@@ -2843,7 +2654,6 @@
           },
           "artifact": {
             "size": 21270,
-            "path": "mods-required/Toast Control-1.12.2-1.7.1.jar",
             "MD5": "57bb3a2d101124d85a5e11e7ee1c8219",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Toast Control-1.12.2-1.7.1.jar"
           }
@@ -2858,7 +2668,6 @@
           },
           "artifact": {
             "size": 446699,
-            "path": "mods-required/Translocators-1.12.2-2.5.1.77-universal.jar",
             "MD5": "c04e6bdd5f61f26e824ac47b97fde260",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Translocators-1.12.2-2.5.1.77-universal.jar"
           }
@@ -2873,7 +2682,6 @@
           },
           "artifact": {
             "size": 192334,
-            "path": "mods-required/UniDict-1.12.2-2.9.1.jar",
             "MD5": "6cde1e2d6d8d183da621c4c46ed94a70",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/UniDict-1.12.2-2.9.1.jar"
           }
@@ -2888,7 +2696,6 @@
           },
           "artifact": {
             "size": 635338,
-            "path": "mods-required/valkyrielib-1.12.2-2.0.18.3.jar",
             "MD5": "49e53d7c40523180c2bbde672a9a3857",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/valkyrielib-1.12.2-2.0.18.3.jar"
           }
@@ -2903,7 +2710,6 @@
           },
           "artifact": {
             "size": 18826,
-            "path": "mods-required/vorbisspi-1.0.3-1.jar",
             "MD5": "4af586218c879f1991041e7cc9208f4a",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/vorbisspi-1.0.3-1.jar"
           }
@@ -2918,7 +2724,6 @@
           },
           "artifact": {
             "size": 31462,
-            "path": "mods-required/WailaHarvestability-mc1.12-1.1.12.jar",
             "MD5": "0bd8765ff3064be336cb1b09208e410c",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WailaHarvestability-mc1.12-1.1.12.jar"
           }
@@ -2933,7 +2738,6 @@
           },
           "artifact": {
             "size": 63189,
-            "path": "mods-required/WanionLib-1.12.2-1.5.jar",
             "MD5": "f0c6e0afb5383ed0653db531dd12c732",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WanionLib-1.12.2-1.5.jar"
           }
@@ -2948,7 +2752,6 @@
           },
           "artifact": {
             "size": 87060,
-            "path": "mods-required/Wawla-1.12.2-2.5.261.jar",
             "MD5": "fb4c1afede84eafbbf0ea03889734075",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Wawla-1.12.2-2.5.261.jar"
           }
@@ -2963,7 +2766,6 @@
           },
           "artifact": {
             "size": 68379,
-            "path": "mods-required/Whoosh-1.12.2-0.1.11.1-universal.jar",
             "MD5": "ccdaf57ca314e4f79f9d42db6bf62820",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Whoosh-1.12.2-0.1.11.1-universal.jar"
           }
@@ -2978,7 +2780,6 @@
           },
           "artifact": {
             "size": 26896,
-            "path": "mods-required/Wither Skeleton Tweaks-1.12.2-2.6.1.jar",
             "MD5": "c1948b350a6a94dc79bd3d1449cae1d0",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Wither Skeleton Tweaks-1.12.2-2.6.1.jar"
           }
@@ -2993,7 +2794,6 @@
           },
           "artifact": {
             "size": 870668,
-            "path": "mods-required/woot-1.12.2-1.4.6.jar",
             "MD5": "8d5315ab06eaf92f4f6b73b85c0c7e4e",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/woot-1.12.2-1.4.6.jar"
           }
@@ -3008,7 +2808,6 @@
           },
           "artifact": {
             "size": 1470354,
-            "path": "mods-required/worldedit-forge-mc1.12-6.1.8-dist.jar",
             "MD5": "73ecbb8656a5fd5823852078f0fb7ca7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/worldedit-forge-mc1.12-6.1.8-dist.jar"
           }
@@ -3023,7 +2822,6 @@
           },
           "artifact": {
             "size": 364080,
-            "path": "mods-required/WR-CBE-1.12.2-2.3.1.30-universal.jar",
             "MD5": "aaf2999992613ae5bed991d97b214467",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WR-CBE-1.12.2-2.3.1.30-universal.jar"
           }
@@ -3038,7 +2836,6 @@
           },
           "artifact": {
             "size": 25417,
-            "path": "mods-required/WrapUp-1.12-1.1.3.jar",
             "MD5": "d6e426631f7d9eb1f86ef0523870811a",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WrapUp-1.12-1.1.3.jar"
           }
@@ -3053,7 +2850,6 @@
           },
           "artifact": {
             "size": 488706,
-            "path": "mods-required/xnet-1.12-1.7.5.jar",
             "MD5": "3e359880a606273096d896cee5fb75b5",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/xnet-1.12-1.7.5.jar"
           }
@@ -3068,9 +2864,22 @@
           },
           "artifact": {
             "size": 203460,
-            "path": "mods-required/zerocore-1.12-0.1.2.2.jar",
             "MD5": "aa1e584c2bd1a288a9287f2f0bc3700f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/zerocore-1.12-0.1.2.2.jar"
+          }
+        },
+        {
+          "id": "d5.30:bd26aa1b4b854e80506c6d023191",
+          "name": "JurassiCraft-1.12.2-2.1.18",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 15448484,
+            "MD5": "d5bd26aa1b4b854e80506c6d02319130",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/JurassiCraft-1.12.2-2.1.18.jar"
           }
         },
         {
@@ -3239,6 +3048,21 @@
           }
         },
         {
+          "id": "07.4a:8a3c5fdba847b355d8994d0d09ea",
+          "name": "commoncapabilities",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1191,
+            "path": "config/commoncapabilities.cfg",
+            "MD5": "078a3c5fdba847b355d8994d0d09ea4a",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/commoncapabilities.cfg"
+          }
+        },
+        {
           "id": "41.ae:9a327c9bf3377728207227cab050",
           "name": "compactsolars",
           "type": "File",
@@ -3281,21 +3105,6 @@
             "path": "config/cookingforblockheads.cfg",
             "MD5": "c6b11686778ee608215bd1125e651ae0",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/cookingforblockheads.cfg"
-          }
-        },
-        {
-          "id": "07.4a:8a3c5fdba847b355d8994d0d09ea",
-          "name": "commoncapabilities",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1191,
-            "path": "config/commoncapabilities.cfg",
-            "MD5": "078a3c5fdba847b355d8994d0d09ea4a",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/commoncapabilities.cfg"
           }
         },
         {
@@ -3389,6 +3198,21 @@
           }
         },
         {
+          "id": "6c.e5:02d869e624d7d4a7b2304fd5ccd0",
+          "name": "darkutils",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4252,
+            "path": "config/darkutils.cfg",
+            "MD5": "6c02d869e624d7d4a7b2304fd5ccd0e5",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/darkutils.cfg"
+          }
+        },
+        {
           "id": "e0.19:6e4e5b0e39a7a502a0195215506e",
           "name": "debugcrosshair",
           "type": "File",
@@ -3419,18 +3243,18 @@
           }
         },
         {
-          "id": "6c.e5:02d869e624d7d4a7b2304fd5ccd0",
-          "name": "darkutils",
+          "id": "4a.d6:67c4796fc8f6b6515618739426bc",
+          "name": "dynamictrees",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 4252,
-            "path": "config/darkutils.cfg",
-            "MD5": "6c02d869e624d7d4a7b2304fd5ccd0e5",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/darkutils.cfg"
+            "size": 3170,
+            "path": "config/dynamictrees.cfg",
+            "MD5": "4a67c4796fc8f6b6515618739426bcd6",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/dynamictrees.cfg"
           }
         },
         {
@@ -3446,21 +3270,6 @@
             "path": "config/eleccore.cfg",
             "MD5": "0b64008cd7f055653fff18f97e09273f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/eleccore.cfg"
-          }
-        },
-        {
-          "id": "4a.d6:67c4796fc8f6b6515618739426bc",
-          "name": "dynamictrees",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3170,
-            "path": "config/dynamictrees.cfg",
-            "MD5": "4a67c4796fc8f6b6515618739426bcd6",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/dynamictrees.cfg"
           }
         },
         {
@@ -3614,21 +3423,6 @@
           }
         },
         {
-          "id": "28.13:f24543b69c8af8ec690959ebd54e",
-          "name": "fw",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1792,
-            "path": "config/fw.cfg",
-            "MD5": "28f24543b69c8af8ec690959ebd54e13",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/fw.cfg"
-          }
-        },
-        {
           "id": "15.35:d250072c68d491384cd7a69c0e4c",
           "name": "fp",
           "type": "File",
@@ -3641,6 +3435,21 @@
             "path": "config/fp.cfg",
             "MD5": "15d250072c68d491384cd7a69c0e4c35",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/fp.cfg"
+          }
+        },
+        {
+          "id": "28.13:f24543b69c8af8ec690959ebd54e",
+          "name": "fw",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1792,
+            "path": "config/fw.cfg",
+            "MD5": "28f24543b69c8af8ec690959ebd54e13",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/fw.cfg"
           }
         },
         {
@@ -4229,21 +4038,6 @@
           }
         },
         {
-          "id": "4c.b8:740b0653c13cb1215ae74c36e70e",
-          "name": "openmodularturrets",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8699,
-            "path": "config/openmodularturrets.cfg",
-            "MD5": "4c740b0653c13cb1215ae74c36e70eb8",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openmodularturrets.cfg"
-          }
-        },
-        {
           "id": "cf.39:6d045ba57aa0418c066a5d0d7940",
           "name": "openprinter",
           "type": "File",
@@ -4256,6 +4050,21 @@
             "path": "config/openprinter.cfg",
             "MD5": "cf6d045ba57aa0418c066a5d0d794039",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/openprinter.cfg"
+          }
+        },
+        {
+          "id": "4c.b8:740b0653c13cb1215ae74c36e70e",
+          "name": "openmodularturrets",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 8699,
+            "path": "config/openmodularturrets.cfg",
+            "MD5": "4c740b0653c13cb1215ae74c36e70eb8",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openmodularturrets.cfg"
           }
         },
         {
@@ -4439,21 +4248,6 @@
           }
         },
         {
-          "id": "29.a6:bf5fae2975872dd70f1a3703c939",
-          "name": "quark",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 79145,
-            "path": "config/quark.cfg",
-            "MD5": "29bf5fae2975872dd70f1a3703c939a6",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/quark.cfg"
-          }
-        },
-        {
           "id": "64.c5:36f06d12fb2661c8cb694801904a",
           "name": "QuantumStorage",
           "type": "File",
@@ -4466,6 +4260,21 @@
             "path": "config/QuantumStorage.cfg",
             "MD5": "6436f06d12fb2661c8cb694801904ac5",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/QuantumStorage.cfg"
+          }
+        },
+        {
+          "id": "29.a6:bf5fae2975872dd70f1a3703c939",
+          "name": "quark",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 79145,
+            "path": "config/quark.cfg",
+            "MD5": "29bf5fae2975872dd70f1a3703c939a6",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/quark.cfg"
           }
         },
         {
@@ -4619,21 +4428,6 @@
           }
         },
         {
-          "id": "e8.9e:607ea7e56dfddd84bbc4530d6427",
-          "name": "simplyjetpacks-client",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2648,
-            "path": "config/simplyjetpacks-client.cfg",
-            "MD5": "e8607ea7e56dfddd84bbc4530d64279e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplyjetpacks-client.cfg"
-          }
-        },
-        {
           "id": "21.ce:31b6d95cc572af5192eac63e36c9",
           "name": "simplyjetpacks",
           "type": "File",
@@ -4646,6 +4440,21 @@
             "path": "config/simplyjetpacks.cfg",
             "MD5": "2131b6d95cc572af5192eac63e36c9ce",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplyjetpacks.cfg"
+          }
+        },
+        {
+          "id": "e8.9e:607ea7e56dfddd84bbc4530d6427",
+          "name": "simplyjetpacks-client",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2648,
+            "path": "config/simplyjetpacks-client.cfg",
+            "MD5": "e8607ea7e56dfddd84bbc4530d64279e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplyjetpacks-client.cfg"
           }
         },
         {
@@ -4799,21 +4608,6 @@
           }
         },
         {
-          "id": "3b.96:4ec94528654f9b5f1310b5c84146",
-          "name": "wailaharvestability",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 262,
-            "path": "config/wailaharvestability.cfg",
-            "MD5": "3b4ec94528654f9b5f1310b5c8414696",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/wailaharvestability.cfg"
-          }
-        },
-        {
           "id": "76.68:2d88080b475d0e91f067a794d8b7",
           "name": "wawla",
           "type": "File",
@@ -4826,6 +4620,21 @@
             "path": "config/wawla.cfg",
             "MD5": "762d88080b475d0e91f067a794d8b768",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/wawla.cfg"
+          }
+        },
+        {
+          "id": "3b.96:4ec94528654f9b5f1310b5c84146",
+          "name": "wailaharvestability",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 262,
+            "path": "config/wailaharvestability.cfg",
+            "MD5": "3b4ec94528654f9b5f1310b5c8414696",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/wailaharvestability.cfg"
           }
         },
         {
@@ -4856,36 +4665,6 @@
             "path": "config/wither_skeleton_tweaks.cfg",
             "MD5": "9ef76c3034cff5bc1e3c288d7db816e9",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/wither_skeleton_tweaks.cfg"
-          }
-        },
-        {
-          "id": "e3.d1:afca7cad44dfe35ccf489d71ec7a",
-          "name": "supporters",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 601,
-            "path": "config/codechicken/supporters.json",
-            "MD5": "e3afca7cad44dfe35ccf489d71ec7ad1",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.json"
-          }
-        },
-        {
-          "id": "18.fc:7cf51df1e84197c21906723f9d15",
-          "name": "supporters",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 13,
-            "path": "config/codechicken/supporters.marker",
-            "MD5": "187cf51df1e84197c21906723f9d15fc",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.marker"
           }
         },
         {
@@ -5066,6 +4845,36 @@
             "path": "config/advRocketry/SmallPlatePress.xml",
             "MD5": "fbe171a9b1e45fc8b67a8a99a268d231",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/SmallPlatePress.xml"
+          }
+        },
+        {
+          "id": "e3.d1:afca7cad44dfe35ccf489d71ec7a",
+          "name": "supporters",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 601,
+            "path": "config/codechicken/supporters.json",
+            "MD5": "e3afca7cad44dfe35ccf489d71ec7ad1",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.json"
+          }
+        },
+        {
+          "id": "18.fc:7cf51df1e84197c21906723f9d15",
+          "name": "supporters",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 13,
+            "path": "config/codechicken/supporters.marker",
+            "MD5": "187cf51df1e84197c21906723f9d15fc",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.marker"
           }
         },
         {
@@ -5294,66 +5103,6 @@
           }
         },
         {
-          "id": "d1.14:aa29b95c320167bb4a663534b041",
-          "name": "itemBlacklist",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 679,
-            "path": "config/jei/itemBlacklist.cfg",
-            "MD5": "d1aa29b95c320167bb4a663534b04114",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/itemBlacklist.cfg"
-          }
-        },
-        {
-          "id": "6e.bd:ff5fafc6c41fe390b49f21a1b50b",
-          "name": "jei",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2933,
-            "path": "config/jei/jei.cfg",
-            "MD5": "6eff5fafc6c41fe390b49f21a1b50bbd",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/jei.cfg"
-          }
-        },
-        {
-          "id": "58.c0:5c420ac4e5433c27837a588927a0",
-          "name": "searchColors",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1994,
-            "path": "config/jei/searchColors.cfg",
-            "MD5": "585c420ac4e5433c27837a588927a0c0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/searchColors.cfg"
-          }
-        },
-        {
-          "id": "46.dc:3420156a96d5d12e44c50e16a12e",
-          "name": "worldSettings",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 997,
-            "path": "config/jei/worldSettings.cfg",
-            "MD5": "463420156a96d5d12e44c50e16a12edc",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/worldSettings.cfg"
-          }
-        },
-        {
           "id": "60.88:842d668c63140fb73a7afb7be87c",
           "name": "battery",
           "type": "File",
@@ -5471,6 +5220,66 @@
             "path": "config/icbmclassic/missile.cfg",
             "MD5": "ec2c96bc65d7a90b94940361dfd6a245",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/icbmclassic/missile.cfg"
+          }
+        },
+        {
+          "id": "d1.14:aa29b95c320167bb4a663534b041",
+          "name": "itemBlacklist",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 679,
+            "path": "config/jei/itemBlacklist.cfg",
+            "MD5": "d1aa29b95c320167bb4a663534b04114",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/itemBlacklist.cfg"
+          }
+        },
+        {
+          "id": "6e.bd:ff5fafc6c41fe390b49f21a1b50b",
+          "name": "jei",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2933,
+            "path": "config/jei/jei.cfg",
+            "MD5": "6eff5fafc6c41fe390b49f21a1b50bbd",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/jei.cfg"
+          }
+        },
+        {
+          "id": "58.c0:5c420ac4e5433c27837a588927a0",
+          "name": "searchColors",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1994,
+            "path": "config/jei/searchColors.cfg",
+            "MD5": "585c420ac4e5433c27837a588927a0c0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "46.dc:3420156a96d5d12e44c50e16a12e",
+          "name": "worldSettings",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 997,
+            "path": "config/jei/worldSettings.cfg",
+            "MD5": "463420156a96d5d12e44c50e16a12edc",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/worldSettings.cfg"
           }
         },
         {
@@ -6209,6 +6018,36 @@
           }
         },
         {
+          "id": "86.1b:f0ffcceb6453fb89382148a2090b",
+          "name": "randomtweaks",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 20486,
+            "path": "config/randomtweaks/randomtweaks.cfg",
+            "MD5": "86f0ffcceb6453fb89382148a2090b1b",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/randomtweaks/randomtweaks.cfg"
+          }
+        },
+        {
+          "id": "ff.4f:ca2f461ac8c41c88e579704db188",
+          "name": "sheepcolorweights",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 249,
+            "path": "config/randomtweaks/sheepcolorweights.json",
+            "MD5": "ffca2f461ac8c41c88e579704db1884f",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/randomtweaks/sheepcolorweights.json"
+          }
+        },
+        {
           "id": "c9.b4:07650bbadcac65c086d53ce6657b",
           "name": "control",
           "type": "File",
@@ -6281,36 +6120,6 @@
             "path": "config/rftools/rftoolspower.cfg",
             "MD5": "971d8fe7ceda3928768d624c375aacfa",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/rftools/rftoolspower.cfg"
-          }
-        },
-        {
-          "id": "86.1b:f0ffcceb6453fb89382148a2090b",
-          "name": "randomtweaks",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 20486,
-            "path": "config/randomtweaks/randomtweaks.cfg",
-            "MD5": "86f0ffcceb6453fb89382148a2090b1b",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/randomtweaks/randomtweaks.cfg"
-          }
-        },
-        {
-          "id": "ff.4f:ca2f461ac8c41c88e579704db188",
-          "name": "sheepcolorweights",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 249,
-            "path": "config/randomtweaks/sheepcolorweights.json",
-            "MD5": "ffca2f461ac8c41c88e579704db1884f",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/randomtweaks/sheepcolorweights.json"
           }
         },
         {
@@ -6746,96 +6555,6 @@
             "path": "config/worldedit/worldedit.properties",
             "MD5": "337f21dc2959146e9366424d5ab38e8b",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/worldedit/worldedit.properties"
-          }
-        },
-        {
-          "id": "8c.85:58a06711864abbeea19cdcfd73a3",
-          "name": "ExpansionActuallyAdditions",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 818,
-            "path": "config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg",
-            "MD5": "8c58a06711864abbeea19cdcfd73a385",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg"
-          }
-        },
-        {
-          "id": "99.fd:3d7db21add867e91e403eada9352",
-          "name": "ExpansionCompactMachines",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 122,
-            "path": "config/expequiv/compactmachines3/ExpansionCompactMachines.cfg",
-            "MD5": "993d7db21add867e91e403eada9352fd",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/compactmachines3/ExpansionCompactMachines.cfg"
-          }
-        },
-        {
-          "id": "34.04:9324820fd20dcfea3b40ad80a041",
-          "name": "ExpansionEnderIO",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1040,
-            "path": "config/expequiv/enderio/ExpansionEnderIO.cfg",
-            "MD5": "349324820fd20dcfea3b40ad80a04104",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/enderio/ExpansionEnderIO.cfg"
-          }
-        },
-        {
-          "id": "a6.e9:9646a218edc8db885445c16636c0",
-          "name": "ExpansionIC2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 372,
-            "path": "config/expequiv/ic2/ExpansionIC2.cfg",
-            "MD5": "a69646a218edc8db885445c16636c0e9",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/ic2/ExpansionIC2.cfg"
-          }
-        },
-        {
-          "id": "c9.ed:a0da0b050e842c167d7a22b97a9a",
-          "name": "ExpansionMinecraft",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 888,
-            "path": "config/expequiv/minecraft/ExpansionMinecraft.cfg",
-            "MD5": "c9a0da0b050e842c167d7a22b97a9aed",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/minecraft/ExpansionMinecraft.cfg"
-          }
-        },
-        {
-          "id": "99.fd:3d7db21add867e91e403eada9352",
-          "name": "ExpansionRebornCore",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 122,
-            "path": "config/expequiv/reborncore/ExpansionRebornCore.cfg",
-            "MD5": "993d7db21add867e91e403eada9352fd",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/reborncore/ExpansionRebornCore.cfg"
           }
         },
         {
@@ -7346,6 +7065,96 @@
             "path": "config/waila/theme/vanilla.json",
             "MD5": "93f67ec8cc14f861d01b4b930b49525b",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/waila/theme/vanilla.json"
+          }
+        },
+        {
+          "id": "8c.85:58a06711864abbeea19cdcfd73a3",
+          "name": "ExpansionActuallyAdditions",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 818,
+            "path": "config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg",
+            "MD5": "8c58a06711864abbeea19cdcfd73a385",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg"
+          }
+        },
+        {
+          "id": "34.04:9324820fd20dcfea3b40ad80a041",
+          "name": "ExpansionEnderIO",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1040,
+            "path": "config/expequiv/enderio/ExpansionEnderIO.cfg",
+            "MD5": "349324820fd20dcfea3b40ad80a04104",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/enderio/ExpansionEnderIO.cfg"
+          }
+        },
+        {
+          "id": "c9.ed:a0da0b050e842c167d7a22b97a9a",
+          "name": "ExpansionMinecraft",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 888,
+            "path": "config/expequiv/minecraft/ExpansionMinecraft.cfg",
+            "MD5": "c9a0da0b050e842c167d7a22b97a9aed",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/minecraft/ExpansionMinecraft.cfg"
+          }
+        },
+        {
+          "id": "99.fd:3d7db21add867e91e403eada9352",
+          "name": "ExpansionCompactMachines",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 122,
+            "path": "config/expequiv/compactmachines3/ExpansionCompactMachines.cfg",
+            "MD5": "993d7db21add867e91e403eada9352fd",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/compactmachines3/ExpansionCompactMachines.cfg"
+          }
+        },
+        {
+          "id": "99.fd:3d7db21add867e91e403eada9352",
+          "name": "ExpansionRebornCore",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 122,
+            "path": "config/expequiv/reborncore/ExpansionRebornCore.cfg",
+            "MD5": "993d7db21add867e91e403eada9352fd",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/reborncore/ExpansionRebornCore.cfg"
+          }
+        },
+        {
+          "id": "a6.e9:9646a218edc8db885445c16636c0",
+          "name": "ExpansionIC2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 372,
+            "path": "config/expequiv/ic2/ExpansionIC2.cfg",
+            "MD5": "a69646a218edc8db885445c16636c0e9",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/ic2/ExpansionIC2.cfg"
           }
         },
         {
@@ -7874,21 +7683,6 @@
           }
         },
         {
-          "id": "f9.a4:d5836c4981a508f70ed351021859",
-          "name": "conduits-refined-storage",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3678,
-            "path": "config/enderio/recipes/conduits-refined-storage.xml",
-            "MD5": "f9d5836c4981a508f70ed351021859a4",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-refined-storage.xml"
-          }
-        },
-        {
           "id": "3a.13:87886cff5b88e296fde4b6170b09",
           "name": "conduits",
           "type": "File",
@@ -7931,6 +7725,21 @@
             "path": "config/enderio/recipes/items.xml",
             "MD5": "e4dc2c2d042d958600447a12b34c809f",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/items.xml"
+          }
+        },
+        {
+          "id": "f9.a4:d5836c4981a508f70ed351021859",
+          "name": "conduits-refined-storage",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3678,
+            "path": "config/enderio/recipes/conduits-refined-storage.xml",
+            "MD5": "f9d5836c4981a508f70ed351021859a4",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-refined-storage.xml"
           }
         },
         {
@@ -8129,6 +7938,51 @@
           }
         },
         {
+          "id": "4f.2a:2413e194acb7149aaf825f09d5d5",
+          "name": "recipes",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 54171,
+            "path": "config/enderio/recipes/user/recipes.xsd",
+            "MD5": "4f2413e194acb7149aaf825f09d5d52a",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/user/recipes.xsd"
+          }
+        },
+        {
+          "id": "c1.db:36c6fa29fade8bed994d73184fb9",
+          "name": "user_recipes",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 235,
+            "path": "config/enderio/recipes/user/user_recipes.xml",
+            "MD5": "c136c6fa29fade8bed994d73184fb9db",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/user/user_recipes.xml"
+          }
+        },
+        {
+          "id": "4c.b7:6bc006a0b546ecc4080be592f0a5",
+          "name": "broken_spawner",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 958,
+            "path": "config/enderio/recipes/examples/broken_spawner.xml",
+            "MD5": "4c6bc006a0b546ecc4080be592f0a5b7",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/broken_spawner.xml"
+          }
+        },
+        {
           "id": "7e.e0:9c3baf4a60e75151300403383266",
           "name": "cheap_machines",
           "type": "File",
@@ -8171,21 +8025,6 @@
             "path": "config/enderio/recipes/examples/cheaty_spawner.xml",
             "MD5": "930a9a8f2c2ad6cd807c1a40d8544a53",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/cheaty_spawner.xml"
-          }
-        },
-        {
-          "id": "4c.b7:6bc006a0b546ecc4080be592f0a5",
-          "name": "broken_spawner",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 958,
-            "path": "config/enderio/recipes/examples/broken_spawner.xml",
-            "MD5": "4c6bc006a0b546ecc4080be592f0a5b7",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/broken_spawner.xml"
           }
         },
         {
@@ -8354,36 +8193,6 @@
           }
         },
         {
-          "id": "4f.2a:2413e194acb7149aaf825f09d5d5",
-          "name": "recipes",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 54171,
-            "path": "config/enderio/recipes/user/recipes.xsd",
-            "MD5": "4f2413e194acb7149aaf825f09d5d52a",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/user/recipes.xsd"
-          }
-        },
-        {
-          "id": "c1.db:36c6fa29fade8bed994d73184fb9",
-          "name": "user_recipes",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 235,
-            "path": "config/enderio/recipes/user/user_recipes.xml",
-            "MD5": "c136c6fa29fade8bed994d73184fb9db",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/user/user_recipes.xml"
-          }
-        },
-        {
           "id": "a2.d1:e62024480f3cce0a73a2c1748fad",
           "name": "main",
           "type": "File",
@@ -8429,21 +8238,6 @@
           }
         },
         {
-          "id": "17.1c:10919231e6034da6638b298458cf",
-          "name": "fuels",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 236,
-            "path": "config/simplegenerators/generators/geothermal/fuels.json",
-            "MD5": "1710919231e6034da6638b298458cf1c",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/geothermal/fuels.json"
-          }
-        },
-        {
           "id": "1e.73:7b114b450b99a2dc7b155c436872",
           "name": "nether_simple",
           "type": "File",
@@ -8486,6 +8280,21 @@
             "path": "config/simplegenerators/generators/turbine/fuels.json",
             "MD5": "6b11b4cb1a70a328e48a5130f4b58a78",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/turbine/fuels.json"
+          }
+        },
+        {
+          "id": "17.1c:10919231e6034da6638b298458cf",
+          "name": "fuels",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 236,
+            "path": "config/simplegenerators/generators/geothermal/fuels.json",
+            "MD5": "1710919231e6034da6638b298458cf1c",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/geothermal/fuels.json"
           }
         }
       ]
