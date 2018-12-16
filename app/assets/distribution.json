@@ -207,4 +207,22 @@
                             }
                         }
                     ]
-		},
+		},{
+			"id": "1a.2f:6be393ed2273cdb7c3761d8fa2d7",
+			"name": "README",
+			"type": "ForgeMod",
+			"required": {
+				"value": false,
+				"def": true
+			},
+			"artifact": {
+				"size": 35,
+				"path": "README.md",
+				"MD5": "1a6be393ed2273cdb7c3761d8fa2d72f",
+				"url": "https://github.com/resist-network/mod-pack/raw/master/README.md"
+			}
+		}
+			]
+		}
+	]
+}
