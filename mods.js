@@ -21,7 +21,7 @@ dir.files(packFolder,function(err, files){
 	files.forEach(function(file){
 		var fileName = path.basename(file)
 		var pathSearch = file.toString()
-		if(pathSearch.indexOf('config\\') > 0 || pathSearch.indexOf('mods-optional\\' || pathSearch.indexOf('mods\\') > 0) > 0){
+		if(pathSearch.indexOf('config\\') > 0 || pathSearch.indexOf('mods-optional\\' || pathSearch.indexOf('mods\\') > 0){
 			var fileName = fileName.split('.').slice(0, -1).join('.')
 			var fileExtension = path.extname(file).slice(1)
 			var target_name = fileName
