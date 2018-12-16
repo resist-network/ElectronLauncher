@@ -1,7 +1,7 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "discord": {
-        "clientId": "0",
+        "clientId": "523843480686952480",
         "smallImageText": "Resist.Network",
         "smallImageKey": "resist-logo-512"
     },
@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.ico",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "address": "game.resist.network",
             "minecraftVersion": "1.12.2",
             "discord": {
@@ -38,7 +38,7 @@
                     "subModules": [
                         {
                             "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
+                            "name": "Mojang LaunchWrapper",
                             "type": "Library",
                             "artifact": {
                                 "size": 32999,
@@ -48,7 +48,7 @@
                         },
                         {
                             "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
+                            "name": "ASM",
                             "type": "Library",
                             "artifact": {
                                 "size": 241639,
@@ -58,7 +58,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-library:2.11.1",
-                            "name": "Minecraft Forge (scala-library)",
+                            "name": "Scala Library",
                             "type": "Library",
                             "artifact": {
                                 "size": 1474672,
@@ -68,7 +68,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-compiler:2.11.1",
-                            "name": "Minecraft Forge (scala-compiler)",
+                            "name": "Scala Compiler",
                             "type": "Library",
                             "artifact": {
                                 "size": 3076920,
@@ -78,7 +78,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "name": "Scala Actors Migration",
                             "type": "Library",
                             "artifact": {
                                 "size": 21324,
@@ -88,7 +88,7 @@
                         },
                         {
                             "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
-                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "name": "Scala Continuations Library",
                             "type": "Library",
                             "artifact": {
                                 "size": 7956,
@@ -98,7 +98,7 @@
                         },
                         {
                             "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "name": "Scala  Continuations Plugin)",
                             "type": "Library",
                             "artifact": {
                                 "size": 46140,
@@ -108,7 +108,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "name": "Scala Parser Combinators",
                             "type": "Library",
                             "artifact": {
                                 "size": 85568,
@@ -118,7 +118,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-reflect:2.11.1",
-                            "name": "Minecraft Forge (scala-reflect)",
+                            "name": "Scala Reflect",
                             "type": "Library",
                             "artifact": {
                                 "size": 1070312,
@@ -128,7 +128,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
+                            "name": "Scala Swing",
                             "type": "Library",
                             "artifact": {
                                 "size": 736795,
@@ -138,7 +138,7 @@
                         },
                         {
                             "id": "org.scala-lang:scala-xml_2.11:1.0.2",
-                            "name": "Minecraft Forge (scala-xml)",
+                            "name": "Scala XML",
                             "type": "Library",
                             "artifact": {
                                 "size": 217812,
@@ -148,7 +148,7 @@
                         },
                         {
                             "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
-                            "name": "Minecraft Forge (akka-actor)",
+                            "name": "AKKA Actor",
                             "type": "Library",
                             "artifact": {
                                 "size": 746612,
@@ -158,7 +158,7 @@
                         },
                         {
                             "id": "com.typesafe:config:1.2.1",
-                            "name": "Minecraft Forge (typesafe-config)",
+                            "name": "TypeSafe Config",
                             "type": "Library",
                             "artifact": {
                                 "size": 56636,
@@ -168,7 +168,7 @@
                         },
                         {
                             "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
+                            "name": "LZMA",
                             "type": "Library",
                             "artifact": {
                                 "size": 5762,
