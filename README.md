@@ -1,4 +1,5 @@
-# resist-launcher
+# launcher-pack
+Resist.Network Launcher Pack
 
 # original author
 Daniel Scalzi: [WesterosCraft][westeroscraft] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
