@@ -1,7 +1,7 @@
 # launcher-pack
 Resist.Network Launcher Pack
 
-# credits
+# modification credits
 Resist.Network Team: [Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
 
 # original author
