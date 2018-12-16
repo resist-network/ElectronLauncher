@@ -60,11 +60,9 @@ dir.files(packFolder,function(err, files){
 				return console.log(err)
 			}
 			var result = data.replace(/RESIST_CDN/g,downloadCDN)
-			fs.write('app/assets/distribution.json',result,'utf8',function(err){
+			fs.writeFile('app/assets/distribution.json',result,'utf8',function(err){
 				if (err){
 					console.log('ERROR: '+err)
-				}else{
-					execSync('jsonlint -i app/assets/distribution.json')
 				}
 			})
 		})
