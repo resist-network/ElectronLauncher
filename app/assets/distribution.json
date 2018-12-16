@@ -993,6 +993,20 @@
           }
         },
         {
+          "id": "77.75:ec351e75c8167:c1096c8558db1f",
+          "name": "GalacticraftCore-1.12.2-4.0.1.181",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 10355756,
+            "MD5": "77ec351e75c81672c1096c8558db1f75",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/GalacticraftCore-1.12.2-4.0.1.181.jar"
+          }
+        },
+        {
           "id": "78.37:73749b116958f:2a3af9d66db06a",
           "name": "generators-0.9.20.12-mc1.12.2",
           "type": "ForgeMod",
@@ -1091,20 +1105,6 @@
           }
         },
         {
-          "id": "97.ad:e0d000b9a0e17:cba4db88f33ebd",
-          "name": "industrialcraft-2-2.8.101-ex112",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 8067765,
-            "MD5": "97e0d000b9a0e17ccba4db88f33ebdad",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/industrialcraft-2-2.8.101-ex112.jar"
-          }
-        },
-        {
           "id": "b8.77:1dab6549018c7:4b7829d30ef1d7",
           "name": "iChunUtil-1.12.2-7.1.4",
           "type": "ForgeMod",
@@ -1116,6 +1116,20 @@
             "size": 550812,
             "MD5": "b81dab6549018c7b4b7829d30ef1d777",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/iChunUtil-1.12.2-7.1.4.jar"
+          }
+        },
+        {
+          "id": "97.ad:e0d000b9a0e17:cba4db88f33ebd",
+          "name": "industrialcraft-2-2.8.101-ex112",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 8067765,
+            "MD5": "97e0d000b9a0e17ccba4db88f33ebdad",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/industrialcraft-2-2.8.101-ex112.jar"
           }
         },
         {
@@ -1903,20 +1917,6 @@
           }
         },
         {
-          "id": "6f.cd:4bcf42544bf1b:795078ab8c4219",
-          "name": "OpenTerrainGenerator-1.12.2+-+v6",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1138314,
-            "MD5": "6f4bcf42544bf1b0795078ab8c4219cd",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenTerrainGenerator-1.12.2+-+v6.jar"
-          }
-        },
-        {
           "id": "96.f7:4e62e5222bbec:afea012bf97ee7",
           "name": "OpenSecurity-MC1.12.2-1.0-12",
           "type": "ForgeMod",
@@ -1928,6 +1928,20 @@
             "size": 398577,
             "MD5": "964e62e5222bbecdafea012bf97ee7f7",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenSecurity-MC1.12.2-1.0-12.jar"
+          }
+        },
+        {
+          "id": "6f.cd:4bcf42544bf1b:795078ab8c4219",
+          "name": "OpenTerrainGenerator-1.12.2+-+v6",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1138314,
+            "MD5": "6f4bcf42544bf1b0795078ab8c4219cd",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/OpenTerrainGenerator-1.12.2+-+v6.jar"
           }
         },
         {
@@ -2477,20 +2491,6 @@
           }
         },
         {
-          "id": "bb.03:c14736281cf86:7a9087c0f539dc",
-          "name": "SolarFluxReborn_1.12.2-4.15r",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 606351,
-            "MD5": "bbc14736281cf8657a9087c0f539dc03",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SolarFluxReborn_1.12.2-4.15r.jar"
-          }
-        },
-        {
           "id": "02.20:c6264bdfa66c5:95aed1d7391094",
           "name": "sonarcore-1.12.2-5.0.19-20",
           "type": "ForgeMod",
@@ -2558,6 +2558,20 @@
             "size": 240155,
             "MD5": "44d55aa0f628bd4119719c990a3d34bf",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/Sync-1.12.2-7.0.2.jar"
+          }
+        },
+        {
+          "id": "bb.03:c14736281cf86:7a9087c0f539dc",
+          "name": "SolarFluxReborn_1.12.2-4.15r",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 606351,
+            "MD5": "bbc14736281cf8657a9087c0f539dc03",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/SolarFluxReborn_1.12.2-4.15r.jar"
           }
         },
         {
@@ -2715,20 +2729,6 @@
           }
         },
         {
-          "id": "0b.0c:d8765ff3064be:36cb1b09208e41",
-          "name": "WailaHarvestability-mc1.12-1.1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 31462,
-            "MD5": "0bd8765ff3064be336cb1b09208e410c",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WailaHarvestability-mc1.12-1.1.12.jar"
-          }
-        },
-        {
           "id": "f0.32:c6e0afb5383ed:653db531dd12c7",
           "name": "WanionLib-1.12.2-1.5",
           "type": "ForgeMod",
@@ -2740,6 +2740,20 @@
             "size": 63189,
             "MD5": "f0c6e0afb5383ed0653db531dd12c732",
             "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WanionLib-1.12.2-1.5.jar"
+          }
+        },
+        {
+          "id": "0b.0c:d8765ff3064be:36cb1b09208e41",
+          "name": "WailaHarvestability-mc1.12-1.1.12",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 31462,
+            "MD5": "0bd8765ff3064be336cb1b09208e410c",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/WailaHarvestability-mc1.12-1.1.12.jar"
           }
         },
         {
@@ -2869,21 +2883,7 @@
           }
         },
         {
-          "id": "77.75:ec351e75c8167:c1096c8558db1f",
-          "name": "GalacticraftCore-1.12.2-4.0.1.181",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 10355756,
-            "MD5": "77ec351e75c81672c1096c8558db1f75",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/mods/GalacticraftCore-1.12.2-4.0.1.181.jar"
-          }
-        },
-        {
-          "id": "86.b8:18b2d5ea2a3b9c33c5798c945426",
+          "id": "86.b8:18b2d5ea2a3b9:33c5798c945426",
           "name": "actuallyadditions",
           "type": "File",
           "required": {
@@ -2898,7 +2898,7 @@
           }
         },
         {
-          "id": "9d.1a:ae00a90bc222998cce83f09dd089",
+          "id": "9d.1a:ae00a90bc2229:8cce83f09dd089",
           "name": "advanced_solar_panels",
           "type": "File",
           "required": {
@@ -2913,7 +2913,7 @@
           }
         },
         {
-          "id": "8d.99:c65831701a053495091c67a46a1f",
+          "id": "8d.99:c65831701a053:95091c67a46a1f",
           "name": "advanced_solar_panels_MTRecipes",
           "type": "File",
           "required": {
@@ -2928,7 +2928,7 @@
           }
         },
         {
-          "id": "26.43:86fb61e4e9948ba0ed545122c01b",
+          "id": "26.43:86fb61e4e9948:a0ed545122c01b",
           "name": "baubles",
           "type": "File",
           "required": {
@@ -2943,7 +2943,7 @@
           }
         },
         {
-          "id": "ad.0c:cac70c466552a5e87456726483da",
+          "id": "ad.0c:cac70c466552a:e87456726483da",
           "name": "bookshelf",
           "type": "File",
           "required": {
@@ -2958,37 +2958,7 @@
           }
         },
         {
-          "id": "15.b1:2ea640213b4deffa5c15a189d5b2",
-          "name": "cdm",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1353,
-            "path": "config/cdm.cfg",
-            "MD5": "152ea640213b4deffa5c15a189d5b2b1",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cdm.cfg"
-          }
-        },
-        {
-          "id": "d7.79:3d0166e2d7586fabb19c1a007471",
-          "name": "cfm",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7632,
-            "path": "config/cfm.cfg",
-            "MD5": "d73d0166e2d7586fabb19c1a00747179",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cfm.cfg"
-          }
-        },
-        {
-          "id": "87.45:0e39364e8f89253fccd45c7cbda5",
+          "id": "87.45:0e39364e8f892:3fccd45c7cbda5",
           "name": "catwalks",
           "type": "File",
           "required": {
@@ -3003,7 +2973,37 @@
           }
         },
         {
-          "id": "d6.a1:5738f101457d5ff8530ba30d404d",
+          "id": "15.b1:2ea640213b4de:fa5c15a189d5b2",
+          "name": "cdm",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1353,
+            "path": "config/cdm.cfg",
+            "MD5": "152ea640213b4deffa5c15a189d5b2b1",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cdm.cfg"
+          }
+        },
+        {
+          "id": "d7.79:3d0166e2d7586:abb19c1a007471",
+          "name": "cfm",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7632,
+            "path": "config/cfm.cfg",
+            "MD5": "d73d0166e2d7586fabb19c1a00747179",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cfm.cfg"
+          }
+        },
+        {
+          "id": "d6.a1:5738f101457d5:f8530ba30d404d",
           "name": "chisel",
           "type": "File",
           "required": {
@@ -3018,7 +3018,7 @@
           }
         },
         {
-          "id": "5a.63:31db03a93bb3d32bcf3ec9d90374",
+          "id": "5a.63:31db03a93bb3d:2bcf3ec9d90374",
           "name": "client_storagetech",
           "type": "File",
           "required": {
@@ -3033,7 +3033,7 @@
           }
         },
         {
-          "id": "c6.99:9eb2586d08040c2d9c1ece8cb61f",
+          "id": "c6.99:9eb2586d08040:2d9c1ece8cb61f",
           "name": "codechickenlib",
           "type": "File",
           "required": {
@@ -3048,7 +3048,7 @@
           }
         },
         {
-          "id": "07.4a:8a3c5fdba847b355d8994d0d09ea",
+          "id": "07.4a:8a3c5fdba847b:55d8994d0d09ea",
           "name": "commoncapabilities",
           "type": "File",
           "required": {
@@ -3063,7 +3063,7 @@
           }
         },
         {
-          "id": "41.ae:9a327c9bf3377728207227cab050",
+          "id": "41.ae:9a327c9bf3377:28207227cab050",
           "name": "compactsolars",
           "type": "File",
           "required": {
@@ -3078,7 +3078,7 @@
           }
         },
         {
-          "id": "42.46:f2de733e417b532d6898c7eb6784",
+          "id": "42.46:f2de733e417b5:2d6898c7eb6784",
           "name": "computercraft",
           "type": "File",
           "required": {
@@ -3093,7 +3093,7 @@
           }
         },
         {
-          "id": "c6.e0:b11686778ee608215bd1125e651a",
+          "id": "c6.e0:b11686778ee60:215bd1125e651a",
           "name": "cookingforblockheads",
           "type": "File",
           "required": {
@@ -3108,7 +3108,7 @@
           }
         },
         {
-          "id": "ca.ff:9092804c3d5576e34098746b2843",
+          "id": "ca.ff:9092804c3d557:e34098746b2843",
           "name": "ctm",
           "type": "File",
           "required": {
@@ -3123,7 +3123,7 @@
           }
         },
         {
-          "id": "e8.93:b2257bff2d6dd6224dd282e8566a",
+          "id": "e8.93:b2257bff2d6dd:224dd282e8566a",
           "name": "customloadingscreen",
           "type": "File",
           "required": {
@@ -3138,7 +3138,7 @@
           }
         },
         {
-          "id": "64.6d:96801a20681a572511e05bcd31aa",
+          "id": "64.6d:96801a20681a5:2511e05bcd31aa",
           "name": "customloadingscreen_timings",
           "type": "File",
           "required": {
@@ -3153,7 +3153,7 @@
           }
         },
         {
-          "id": "22.5a:e5e40658261d1365ec3caac76ec4",
+          "id": "22.5a:e5e40658261d1:65ec3caac76ec4",
           "name": "cyclicmagic",
           "type": "File",
           "required": {
@@ -3168,7 +3168,7 @@
           }
         },
         {
-          "id": "2e.72:b273bc03922d494ac9a27a9382b1",
+          "id": "2e.72:b273bc03922d4:4ac9a27a9382b1",
           "name": "cyclic_ores",
           "type": "File",
           "required": {
@@ -3183,7 +3183,7 @@
           }
         },
         {
-          "id": "59.44:5a956db451dd6d2c7cf1c7a68a91",
+          "id": "59.44:5a956db451dd6:2c7cf1c7a68a91",
           "name": "cyclopscore",
           "type": "File",
           "required": {
@@ -3198,7 +3198,7 @@
           }
         },
         {
-          "id": "6c.e5:02d869e624d7d4a7b2304fd5ccd0",
+          "id": "6c.e5:02d869e624d7d:a7b2304fd5ccd0",
           "name": "darkutils",
           "type": "File",
           "required": {
@@ -3213,7 +3213,7 @@
           }
         },
         {
-          "id": "e0.19:6e4e5b0e39a7a502a0195215506e",
+          "id": "e0.19:6e4e5b0e39a7a:02a0195215506e",
           "name": "debugcrosshair",
           "type": "File",
           "required": {
@@ -3228,7 +3228,7 @@
           }
         },
         {
-          "id": "42.ec:0b780ccc54113f59d16f998bf1da",
+          "id": "42.ec:0b780ccc54113:59d16f998bf1da",
           "name": "decocraft",
           "type": "File",
           "required": {
@@ -3243,7 +3243,7 @@
           }
         },
         {
-          "id": "4a.d6:67c4796fc8f6b6515618739426bc",
+          "id": "4a.d6:67c4796fc8f6b:515618739426bc",
           "name": "dynamictrees",
           "type": "File",
           "required": {
@@ -3258,7 +3258,7 @@
           }
         },
         {
-          "id": "0b.3f:64008cd7f055653fff18f97e0927",
+          "id": "0b.3f:64008cd7f0556:3fff18f97e0927",
           "name": "eleccore",
           "type": "File",
           "required": {
@@ -3273,7 +3273,7 @@
           }
         },
         {
-          "id": "b2.00:6c33f2f36460686a1882a26172be",
+          "id": "b2.00:6c33f2f364606:6a1882a26172be",
           "name": "enderstorage",
           "type": "File",
           "required": {
@@ -3288,22 +3288,7 @@
           }
         },
         {
-          "id": "0b.8e:dbb8e364843d354ad3419c7fcdd6",
-          "name": "Exchangers",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 17422,
-            "path": "config/Exchangers.cfg",
-            "MD5": "0bdbb8e364843d354ad3419c7fcdd68e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Exchangers.cfg"
-          }
-        },
-        {
-          "id": "75.aa:038f549ae1fa63fb76352a35187b",
+          "id": "75.aa:038f549ae1fa6:fb76352a35187b",
           "name": "equivalentintegrations",
           "type": "File",
           "required": {
@@ -3318,7 +3303,22 @@
           }
         },
         {
-          "id": "62.09:aab90233f9387257765626bde4f3",
+          "id": "0b.8e:dbb8e364843d3:4ad3419c7fcdd6",
+          "name": "Exchangers",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 17422,
+            "path": "config/Exchangers.cfg",
+            "MD5": "0bdbb8e364843d354ad3419c7fcdd68e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Exchangers.cfg"
+          }
+        },
+        {
+          "id": "62.09:aab90233f9387:57765626bde4f3",
           "name": "extrautils2",
           "type": "File",
           "required": {
@@ -3333,7 +3333,7 @@
           }
         },
         {
-          "id": "63.ca:d1657e752db2831069c1c4f4aa35",
+          "id": "63.ca:d1657e752db28:1069c1c4f4aa35",
           "name": "farmingforblockheads",
           "type": "File",
           "required": {
@@ -3348,7 +3348,7 @@
           }
         },
         {
-          "id": "2c.79:bca82fa491532a7e87053fb5f00c",
+          "id": "2c.79:bca82fa491532:7e87053fb5f00c",
           "name": "flux_networks",
           "type": "File",
           "required": {
@@ -3363,7 +3363,7 @@
           }
         },
         {
-          "id": "19.7d:31c2ea9bb8929f111a1710bcafb0",
+          "id": "19.7d:31c2ea9bb8929:111a1710bcafb0",
           "name": "flyringbaublemod",
           "type": "File",
           "required": {
@@ -3378,7 +3378,7 @@
           }
         },
         {
-          "id": "b1.e6:2b88b979d6954f3fe6f51fcd2109",
+          "id": "b1.e6:2b88b979d6954:3fe6f51fcd2109",
           "name": "foamfix",
           "type": "File",
           "required": {
@@ -3393,7 +3393,7 @@
           }
         },
         {
-          "id": "a7.92:ecb0811998469071de21dd602885",
+          "id": "a7.92:ecb0811998469:71de21dd602885",
           "name": "forge",
           "type": "File",
           "required": {
@@ -3408,7 +3408,7 @@
           }
         },
         {
-          "id": "95.ec:ba05ef01861ee260b40c95e9cc5a",
+          "id": "95.ec:ba05ef01861ee:60b40c95e9cc5a",
           "name": "forgeChunkLoading",
           "type": "File",
           "required": {
@@ -3423,7 +3423,7 @@
           }
         },
         {
-          "id": "15.35:d250072c68d491384cd7a69c0e4c",
+          "id": "15.35:d250072c68d49:384cd7a69c0e4c",
           "name": "fp",
           "type": "File",
           "required": {
@@ -3438,7 +3438,7 @@
           }
         },
         {
-          "id": "28.13:f24543b69c8af8ec690959ebd54e",
+          "id": "28.13:f24543b69c8af:ec690959ebd54e",
           "name": "fw",
           "type": "File",
           "required": {
@@ -3453,7 +3453,7 @@
           }
         },
         {
-          "id": "0c.0b:ebe7acd4a01f5f1d8f24b9306fed",
+          "id": "0c.0b:ebe7acd4a01f5:1d8f24b9306fed",
           "name": "geneticsreborn",
           "type": "File",
           "required": {
@@ -3468,7 +3468,7 @@
           }
         },
         {
-          "id": "88.7c:c20bf416419ac343105beddf0911",
+          "id": "88.7c:c20bf416419ac:43105beddf0911",
           "name": "GoodOlCurrency",
           "type": "File",
           "required": {
@@ -3483,7 +3483,7 @@
           }
         },
         {
-          "id": "4d.f4:54f679064a1184732dde22b0a6f0",
+          "id": "4d.f4:54f679064a118:732dde22b0a6f0",
           "name": "hammercore",
           "type": "File",
           "required": {
@@ -3498,7 +3498,7 @@
           }
         },
         {
-          "id": "c4.5d:2482b644bc2776f98362709c3278",
+          "id": "c4.5d:2482b644bc277:f98362709c3278",
           "name": "IC2",
           "type": "File",
           "required": {
@@ -3513,7 +3513,7 @@
           }
         },
         {
-          "id": "f4.19:1a65a2ec7134808b7036a46b69b7",
+          "id": "f4.19:1a65a2ec71348:8b7036a46b69b7",
           "name": "ichunutil",
           "type": "File",
           "required": {
@@ -3528,7 +3528,7 @@
           }
         },
         {
-          "id": "54.a0:32c91d91d1276523a62f88a253a5",
+          "id": "54.a0:32c91d91d1276:23a62f88a253a5",
           "name": "ichunutil_keybinds",
           "type": "File",
           "required": {
@@ -3543,7 +3543,7 @@
           }
         },
         {
-          "id": "9e.67:102dead3f49ec9be676589a821eb",
+          "id": "9e.67:102dead3f49ec:be676589a821eb",
           "name": "industrialforegoing",
           "type": "File",
           "required": {
@@ -3558,7 +3558,7 @@
           }
         },
         {
-          "id": "88.16:f40649b02848f2d576246fb8b03f",
+          "id": "88.16:f40649b02848f:d576246fb8b03f",
           "name": "InGameInfo",
           "type": "File",
           "required": {
@@ -3573,7 +3573,7 @@
           }
         },
         {
-          "id": "07.b0:d4a7d6f3c55b21c93b05da281301",
+          "id": "07.b0:d4a7d6f3c55b2:c93b05da281301",
           "name": "ingameinfoxml",
           "type": "File",
           "required": {
@@ -3588,232 +3588,7 @@
           }
         },
         {
-          "id": "da.89:2a1de2e72e5b0fda6ef1e5b5aa1e",
-          "name": "InvTweaks",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 746,
-            "path": "config/InvTweaks.cfg",
-            "MD5": "da2a1de2e72e5b0fda6ef1e5b5aa1e89",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaks.cfg"
-          }
-        },
-        {
-          "id": "92.3e:d24282b6449e90a1ce9ca621c7f4",
-          "name": "InvTweaksRules",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1237,
-            "path": "config/InvTweaksRules.txt",
-            "MD5": "92d24282b6449e90a1ce9ca621c7f43e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaksRules.txt"
-          }
-        },
-        {
-          "id": "6e.c1:603441d60e9330b0ceb8fd9dc5ee",
-          "name": "InvTweaksTree",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 62968,
-            "path": "config/InvTweaksTree.txt",
-            "MD5": "6e603441d60e9330b0ceb8fd9dc5eec1",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaksTree.txt"
-          }
-        },
-        {
-          "id": "b7.8d:664384ba979e0a58d1edf772d30b",
-          "name": "JAOPCA",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 30619,
-            "path": "config/JAOPCA.cfg",
-            "MD5": "b7664384ba979e0a58d1edf772d30b8d",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/JAOPCA.cfg"
-          }
-        },
-        {
-          "id": "32.2d:171369202bd4782c4ff79b5aa6bb",
-          "name": "journeymapdefaults",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1051,
-            "path": "config/journeymapdefaults.cfg",
-            "MD5": "32171369202bd4782c4ff79b5aa6bb2d",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/journeymapdefaults.cfg"
-          }
-        },
-        {
-          "id": "c6.73:83c2b50487de8e5856b2b2791f06",
-          "name": "journeymap_ModInfo",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 371,
-            "path": "config/journeymap_ModInfo.cfg",
-            "MD5": "c683c2b50487de8e5856b2b2791f0673",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/journeymap_ModInfo.cfg"
-          }
-        },
-        {
-          "id": "c9.47:b8f3ad7c4e5f0ee5fd03943d41a6",
-          "name": "jurassicraft",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1018,
-            "path": "config/jurassicraft.cfg",
-            "MD5": "c9b8f3ad7c4e5f0ee5fd03943d41a647",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jurassicraft.cfg"
-          }
-        },
-        {
-          "id": "f3.5b:c3c6f7e61a1aa7b84ef9039e789e",
-          "name": "libvulpes",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 171,
-            "path": "config/libvulpes.cfg",
-            "MD5": "f3c3c6f7e61a1aa7b84ef9039e789e5b",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/libvulpes.cfg"
-          }
-        },
-        {
-          "id": "f1.2e:2267ff6480bae77adc78bc102053",
-          "name": "lunatriuscore",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 116,
-            "path": "config/lunatriuscore.cfg",
-            "MD5": "f12267ff6480bae77adc78bc1020532e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lunatriuscore.cfg"
-          }
-        },
-        {
-          "id": "95.71:033c96d58a32db8f3149d06d8a4c",
-          "name": "malisiscore",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 89,
-            "path": "config/malisiscore.cfg",
-            "MD5": "95033c96d58a32db8f3149d06d8a4c71",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/malisiscore.cfg"
-          }
-        },
-        {
-          "id": "3b.12:496edc645d3655f6c0a763e8a9ee",
-          "name": "malisisdoors",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 281,
-            "path": "config/malisisdoors.cfg",
-            "MD5": "3b496edc645d3655f6c0a763e8a9ee12",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/malisisdoors.cfg"
-          }
-        },
-        {
-          "id": "df.c4:f2deea7fc8b683e699852c293851",
-          "name": "mcjtylib",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7510,
-            "path": "config/mcjtylib.cfg",
-            "MD5": "dff2deea7fc8b683e699852c293851c4",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/mcjtylib.cfg"
-          }
-        },
-        {
-          "id": "9b.dc:d66b3eb609b6cea17054769be42d",
-          "name": "microblocks",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 468,
-            "path": "config/microblocks.cfg",
-            "MD5": "9bd66b3eb609b6cea17054769be42ddc",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/microblocks.cfg"
-          }
-        },
-        {
-          "id": "88.a5:e3c0d1f0ea4fb5e0e5457845e21c",
-          "name": "ModernWarfare",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2642,
-            "path": "config/ModernWarfare.cfg",
-            "MD5": "88e3c0d1f0ea4fb5e0e5457845e21ca5",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/ModernWarfare.cfg"
-          }
-        },
-        {
-          "id": "6a.41:572b6bd61a7c648daa4eacb750d4",
-          "name": "modnametooltip",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 398,
-            "path": "config/modnametooltip.cfg",
-            "MD5": "6a572b6bd61a7c648daa4eacb750d441",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/modnametooltip.cfg"
-          }
-        },
-        {
-          "id": "47.97:5152936b70c593292c47225e56ab",
+          "id": "47.97:5152936b70c59:292c47225e56ab",
           "name": "IntegrationForegoing",
           "type": "File",
           "required": {
@@ -3828,7 +3603,232 @@
           }
         },
         {
-          "id": "79.b9:acde41ffb94428137f5a4801125a",
+          "id": "da.89:2a1de2e72e5b0:da6ef1e5b5aa1e",
+          "name": "InvTweaks",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 746,
+            "path": "config/InvTweaks.cfg",
+            "MD5": "da2a1de2e72e5b0fda6ef1e5b5aa1e89",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaks.cfg"
+          }
+        },
+        {
+          "id": "92.3e:d24282b6449e9:a1ce9ca621c7f4",
+          "name": "InvTweaksRules",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1237,
+            "path": "config/InvTweaksRules.txt",
+            "MD5": "92d24282b6449e90a1ce9ca621c7f43e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaksRules.txt"
+          }
+        },
+        {
+          "id": "6e.c1:603441d60e933:b0ceb8fd9dc5ee",
+          "name": "InvTweaksTree",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 62968,
+            "path": "config/InvTweaksTree.txt",
+            "MD5": "6e603441d60e9330b0ceb8fd9dc5eec1",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/InvTweaksTree.txt"
+          }
+        },
+        {
+          "id": "b7.8d:664384ba979e0:58d1edf772d30b",
+          "name": "JAOPCA",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 30619,
+            "path": "config/JAOPCA.cfg",
+            "MD5": "b7664384ba979e0a58d1edf772d30b8d",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/JAOPCA.cfg"
+          }
+        },
+        {
+          "id": "32.2d:171369202bd47:2c4ff79b5aa6bb",
+          "name": "journeymapdefaults",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1051,
+            "path": "config/journeymapdefaults.cfg",
+            "MD5": "32171369202bd4782c4ff79b5aa6bb2d",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/journeymapdefaults.cfg"
+          }
+        },
+        {
+          "id": "c6.73:83c2b50487de8:5856b2b2791f06",
+          "name": "journeymap_ModInfo",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 371,
+            "path": "config/journeymap_ModInfo.cfg",
+            "MD5": "c683c2b50487de8e5856b2b2791f0673",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/journeymap_ModInfo.cfg"
+          }
+        },
+        {
+          "id": "c9.47:b8f3ad7c4e5f0:e5fd03943d41a6",
+          "name": "jurassicraft",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1018,
+            "path": "config/jurassicraft.cfg",
+            "MD5": "c9b8f3ad7c4e5f0ee5fd03943d41a647",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jurassicraft.cfg"
+          }
+        },
+        {
+          "id": "f3.5b:c3c6f7e61a1aa:b84ef9039e789e",
+          "name": "libvulpes",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 171,
+            "path": "config/libvulpes.cfg",
+            "MD5": "f3c3c6f7e61a1aa7b84ef9039e789e5b",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/libvulpes.cfg"
+          }
+        },
+        {
+          "id": "f1.2e:2267ff6480bae:7adc78bc102053",
+          "name": "lunatriuscore",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 116,
+            "path": "config/lunatriuscore.cfg",
+            "MD5": "f12267ff6480bae77adc78bc1020532e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lunatriuscore.cfg"
+          }
+        },
+        {
+          "id": "95.71:033c96d58a32d:8f3149d06d8a4c",
+          "name": "malisiscore",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 89,
+            "path": "config/malisiscore.cfg",
+            "MD5": "95033c96d58a32db8f3149d06d8a4c71",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/malisiscore.cfg"
+          }
+        },
+        {
+          "id": "3b.12:496edc645d365:f6c0a763e8a9ee",
+          "name": "malisisdoors",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 281,
+            "path": "config/malisisdoors.cfg",
+            "MD5": "3b496edc645d3655f6c0a763e8a9ee12",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/malisisdoors.cfg"
+          }
+        },
+        {
+          "id": "df.c4:f2deea7fc8b68:e699852c293851",
+          "name": "mcjtylib",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7510,
+            "path": "config/mcjtylib.cfg",
+            "MD5": "dff2deea7fc8b683e699852c293851c4",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/mcjtylib.cfg"
+          }
+        },
+        {
+          "id": "9b.dc:d66b3eb609b6c:a17054769be42d",
+          "name": "microblocks",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 468,
+            "path": "config/microblocks.cfg",
+            "MD5": "9bd66b3eb609b6cea17054769be42ddc",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/microblocks.cfg"
+          }
+        },
+        {
+          "id": "88.a5:e3c0d1f0ea4fb:e0e5457845e21c",
+          "name": "ModernWarfare",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2642,
+            "path": "config/ModernWarfare.cfg",
+            "MD5": "88e3c0d1f0ea4fb5e0e5457845e21ca5",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/ModernWarfare.cfg"
+          }
+        },
+        {
+          "id": "6a.41:572b6bd61a7c6:8daa4eacb750d4",
+          "name": "modnametooltip",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 398,
+            "path": "config/modnametooltip.cfg",
+            "MD5": "6a572b6bd61a7c648daa4eacb750d441",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/modnametooltip.cfg"
+          }
+        },
+        {
+          "id": "79.b9:acde41ffb9442:137f5a4801125a",
           "name": "modularforcefieldsystem",
           "type": "File",
           "required": {
@@ -3843,7 +3843,7 @@
           }
         },
         {
-          "id": "f2.8e:88dd2e8f6c2483d490e95f09489d",
+          "id": "f2.8e:88dd2e8f6c248:d490e95f09489d",
           "name": "morphtool",
           "type": "File",
           "required": {
@@ -3858,7 +3858,7 @@
           }
         },
         {
-          "id": "0a.5d:e22cd7ef22563486ebde6bdc4f62",
+          "id": "0a.5d:e22cd7ef22563:86ebde6bdc4f62",
           "name": "MouseTweaks",
           "type": "File",
           "required": {
@@ -3873,7 +3873,7 @@
           }
         },
         {
-          "id": "bc.ae:cf1e3d85a5b22c0b975b1cfcb1f8",
+          "id": "bc.ae:cf1e3d85a5b22:0b975b1cfcb1f8",
           "name": "MrTJPCore",
           "type": "File",
           "required": {
@@ -3888,7 +3888,7 @@
           }
         },
         {
-          "id": "2a.1a:7e2d394e44fd8b1143c6628d3bac",
+          "id": "2a.1a:7e2d394e44fd8:1143c6628d3bac",
           "name": "multipart",
           "type": "File",
           "required": {
@@ -3903,7 +3903,7 @@
           }
         },
         {
-          "id": "78.33:0c69fdfb89074319effe03a666fc",
+          "id": "78.33:0c69fdfb89074:19effe03a666fc",
           "name": "neat",
           "type": "File",
           "required": {
@@ -3918,7 +3918,7 @@
           }
         },
         {
-          "id": "af.f0:131e23395321b63cf4bdd339526e",
+          "id": "af.f0:131e23395321b:3cf4bdd339526e",
           "name": "notenoughwands",
           "type": "File",
           "required": {
@@ -3933,7 +3933,7 @@
           }
         },
         {
-          "id": "3b.1a:0538b50af98ab33f956e9e1cca89",
+          "id": "3b.1a:0538b50af98ab:3f956e9e1cca89",
           "name": "notes",
           "type": "File",
           "required": {
@@ -3948,7 +3948,7 @@
           }
         },
         {
-          "id": "cb.4b:3937aca41ccf29d53028de638a40",
+          "id": "cb.4b:3937aca41ccf2:d53028de638a40",
           "name": "nuclearcraft",
           "type": "File",
           "required": {
@@ -3963,7 +3963,7 @@
           }
         },
         {
-          "id": "59.cc:2f2cfcd8a5a7ef86df92eb30d601",
+          "id": "59.cc:2f2cfcd8a5a7e:86df92eb30d601",
           "name": "omlib",
           "type": "File",
           "required": {
@@ -3978,7 +3978,7 @@
           }
         },
         {
-          "id": "bd.30:3591db10fbd7ebb700e3b8f87e36",
+          "id": "bd.30:3591db10fbd7e:b700e3b8f87e36",
           "name": "openblocks",
           "type": "File",
           "required": {
@@ -3993,7 +3993,7 @@
           }
         },
         {
-          "id": "13.7d:2c3d88aebaa13b45e886a7a25e5c",
+          "id": "13.7d:2c3d88aebaa13:45e886a7a25e5c",
           "name": "openentity",
           "type": "File",
           "required": {
@@ -4008,7 +4008,7 @@
           }
         },
         {
-          "id": "dc.56:8d856b73a7bf70fe5a93bf6d463b",
+          "id": "dc.56:8d856b73a7bf7:fe5a93bf6d463b",
           "name": "openmods",
           "type": "File",
           "required": {
@@ -4023,112 +4023,7 @@
           }
         },
         {
-          "id": "4c.b8:740b0653c13cb1215ae74c36e70e",
-          "name": "openmodularturrets",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8699,
-            "path": "config/openmodularturrets.cfg",
-            "MD5": "4c740b0653c13cb1215ae74c36e70eb8",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openmodularturrets.cfg"
-          }
-        },
-        {
-          "id": "cf.39:6d045ba57aa0418c066a5d0d7940",
-          "name": "openprinter",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 345,
-            "path": "config/openprinter.cfg",
-            "MD5": "cf6d045ba57aa0418c066a5d0d794039",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openprinter.cfg"
-          }
-        },
-        {
-          "id": "1f.47:9e4e7125c466cd7362d9e939b93b",
-          "name": "opensecurity",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 927,
-            "path": "config/opensecurity.cfg",
-            "MD5": "1f9e4e7125c466cd7362d9e939b93b47",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/opensecurity.cfg"
-          }
-        },
-        {
-          "id": "82.e2:51da508c6a863d4240b1d94de3c1",
-          "name": "OreDictInit",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 320,
-            "path": "config/OreDictInit.cfg",
-            "MD5": "8251da508c6a863d4240b1d94de3c1e2",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/OreDictInit.cfg"
-          }
-        },
-        {
-          "id": "e0.80:da8b885cfd7b6bc98f1ba1dcf830",
-          "name": "oreexcavation",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2391,
-            "path": "config/oreexcavation.cfg",
-            "MD5": "e0da8b885cfd7b6bc98f1ba1dcf83080",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation.cfg"
-          }
-        },
-        {
-          "id": "24.3d:733f490de55b7f0531b1f58716bd",
-          "name": "oreexcavation_groups",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 311,
-            "path": "config/oreexcavation_groups.json",
-            "MD5": "24733f490de55b7f0531b1f58716bd3d",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation_groups.json"
-          }
-        },
-        {
-          "id": "8a.d6:c723d265249b6df4dd8adefee6f8",
-          "name": "oreexcavation_overrides",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 206,
-            "path": "config/oreexcavation_overrides.json",
-            "MD5": "8ac723d265249b6df4dd8adefee6f8d6",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation_overrides.json"
-          }
-        },
-        {
-          "id": "76.51:bb325d43d379eb0b36b8cab6e918",
+          "id": "76.51:bb325d43d379e:0b36b8cab6e918",
           "name": "OpenModsLibCore",
           "type": "File",
           "required": {
@@ -4143,22 +4038,112 @@
           }
         },
         {
-          "id": "e3.80:b87d010424a3189081b03b20b43e",
-          "name": "placebo",
+          "id": "4c.b8:740b0653c13cb:215ae74c36e70e",
+          "name": "openmodularturrets",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 166,
-            "path": "config/placebo.cfg",
-            "MD5": "e3b87d010424a3189081b03b20b43e80",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/placebo.cfg"
+            "size": 8699,
+            "path": "config/openmodularturrets.cfg",
+            "MD5": "4c740b0653c13cb1215ae74c36e70eb8",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openmodularturrets.cfg"
           }
         },
         {
-          "id": "a6.45:14a41eae4d83b3b488244a3f5244",
+          "id": "cf.39:6d045ba57aa04:8c066a5d0d7940",
+          "name": "openprinter",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 345,
+            "path": "config/openprinter.cfg",
+            "MD5": "cf6d045ba57aa0418c066a5d0d794039",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/openprinter.cfg"
+          }
+        },
+        {
+          "id": "1f.47:9e4e7125c466c:7362d9e939b93b",
+          "name": "opensecurity",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 927,
+            "path": "config/opensecurity.cfg",
+            "MD5": "1f9e4e7125c466cd7362d9e939b93b47",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/opensecurity.cfg"
+          }
+        },
+        {
+          "id": "82.e2:51da508c6a863:4240b1d94de3c1",
+          "name": "OreDictInit",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 320,
+            "path": "config/OreDictInit.cfg",
+            "MD5": "8251da508c6a863d4240b1d94de3c1e2",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/OreDictInit.cfg"
+          }
+        },
+        {
+          "id": "e0.80:da8b885cfd7b6:c98f1ba1dcf830",
+          "name": "oreexcavation",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2391,
+            "path": "config/oreexcavation.cfg",
+            "MD5": "e0da8b885cfd7b6bc98f1ba1dcf83080",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation.cfg"
+          }
+        },
+        {
+          "id": "24.3d:733f490de55b7:0531b1f58716bd",
+          "name": "oreexcavation_groups",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 311,
+            "path": "config/oreexcavation_groups.json",
+            "MD5": "24733f490de55b7f0531b1f58716bd3d",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation_groups.json"
+          }
+        },
+        {
+          "id": "8a.d6:c723d265249b6:f4dd8adefee6f8",
+          "name": "oreexcavation_overrides",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 206,
+            "path": "config/oreexcavation_overrides.json",
+            "MD5": "8ac723d265249b6df4dd8adefee6f8d6",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/oreexcavation_overrides.json"
+          }
+        },
+        {
+          "id": "a6.45:14a41eae4d83b:b488244a3f5244",
           "name": "oreexcavation_shapes",
           "type": "File",
           "required": {
@@ -4173,7 +4158,22 @@
           }
         },
         {
-          "id": "5e.13:67413c3e2af47246a09a5292262d",
+          "id": "e3.80:b87d010424a31:9081b03b20b43e",
+          "name": "placebo",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 166,
+            "path": "config/placebo.cfg",
+            "MD5": "e3b87d010424a3189081b03b20b43e80",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/placebo.cfg"
+          }
+        },
+        {
+          "id": "5e.13:67413c3e2af47:46a09a5292262d",
           "name": "plethora-core",
           "type": "File",
           "required": {
@@ -4188,7 +4188,7 @@
           }
         },
         {
-          "id": "78.0f:896540f88431734eb05a991ae1fa",
+          "id": "78.0f:896540f884317:4eb05a991ae1fa",
           "name": "plethora",
           "type": "File",
           "required": {
@@ -4203,7 +4203,7 @@
           }
         },
         {
-          "id": "17.5c:a82287e280eb318cb65178dc6d96",
+          "id": "17.5c:a82287e280eb3:8cb65178dc6d96",
           "name": "ProjectRed",
           "type": "File",
           "required": {
@@ -4218,7 +4218,7 @@
           }
         },
         {
-          "id": "b9.60:c500aca4fb74b5397832e73821fb",
+          "id": "b9.60:c500aca4fb74b:397832e73821fb",
           "name": "ProjectRedRelocation",
           "type": "File",
           "required": {
@@ -4233,7 +4233,7 @@
           }
         },
         {
-          "id": "2e.79:b45bb2aa31cce033460493924bf5",
+          "id": "2e.79:b45bb2aa31cce:33460493924bf5",
           "name": "ptrmodellib",
           "type": "File",
           "required": {
@@ -4248,7 +4248,7 @@
           }
         },
         {
-          "id": "64.c5:36f06d12fb2661c8cb694801904a",
+          "id": "64.c5:36f06d12fb266:c8cb694801904a",
           "name": "QuantumStorage",
           "type": "File",
           "required": {
@@ -4263,7 +4263,7 @@
           }
         },
         {
-          "id": "29.a6:bf5fae2975872dd70f1a3703c939",
+          "id": "29.a6:bf5fae2975872:d70f1a3703c939",
           "name": "quark",
           "type": "File",
           "required": {
@@ -4278,7 +4278,7 @@
           }
         },
         {
-          "id": "22.f9:d1fbcda1199451a395bb5624d758",
+          "id": "22.f9:d1fbcda119945:a395bb5624d758",
           "name": "randompatches",
           "type": "File",
           "required": {
@@ -4293,7 +4293,7 @@
           }
         },
         {
-          "id": "4f.f3:eedb601052706db12a7dc9e9e00d",
+          "id": "4f.f3:eedb601052706:b12a7dc9e9e00d",
           "name": "randomthings",
           "type": "File",
           "required": {
@@ -4308,7 +4308,7 @@
           }
         },
         {
-          "id": "6e.bd:1eafae64f8c7af2db3696b570ff5",
+          "id": "6e.bd:1eafae64f8c7a:2db3696b570ff5",
           "name": "rangedpumps",
           "type": "File",
           "required": {
@@ -4323,7 +4323,7 @@
           }
         },
         {
-          "id": "0a.69:f47e9c7c08022ba006d16f7361d0",
+          "id": "0a.69:f47e9c7c08022:a006d16f7361d0",
           "name": "realdrops",
           "type": "File",
           "required": {
@@ -4338,7 +4338,7 @@
           }
         },
         {
-          "id": "07.2f:05a43c7949305dd840111ddb0192",
+          "id": "07.2f:05a43c7949305:d840111ddb0192",
           "name": "reborncore",
           "type": "File",
           "required": {
@@ -4353,7 +4353,7 @@
           }
         },
         {
-          "id": "61.e2:46bb0eaabb3734d853d48a56af1f",
+          "id": "61.e2:46bb0eaabb373:d853d48a56af1f",
           "name": "refinedexchange",
           "type": "File",
           "required": {
@@ -4368,7 +4368,7 @@
           }
         },
         {
-          "id": "e0.5c:eaf912b443e3851cdea17d102137",
+          "id": "e0.5c:eaf912b443e38:1cdea17d102137",
           "name": "refinedstorage",
           "type": "File",
           "required": {
@@ -4383,7 +4383,7 @@
           }
         },
         {
-          "id": "7b.9e:14334f3cb2163abe639d0ca5c8db",
+          "id": "7b.9e:14334f3cb2163:be639d0ca5c8db",
           "name": "refinedstorageaddons",
           "type": "File",
           "required": {
@@ -4398,7 +4398,7 @@
           }
         },
         {
-          "id": "cf.d7:ab853e4c9587ccf79ca7d54385fe",
+          "id": "cf.d7:ab853e4c9587c:f79ca7d54385fe",
           "name": "securitycraft",
           "type": "File",
           "required": {
@@ -4413,7 +4413,7 @@
           }
         },
         {
-          "id": "6e.9b:2c05384aadcd86f8458b72ffc550",
+          "id": "6e.9b:2c05384aadcd8:f8458b72ffc550",
           "name": "sgcraft",
           "type": "File",
           "required": {
@@ -4428,7 +4428,7 @@
           }
         },
         {
-          "id": "e8.9e:607ea7e56dfddd84bbc4530d6427",
+          "id": "e8.9e:607ea7e56dfdd:84bbc4530d6427",
           "name": "simplyjetpacks-client",
           "type": "File",
           "required": {
@@ -4443,7 +4443,7 @@
           }
         },
         {
-          "id": "21.ce:31b6d95cc572af5192eac63e36c9",
+          "id": "21.ce:31b6d95cc572a:5192eac63e36c9",
           "name": "simplyjetpacks",
           "type": "File",
           "required": {
@@ -4458,7 +4458,7 @@
           }
         },
         {
-          "id": "ec.9e:dbb47895bf97373b3f800a9ce9c1",
+          "id": "ec.9e:dbb47895bf973:3b3f800a9ce9c1",
           "name": "skeletontweaks",
           "type": "File",
           "required": {
@@ -4473,7 +4473,7 @@
           }
         },
         {
-          "id": "96.f3:621b200e43376de261acd20ff8c9",
+          "id": "96.f3:621b200e43376:e261acd20ff8c9",
           "name": "soundfilters",
           "type": "File",
           "required": {
@@ -4488,7 +4488,7 @@
           }
         },
         {
-          "id": "92.fc:62ad29a59f7adc7ab6df3bd82a04",
+          "id": "92.fc:62ad29a59f7ad:7ab6df3bd82a04",
           "name": "splash",
           "type": "File",
           "required": {
@@ -4503,7 +4503,7 @@
           }
         },
         {
-          "id": "00.a3:fa36a20fbc30e9e1330fa98ae2d4",
+          "id": "00.a3:fa36a20fbc30e:e1330fa98ae2d4",
           "name": "storagedrawers",
           "type": "File",
           "required": {
@@ -4518,7 +4518,7 @@
           }
         },
         {
-          "id": "e8.5e:92a3145788ed128a2ac4134eace8",
+          "id": "e8.5e:92a3145788ed1:8a2ac4134eace8",
           "name": "storagetech",
           "type": "File",
           "required": {
@@ -4533,7 +4533,7 @@
           }
         },
         {
-          "id": "7b.50:f418003be3c3ab2329dc80568e9b",
+          "id": "7b.50:f418003be3c3a:2329dc80568e9b",
           "name": "sync",
           "type": "File",
           "required": {
@@ -4548,7 +4548,7 @@
           }
         },
         {
-          "id": "98.5a:6054a6a52377f3229a57f1621c07",
+          "id": "98.5a:6054a6a52377f:229a57f1621c07",
           "name": "teslacorelib",
           "type": "File",
           "required": {
@@ -4563,7 +4563,7 @@
           }
         },
         {
-          "id": "95.08:3d51a0f2424adbb27b4b5ff21413",
+          "id": "95.08:3d51a0f2424ad:b27b4b5ff21413",
           "name": "toastcontrol",
           "type": "File",
           "required": {
@@ -4578,7 +4578,7 @@
           }
         },
         {
-          "id": "b0.87:4584832943dc84b9a80e9577d699",
+          "id": "b0.87:4584832943dc8:b9a80e9577d699",
           "name": "translocators",
           "type": "File",
           "required": {
@@ -4593,7 +4593,7 @@
           }
         },
         {
-          "id": "a5.27:f97328059369264a6e50238b1321",
+          "id": "a5.27:f973280593692:4a6e50238b1321",
           "name": "valkyrienwarfare",
           "type": "File",
           "required": {
@@ -4608,7 +4608,7 @@
           }
         },
         {
-          "id": "3b.96:4ec94528654f9b5f1310b5c84146",
+          "id": "3b.96:4ec94528654f9:5f1310b5c84146",
           "name": "wailaharvestability",
           "type": "File",
           "required": {
@@ -4623,7 +4623,7 @@
           }
         },
         {
-          "id": "76.68:2d88080b475d0e91f067a794d8b7",
+          "id": "76.68:2d88080b475d0:91f067a794d8b7",
           "name": "wawla",
           "type": "File",
           "required": {
@@ -4638,7 +4638,7 @@
           }
         },
         {
-          "id": "04.d8:c6d4caa2ba9ee50031e9ab95f8db",
+          "id": "04.d8:c6d4caa2ba9ee:0031e9ab95f8db",
           "name": "WirelessRedstone",
           "type": "File",
           "required": {
@@ -4653,7 +4653,7 @@
           }
         },
         {
-          "id": "9e.e9:f76c3034cff5bc1e3c288d7db816",
+          "id": "9e.e9:f76c3034cff5b:1e3c288d7db816",
           "name": "wither_skeleton_tweaks",
           "type": "File",
           "required": {
@@ -4668,37 +4668,7 @@
           }
         },
         {
-          "id": "e3.d1:afca7cad44dfe35ccf489d71ec7a",
-          "name": "supporters",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 601,
-            "path": "config/codechicken/supporters.json",
-            "MD5": "e3afca7cad44dfe35ccf489d71ec7ad1",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.json"
-          }
-        },
-        {
-          "id": "18.fc:7cf51df1e84197c21906723f9d15",
-          "name": "supporters",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 13,
-            "path": "config/codechicken/supporters.marker",
-            "MD5": "187cf51df1e84197c21906723f9d15fc",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.marker"
-          }
-        },
-        {
-          "id": "17.cc:ca720cb82f0d0b8b92772055250e",
+          "id": "17.cc:ca720cb82f0d0:8b92772055250e",
           "name": "advancedRocketry",
           "type": "File",
           "required": {
@@ -4713,37 +4683,7 @@
           }
         },
         {
-          "id": "57.33:da5a1f37efff7ce2e0193ac7cbf4",
-          "name": "asteroidConfig",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 634,
-            "path": "config/advRocketry/asteroidConfig.xml",
-            "MD5": "57da5a1f37efff7ce2e0193ac7cbf433",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/asteroidConfig.xml"
-          }
-        },
-        {
-          "id": "5a.87:bbfcac06449c6fb0e4849eba0d88",
-          "name": "ChemicalReactor",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1445,
-            "path": "config/advRocketry/ChemicalReactor.xml",
-            "MD5": "5abbfcac06449c6fb0e4849eba0d8887",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/ChemicalReactor.xml"
-          }
-        },
-        {
-          "id": "9c.84:a7faf1ffac792288f7b06b064d8a",
+          "id": "9c.84:a7faf1ffac792:88f7b06b064d8a",
           "name": "Crystallizer",
           "type": "File",
           "required": {
@@ -4758,7 +4698,37 @@
           }
         },
         {
-          "id": "4f.1b:1b381832c520cfada25132a116b2",
+          "id": "5a.87:bbfcac06449c6:b0e4849eba0d88",
+          "name": "ChemicalReactor",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1445,
+            "path": "config/advRocketry/ChemicalReactor.xml",
+            "MD5": "5abbfcac06449c6fb0e4849eba0d8887",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/ChemicalReactor.xml"
+          }
+        },
+        {
+          "id": "57.33:da5a1f37efff7:e2e0193ac7cbf4",
+          "name": "asteroidConfig",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 634,
+            "path": "config/advRocketry/asteroidConfig.xml",
+            "MD5": "57da5a1f37efff7ce2e0193ac7cbf433",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/asteroidConfig.xml"
+          }
+        },
+        {
+          "id": "4f.1b:1b381832c520c:ada25132a116b2",
           "name": "CuttingMachine",
           "type": "File",
           "required": {
@@ -4773,22 +4743,7 @@
           }
         },
         {
-          "id": "9b.28:f2b3a47b231571ee4036cddda20b",
-          "name": "ElectricArcFurnace",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1783,
-            "path": "config/advRocketry/ElectricArcFurnace.xml",
-            "MD5": "9bf2b3a47b231571ee4036cddda20b28",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/ElectricArcFurnace.xml"
-          }
-        },
-        {
-          "id": "50.a8:f17f382544b04f089466d9c17646",
+          "id": "50.a8:f17f382544b04:089466d9c17646",
           "name": "Electrolyser",
           "type": "File",
           "required": {
@@ -4803,7 +4758,22 @@
           }
         },
         {
-          "id": "07.b6:d3318d94687a0c80c08a19d0e9e7",
+          "id": "9b.28:f2b3a47b23157:ee4036cddda20b",
+          "name": "ElectricArcFurnace",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1783,
+            "path": "config/advRocketry/ElectricArcFurnace.xml",
+            "MD5": "9bf2b3a47b231571ee4036cddda20b28",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/advRocketry/ElectricArcFurnace.xml"
+          }
+        },
+        {
+          "id": "07.b6:d3318d94687a0:80c08a19d0e9e7",
           "name": "Lathe",
           "type": "File",
           "required": {
@@ -4818,7 +4788,7 @@
           }
         },
         {
-          "id": "28.d1:da857998459b4dacc4ffc82815e9",
+          "id": "28.d1:da857998459b4:acc4ffc82815e9",
           "name": "oreConfig",
           "type": "File",
           "required": {
@@ -4833,7 +4803,7 @@
           }
         },
         {
-          "id": "49.58:007d49eae7997bd4bdb83fabc83e",
+          "id": "49.58:007d49eae7997:d4bdb83fabc83e",
           "name": "PrecisionAssembler",
           "type": "File",
           "required": {
@@ -4848,7 +4818,7 @@
           }
         },
         {
-          "id": "cf.49:a7a9c73cc6835de3e32d0097f98b",
+          "id": "cf.49:a7a9c73cc6835:e3e32d0097f98b",
           "name": "RollingMachine",
           "type": "File",
           "required": {
@@ -4863,7 +4833,7 @@
           }
         },
         {
-          "id": "fb.31:e171a9b1e45fc8b67a8a99a268d2",
+          "id": "fb.31:e171a9b1e45fc:b67a8a99a268d2",
           "name": "SmallPlatePress",
           "type": "File",
           "required": {
@@ -4878,7 +4848,37 @@
           }
         },
         {
-          "id": "b9.0e:4e72a6cbff801a741612ecfc6aee",
+          "id": "e3.d1:afca7cad44dfe:5ccf489d71ec7a",
+          "name": "supporters",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 601,
+            "path": "config/codechicken/supporters.json",
+            "MD5": "e3afca7cad44dfe35ccf489d71ec7ad1",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.json"
+          }
+        },
+        {
+          "id": "18.fc:7cf51df1e8419:c21906723f9d15",
+          "name": "supporters",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 13,
+            "path": "config/codechicken/supporters.marker",
+            "MD5": "187cf51df1e84197c21906723f9d15fc",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/codechicken/supporters.marker"
+          }
+        },
+        {
+          "id": "b9.0e:4e72a6cbff801:741612ecfc6aee",
           "name": "mainmenu",
           "type": "File",
           "required": {
@@ -4893,7 +4893,7 @@
           }
         },
         {
-          "id": "e9.52:402d2b7b1d95271964fa171b799d",
+          "id": "e9.52:402d2b7b1d952:1964fa171b799d",
           "name": "machines",
           "type": "File",
           "required": {
@@ -4908,7 +4908,7 @@
           }
         },
         {
-          "id": "ca.af:fadf0a48d0c286b4c852740c57dd",
+          "id": "ca.af:fadf0a48d0c28:b4c852740c57dd",
           "name": "main",
           "type": "File",
           "required": {
@@ -4923,7 +4923,7 @@
           }
         },
         {
-          "id": "4a.99:52521549a30764eaf905a2c0401e",
+          "id": "4a.99:52521549a3076:eaf905a2c0401e",
           "name": "keybindings",
           "type": "File",
           "required": {
@@ -4938,22 +4938,7 @@
           }
         },
         {
-          "id": "82.b2:b8ce24fd2d7ff16e6bffd39b0cfd",
-          "name": "optionsof",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1450,
-            "path": "config/defaultoptions/optionsof.txt",
-            "MD5": "82b8ce24fd2d7ff16e6bffd39b0cfdb2",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/defaultoptions/optionsof.txt"
-          }
-        },
-        {
-          "id": "f1.6f:bd5cb4bd107dd717924260e67214",
+          "id": "f1.6f:bd5cb4bd107dd:17924260e67214",
           "name": "options",
           "type": "File",
           "required": {
@@ -4968,7 +4953,22 @@
           }
         },
         {
-          "id": "4d.1c:5fe6b6e730947d24068daa34d50a",
+          "id": "82.b2:b8ce24fd2d7ff:6e6bffd39b0cfd",
+          "name": "optionsof",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1450,
+            "path": "config/defaultoptions/optionsof.txt",
+            "MD5": "82b8ce24fd2d7ff16e6bffd39b0cfdb2",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/defaultoptions/optionsof.txt"
+          }
+        },
+        {
+          "id": "4d.1c:5fe6b6e730947:24068daa34d50a",
           "name": "cropconfig",
           "type": "File",
           "required": {
@@ -4983,7 +4983,7 @@
           }
         },
         {
-          "id": "98.23:825befb0b974137829ba4721ce08",
+          "id": "98.23:825befb0b9741:7829ba4721ce08",
           "name": "endercore",
           "type": "File",
           "required": {
@@ -4998,7 +4998,7 @@
           }
         },
         {
-          "id": "65.0e:19554f9a06ec5688f49ff0c07015",
+          "id": "65.0e:19554f9a06ec5:88f49ff0c07015",
           "name": "Extreme Reactors",
           "type": "File",
           "required": {
@@ -5013,7 +5013,7 @@
           }
         },
         {
-          "id": "c5.07:74fe6cb27c7ce46bbcb25827ccfd",
+          "id": "c5.07:74fe6cb27c7ce:6bbcb25827ccfd",
           "name": "Market",
           "type": "File",
           "required": {
@@ -5028,22 +5028,7 @@
           }
         },
         {
-          "id": "e7.ed:a0c8f9449197ccd9c30dce5f4738",
-          "name": "Guide-API",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1832,
-            "path": "config/Guide-API/Guide-API.cfg",
-            "MD5": "e7a0c8f9449197ccd9c30dce5f4738ed",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Guide-API/Guide-API.cfg"
-          }
-        },
-        {
-          "id": "b5.40:ef1f473fd07f4c6c117064ed49a8",
+          "id": "b5.40:ef1f473fd07f4:6c117064ed49a8",
           "name": "chunkloading",
           "type": "File",
           "required": {
@@ -5058,7 +5043,7 @@
           }
         },
         {
-          "id": "dc.bf:378e0088daac8bddfd6ea9979a23",
+          "id": "dc.bf:378e0088daac8:ddfd6ea9979a23",
           "name": "core",
           "type": "File",
           "required": {
@@ -5073,7 +5058,7 @@
           }
         },
         {
-          "id": "3f.ca:c0de865e6ce59fa3cd6bb04e922b",
+          "id": "3f.ca:c0de865e6ce59:a3cd6bb04e922b",
           "name": "miccore",
           "type": "File",
           "required": {
@@ -5088,7 +5073,7 @@
           }
         },
         {
-          "id": "f1.39:e6252c86d14f29eee9248cddcc7f",
+          "id": "f1.39:e6252c86d14f2:eee9248cddcc7f",
           "name": "power-GC3",
           "type": "File",
           "required": {
@@ -5103,7 +5088,22 @@
           }
         },
         {
-          "id": "60.88:842d668c63140fb73a7afb7be87c",
+          "id": "e7.ed:a0c8f9449197c:d9c30dce5f4738",
+          "name": "Guide-API",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1832,
+            "path": "config/Guide-API/Guide-API.cfg",
+            "MD5": "e7a0c8f9449197ccd9c30dce5f4738ed",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Guide-API/Guide-API.cfg"
+          }
+        },
+        {
+          "id": "60.88:842d668c63140:b73a7afb7be87c",
           "name": "battery",
           "type": "File",
           "required": {
@@ -5118,7 +5118,7 @@
           }
         },
         {
-          "id": "a0.85:3431de0b1d430e0edc1a84eb9405",
+          "id": "a0.85:3431de0b1d430:0edc1a84eb9405",
           "name": "blast",
           "type": "File",
           "required": {
@@ -5133,7 +5133,7 @@
           }
         },
         {
-          "id": "61.e0:40554b1b5ad1584c215e2ca748a0",
+          "id": "61.e0:40554b1b5ad15:4c215e2ca748a0",
           "name": "debug",
           "type": "File",
           "required": {
@@ -5148,7 +5148,7 @@
           }
         },
         {
-          "id": "a5.75:380425eaf0ec7e9528851df06f28",
+          "id": "a5.75:380425eaf0ec7:9528851df06f28",
           "name": "emp",
           "type": "File",
           "required": {
@@ -5163,7 +5163,7 @@
           }
         },
         {
-          "id": "ce.8d:cb21aff7fdf21d3df8ee6ff2c84b",
+          "id": "ce.8d:cb21aff7fdf21:3df8ee6ff2c84b",
           "name": "item",
           "type": "File",
           "required": {
@@ -5178,7 +5178,7 @@
           }
         },
         {
-          "id": "d2.90:09a231f0aadfd3dc14a62610dccc",
+          "id": "d2.90:09a231f0aadfd:dc14a62610dccc",
           "name": "launcher",
           "type": "File",
           "required": {
@@ -5193,7 +5193,7 @@
           }
         },
         {
-          "id": "64.ed:04dd08277b04452245e374d1a915",
+          "id": "64.ed:04dd08277b044:2245e374d1a915",
           "name": "main",
           "type": "File",
           "required": {
@@ -5208,7 +5208,7 @@
           }
         },
         {
-          "id": "ec.45:2c96bc65d7a90b94940361dfd6a2",
+          "id": "ec.45:2c96bc65d7a90:94940361dfd6a2",
           "name": "missile",
           "type": "File",
           "required": {
@@ -5223,7 +5223,7 @@
           }
         },
         {
-          "id": "d1.14:aa29b95c320167bb4a663534b041",
+          "id": "d1.14:aa29b95c32016:bb4a663534b041",
           "name": "itemBlacklist",
           "type": "File",
           "required": {
@@ -5238,22 +5238,7 @@
           }
         },
         {
-          "id": "58.c0:5c420ac4e5433c27837a588927a0",
-          "name": "searchColors",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1994,
-            "path": "config/jei/searchColors.cfg",
-            "MD5": "585c420ac4e5433c27837a588927a0c0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/searchColors.cfg"
-          }
-        },
-        {
-          "id": "6e.bd:ff5fafc6c41fe390b49f21a1b50b",
+          "id": "6e.bd:ff5fafc6c41fe:90b49f21a1b50b",
           "name": "jei",
           "type": "File",
           "required": {
@@ -5268,7 +5253,22 @@
           }
         },
         {
-          "id": "46.dc:3420156a96d5d12e44c50e16a12e",
+          "id": "58.c0:5c420ac4e5433:27837a588927a0",
+          "name": "searchColors",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1994,
+            "path": "config/jei/searchColors.cfg",
+            "MD5": "585c420ac4e5433c27837a588927a0c0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "46.dc:3420156a96d5d:2e44c50e16a12e",
           "name": "worldSettings",
           "type": "File",
           "required": {
@@ -5283,7 +5283,7 @@
           }
         },
         {
-          "id": "7a.6a:ea067e805505295cd970ca25ff76",
+          "id": "7a.6a:ea067e8055052:5cd970ca25ff76",
           "name": "journeymap.core",
           "type": "File",
           "required": {
@@ -5298,7 +5298,7 @@
           }
         },
         {
-          "id": "a9.d3:3e17e8dee8953d08f33cae089163",
+          "id": "a9.d3:3e17e8dee8953:08f33cae089163",
           "name": "journeymap.minimap",
           "type": "File",
           "required": {
@@ -5313,7 +5313,7 @@
           }
         },
         {
-          "id": "bf.6b:d441c70c2db9d304f78dfc3b762b",
+          "id": "bf.6b:d441c70c2db9d:04f78dfc3b762b",
           "name": "journeymap.fullmap",
           "type": "File",
           "required": {
@@ -5328,7 +5328,7 @@
           }
         },
         {
-          "id": "c8.c8:dab61971974212526a564181a308",
+          "id": "c8.c8:dab6197197421:526a564181a308",
           "name": "journeymap.minimap2",
           "type": "File",
           "required": {
@@ -5343,22 +5343,7 @@
           }
         },
         {
-          "id": "cb.f0:d3df4273d3f6e2946a8cd1e5826b",
-          "name": "journeymap.waypoint",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 581,
-            "path": "config/JourneyMapDefaults/journeymap.waypoint.config",
-            "MD5": "cbd3df4273d3f6e2946a8cd1e5826bf0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/JourneyMapDefaults/journeymap.waypoint.config"
-          }
-        },
-        {
-          "id": "3d.f5:b3a02c302fbee5b2249ffdee0e7a",
+          "id": "3d.f5:b3a02c302fbee:b2249ffdee0e7a",
           "name": "journeymap.topo",
           "type": "File",
           "required": {
@@ -5373,7 +5358,22 @@
           }
         },
         {
-          "id": "c0.59:f810cd07d49e64ca69d997f415b1",
+          "id": "cb.f0:d3df4273d3f6e:946a8cd1e5826b",
+          "name": "journeymap.waypoint",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 581,
+            "path": "config/JourneyMapDefaults/journeymap.waypoint.config",
+            "MD5": "cbd3df4273d3f6e2946a8cd1e5826bf0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/JourneyMapDefaults/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "c0.59:f810cd07d49e6:ca69d997f415b1",
           "name": "journeymap.webmap",
           "type": "File",
           "required": {
@@ -5388,7 +5388,7 @@
           }
         },
         {
-          "id": "24.e5:154a24c1443dcccfd7d7b1f80c3e",
+          "id": "24.e5:154a24c1443dc:cfd7d7b1f80c3e",
           "name": "Extra Crafting Modular",
           "type": "File",
           "required": {
@@ -5403,7 +5403,7 @@
           }
         },
         {
-          "id": "ce.90:6f84cdd2741471fb06d1cb1be937",
+          "id": "ce.90:6f84cdd274147:fb06d1cb1be937",
           "name": "Furnace Modular",
           "type": "File",
           "required": {
@@ -5418,7 +5418,7 @@
           }
         },
         {
-          "id": "b8.bb:ed02f8f1c29d59a78a1ec8c64fc6",
+          "id": "b8.bb:ed02f8f1c29d5:a78a1ec8c64fc6",
           "name": "Hardcore Modular",
           "type": "File",
           "required": {
@@ -5433,7 +5433,7 @@
           }
         },
         {
-          "id": "63.de:fcab34bcf422f818bc1b46bb1b91",
+          "id": "63.de:fcab34bcf422f:18bc1b46bb1b91",
           "name": "Item Stacks Modular",
           "type": "File",
           "required": {
@@ -5448,7 +5448,7 @@
           }
         },
         {
-          "id": "2b.74:833cdda7d7dc7383b865fea9f958",
+          "id": "2b.74:833cdda7d7dc7:83b865fea9f958",
           "name": "Light Levels Modular",
           "type": "File",
           "required": {
@@ -5463,7 +5463,7 @@
           }
         },
         {
-          "id": "72.6f:2e497e01c5e3887d1eea1b45e7b2",
+          "id": "72.6f:2e497e01c5e38:7d1eea1b45e7b2",
           "name": "Main Config",
           "type": "File",
           "required": {
@@ -5478,7 +5478,7 @@
           }
         },
         {
-          "id": "e7.8a:b68a9892f78c05c049eb123fbc90",
+          "id": "e7.8a:b68a9892f78c0:c049eb123fbc90",
           "name": "Mob Drops Modular",
           "type": "File",
           "required": {
@@ -5493,7 +5493,7 @@
           }
         },
         {
-          "id": "85.5a:14b0fa67835192e81f4ac648d004",
+          "id": "85.5a:14b0fa6783519:e81f4ac648d004",
           "name": "Mob Events Modular",
           "type": "File",
           "required": {
@@ -5508,7 +5508,7 @@
           }
         },
         {
-          "id": "94.15:b71454bba724433b130dfcd7a899",
+          "id": "94.15:b71454bba7244:3b130dfcd7a899",
           "name": "Mob Spawns Modular",
           "type": "File",
           "required": {
@@ -5523,22 +5523,7 @@
           }
         },
         {
-          "id": "fe.6b:9f2db23519e87c149ca548098f2f",
-          "name": "Ore Control Modular",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1616,
-            "path": "config/Knob Control/Ore Control Modular.cfg",
-            "MD5": "fe9f2db23519e87c149ca548098f2f6b",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Knob Control/Ore Control Modular.cfg"
-          }
-        },
-        {
-          "id": "b6.03:7f1103126fae8e71700e68a99886",
+          "id": "b6.03:7f1103126fae8:71700e68a99886",
           "name": "Random Bones Modular",
           "type": "File",
           "required": {
@@ -5553,7 +5538,22 @@
           }
         },
         {
-          "id": "88.5b:359d87026a30dc1411fe37d91143",
+          "id": "fe.6b:9f2db23519e87:149ca548098f2f",
+          "name": "Ore Control Modular",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1616,
+            "path": "config/Knob Control/Ore Control Modular.cfg",
+            "MD5": "fe9f2db23519e87c149ca548098f2f6b",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Knob Control/Ore Control Modular.cfg"
+          }
+        },
+        {
+          "id": "88.5b:359d87026a30d:1411fe37d91143",
           "name": "Remove Drops Modular",
           "type": "File",
           "required": {
@@ -5568,7 +5568,7 @@
           }
         },
         {
-          "id": "37.92:d6c1faf932a9865bdcfb5e561a90",
+          "id": "37.92:d6c1faf932a98:5bdcfb5e561a90",
           "name": "Remove Mobs Modular",
           "type": "File",
           "required": {
@@ -5583,22 +5583,7 @@
           }
         },
         {
-          "id": "cd.85:bd0b99ca3fb5d2421b65befdfa0d",
-          "name": "Remove Vanilla Items Modular",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 969,
-            "path": "config/Knob Control/Remove Vanilla Items Modular.cfg",
-            "MD5": "cdbd0b99ca3fb5d2421b65befdfa0d85",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Knob Control/Remove Vanilla Items Modular.cfg"
-          }
-        },
-        {
-          "id": "1b.27:48ddd7187f0143b08e5391a95ac0",
+          "id": "1b.27:48ddd7187f014:b08e5391a95ac0",
           "name": "Terrain Control Modular",
           "type": "File",
           "required": {
@@ -5613,7 +5598,22 @@
           }
         },
         {
-          "id": "9e.c5:0e5c27e5fc10da0bb99d3a5e5ed9",
+          "id": "cd.85:bd0b99ca3fb5d:421b65befdfa0d",
+          "name": "Remove Vanilla Items Modular",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 969,
+            "path": "config/Knob Control/Remove Vanilla Items Modular.cfg",
+            "MD5": "cdbd0b99ca3fb5d2421b65befdfa0d85",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Knob Control/Remove Vanilla Items Modular.cfg"
+          }
+        },
+        {
+          "id": "9e.c5:0e5c27e5fc10d:0bb99d3a5e5ed9",
           "name": "Uncrafting Modular",
           "type": "File",
           "required": {
@@ -5628,7 +5628,7 @@
           }
         },
         {
-          "id": "9a.65:e311ea90408335bbdfc0166784f5",
+          "id": "9a.65:e311ea9040833:bbdfc0166784f5",
           "name": "general",
           "type": "File",
           "required": {
@@ -5643,22 +5643,7 @@
           }
         },
         {
-          "id": "c0.6e:fc1d9ba01f492d0b52b5912d7aea",
-          "name": "profile_atlantis",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 21101,
-            "path": "config/lostcities/profile_atlantis.cfg",
-            "MD5": "c0fc1d9ba01f492d0b52b5912d7aea6e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_atlantis.cfg"
-          }
-        },
-        {
-          "id": "f6.97:01cff3e018808e5683f46bccb4ed",
+          "id": "f6.97:01cff3e018808:5683f46bccb4ed",
           "name": "profile_ancient",
           "type": "File",
           "required": {
@@ -5673,7 +5658,7 @@
           }
         },
         {
-          "id": "9e.2f:24fe1075eb9f6e324d9fb0563f86",
+          "id": "9e.2f:24fe1075eb9f6:324d9fb0563f86",
           "name": "profile_biosphere",
           "type": "File",
           "required": {
@@ -5688,22 +5673,22 @@
           }
         },
         {
-          "id": "2c.a9:547d194e68890c5833092e657e9e",
-          "name": "profile_cavern",
+          "id": "c0.6e:fc1d9ba01f492:0b52b5912d7aea",
+          "name": "profile_atlantis",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 21285,
-            "path": "config/lostcities/profile_cavern.cfg",
-            "MD5": "2c547d194e68890c5833092e657e9ea9",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_cavern.cfg"
+            "size": 21101,
+            "path": "config/lostcities/profile_atlantis.cfg",
+            "MD5": "c0fc1d9ba01f492d0b52b5912d7aea6e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_atlantis.cfg"
           }
         },
         {
-          "id": "e4.48:80396509f4f7803a8f3bfb4ae6ee",
+          "id": "e4.48:80396509f4f78:3a8f3bfb4ae6ee",
           "name": "profile_bio_wasteland",
           "type": "File",
           "required": {
@@ -5718,7 +5703,22 @@
           }
         },
         {
-          "id": "7f.e2:7a973307dc2664e11497c9e7a3d4",
+          "id": "2c.a9:547d194e68890:5833092e657e9e",
+          "name": "profile_cavern",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21285,
+            "path": "config/lostcities/profile_cavern.cfg",
+            "MD5": "2c547d194e68890c5833092e657e9ea9",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_cavern.cfg"
+          }
+        },
+        {
+          "id": "7f.e2:7a973307dc266:e11497c9e7a3d4",
           "name": "profile_chisel",
           "type": "File",
           "required": {
@@ -5733,22 +5733,7 @@
           }
         },
         {
-          "id": "08.a0:756089fe02484fa1649f02980eb6",
-          "name": "profile_floating",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 21191,
-            "path": "config/lostcities/profile_floating.cfg",
-            "MD5": "08756089fe02484fa1649f02980eb6a0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_floating.cfg"
-          }
-        },
-        {
-          "id": "dc.8c:3e531a3376bbf62c634ac136c2fb",
+          "id": "dc.8c:3e531a3376bbf:2c634ac136c2fb",
           "name": "profile_default",
           "type": "File",
           "required": {
@@ -5763,7 +5748,22 @@
           }
         },
         {
-          "id": "89.7d:1266ada734ece4c5522132f224dd",
+          "id": "08.a0:756089fe02484:a1649f02980eb6",
+          "name": "profile_floating",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21191,
+            "path": "config/lostcities/profile_floating.cfg",
+            "MD5": "08756089fe02484fa1649f02980eb6a0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_floating.cfg"
+          }
+        },
+        {
+          "id": "89.7d:1266ada734ece:c5522132f224dd",
           "name": "profile_nodamage",
           "type": "File",
           "required": {
@@ -5778,7 +5778,7 @@
           }
         },
         {
-          "id": "a6.07:ace19bf661c539ef828ae5cc0a03",
+          "id": "a6.07:ace19bf661c53:ef828ae5cc0a03",
           "name": "profile_onlycities",
           "type": "File",
           "required": {
@@ -5793,7 +5793,7 @@
           }
         },
         {
-          "id": "62.2b:318ebdf0bc595c829b9fe59a1c9c",
+          "id": "62.2b:318ebdf0bc595:829b9fe59a1c9c",
           "name": "profile_rarecities",
           "type": "File",
           "required": {
@@ -5808,7 +5808,7 @@
           }
         },
         {
-          "id": "46.7e:f68bf1b8ac42744e15194bdd036a",
+          "id": "46.7e:f68bf1b8ac427:4e15194bdd036a",
           "name": "profile_realistic",
           "type": "File",
           "required": {
@@ -5823,22 +5823,7 @@
           }
         },
         {
-          "id": "49.c4:b9c05744f31c17f51d61f2d4852c",
-          "name": "profile_safe",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 21039,
-            "path": "config/lostcities/profile_safe.cfg",
-            "MD5": "49b9c05744f31c17f51d61f2d4852cc4",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_safe.cfg"
-          }
-        },
-        {
-          "id": "63.37:ec70abc3ecbef136f972dbaaa067",
+          "id": "63.37:ec70abc3ecbef:36f972dbaaa067",
           "name": "profile_space",
           "type": "File",
           "required": {
@@ -5853,7 +5838,22 @@
           }
         },
         {
-          "id": "f4.87:93a996def8b98bb2f988dc1d1879",
+          "id": "49.c4:b9c05744f31c1:f51d61f2d4852c",
+          "name": "profile_safe",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21039,
+            "path": "config/lostcities/profile_safe.cfg",
+            "MD5": "49b9c05744f31c17f51d61f2d4852cc4",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/lostcities/profile_safe.cfg"
+          }
+        },
+        {
+          "id": "f4.87:93a996def8b98:b2f988dc1d1879",
           "name": "profile_tallbuildings",
           "type": "File",
           "required": {
@@ -5868,7 +5868,7 @@
           }
         },
         {
-          "id": "17.61:f10bb223823e6acf1a4972eccb6e",
+          "id": "17.61:f10bb223823e6:cf1a4972eccb6e",
           "name": "profile_wasteland",
           "type": "File",
           "required": {
@@ -5883,7 +5883,7 @@
           }
         },
         {
-          "id": "90.b8:e46b8b96e99e20d89880b3fd7dad",
+          "id": "90.b8:e46b8b96e99e2:d89880b3fd7dad",
           "name": "profile_waterbubbles",
           "type": "File",
           "required": {
@@ -5898,7 +5898,7 @@
           }
         },
         {
-          "id": "7b.2c:e719133d15e54bda6c722e3e6f94",
+          "id": "7b.2c:e719133d15e54:da6c722e3e6f94",
           "name": "profile_water_empty",
           "type": "File",
           "required": {
@@ -5913,7 +5913,7 @@
           }
         },
         {
-          "id": "05.25:8ac4a7e1056c5f75e728d3847787",
+          "id": "05.25:8ac4a7e1056c5:75e728d3847787",
           "name": "default",
           "type": "File",
           "required": {
@@ -5928,7 +5928,7 @@
           }
         },
         {
-          "id": "57.5e:553d342f1ef42b07f70650bba4e8",
+          "id": "57.5e:553d342f1ef42:07f70650bba4e8",
           "name": "gregtech",
           "type": "File",
           "required": {
@@ -5943,7 +5943,7 @@
           }
         },
         {
-          "id": "70.a1:46b0375e503d2c0def6eea4b2858",
+          "id": "70.a1:46b0375e503d2:0def6eea4b2858",
           "name": "hardmode",
           "type": "File",
           "required": {
@@ -5958,7 +5958,7 @@
           }
         },
         {
-          "id": "28.22:6d513b9f52868b0991042f18ac3e",
+          "id": "28.22:6d513b9f52868:0991042f18ac3e",
           "name": "peaceful",
           "type": "File",
           "required": {
@@ -5973,7 +5973,7 @@
           }
         },
         {
-          "id": "e3.a3:82bc219277e939d567157374aaf1",
+          "id": "e3.a3:82bc219277e93:d567157374aaf1",
           "name": "settings",
           "type": "File",
           "required": {
@@ -5988,7 +5988,7 @@
           }
         },
         {
-          "id": "3d.ca:73e5a17c471ee629cfddae571a3f",
+          "id": "3d.ca:73e5a17c471ee:29cfddae571a3f",
           "name": "user",
           "type": "File",
           "required": {
@@ -6003,7 +6003,7 @@
           }
         },
         {
-          "id": "13.d8:9081f4fdf0ff333ed74c4890c4ca",
+          "id": "13.d8:9081f4fdf0ff3:3ed74c4890c4ca",
           "name": "openfm",
           "type": "File",
           "required": {
@@ -6018,7 +6018,7 @@
           }
         },
         {
-          "id": "86.1b:f0ffcceb6453fb89382148a2090b",
+          "id": "86.1b:f0ffcceb6453f:89382148a2090b",
           "name": "randomtweaks",
           "type": "File",
           "required": {
@@ -6033,7 +6033,7 @@
           }
         },
         {
-          "id": "ff.4f:ca2f461ac8c41c88e579704db188",
+          "id": "ff.4f:ca2f461ac8c41:88e579704db188",
           "name": "sheepcolorweights",
           "type": "File",
           "required": {
@@ -6048,7 +6048,7 @@
           }
         },
         {
-          "id": "c9.b4:07650bbadcac65c086d53ce6657b",
+          "id": "c9.b4:07650bbadcac6:c086d53ce6657b",
           "name": "control",
           "type": "File",
           "required": {
@@ -6063,7 +6063,7 @@
           }
         },
         {
-          "id": "03.d2:c1453011681b374d8f3f23b94320",
+          "id": "03.d2:c1453011681b3:4d8f3f23b94320",
           "name": "dimensions",
           "type": "File",
           "required": {
@@ -6078,22 +6078,7 @@
           }
         },
         {
-          "id": "06.23:05c66a9a0524323814de0043f994",
-          "name": "rftools",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 61959,
-            "path": "config/rftools/rftools.cfg",
-            "MD5": "0605c66a9a0524323814de0043f99423",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/rftools/rftools.cfg"
-          }
-        },
-        {
-          "id": "4f.b2:00dde8aa2250c62e6c0ac8dcb888",
+          "id": "4f.b2:00dde8aa2250c:2e6c0ac8dcb888",
           "name": "dimlets",
           "type": "File",
           "required": {
@@ -6108,7 +6093,22 @@
           }
         },
         {
-          "id": "97.fa:1d8fe7ceda3928768d624c375aac",
+          "id": "06.23:05c66a9a05243:3814de0043f994",
+          "name": "rftools",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 61959,
+            "path": "config/rftools/rftools.cfg",
+            "MD5": "0605c66a9a0524323814de0043f99423",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/rftools/rftools.cfg"
+          }
+        },
+        {
+          "id": "97.fa:1d8fe7ceda392:768d624c375aac",
           "name": "rftoolspower",
           "type": "File",
           "required": {
@@ -6123,7 +6123,7 @@
           }
         },
         {
-          "id": "39.f9:762fbd971100349c81b11d76e79c",
+          "id": "39.f9:762fbd9711003:9c81b11d76e79c",
           "name": "smoothfont",
           "type": "File",
           "required": {
@@ -6138,172 +6138,7 @@
           }
         },
         {
-          "id": "41.0c:883520c3071f5f4a4a4613fb005e",
-          "name": "configData",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4,
-            "path": "config/teamreborn/configData.nbt",
-            "MD5": "41883520c3071f5f4a4a4613fb005e0c",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/teamreborn/configData.nbt"
-          }
-        },
-        {
-          "id": "54.c0:fd6a751088afa1b45b2bc10b6fa3",
-          "name": "energy_priority",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 43,
-            "path": "config/teamreborn/energy_priority.json",
-            "MD5": "54fd6a751088afa1b45b2bc10b6fa3c0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/teamreborn/energy_priority.json"
-          }
-        },
-        {
-          "id": "98.f2:a459e058f608aa8db99cdc258fb6",
-          "name": "main",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 505,
-            "path": "config/valkyrielib/main.cfg",
-            "MD5": "98a459e058f608aa8db99cdc258fb6f2",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/valkyrielib/main.cfg"
-          }
-        },
-        {
-          "id": "15.90:136fd9af409aa5357affa471b389",
-          "name": "Armor",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6485,
-            "path": "config/Tiny Progressions/Armor.cfg",
-            "MD5": "15136fd9af409aa5357affa471b38990",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Armor.cfg"
-          }
-        },
-        {
-          "id": "4f.a5:47aef6c26ea3d5d55abcc3693efb",
-          "name": "Extras",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 10975,
-            "path": "config/Tiny Progressions/Extras.cfg",
-            "MD5": "4f47aef6c26ea3d5d55abcc3693efba5",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Extras.cfg"
-          }
-        },
-        {
-          "id": "86.1a:ce6e6706a775c81e53f1570b888d",
-          "name": "Food & Drinks",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8795,
-            "path": "config/Tiny Progressions/Food & Drinks.cfg",
-            "MD5": "86ce6e6706a775c81e53f1570b888d1a",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Food & Drinks.cfg"
-          }
-        },
-        {
-          "id": "0a.2a:8f6042cb4c363f59085f0181bce0",
-          "name": "Main",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8497,
-            "path": "config/Tiny Progressions/Main.cfg",
-            "MD5": "0a8f6042cb4c363f59085f0181bce02a",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Main.cfg"
-          }
-        },
-        {
-          "id": "96.00:7e0667346e8c78f9ab49366b80a1",
-          "name": "Ores",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6877,
-            "path": "config/Tiny Progressions/Ores.cfg",
-            "MD5": "967e0667346e8c78f9ab49366b80a100",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Ores.cfg"
-          }
-        },
-        {
-          "id": "6f.4f:ec8beb393d6a13701b30c4f1506b",
-          "name": "Reborn",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2634,
-            "path": "config/Tiny Progressions/Reborn.cfg",
-            "MD5": "6fec8beb393d6a13701b30c4f1506b4f",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Reborn.cfg"
-          }
-        },
-        {
-          "id": "b3.e5:5942b6c09a6294e538bb7314d359",
-          "name": "Supporters",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 9735,
-            "path": "config/Tiny Progressions/Supporters.cfg",
-            "MD5": "b35942b6c09a6294e538bb7314d359e5",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Supporters.cfg"
-          }
-        },
-        {
-          "id": "05.bb:4c62e0602cabaa464d205b9e657a",
-          "name": "Tools & Weapons",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6295,
-            "path": "config/Tiny Progressions/Tools & Weapons.cfg",
-            "MD5": "054c62e0602cabaa464d205b9e657abb",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Tools & Weapons.cfg"
-          }
-        },
-        {
-          "id": "cf.07:2dc5bfc3d2a3e13fa1d32c2745ee",
+          "id": "cf.07:2dc5bfc3d2a3e:3fa1d32c2745ee",
           "name": "IntegrationModule",
           "type": "File",
           "required": {
@@ -6318,7 +6153,7 @@
           }
         },
         {
-          "id": "e2.43:bcca957015b046b3799f8a197ef2",
+          "id": "e2.43:bcca957015b04:b3799f8a197ef2",
           "name": "UniDict",
           "type": "File",
           "required": {
@@ -6333,7 +6168,172 @@
           }
         },
         {
-          "id": "db.c1:cdd640277c1f61a8cf4ea8e7fd79",
+          "id": "54.c0:fd6a751088afa:b45b2bc10b6fa3",
+          "name": "energy_priority",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 43,
+            "path": "config/teamreborn/energy_priority.json",
+            "MD5": "54fd6a751088afa1b45b2bc10b6fa3c0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/teamreborn/energy_priority.json"
+          }
+        },
+        {
+          "id": "41.0c:883520c3071f5:4a4a4613fb005e",
+          "name": "configData",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4,
+            "path": "config/teamreborn/configData.nbt",
+            "MD5": "41883520c3071f5f4a4a4613fb005e0c",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/teamreborn/configData.nbt"
+          }
+        },
+        {
+          "id": "98.f2:a459e058f608a:8db99cdc258fb6",
+          "name": "main",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 505,
+            "path": "config/valkyrielib/main.cfg",
+            "MD5": "98a459e058f608aa8db99cdc258fb6f2",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/valkyrielib/main.cfg"
+          }
+        },
+        {
+          "id": "15.90:136fd9af409aa:357affa471b389",
+          "name": "Armor",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6485,
+            "path": "config/Tiny Progressions/Armor.cfg",
+            "MD5": "15136fd9af409aa5357affa471b38990",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Armor.cfg"
+          }
+        },
+        {
+          "id": "4f.a5:47aef6c26ea3d:d55abcc3693efb",
+          "name": "Extras",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 10975,
+            "path": "config/Tiny Progressions/Extras.cfg",
+            "MD5": "4f47aef6c26ea3d5d55abcc3693efba5",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Extras.cfg"
+          }
+        },
+        {
+          "id": "86.1a:ce6e6706a775c:1e53f1570b888d",
+          "name": "Food & Drinks",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 8795,
+            "path": "config/Tiny Progressions/Food & Drinks.cfg",
+            "MD5": "86ce6e6706a775c81e53f1570b888d1a",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Food & Drinks.cfg"
+          }
+        },
+        {
+          "id": "0a.2a:8f6042cb4c363:59085f0181bce0",
+          "name": "Main",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 8497,
+            "path": "config/Tiny Progressions/Main.cfg",
+            "MD5": "0a8f6042cb4c363f59085f0181bce02a",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Main.cfg"
+          }
+        },
+        {
+          "id": "96.00:7e0667346e8c7:f9ab49366b80a1",
+          "name": "Ores",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6877,
+            "path": "config/Tiny Progressions/Ores.cfg",
+            "MD5": "967e0667346e8c78f9ab49366b80a100",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Ores.cfg"
+          }
+        },
+        {
+          "id": "6f.4f:ec8beb393d6a1:701b30c4f1506b",
+          "name": "Reborn",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2634,
+            "path": "config/Tiny Progressions/Reborn.cfg",
+            "MD5": "6fec8beb393d6a13701b30c4f1506b4f",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Reborn.cfg"
+          }
+        },
+        {
+          "id": "b3.e5:5942b6c09a629:e538bb7314d359",
+          "name": "Supporters",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 9735,
+            "path": "config/Tiny Progressions/Supporters.cfg",
+            "MD5": "b35942b6c09a6294e538bb7314d359e5",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Supporters.cfg"
+          }
+        },
+        {
+          "id": "05.bb:4c62e0602caba:464d205b9e657a",
+          "name": "Tools & Weapons",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6295,
+            "path": "config/Tiny Progressions/Tools & Weapons.cfg",
+            "MD5": "054c62e0602cabaa464d205b9e657abb",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/Tiny Progressions/Tools & Weapons.cfg"
+          }
+        },
+        {
+          "id": "db.c1:cdd640277c1f6:a8cf4ea8e7fd79",
           "name": "client",
           "type": "File",
           "required": {
@@ -6348,7 +6348,7 @@
           }
         },
         {
-          "id": "20.ce:5ad6c69417ce635583f83d8e7616",
+          "id": "20.ce:5ad6c69417ce6:5583f83d8e7616",
           "name": "common",
           "type": "File",
           "required": {
@@ -6363,7 +6363,7 @@
           }
         },
         {
-          "id": "c7.d0:dd4bdc22965bb663a5479ca014ff",
+          "id": "c7.d0:dd4bdc22965bb:63a5479ca014ff",
           "name": "custom_drops",
           "type": "File",
           "required": {
@@ -6378,7 +6378,7 @@
           }
         },
         {
-          "id": "72.0e:dc7629582127407debb42ad8dcc1",
+          "id": "72.0e:dc76295821274:7debb42ad8dcc1",
           "name": "factory_config",
           "type": "File",
           "required": {
@@ -6393,7 +6393,7 @@
           }
         },
         {
-          "id": "3c.5a:267b16ffcd468a267369f985f9f4",
+          "id": "3c.5a:267b16ffcd468:267369f985f9f4",
           "name": "factory_ingredients",
           "type": "File",
           "required": {
@@ -6408,7 +6408,7 @@
           }
         },
         {
-          "id": "3d.12:aa3551d150ae4267f64d08050802",
+          "id": "3d.12:aa3551d150ae4:67f64d08050802",
           "name": "woot",
           "type": "File",
           "required": {
@@ -6423,7 +6423,7 @@
           }
         },
         {
-          "id": "bb.1a:52185b9f2f3fd1082a0f214732b4",
+          "id": "bb.1a:52185b9f2f3fd:082a0f214732b4",
           "name": "xnet",
           "type": "File",
           "required": {
@@ -6438,7 +6438,7 @@
           }
         },
         {
-          "id": "0a.3d:df77d5dc2a85b3d3fc3359b6c7e3",
+          "id": "0a.3d:df77d5dc2a85b:d3fc3359b6c7e3",
           "name": "client",
           "type": "File",
           "required": {
@@ -6453,7 +6453,7 @@
           }
         },
         {
-          "id": "a3.2c:1c7deefb9985e7e6338ab2ace29a",
+          "id": "a3.2c:1c7deefb9985e:e6338ab2ace29a",
           "name": "readme",
           "type": "File",
           "required": {
@@ -6468,7 +6468,7 @@
           }
         },
         {
-          "id": "ba.d7:f5a137a62518ece1013a4c4a1a97",
+          "id": "ba.d7:f5a137a62518e:e1013a4c4a1a97",
           "name": "settings",
           "type": "File",
           "required": {
@@ -6483,7 +6483,7 @@
           }
         },
         {
-          "id": "13.27:32f67667bb187d303a663aba683c",
+          "id": "13.27:32f67667bb187:303a663aba683c",
           "name": "missingConfigDoubles",
           "type": "File",
           "required": {
@@ -6498,22 +6498,7 @@
           }
         },
         {
-          "id": "0a.b5:5c163ed35afbd0eb8dd0dc15e9a6",
-          "name": "powersuits",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 5386,
-            "path": "config/machinemuse/powersuits.cfg",
-            "MD5": "0a5c163ed35afbd0eb8dd0dc15e9a6b5",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/machinemuse/powersuits.cfg"
-          }
-        },
-        {
-          "id": "c8.d8:acc83b7508a42d758d7e80dbaa82",
+          "id": "c8.d8:acc83b7508a42:758d7e80dbaa82",
           "name": "numina",
           "type": "File",
           "required": {
@@ -6528,7 +6513,22 @@
           }
         },
         {
-          "id": "f1.ec:eda17e072b9b63f0cad3d100aed0",
+          "id": "0a.b5:5c163ed35afbd:eb8dd0dc15e9a6",
+          "name": "powersuits",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 5386,
+            "path": "config/machinemuse/powersuits.cfg",
+            "MD5": "0a5c163ed35afbd0eb8dd0dc15e9a6b5",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/machinemuse/powersuits.cfg"
+          }
+        },
+        {
+          "id": "f1.ec:eda17e072b9b6:f0cad3d100aed0",
           "name": "settings",
           "type": "File",
           "required": {
@@ -6543,7 +6543,7 @@
           }
         },
         {
-          "id": "33.8b:7f21dc2959146e9366424d5ab38e",
+          "id": "33.8b:7f21dc2959146:9366424d5ab38e",
           "name": "worldedit",
           "type": "File",
           "required": {
@@ -6558,22 +6558,7 @@
           }
         },
         {
-          "id": "8c.85:58a06711864abbeea19cdcfd73a3",
-          "name": "ExpansionActuallyAdditions",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 818,
-            "path": "config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg",
-            "MD5": "8c58a06711864abbeea19cdcfd73a385",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg"
-          }
-        },
-        {
-          "id": "99.fd:3d7db21add867e91e403eada9352",
+          "id": "99.fd:3d7db21add867:91e403eada9352",
           "name": "ExpansionCompactMachines",
           "type": "File",
           "required": {
@@ -6588,22 +6573,7 @@
           }
         },
         {
-          "id": "34.04:9324820fd20dcfea3b40ad80a041",
-          "name": "ExpansionEnderIO",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1040,
-            "path": "config/expequiv/enderio/ExpansionEnderIO.cfg",
-            "MD5": "349324820fd20dcfea3b40ad80a04104",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/enderio/ExpansionEnderIO.cfg"
-          }
-        },
-        {
-          "id": "a6.e9:9646a218edc8db885445c16636c0",
+          "id": "a6.e9:9646a218edc8d:885445c16636c0",
           "name": "ExpansionIC2",
           "type": "File",
           "required": {
@@ -6618,7 +6588,22 @@
           }
         },
         {
-          "id": "c9.ed:a0da0b050e842c167d7a22b97a9a",
+          "id": "34.04:9324820fd20dc:ea3b40ad80a041",
+          "name": "ExpansionEnderIO",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1040,
+            "path": "config/expequiv/enderio/ExpansionEnderIO.cfg",
+            "MD5": "349324820fd20dcfea3b40ad80a04104",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/enderio/ExpansionEnderIO.cfg"
+          }
+        },
+        {
+          "id": "c9.ed:a0da0b050e842:167d7a22b97a9a",
           "name": "ExpansionMinecraft",
           "type": "File",
           "required": {
@@ -6633,7 +6618,22 @@
           }
         },
         {
-          "id": "99.fd:3d7db21add867e91e403eada9352",
+          "id": "8c.85:58a06711864ab:eea19cdcfd73a3",
+          "name": "ExpansionActuallyAdditions",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 818,
+            "path": "config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg",
+            "MD5": "8c58a06711864abbeea19cdcfd73a385",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/expequiv/actuallyadditions/ExpansionActuallyAdditions.cfg"
+          }
+        },
+        {
+          "id": "99.fd:3d7db21add867:91e403eada9352",
           "name": "ExpansionRebornCore",
           "type": "File",
           "required": {
@@ -6648,7 +6648,7 @@
           }
         },
         {
-          "id": "64.9a:fca651dd26d0d6883b227d137c83",
+          "id": "64.9a:fca651dd26d0d:883b227d137c83",
           "name": "commands",
           "type": "File",
           "required": {
@@ -6663,7 +6663,7 @@
           }
         },
         {
-          "id": "28.fa:71e2131041869f83361609b8c7bf",
+          "id": "28.fa:71e2131041869:83361609b8c7bf",
           "name": "config",
           "type": "File",
           "required": {
@@ -6678,7 +6678,7 @@
           }
         },
         {
-          "id": "22.91:8c1e0bf1c08e660848b4cf45b8d9",
+          "id": "22.91:8c1e0bf1c08e6:0848b4cf45b8d9",
           "name": "extrablocks",
           "type": "File",
           "required": {
@@ -6693,7 +6693,7 @@
           }
         },
         {
-          "id": "a4.82:c18c60638a1d22002fc85ecaf8f0",
+          "id": "a4.82:c18c60638a1d2:002fc85ecaf8f0",
           "name": "message",
           "type": "File",
           "required": {
@@ -6708,7 +6708,7 @@
           }
         },
         {
-          "id": "32.27:3e359e91ec7ba3d543a5b6888b1e",
+          "id": "32.27:3e359e91ec7ba:d543a5b6888b1e",
           "name": "message",
           "type": "File",
           "required": {
@@ -6723,7 +6723,7 @@
           }
         },
         {
-          "id": "01.b7:429bc29b4af0759482a600c9177c",
+          "id": "01.b7:429bc29b4af07:9482a600c9177c",
           "name": "message",
           "type": "File",
           "required": {
@@ -6738,7 +6738,7 @@
           }
         },
         {
-          "id": "1d.57:42bfd524d467baef674ff91c54ed",
+          "id": "1d.57:42bfd524d467b:ef674ff91c54ed",
           "name": "commands",
           "type": "File",
           "required": {
@@ -6753,7 +6753,7 @@
           }
         },
         {
-          "id": "bf.fd:c98c0ce733dfdef2e8e49db09d24",
+          "id": "bf.fd:c98c0ce733dfd:f2e8e49db09d24",
           "name": "message",
           "type": "File",
           "required": {
@@ -6768,7 +6768,7 @@
           }
         },
         {
-          "id": "53.fc:0a9ba889e177c3efd5b3b1a589ef",
+          "id": "53.fc:0a9ba889e177c:efd5b3b1a589ef",
           "name": "message",
           "type": "File",
           "required": {
@@ -6783,7 +6783,7 @@
           }
         },
         {
-          "id": "3d.a8:56340d1b1f694cec71493e73fef8",
+          "id": "3d.a8:56340d1b1f694:ec71493e73fef8",
           "name": "message",
           "type": "File",
           "required": {
@@ -6798,7 +6798,7 @@
           }
         },
         {
-          "id": "34.fb:4058b090f74d2a7fc7cd7f47a235",
+          "id": "34.fb:4058b090f74d2:7fc7cd7f47a235",
           "name": "commands",
           "type": "File",
           "required": {
@@ -6813,7 +6813,7 @@
           }
         },
         {
-          "id": "99.b3:03654c78e462df635561c67878a3",
+          "id": "99.b3:03654c78e462d:635561c67878a3",
           "name": "message",
           "type": "File",
           "required": {
@@ -6828,7 +6828,7 @@
           }
         },
         {
-          "id": "60.d1:5ab95190904cc53bb466f425ed48",
+          "id": "60.d1:5ab95190904cc:3bb466f425ed48",
           "name": "message",
           "type": "File",
           "required": {
@@ -6843,7 +6843,7 @@
           }
         },
         {
-          "id": "9f.3f:5819935778d5f0a16c9de6700c1f",
+          "id": "9f.3f:5819935778d5f:a16c9de6700c1f",
           "name": "MatterOverdrive",
           "type": "File",
           "required": {
@@ -6858,7 +6858,7 @@
           }
         },
         {
-          "id": "ed.d2:567ebe30a19850bb4f4b4e1c237c",
+          "id": "ed.d2:567ebe30a1985:bb4f4b4e1c237c",
           "name": "inscriber",
           "type": "File",
           "required": {
@@ -6873,7 +6873,7 @@
           }
         },
         {
-          "id": "81.b6:d3e1b89b64cd47d6ba41f14364bf",
+          "id": "81.b6:d3e1b89b64cd4:d6ba41f14364bf",
           "name": "custom_emc",
           "type": "File",
           "required": {
@@ -6888,7 +6888,7 @@
           }
         },
         {
-          "id": "04.cf:e9123d3a04e136182ec51b8cdcd5",
+          "id": "04.cf:e9123d3a04e13:182ec51b8cdcd5",
           "name": "mapping",
           "type": "File",
           "required": {
@@ -6903,7 +6903,7 @@
           }
         },
         {
-          "id": "ef.db:3d4bb9a7d7a057edf60e330484e2",
+          "id": "ef.db:3d4bb9a7d7a05:edf60e330484e2",
           "name": "nbt_whitelist",
           "type": "File",
           "required": {
@@ -6918,7 +6918,7 @@
           }
         },
         {
-          "id": "16.f4:ada2306899681005b7b358b948e0",
+          "id": "16.f4:ada2306899681:05b7b358b948e0",
           "name": "ProjectE",
           "type": "File",
           "required": {
@@ -6933,7 +6933,7 @@
           }
         },
         {
-          "id": "f8.92:4a054ba0e46d169d5e4762de7f74",
+          "id": "f8.92:4a054ba0e46d1:9d5e4762de7f74",
           "name": "defaults",
           "type": "File",
           "required": {
@@ -6948,7 +6948,7 @@
           }
         },
         {
-          "id": "2e.be:ecbbda4d54051e3e0d4e1c2af01f",
+          "id": "2e.be:ecbbda4d54051:3e0d4e1c2af01f",
           "name": "example",
           "type": "File",
           "required": {
@@ -6963,7 +6963,7 @@
           }
         },
         {
-          "id": "42.b7:c4c309eec7173fa98c72bb9b47a3",
+          "id": "42.b7:c4c309eec7173:a98c72bb9b47a3",
           "name": "metals",
           "type": "File",
           "required": {
@@ -6978,7 +6978,7 @@
           }
         },
         {
-          "id": "c3.83:67419e5074ce78af8ba09dc128f8",
+          "id": "c3.83:67419e5074ce7:af8ba09dc128f8",
           "name": "ODdefaults",
           "type": "File",
           "required": {
@@ -6993,127 +6993,7 @@
           }
         },
         {
-          "id": "29.22:fb797ad7d12de3662e1eb285bc12",
-          "name": "1",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 90,
-            "path": "config/solarflux/solarflux/1.json",
-            "MD5": "29fb797ad7d12de3662e1eb285bc1222",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/1.json"
-          }
-        },
-        {
-          "id": "32.ac:2f37c88f739bce5841476c064d77",
-          "name": "2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 92,
-            "path": "config/solarflux/solarflux/2.json",
-            "MD5": "322f37c88f739bce5841476c064d77ac",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/2.json"
-          }
-        },
-        {
-          "id": "1f.e0:ade8d19974c9fd70eeac8fe32c32",
-          "name": "3",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 94,
-            "path": "config/solarflux/solarflux/3.json",
-            "MD5": "1fade8d19974c9fd70eeac8fe32c32e0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/3.json"
-          }
-        },
-        {
-          "id": "8e.7c:2dd068d8f81b8359385066726b9e",
-          "name": "4",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 97,
-            "path": "config/solarflux/solarflux/4.json",
-            "MD5": "8e2dd068d8f81b8359385066726b9e7c",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/4.json"
-          }
-        },
-        {
-          "id": "f7.8e:0825792a02791c3e825f3886c778",
-          "name": "5",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 97,
-            "path": "config/solarflux/solarflux/5.json",
-            "MD5": "f70825792a02791c3e825f3886c7788e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/5.json"
-          }
-        },
-        {
-          "id": "26.11:6ad5599ea87480e1a858be675748",
-          "name": "6",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 100,
-            "path": "config/solarflux/solarflux/6.json",
-            "MD5": "266ad5599ea87480e1a858be67574811",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/6.json"
-          }
-        },
-        {
-          "id": "5a.7e:a6ff2a2b247347f3f19defce7d60",
-          "name": "7",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 100,
-            "path": "config/solarflux/solarflux/7.json",
-            "MD5": "5aa6ff2a2b247347f3f19defce7d607e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/7.json"
-          }
-        },
-        {
-          "id": "6b.c0:dbd8419d139fcc9e378e4f5353a7",
-          "name": "8",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 103,
-            "path": "config/solarflux/solarflux/8.json",
-            "MD5": "6bdbd8419d139fcc9e378e4f5353a7c0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/8.json"
-          }
-        },
-        {
-          "id": "58.f8:6ec8f5dcff7782410b056150824d",
+          "id": "58.f8:6ec8f5dcff778:410b056150824d",
           "name": "waila",
           "type": "File",
           "required": {
@@ -7128,7 +7008,7 @@
           }
         },
         {
-          "id": "91.7a:f7d992164fa6c216f5a23059b213",
+          "id": "91.7a:f7d992164fa6c:16f5a23059b213",
           "name": "dark",
           "type": "File",
           "required": {
@@ -7143,7 +7023,7 @@
           }
         },
         {
-          "id": "93.5b:f67ec8cc14f861d01b4b930b4952",
+          "id": "93.5b:f67ec8cc14f86:d01b4b930b4952",
           "name": "vanilla",
           "type": "File",
           "required": {
@@ -7158,52 +7038,127 @@
           }
         },
         {
-          "id": "6e.92:3a20b0e93762dbc8be2b5126102a",
-          "name": "client",
+          "id": "29.22:fb797ad7d12de:662e1eb285bc12",
+          "name": "1",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1547,
-            "path": "config/cofh/core/client.cfg",
-            "MD5": "6e3a20b0e93762dbc8be2b5126102a92",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/client.cfg"
+            "size": 90,
+            "path": "config/solarflux/solarflux/1.json",
+            "MD5": "29fb797ad7d12de3662e1eb285bc1222",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/1.json"
           }
         },
         {
-          "id": "1c.d4:59c758a4657424148252ad6d56a4",
-          "name": "common",
+          "id": "32.ac:2f37c88f739bc:5841476c064d77",
+          "name": "2",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 4122,
-            "path": "config/cofh/core/common.cfg",
-            "MD5": "1c59c758a4657424148252ad6d56a4d4",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/common.cfg"
+            "size": 92,
+            "path": "config/solarflux/solarflux/2.json",
+            "MD5": "322f37c88f739bce5841476c064d77ac",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/2.json"
           }
         },
         {
-          "id": "d4.7e:1d8cd98f00b204e9800998ecf842",
-          "name": "friends",
+          "id": "1f.e0:ade8d19974c9f:70eeac8fe32c32",
+          "name": "3",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 0,
-            "path": "config/cofh/core/friends.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/friends.cfg"
+            "size": 94,
+            "path": "config/solarflux/solarflux/3.json",
+            "MD5": "1fade8d19974c9fd70eeac8fe32c32e0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/3.json"
           }
         },
         {
-          "id": "89.65:0cf00e299fb4a0fdb1dbb571111b",
+          "id": "8e.7c:2dd068d8f81b8:59385066726b9e",
+          "name": "4",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 97,
+            "path": "config/solarflux/solarflux/4.json",
+            "MD5": "8e2dd068d8f81b8359385066726b9e7c",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/4.json"
+          }
+        },
+        {
+          "id": "f7.8e:0825792a02791:3e825f3886c778",
+          "name": "5",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 97,
+            "path": "config/solarflux/solarflux/5.json",
+            "MD5": "f70825792a02791c3e825f3886c7788e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/5.json"
+          }
+        },
+        {
+          "id": "26.11:6ad5599ea8748:e1a858be675748",
+          "name": "6",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 100,
+            "path": "config/solarflux/solarflux/6.json",
+            "MD5": "266ad5599ea87480e1a858be67574811",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/6.json"
+          }
+        },
+        {
+          "id": "5a.7e:a6ff2a2b24734:f3f19defce7d60",
+          "name": "7",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 100,
+            "path": "config/solarflux/solarflux/7.json",
+            "MD5": "5aa6ff2a2b247347f3f19defce7d607e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/7.json"
+          }
+        },
+        {
+          "id": "6b.c0:dbd8419d139fc:9e378e4f5353a7",
+          "name": "8",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 103,
+            "path": "config/solarflux/solarflux/8.json",
+            "MD5": "6bdbd8419d139fcc9e378e4f5353a7c0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/solarflux/solarflux/8.json"
+          }
+        },
+        {
+          "id": "89.65:0cf00e299fb4a:fdb1dbb571111b",
           "name": "client",
           "type": "File",
           "required": {
@@ -7218,7 +7173,7 @@
           }
         },
         {
-          "id": "a5.c6:ba50cbb98d3b85133491497fd071",
+          "id": "a5.c6:ba50cbb98d3b8:133491497fd071",
           "name": "common",
           "type": "File",
           "required": {
@@ -7233,7 +7188,52 @@
           }
         },
         {
-          "id": "f4.91:ed58e769e6a5010c1fe60704dda3",
+          "id": "6e.92:3a20b0e93762d:c8be2b5126102a",
+          "name": "client",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1547,
+            "path": "config/cofh/core/client.cfg",
+            "MD5": "6e3a20b0e93762dbc8be2b5126102a92",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/client.cfg"
+          }
+        },
+        {
+          "id": "1c.d4:59c758a465742:148252ad6d56a4",
+          "name": "common",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4122,
+            "path": "config/cofh/core/common.cfg",
+            "MD5": "1c59c758a4657424148252ad6d56a4d4",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/common.cfg"
+          }
+        },
+        {
+          "id": "d4.7e:1d8cd98f00b20:e9800998ecf842",
+          "name": "friends",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 0,
+            "path": "config/cofh/core/friends.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/cofh/core/friends.cfg"
+          }
+        },
+        {
+          "id": "f4.91:ed58e769e6a50:0c1fe60704dda3",
           "name": "client",
           "type": "File",
           "required": {
@@ -7248,7 +7248,7 @@
           }
         },
         {
-          "id": "a4.81:c4d084d5896fc9b801db264d3de7",
+          "id": "a4.81:c4d084d5896fc:b801db264d3de7",
           "name": "common",
           "type": "File",
           "required": {
@@ -7263,7 +7263,7 @@
           }
         },
         {
-          "id": "6b.bf:9e9a08d611a74d6e7bae3d71dd4c",
+          "id": "6b.bf:9e9a08d611a74:6e7bae3d71dd4c",
           "name": "cover_blacklist",
           "type": "File",
           "required": {
@@ -7278,7 +7278,7 @@
           }
         },
         {
-          "id": "7d.79:b6ae7eb5d98ace432ec773baeb27",
+          "id": "7d.79:b6ae7eb5d98ac:432ec773baeb27",
           "name": "client",
           "type": "File",
           "required": {
@@ -7293,7 +7293,7 @@
           }
         },
         {
-          "id": "e8.58:a51a4696fa24cc7ba18c3aab7d23",
+          "id": "e8.58:a51a4696fa24c:7ba18c3aab7d23",
           "name": "common",
           "type": "File",
           "required": {
@@ -7308,7 +7308,7 @@
           }
         },
         {
-          "id": "65.68:a459e83831ab899ac62f1f0eebfc",
+          "id": "65.68:a459e83831ab8:9ac62f1f0eebfc",
           "name": "lexicon-whitelist",
           "type": "File",
           "required": {
@@ -7323,7 +7323,7 @@
           }
         },
         {
-          "id": "37.03:1f1104b0133f0f84fac48e4cfbe0",
+          "id": "37.03:1f1104b0133f0:84fac48e4cfbe0",
           "name": "client",
           "type": "File",
           "required": {
@@ -7338,7 +7338,7 @@
           }
         },
         {
-          "id": "13.e7:a7e52190d6d1f07a543cc0a48792",
+          "id": "13.e7:a7e52190d6d1f:7a543cc0a48792",
           "name": "common",
           "type": "File",
           "required": {
@@ -7353,7 +7353,7 @@
           }
         },
         {
-          "id": "7d.94:f4a83c1a6843d88f251d8114c3f8",
+          "id": "7d.94:f4a83c1a6843d:8f251d8114c3f8",
           "name": "00_minecraft",
           "type": "File",
           "required": {
@@ -7368,7 +7368,7 @@
           }
         },
         {
-          "id": "98.ec:fa70dfa17e94f27e09dd2008c41b",
+          "id": "98.ec:fa70dfa17e94f:7e09dd2008c41b",
           "name": "01_thermalfoundation_ores",
           "type": "File",
           "required": {
@@ -7383,7 +7383,7 @@
           }
         },
         {
-          "id": "e3.e2:6e1a8ca244b86a60ebfea7c4eac4",
+          "id": "e3.e2:6e1a8ca244b86:60ebfea7c4eac4",
           "name": "02_thermalfoundation_oil",
           "type": "File",
           "required": {
@@ -7398,7 +7398,7 @@
           }
         },
         {
-          "id": "0a.1c:91046475638b0c0d2964b035b74b",
+          "id": "0a.1c:91046475638b0:0d2964b035b74b",
           "name": "03_thermalfoundation_clathrates",
           "type": "File",
           "required": {
@@ -7413,7 +7413,7 @@
           }
         },
         {
-          "id": "a1.0d:9264ea49160c275a436700aea529",
+          "id": "a1.0d:9264ea49160c2:5a436700aea529",
           "name": "config",
           "type": "File",
           "required": {
@@ -7428,7 +7428,7 @@
           }
         },
         {
-          "id": "53.cf:97d60d8e81f372bef7c2b6c91862",
+          "id": "53.cf:97d60d8e81f37:bef7c2b6c91862",
           "name": "client",
           "type": "File",
           "required": {
@@ -7443,7 +7443,7 @@
           }
         },
         {
-          "id": "78.ee:ca0628db9e189b1adee4cf32e479",
+          "id": "78.ee:ca0628db9e189:1adee4cf32e479",
           "name": "common",
           "type": "File",
           "required": {
@@ -7458,7 +7458,7 @@
           }
         },
         {
-          "id": "1a.4d:b1a69915a4eea70ca4483a7f3ef9",
+          "id": "1a.4d:b1a69915a4eea:0ca4483a7f3ef9",
           "name": "florbs",
           "type": "File",
           "required": {
@@ -7473,7 +7473,7 @@
           }
         },
         {
-          "id": "f1.66:335c38ab41012eb289afe62457e6",
+          "id": "f1.66:335c38ab41012:b289afe62457e6",
           "name": "morbs",
           "type": "File",
           "required": {
@@ -7488,7 +7488,7 @@
           }
         },
         {
-          "id": "0f.00:3e4a974affa0a89a72f54624f0a6",
+          "id": "0f.00:3e4a974affa0a:9a72f54624f0a6",
           "name": "EnderIO",
           "type": "File",
           "required": {
@@ -7503,22 +7503,7 @@
           }
         },
         {
-          "id": "db.23:35e26d6a92a4c61bf7fea6ea4ee1",
-          "name": "enderiointegrationforestry",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 478,
-            "path": "config/enderio/enderiointegrationforestry.cfg",
-            "MD5": "db35e26d6a92a4c61bf7fea6ea4ee123",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/enderiointegrationforestry.cfg"
-          }
-        },
-        {
-          "id": "f1.fe:6e86344529e737caa2fb05bdac37",
+          "id": "f1.fe:6e86344529e73:caa2fb05bdac37",
           "name": "enderioconduits",
           "type": "File",
           "required": {
@@ -7533,7 +7518,22 @@
           }
         },
         {
-          "id": "6c.2a:e5b0fb4df02fe6910563c051316a",
+          "id": "db.23:35e26d6a92a4c:1bf7fea6ea4ee1",
+          "name": "enderiointegrationforestry",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 478,
+            "path": "config/enderio/enderiointegrationforestry.cfg",
+            "MD5": "db35e26d6a92a4c61bf7fea6ea4ee123",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/enderiointegrationforestry.cfg"
+          }
+        },
+        {
+          "id": "6c.2a:e5b0fb4df02fe:910563c051316a",
           "name": "enderiomachines",
           "type": "File",
           "required": {
@@ -7548,22 +7548,7 @@
           }
         },
         {
-          "id": "1a.2b:30253f2dba70ca5cdc6afd6d7e0a",
-          "name": "painter_paint_sources_core",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1290,
-            "path": "config/enderio/painter_paint_sources_core.xml",
-            "MD5": "1a30253f2dba70ca5cdc6afd6d7e0a2b",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/painter_paint_sources_core.xml"
-          }
-        },
-        {
-          "id": "0e.d8:64696f32ab1871e6e44ae9e7a765",
+          "id": "0e.d8:64696f32ab187:e6e44ae9e7a765",
           "name": "enderiopowertools",
           "type": "File",
           "required": {
@@ -7578,7 +7563,22 @@
           }
         },
         {
-          "id": "d8.d5:eedf3027847c792cb64f86fd46e2",
+          "id": "1a.2b:30253f2dba70c:5cdc6afd6d7e0a",
+          "name": "painter_paint_sources_core",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1290,
+            "path": "config/enderio/painter_paint_sources_core.xml",
+            "MD5": "1a30253f2dba70ca5cdc6afd6d7e0a2b",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/painter_paint_sources_core.xml"
+          }
+        },
+        {
+          "id": "d8.d5:eedf3027847c7:2cb64f86fd46e2",
           "name": "painter_paint_sources_user",
           "type": "File",
           "required": {
@@ -7593,7 +7593,7 @@
           }
         },
         {
-          "id": "01.af:7f80aab2222af1f1eeed11c802df",
+          "id": "01.af:7f80aab2222af:f1eeed11c802df",
           "name": "aliases",
           "type": "File",
           "required": {
@@ -7608,7 +7608,7 @@
           }
         },
         {
-          "id": "ca.c3:04f0c7afef968ef1d2a1f869ee46",
+          "id": "ca.c3:04f0c7afef968:f1d2a1f869ee46",
           "name": "balls",
           "type": "File",
           "required": {
@@ -7623,7 +7623,7 @@
           }
         },
         {
-          "id": "75.d8:2edd30a68035670c4c9e945d82dc",
+          "id": "75.d8:2edd30a680356:0c4c9e945d82dc",
           "name": "base",
           "type": "File",
           "required": {
@@ -7638,7 +7638,7 @@
           }
         },
         {
-          "id": "f6.cd:a63d39d37756377210b88c04e907",
+          "id": "f6.cd:a63d39d377563:7210b88c04e907",
           "name": "capacitor",
           "type": "File",
           "required": {
@@ -7653,82 +7653,7 @@
           }
         },
         {
-          "id": "57.5d:ed9b8566aeeb961eb803af34ad91",
-          "name": "conduits-opencomputers",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1847,
-            "path": "config/enderio/recipes/conduits-opencomputers.xml",
-            "MD5": "57ed9b8566aeeb961eb803af34ad915d",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-opencomputers.xml"
-          }
-        },
-        {
-          "id": "f9.a4:d5836c4981a508f70ed351021859",
-          "name": "conduits-refined-storage",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3678,
-            "path": "config/enderio/recipes/conduits-refined-storage.xml",
-            "MD5": "f9d5836c4981a508f70ed351021859a4",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-refined-storage.xml"
-          }
-        },
-        {
-          "id": "3a.13:87886cff5b88e296fde4b6170b09",
-          "name": "conduits",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8451,
-            "path": "config/enderio/recipes/conduits.xml",
-            "MD5": "3a87886cff5b88e296fde4b6170b0913",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits.xml"
-          }
-        },
-        {
-          "id": "1b.45:cb04d1bd25c4e301ba202c9163db",
-          "name": "enchanter",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 14279,
-            "path": "config/enderio/recipes/enchanter.xml",
-            "MD5": "1bcb04d1bd25c4e301ba202c9163db45",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/enchanter.xml"
-          }
-        },
-        {
-          "id": "e4.9f:dc2c2d042d958600447a12b34c80",
-          "name": "items",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 27735,
-            "path": "config/enderio/recipes/items.xml",
-            "MD5": "e4dc2c2d042d958600447a12b34c809f",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/items.xml"
-          }
-        },
-        {
-          "id": "d8.e3:791a88973753e10fa5b9cc212193",
+          "id": "d8.e3:791a88973753e:0fa5b9cc212193",
           "name": "capacitor_machines",
           "type": "File",
           "required": {
@@ -7743,7 +7668,82 @@
           }
         },
         {
-          "id": "7c.31:4aa2ddc24ef28b87446ea08cfcf3",
+          "id": "57.5d:ed9b8566aeeb9:1eb803af34ad91",
+          "name": "conduits-opencomputers",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1847,
+            "path": "config/enderio/recipes/conduits-opencomputers.xml",
+            "MD5": "57ed9b8566aeeb961eb803af34ad915d",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-opencomputers.xml"
+          }
+        },
+        {
+          "id": "f9.a4:d5836c4981a50:f70ed351021859",
+          "name": "conduits-refined-storage",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3678,
+            "path": "config/enderio/recipes/conduits-refined-storage.xml",
+            "MD5": "f9d5836c4981a508f70ed351021859a4",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits-refined-storage.xml"
+          }
+        },
+        {
+          "id": "3a.13:87886cff5b88e:96fde4b6170b09",
+          "name": "conduits",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 8451,
+            "path": "config/enderio/recipes/conduits.xml",
+            "MD5": "3a87886cff5b88e296fde4b6170b0913",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/conduits.xml"
+          }
+        },
+        {
+          "id": "1b.45:cb04d1bd25c4e:01ba202c9163db",
+          "name": "enchanter",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 14279,
+            "path": "config/enderio/recipes/enchanter.xml",
+            "MD5": "1bcb04d1bd25c4e301ba202c9163db45",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/enchanter.xml"
+          }
+        },
+        {
+          "id": "e4.9f:dc2c2d042d958:00447a12b34c80",
+          "name": "items",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 27735,
+            "path": "config/enderio/recipes/items.xml",
+            "MD5": "e4dc2c2d042d958600447a12b34c809f",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/items.xml"
+          }
+        },
+        {
+          "id": "7c.31:4aa2ddc24ef28:87446ea08cfcf3",
           "name": "machines",
           "type": "File",
           "required": {
@@ -7758,7 +7758,7 @@
           }
         },
         {
-          "id": "a6.6d:1dd7cf84f3e8d6c35ce64cc04114",
+          "id": "a6.6d:1dd7cf84f3e8d:c35ce64cc04114",
           "name": "materials",
           "type": "File",
           "required": {
@@ -7773,7 +7773,7 @@
           }
         },
         {
-          "id": "d8.06:5b7d47696702d0ade23abe269f20",
+          "id": "d8.06:5b7d47696702d:ade23abe269f20",
           "name": "misc",
           "type": "File",
           "required": {
@@ -7788,7 +7788,7 @@
           }
         },
         {
-          "id": "e7.cc:fe653f7e88377949bae4ad316d57",
+          "id": "e7.cc:fe653f7e88377:49bae4ad316d57",
           "name": "powertools",
           "type": "File",
           "required": {
@@ -7803,7 +7803,7 @@
           }
         },
         {
-          "id": "4f.2a:2413e194acb7149aaf825f09d5d5",
+          "id": "4f.2a:2413e194acb71:9aaf825f09d5d5",
           "name": "recipes",
           "type": "File",
           "required": {
@@ -7818,22 +7818,7 @@
           }
         },
         {
-          "id": "42.98:3e931402e9f8c4473d955e4b1721",
-          "name": "sagmill_metals",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 19668,
-            "path": "config/enderio/recipes/sagmill_metals.xml",
-            "MD5": "423e931402e9f8c4473d955e4b172198",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/sagmill_metals.xml"
-          }
-        },
-        {
-          "id": "63.96:cab8e451dbbb3608175e31f62312",
+          "id": "63.96:cab8e451dbbb3:08175e31f62312",
           "name": "sagmill",
           "type": "File",
           "required": {
@@ -7848,7 +7833,7 @@
           }
         },
         {
-          "id": "4b.1c:3b01c9601b0747f9d5907332227e",
+          "id": "4b.1c:3b01c9601b074:f9d5907332227e",
           "name": "sagmill_modded",
           "type": "File",
           "required": {
@@ -7863,22 +7848,7 @@
           }
         },
         {
-          "id": "e0.ae:1cedb151d59920ee39eaba24f2be",
-          "name": "sagmill_ores",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 90962,
-            "path": "config/enderio/recipes/sagmill_ores.xml",
-            "MD5": "e01cedb151d59920ee39eaba24f2beae",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/sagmill_ores.xml"
-          }
-        },
-        {
-          "id": "b9.82:4de272dc62a69a34ddd55f79cd41",
+          "id": "b9.82:4de272dc62a69:34ddd55f79cd41",
           "name": "sagmill_vanilla",
           "type": "File",
           "required": {
@@ -7893,7 +7863,7 @@
           }
         },
         {
-          "id": "63.41:a1d8b69db0b085776eeb8cb57c04",
+          "id": "63.41:a1d8b69db0b08:776eeb8cb57c04",
           "name": "sagmill_vanilla2modded",
           "type": "File",
           "required": {
@@ -7908,7 +7878,7 @@
           }
         },
         {
-          "id": "b6.1c:0da9c92d2ee360308d0cdb762f6c",
+          "id": "b6.1c:0da9c92d2ee36:308d0cdb762f6c",
           "name": "spawner",
           "type": "File",
           "required": {
@@ -7923,7 +7893,37 @@
           }
         },
         {
-          "id": "53.ce:aa7815e7d610e05bafe513d93545",
+          "id": "e0.ae:1cedb151d5992:ee39eaba24f2be",
+          "name": "sagmill_ores",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 90962,
+            "path": "config/enderio/recipes/sagmill_ores.xml",
+            "MD5": "e01cedb151d59920ee39eaba24f2beae",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/sagmill_ores.xml"
+          }
+        },
+        {
+          "id": "42.98:3e931402e9f8c:473d955e4b1721",
+          "name": "sagmill_metals",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 19668,
+            "path": "config/enderio/recipes/sagmill_metals.xml",
+            "MD5": "423e931402e9f8c4473d955e4b172198",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/sagmill_metals.xml"
+          }
+        },
+        {
+          "id": "53.ce:aa7815e7d610e:5bafe513d93545",
           "name": "vat",
           "type": "File",
           "required": {
@@ -7938,22 +7938,7 @@
           }
         },
         {
-          "id": "7e.e0:9c3baf4a60e75151300403383266",
-          "name": "cheap_machines",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 11970,
-            "path": "config/enderio/recipes/examples/cheap_machines.xml",
-            "MD5": "7e9c3baf4a60e75151300403383266e0",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/cheap_machines.xml"
-          }
-        },
-        {
-          "id": "4c.b7:6bc006a0b546ecc4080be592f0a5",
+          "id": "4c.b7:6bc006a0b546e:c4080be592f0a5",
           "name": "broken_spawner",
           "type": "File",
           "required": {
@@ -7968,7 +7953,22 @@
           }
         },
         {
-          "id": "7e.bb:b29e969db60c4afff9a3003fb630",
+          "id": "7e.e0:9c3baf4a60e75:51300403383266",
+          "name": "cheap_machines",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 11970,
+            "path": "config/enderio/recipes/examples/cheap_machines.xml",
+            "MD5": "7e9c3baf4a60e75151300403383266e0",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/cheap_machines.xml"
+          }
+        },
+        {
+          "id": "7e.bb:b29e969db60c4:fff9a3003fb630",
           "name": "cheap_materials",
           "type": "File",
           "required": {
@@ -7983,22 +7983,7 @@
           }
         },
         {
-          "id": "4c.69:b5de8d267fc384883cee29f736c4",
-          "name": "conduits_easy_recipes",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6525,
-            "path": "config/enderio/recipes/examples/conduits_easy_recipes.xml",
-            "MD5": "4cb5de8d267fc384883cee29f736c469",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/conduits_easy_recipes.xml"
-          }
-        },
-        {
-          "id": "93.53:0a9a8f2c2ad6cd807c1a40d8544a",
+          "id": "93.53:0a9a8f2c2ad6c:807c1a40d8544a",
           "name": "cheaty_spawner",
           "type": "File",
           "required": {
@@ -8013,7 +7998,22 @@
           }
         },
         {
-          "id": "9b.4a:727f1e3ceb242ec09274dd16e998",
+          "id": "4c.69:b5de8d267fc38:883cee29f736c4",
+          "name": "conduits_easy_recipes",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6525,
+            "path": "config/enderio/recipes/examples/conduits_easy_recipes.xml",
+            "MD5": "4cb5de8d267fc384883cee29f736c469",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/conduits_easy_recipes.xml"
+          }
+        },
+        {
+          "id": "9b.4a:727f1e3ceb242:c09274dd16e998",
           "name": "conduits_hard_recipes",
           "type": "File",
           "required": {
@@ -8028,37 +8028,7 @@
           }
         },
         {
-          "id": "e2.76:0e234ad53f66de85859a32f43089",
-          "name": "hard_recipes",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1803,
-            "path": "config/enderio/recipes/examples/hard_recipes.xml",
-            "MD5": "e20e234ad53f66de85859a32f4308976",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/hard_recipes.xml"
-          }
-        },
-        {
-          "id": "48.18:19f9ff793438a0b6e7b431bdd60a",
-          "name": "infinity",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 803,
-            "path": "config/enderio/recipes/examples/infinity.xml",
-            "MD5": "4819f9ff793438a0b6e7b431bdd60a18",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/infinity.xml"
-          }
-        },
-        {
-          "id": "ed.08:41f0fabab72d8b817de5d9dc10e0",
+          "id": "ed.08:41f0fabab72d8:817de5d9dc10e0",
           "name": "easy_recipes",
           "type": "File",
           "required": {
@@ -8073,7 +8043,37 @@
           }
         },
         {
-          "id": "23.88:078bba71a99974f99dce055cfe5d",
+          "id": "e2.76:0e234ad53f66d:85859a32f43089",
+          "name": "hard_recipes",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1803,
+            "path": "config/enderio/recipes/examples/hard_recipes.xml",
+            "MD5": "e20e234ad53f66de85859a32f4308976",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/hard_recipes.xml"
+          }
+        },
+        {
+          "id": "48.18:19f9ff793438a:b6e7b431bdd60a",
+          "name": "infinity",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 803,
+            "path": "config/enderio/recipes/examples/infinity.xml",
+            "MD5": "4819f9ff793438a0b6e7b431bdd60a18",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/enderio/recipes/examples/infinity.xml"
+          }
+        },
+        {
+          "id": "23.88:078bba71a9997:f99dce055cfe5d",
           "name": "legacy_recipes",
           "type": "File",
           "required": {
@@ -8088,7 +8088,7 @@
           }
         },
         {
-          "id": "49.16:4e6ce9711bf0911bb882a90aebb8",
+          "id": "49.16:4e6ce9711bf09:1bb882a90aebb8",
           "name": "machines_easy_recipes",
           "type": "File",
           "required": {
@@ -8103,7 +8103,7 @@
           }
         },
         {
-          "id": "14.55:1299724adad19d120733d5e3f2c9",
+          "id": "14.55:1299724adad19:120733d5e3f2c9",
           "name": "peaceful",
           "type": "File",
           "required": {
@@ -8118,7 +8118,7 @@
           }
         },
         {
-          "id": "45.eb:4da544ed952faaa0d4f48184d012",
+          "id": "45.eb:4da544ed952fa:a0d4f48184d012",
           "name": "powertools_easy_recipes",
           "type": "File",
           "required": {
@@ -8133,7 +8133,7 @@
           }
         },
         {
-          "id": "4f.2a:2413e194acb7149aaf825f09d5d5",
+          "id": "4f.2a:2413e194acb71:9aaf825f09d5d5",
           "name": "recipes",
           "type": "File",
           "required": {
@@ -8148,7 +8148,7 @@
           }
         },
         {
-          "id": "2f.b4:ad778fabcaa2f60aa0fbeb3c41be",
+          "id": "2f.b4:ad778fabcaa2f:0aa0fbeb3c41be",
           "name": "sagmill_dupe_recipe_patches",
           "type": "File",
           "required": {
@@ -8163,7 +8163,7 @@
           }
         },
         {
-          "id": "4f.2a:2413e194acb7149aaf825f09d5d5",
+          "id": "4f.2a:2413e194acb71:9aaf825f09d5d5",
           "name": "recipes",
           "type": "File",
           "required": {
@@ -8178,7 +8178,7 @@
           }
         },
         {
-          "id": "c1.db:36c6fa29fade8bed994d73184fb9",
+          "id": "c1.db:36c6fa29fade8:ed994d73184fb9",
           "name": "user_recipes",
           "type": "File",
           "required": {
@@ -8193,7 +8193,7 @@
           }
         },
         {
-          "id": "a2.d1:e62024480f3cce0a73a2c1748fad",
+          "id": "a2.d1:e62024480f3cc:0a73a2c1748fad",
           "name": "main",
           "type": "File",
           "required": {
@@ -8208,7 +8208,7 @@
           }
         },
         {
-          "id": "c9.7e:083da4e0988f495c7371e4b7457b",
+          "id": "c9.7e:083da4e0988f4:5c7371e4b7457b",
           "name": "ender_simple",
           "type": "File",
           "required": {
@@ -8223,7 +8223,7 @@
           }
         },
         {
-          "id": "1b.f0:eb9347e7f1a79fe836683241ff2d",
+          "id": "1b.f0:eb9347e7f1a79:e836683241ff2d",
           "name": "fuels",
           "type": "File",
           "required": {
@@ -8238,7 +8238,22 @@
           }
         },
         {
-          "id": "1e.73:7b114b450b99a2dc7b155c436872",
+          "id": "17.1c:10919231e6034:a6638b298458cf",
+          "name": "fuels",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 236,
+            "path": "config/simplegenerators/generators/geothermal/fuels.json",
+            "MD5": "1710919231e6034da6638b298458cf1c",
+            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/geothermal/fuels.json"
+          }
+        },
+        {
+          "id": "1e.73:7b114b450b99a:dc7b155c436872",
           "name": "nether_simple",
           "type": "File",
           "required": {
@@ -8253,7 +8268,7 @@
           }
         },
         {
-          "id": "cd.ed:f0661b20b22bf151ec6eb1cb4e64",
+          "id": "cd.ed:f0661b20b22bf:51ec6eb1cb4e64",
           "name": "fuels",
           "type": "File",
           "required": {
@@ -8268,7 +8283,7 @@
           }
         },
         {
-          "id": "6b.78:11b4cb1a70a328e48a5130f4b58a",
+          "id": "6b.78:11b4cb1a70a32:e48a5130f4b58a",
           "name": "fuels",
           "type": "File",
           "required": {
@@ -8280,21 +8295,6 @@
             "path": "config/simplegenerators/generators/turbine/fuels.json",
             "MD5": "6b11b4cb1a70a328e48a5130f4b58a78",
             "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/turbine/fuels.json"
-          }
-        },
-        {
-          "id": "17.1c:10919231e6034da6638b298458cf",
-          "name": "fuels",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 236,
-            "path": "config/simplegenerators/generators/geothermal/fuels.json",
-            "MD5": "1710919231e6034da6638b298458cf1c",
-            "url": "https://github.com/resist-network/mod-pack/raw/master/config/simplegenerators/generators/geothermal/fuels.json"
           }
         }
       ]
