@@ -1,6 +1,6 @@
 const path = require('path')
 const fs = require('fs-extra')
-const execSync = require('child_process').execSync
+const exec = require('child_process')
 const dir = require('node-dir')
 const packFolder = '../mod-pack/'
 const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
@@ -52,7 +52,6 @@ dir.files(packFolder,function(err, files){
 		}
 	})
  	allJSON = allJSON.slice(0, -1).toString()
-	execSync('jsonlint -i app/assets/distribution.json')
 	fs.appendFile('app/assets/distribution.json',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
 		if (err) throw err
 		fs.readFile('app/assets/distribution.json','utf8',function(err,data){
@@ -63,6 +62,8 @@ dir.files(packFolder,function(err, files){
 			fs.write('app/assets/distribution.json',result,'utf8',function(err){
 				if (err){
 					console.log('ERROR: '+err)
+				}else{
+					exec('jsonlint -i app/assets/distribution.json')
 				}
 			})
 		})
