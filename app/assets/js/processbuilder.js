@@ -183,7 +183,7 @@ class ProcessBuilder {
      */
     constructModList(type, mods, save = false){
         const modList = {
-            repositoryRoot: path.join(this.commonDir, 'modstore')
+            repositoryRoot: 'absolute:'+path.join(this.commonDir, 'modstore')
         }
 
         const ids = []
