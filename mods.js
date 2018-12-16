@@ -62,11 +62,9 @@ dir.files(packFolder,function(err, files){
 			fs.write('app/assets/distribution.json',result,'utf8',function(err){
 				if (err){
 					console.log('ERROR: '+err)
-				}else{
-					execSync('jsonlint -i app/assets/distribution.json')
-					console.log('Linted new distribution.json!')
 				}
 			})
 		})
 	})
 })
+execSync('jsonlint -i app/assets/distribution.json')
