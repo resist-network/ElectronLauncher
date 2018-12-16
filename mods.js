@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs-extra')
 const exec = require('child_process')
+const execSync = require('child_process').execSync
 const dir = require('node-dir')
 const packFolder = '../mod-pack/'
 const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
