@@ -65,8 +65,8 @@ dir.files(packFolder,function(err, files){
 				}else{
 				}
 			})
-					execSync('jsonlint -i app/assets/distribution.json')
-					console.log('Linted new distribution.json!')
 		})
 	})
+					execSync('jsonlint -i app/assets/distribution.json')
+					console.log('Linted new distribution.json!')
 })
