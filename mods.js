@@ -5,7 +5,8 @@ const dir = require('node-dir')
 const packFolder = '../mod-pack/'
 const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
 const mcVersion = '1.12.2'
-function getFilesizeInBytes(filename) {
+fs.removeSync('app/assets/distribution.json')
+function getFilesizeInBytes(filename){
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
 	return fileSizeInBytes
@@ -13,15 +14,13 @@ function getFilesizeInBytes(filename) {
 console.log('Scanning and creating JSON modlist file, please wait...')
 var allJSON = ''
 var thisJSON = ''
-fs.createReadStream('app/assets/distribution-'+mcVersion+'.json').pipe(fs.createWriteStream('app/assets/distribution.json.raw'));
-dir.files(packFolder, function(err, files) {
+fs.createReadStream('app/assets/distribution-'+mcVersion+'.json').pipe(fs.createWriteStream('app/assets/distribution.json.raw'))
+dir.files(packFolder,function(err, files){
 	if (err) throw err
-	files.forEach(function(file) {
+	files.forEach(function(file){
 		var fileName = path.basename(file)
 		var pathSearch = file.toString()
-		if(pathSearch.indexOf('config\\') > 0 ||
-			pathSearch.indexOf('mods\\') > 0 ||
-			pathSearch.indexOf('mods-optional\\') > 0) {
+		if(pathSearch.indexOf('config\\') > 0 || pathSearch.indexOf('mods\\') > 0 || pathSearch.indexOf('mods-optional\\') > 0){
 			var fileName = fileName.split('.').slice(0, -1).join('.')
 			var fileExtension = path.extname(file).slice(1)
 			var target_name = fileName
@@ -29,29 +28,28 @@ dir.files(packFolder, function(err, files) {
 			var target_size = getFilesizeInBytes(file)
 			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
 			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')
-			var target_url = downloadCDN+'/'+file.toString().replace(/..\/wa-mod-pack\//g,'')
-			var target_path = file.replace('mods','mods-required').replace('mods-optional','mods').toString().replace(/..\/wa-mod-pack\//g,'/')
+			var target_url = downloadCDN+'/'+file.toString().replace(/..\\mod-pack\\/g,'')
+			var target_path = file.replace('mods','mods-required').replace('mods-optional','mods').toString().replace(/..\\mod-pack\\/g,'')
 			console.log(target_path)
-			var target_id = target_size+'.'+target_size+':'+target_md5
+			var target_id = target_md5.substring(0,2)+'.'+target_md5.substring(30,32)+':'+target_md5.substring(2,30)
 			var thisJSON = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t"value": false,\r\n\t\t\t\t"def": true\r\n\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t}\r\n\t\t},'
 			allJSON += thisJSON.toString()
 		}
 	})
  	allJSON = allJSON.slice(0, -1).toString()
-	fs.appendFile('app/assets/distribution.json.raw', allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}', function (err) {
+	fs.appendFile('app/assets/distribution.json.raw',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
 		if (err) throw err
-		var fs = require('fs')
-		fs.readFile('app/assets/distribution.json.raw', 'utf8', function (err,data) {
-			if (err) {
+		fs.readFile('app/assets/distribution.json.raw','utf8',function(err,data){
+			if(err){
 				return console.log(err)
 			}
-			var result = data.replace(/RESIST_CDN/g, downloadCDN)
-
-			fs.writeFile('app/assets/distribution.json.raw', result, 'utf8', function (err) {
+			var result = data.replace(/RESIST_CDN/g,downloadCDN)
+			fs.writeFile('app/assets/distribution.json.raw',result,'utf8',function(err){
 				if (err) return console.log(err)
-				console.log('Wrote new raw distribution.json!');
-				execSync('jsonlint app/assets/distribution.json.raw >> app/assets/distribution.json');
-				console.log('Linted new distribution.json!');
+				console.log('Wrote new raw distribution.json!')
+				execSync('jsonlint app/assets/distribution.json.raw >> app/assets/distribution.json')
+				fs.removeSync('app/assets/distribution.json.raw')
+				console.log('Linted new distribution.json!')
 			})
 		})
 	})
