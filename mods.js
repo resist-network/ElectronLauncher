@@ -60,10 +60,13 @@ dir.files(packFolder,function(err, files){
 			}
 			var result = data.replace(/RESIST_CDN/g,downloadCDN)
 			fs.writeFile('app/assets/distribution.json',result,'utf8',function(err){
-				if (err) return console.log(err)
-				console.log('Wrote new raw distribution.json!')
-				execSync('jsonlint -r app/assets/distribution.json')
-				console.log('Linted new distribution.json!')
+				if (err){
+					console.log('ERROR: '+err)
+				}else{
+					console.log('Wrote new raw distribution.json!')
+					execSync('jsonlint -r app/assets/distribution.json')
+					console.log('Linted new distribution.json!')
+				}
 			})
 		})
 	})
