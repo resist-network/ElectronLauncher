@@ -1,7 +1,7 @@
 # resist-launcher
 
 # credits
-Daniel Scalzi, [WesterosCraft][westeroscraft], [GitHub][westeroscraftgithub], [Launcher][westeroscraftgithublauncher]
+Daniel Scalzi: [WesterosCraft][westeroscraft] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
 
 
 [westeroscraft]: https://westeroscraft.com/ 'WesterosCraft.com'
