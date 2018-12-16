@@ -52,6 +52,7 @@ dir.files(packFolder,function(err, files){
 		}
 	})
  	allJSON = allJSON.slice(0, -1).toString()
+	execSync('jsonlint -i app/assets/distribution.json')
 	fs.appendFile('app/assets/distribution.json',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
 		if (err) throw err
 		fs.readFile('app/assets/distribution.json','utf8',function(err,data){
@@ -66,5 +67,4 @@ dir.files(packFolder,function(err, files){
 			})
 		})
 	})
-execSync('jsonlint -i app/assets/distribution.json')
 })
