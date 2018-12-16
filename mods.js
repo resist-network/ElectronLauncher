@@ -1,22 +1,15 @@
 const path = require('path')
-const fs = require('fs')
-const fse = require('fs-extra')
+const fs = require('fs-extra')
 const execSync = require('child_process').execSync
 const dir = require('node-dir')
-const execSync = require('child_process').execSync;
-
 const packFolder = '../mod-pack/'
-
-const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'	
-
+const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
 const mcVersion = '1.12.2'
-
 function getFilesizeInBytes(filename) {
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
 	return fileSizeInBytes
 }
-
 console.log('Scanning and creating JSON modlist file, please wait...')
 var allJSON = ''
 var thisJSON = ''
@@ -26,8 +19,8 @@ dir.files(packFolder, function(err, files) {
 	files.forEach(function(file) {
 		var fileName = path.basename(file)
 		var pathSearch = file.toString()
-		if(pathSearch.indexOf('config\\') > 0 || 
-			pathSearch.indexOf('mods\\') > 0 || 
+		if(pathSearch.indexOf('config\\') > 0 ||
+			pathSearch.indexOf('mods\\') > 0 ||
 			pathSearch.indexOf('mods-optional\\') > 0) {
 			var fileName = fileName.split('.').slice(0, -1).join('.')
 			var fileExtension = path.extname(file).slice(1)
@@ -38,12 +31,10 @@ dir.files(packFolder, function(err, files) {
 			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')
 			var target_url = downloadCDN+'/'+file.toString().replace(/..\/wa-mod-pack\//g,'')
 			var target_path = file.replace('mods','mods-required').replace('mods-optional','mods').toString().replace(/..\/wa-mod-pack\//g,'/')
-			console.log(target_path)		
+			console.log(target_path)
 			var target_id = target_size+'.'+target_size+':'+target_md5
 			var thisJSON = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t"value": false,\r\n\t\t\t\t"def": true\r\n\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t}\r\n\t\t},'
 			allJSON += thisJSON.toString()
-		} else {
-			console.log('Doesn\'t need included...')
 		}
 	})
  	allJSON = allJSON.slice(0, -1).toString()
@@ -59,7 +50,7 @@ dir.files(packFolder, function(err, files) {
 			fs.writeFile('app/assets/distribution.json.raw', result, 'utf8', function (err) {
 				if (err) return console.log(err)
 				console.log('Wrote new raw distribution.json!');
-				var cmd = execSync('jsonlint app/assets/distribution.json.raw >> app/assets/distribution.json');
+				execSync('jsonlint app/assets/distribution.json.raw >> app/assets/distribution.json');
 				console.log('Linted new distribution.json!');
 			})
 		})
