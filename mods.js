@@ -64,7 +64,7 @@ dir.files(packFolder,function(err, files){
 				if (err){
 					console.log('ERROR: '+err)
 				}else{
-					exec('jsonlint -i app/assets/distribution.json')
+					execSync('jsonlint -i app/assets/distribution.json')
 				}
 			})
 		})
