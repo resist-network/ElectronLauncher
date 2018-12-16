@@ -14,8 +14,7 @@ function getFilesizeInBytes(filename){
 console.log('Scanning and creating JSON modlist file, please wait...')
 var allJSON = ''
 var thisJSON = ''
-var output = ''
-fs.createReadStream('app/assets/distribution-'+mcVersion+'.json').pipe(fs.createWriteStream('app/assets/distribution.json.raw'))
+fs.createReadStream('app/assets/distribution-'+mcVersion+'.json').pipe(fs.createWriteStream('app/assets/distribution.json'))
 dir.files(packFolder,function(err, files){
 	if (err) throw err
 	files.forEach(function(file){
@@ -53,18 +52,17 @@ dir.files(packFolder,function(err, files){
 		}
 	})
  	allJSON = allJSON.slice(0, -1).toString()
-	fs.appendFile('app/assets/distribution.json.raw',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
+	fs.appendFile('app/assets/distribution.json',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
 		if (err) throw err
-		fs.readFile('app/assets/distribution.json.raw','utf8',function(err,data){
+		fs.readFile('app/assets/distribution.json','utf8',function(err,data){
 			if(err){
 				return console.log(err)
 			}
 			var result = data.replace(/RESIST_CDN/g,downloadCDN)
-			fs.writeFile('app/assets/distribution.json.raw',result,'utf8',function(err){
+			fs.writeFile('app/assets/distribution.json',result,'utf8',function(err){
 				if (err) return console.log(err)
 				console.log('Wrote new raw distribution.json!')
-				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json', output)
-				fs.removeSync('app/assets/distribution.json.raw')
+				execSync('jsonlint -r app/assets/distribution.json')
 				console.log('Linted new distribution.json!')
 			})
 		})
