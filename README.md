@@ -1,10 +1,17 @@
 # launcher-pack
 Resist.Network Launcher Pack
 
+# credits
+Resist.Network Team: [Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
+
 # original author
-Daniel Scalzi: [WesterosCraft][westeroscraft] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
+Daniel Scalzi: [WesterosCraft][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
 
 
-[westeroscraft]: https://www.westeroscraft.com/ 'WesterosCraft.com'
+[westeroscraftweb]: https://www.westeroscraft.com/
 [westeroscraftgithub]: https://github.com/WesterosCraftCode
 [westeroscraftgithublauncher]: https://github.com/WesterosCraftCode/ElectronLauncher
+
+[resistweb]: https://resist.network/
+[resistgithub]: https://github.com/resist-network
+[resistgithublauncher]: https://github.com/resist-network/launcher-pack
