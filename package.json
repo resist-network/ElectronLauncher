@@ -34,6 +34,7 @@
     "fs-extra": "^7.0.1",
     "github-syntax-dark": "^0.5.0",
     "jquery": "^3.3.1",
+    "json-lint": "^0.1.0",
     "node-dir": "^0.1.17",
     "request": "^2.88.0",
     "semver": "^5.6.0",
