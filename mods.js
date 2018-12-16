@@ -66,5 +66,5 @@ dir.files(packFolder,function(err, files){
 			})
 		})
 	})
-execSync('jsonlint -i app/assets/distribution.json')
+exec('jsonlint -i app/assets/distribution.json')
 })
