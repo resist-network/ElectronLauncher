@@ -64,7 +64,7 @@ dir.files(packFolder,function(err, files){
 					console.log('ERROR: '+err)
 				}else{
 					console.log('Wrote new raw distribution.json!')
-					execSync('jsonlint -i app/assets/distribution.json')
+					exec('jsonlint -i app/assets/distribution.json')
 					console.log('Linted new distribution.json!')
 				}
 			})
