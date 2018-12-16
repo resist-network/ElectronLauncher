@@ -62,7 +62,7 @@ dir.files(packFolder,function(err, files){
 			fs.writeFile('app/assets/distribution.json.raw',result,'utf8',function(err){
 				if (err) return console.log(err)
 				console.log('Wrote new raw distribution.json!')
-				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json')
+				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json > /dev/null 2>&1')
 				fs.removeSync('app/assets/distribution.json.raw')
 				console.log('Linted new distribution.json!')
 			})
