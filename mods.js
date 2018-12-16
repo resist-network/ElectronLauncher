@@ -31,8 +31,7 @@ dir.files(packFolder,function(err, files){
 			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')
 			var target_url = downloadCDN+'/'+file.toString().replace(/..\\mod-pack\\/g,'')
 			var target_path = file.replace('mods','mods-required').replace('mods-optional','mods').toString().replace(/..\\mod-pack\\/g,'')
-			output = '.'
-			//console.log(target_path)
+			console.log(target_path)
 			var target_id = target_md5.substring(0,2)+'.'+target_md5.substring(30,32)+':'+target_md5.substring(2,30)
 			var thisJSON = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t"value": false,\r\n\t\t\t\t"def": true\r\n\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t}\r\n\t\t},'
 			allJSON += thisJSON.toString()
@@ -47,14 +46,12 @@ dir.files(packFolder,function(err, files){
 			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')
 			var target_url = downloadCDN+'/'+file.toString().replace(/..\\mod-pack\\/g,'')
 			var target_path = file.replace('mods','mods-required').replace('mods-optional','mods').toString().replace(/..\\mod-pack\\/g,'')
-			output = '.'
-			//console.log(target_path)
+			console.log(target_path)
 			var target_id = target_md5.substring(0,2)+'.'+target_md5.substring(30,32)+':'+target_md5.substring(2,30)
 			var thisJSON = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t"value": false,\r\n\t\t\t\t"def": true\r\n\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t}\r\n\t\t},'
 			allJSON += thisJSON.toString()
 		}
 	})
-	console.log(output)
  	allJSON = allJSON.slice(0, -1).toString()
 	fs.appendFile('app/assets/distribution.json.raw',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
 		if (err) throw err
@@ -66,7 +63,7 @@ dir.files(packFolder,function(err, files){
 			fs.writeFile('app/assets/distribution.json.raw',result,'utf8',function(err){
 				if (err) return console.log(err)
 				console.log('Wrote new raw distribution.json!')
-				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json > /dev/null 2>&1')
+				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json', output)
 				fs.removeSync('app/assets/distribution.json.raw')
 				console.log('Linted new distribution.json!')
 			})
