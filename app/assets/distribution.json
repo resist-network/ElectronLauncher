@@ -14,7 +14,7 @@
       "id": "Resist.Network",
       "name": "Resist.Network",
       "description": "Want to play a game?",
-      "icon": "RESIST_CDN/pack.ico",
+      "icon": "https://github.com/resist-network/mod-pack/raw/master/pack.ico",
       "version": "1.0.0",
       "address": "game.resist.network",
       "minecraftVersion": "1.12.2",
@@ -33,7 +33,7 @@
           "artifact": {
             "size": 4450992,
             "MD5": "761de9c6f5ad7d5b1b29552266c85169",
-            "url": "RESIST_CDN/libraries/forge-1.12.2-14.23.5.2768-universal.jar"
+            "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/forge-1.12.2-14.23.5.2768-universal.jar"
           },
           "subModules": [
             {

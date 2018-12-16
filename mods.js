@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs-extra')
 const exec = require('child_process')
-const execSync = require('child_process').execSync()
+const execSync = require('child_process').execSync
 const dir = require('node-dir')
 const packFolder = '../mod-pack/'
 const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
@@ -61,7 +61,7 @@ dir.files(packFolder,function(err, files){
 			}
 			var result = data.replace(/RESIST_CDN/g,downloadCDN)
 			fs.writeFile('app/assets/distribution.json',result,'utf8',function(err){
-				if (err){
+				if(err){
 					console.log('ERROR: '+err)
 				}
 			})
