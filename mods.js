@@ -39,7 +39,7 @@ dir.files(packFolder,function(err, files){
 			var fileName = fileName.split('.').slice(0, -1).join('.')
 			var fileExtension = path.extname(file).slice(1)
 			var target_name = fileName
-			var target_type = 'Forge'
+			var target_type = 'ForgeMod'
 			var target_size = getFilesizeInBytes(file)
 			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
 			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')
@@ -62,7 +62,7 @@ dir.files(packFolder,function(err, files){
 			fs.writeFile('app/assets/distribution.json.raw',result,'utf8',function(err){
 				if (err) return console.log(err)
 				console.log('Wrote new raw distribution.json!')
-				execSync('jsonlint app/assets/distribution.json.raw >> app/assets/distribution.json')
+				execSync('jsonlint app/assets/distribution.json.raw > app/assets/distribution.json')
 				fs.removeSync('app/assets/distribution.json.raw')
 				console.log('Linted new distribution.json!')
 			})
