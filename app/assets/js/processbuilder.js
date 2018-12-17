@@ -195,7 +195,7 @@ class ProcessBuilder {
             for(let mod of mods){
                 ids.push(mod.getExtensionlessID())
 				//START Resist.Network
-				var targetPath = path.join(mod.getPath().toString().replace('mods-required','mods'))
+				var targetPath = path.join(mod.getPath().toString().replace('modstore','mods'))
 				var sourcePath = path.join(mod.getPath())
 				//Required Mods
 				fse.copySync(sourcePath, targetPath);
@@ -206,7 +206,7 @@ class ProcessBuilder {
             for(let mod of mods){
                 ids.push(mod.getExtensionlessID() + '@' + mod.getExtension())
 				//START Resist.Network
-				var targetPath = mod.getPath().toString().replace('mods-required','mods')
+				var targetPath = mod.getPath().toString().replace('modstore','mods')
 				var sourcePath = mod.getPath()
 				fse.copySync(sourcePath, targetPath);
 				requiredFiles.push(mod.getPath())
@@ -243,7 +243,7 @@ class ProcessBuilder {
             this.forgeData.mainClass]
 
         if(process.platform === 'darwin'){
-            args.unshift('-Xdock:name=Resist.Network')
+            args.unshift('-Xdock:name=WorldAutomation')
             args.unshift('-Xdock:icon=' + path.join(__dirname, '..', 'images', 'minecraft.icns'))
         }
 

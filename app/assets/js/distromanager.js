@@ -184,7 +184,7 @@ class Module {
                 break
             case exports.Types.ForgeMod:
             case exports.Types.LiteMod:
-                this.artifact.path = path.join(ConfigManager.getCommonDirectory(), 'modstore', pth)
+                this.artifact.path = path.join(ConfigManager.getInstanceDirectory(), serverid, `${this.getPath()}`)
                 break
             case exports.Types.File:
             default:
@@ -294,7 +294,13 @@ class Module {
     getType(){
         return this.type
     }
-
+	
+    /**
+     * @returns {string} The type of the module.
+     */
+    getPath(){
+        return this.artifact.path
+    }
 }
 exports.Module
 
@@ -525,9 +531,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-		const distroURL = 'https://raw.githubusercontent.com/resist-network/launcher-pack/master/app/assets/distribution.json'
-        //const distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-        //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
+        const distroURL = 'https://raw.githubusercontent.com/resist-network/launcher-pack/master/app/assets/distribution.json'
         const opts = {
             url: distroURL,
             timeout: 2500
