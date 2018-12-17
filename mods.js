@@ -19,7 +19,7 @@ var thisJSONrequired = '\t\t\t\t'
 var allJSONoptional = ''
 var thisJSONoptional = '\t\t\t\t'
 fs.createReadStream(__dirname+'/distribution-template.json').pipe(fs.createWriteStream('distribution.json'))
-dir.files('../WA-Mod-Pack', function(err, files) {
+dir.files('../mod-pack', function(err, files) {
 	files.forEach(function(file) {
 		var modFile = path.basename(file)
 		var pathSearch = file.toString()
@@ -107,7 +107,7 @@ dir.files('../WA-Mod-Pack', function(err, files) {
 			allJSON = allJSONrequired+','+allJSONoptional+']\r\n\t\t}]\r\n}'
 		}
 	}
-	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/WA-Mod-Pack/g,'')+'', function (err) {
+	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/mod-pack/g,'')+'', function (err) {
 		if (err) throw err
 		var fs = require('fs')
 		fs.readFile('distribution.json', 'utf8', function (err,data) {
