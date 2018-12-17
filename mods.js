@@ -89,7 +89,7 @@ dir.files('../mod-pack', function(err, files) {
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
 			var target_name = fileName
-			console.log(file)
+			console.log(target_url)
 			var ext = path.extname(file)
 			var target_path = file.toString().replace(/\\/g, '/').replace('/config','')
 			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t\t}\r\n\t\t\t},'
