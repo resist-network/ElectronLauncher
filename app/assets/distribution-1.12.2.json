@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "discord": {
         "clientId": "523843480686952480",
         "smallImageText": "Resist.Network",
@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.ico",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "address": "game.resist.network",
             "minecraftVersion": "1.12.2",
             "discord": {
