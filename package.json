@@ -1,5 +1,5 @@
 {
-  "name": "Resist.Network Launcher",
+  "name": "resistnetworklauncher",
   "version": "2.0.0",
   "productName": "Resist.Network Launcher",
   "description": "Modded Minecraft Launcher for Resist.Network",
@@ -54,7 +54,7 @@
     "url": "git+https://github.com/resist-network/launcher-pack.git"
   },
   "build": {
-    "appId": "Resist.Network Installer",
+    "appId": "resistnetworkinstaller",
     "productName": "Resist.Network Installer",
     "artifactName": "${productName}.${ext}",
     "copyright": "Copyright © 2018 Resist.Network",
