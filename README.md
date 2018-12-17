@@ -1,7 +1,7 @@
-<p align="center">![](https://resist.network/images/128x128.png)</p>
+![](https://resist.network/images/128x128.png)
 <h1 align="center">launcher-pack</h1>
 Resist.Network Launcher Pack
-<p align="center">![Resist.Network Launcher Screenshot](https://i.imgur.com/Wpk2eS7.png)</p>
+<img align="center" src="https://i.imgur.com/Wpk2eS7.png">
 
 <h1 align="center">modification credits</h1>
 <p align="center">Resist.Network Team: [Resist.Network Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]</p>
