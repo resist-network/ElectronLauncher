@@ -1059,31 +1059,27 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://www.worldautomation.net/categories/launcher/feed/atom/',
-        complete: (data) => {
-	    //alert(data.responseText[0])
-            //console.log('TEST')
-            const version='v' + remote.app.getVersion()
-            const entries=$($.parseXML(data.responseText.replace(';ssl=1',''))).find('entry')
-            //console.log('ENTRIES: '+entries)            
+        url: 'https://github.com/resist-network/launcher-pack/releases.atom',
+        success: (data) => {
+            const version = 'v' + remote.app.getVersion()
+            const entries = $(data).find('entry')
+
             for(let i=0; i<entries.length; i++){
-                const entry=$(entries[i])
-             	//console.log('ENTRY: '+entry)
-				let id=entry.find('title').text()
-                //id=id.substring(id.lastIndexOf('/')+1)
-		
-                if(version.indexOf(id)){
-                    settingsAboutChangelogTitle.innerHTML=entry.find('title').text()
-                    settingsAboutChangelogText.innerHTML=entry.find('content').text()
-                    settingsAboutChangelogButton.href=entry.find('link').attr('href')
+                const entry = $(entries[i])
+                let id = entry.find('id').text()
+                id = id.substring(id.lastIndexOf('/')+1)
+
+                if(id === version){
+                    settingsAboutChangelogTitle.innerHTML = entry.find('title').text()
+                    settingsAboutChangelogText.innerHTML = entry.find('content').text()
+                    settingsAboutChangelogButton.href = entry.find('link').attr('href')
                 }
             }
 
         },
-        timeout: 5000
+        timeout: 2500
     }).catch(err => {
-	console.log(err)
-        settingsAboutChangelogText.innerHTML='Failed to load release notes.'
+        settingsAboutChangelogText.innerHTML = 'Failed to load release notes.'
     })
 }
 
