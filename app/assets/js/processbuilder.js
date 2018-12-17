@@ -243,7 +243,7 @@ class ProcessBuilder {
             this.forgeData.mainClass]
 
         if(process.platform === 'darwin'){
-            args.unshift('-Xdock:name=WorldAutomation')
+            args.unshift('-Xdock:name=Resist.Network')
             args.unshift('-Xdock:icon=' + path.join(__dirname, '..', 'images', 'minecraft.icns'))
         }
 
