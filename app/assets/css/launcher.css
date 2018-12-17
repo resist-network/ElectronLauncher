@@ -3433,7 +3433,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Server listing image. */
 .serverListingImg {
     margin: 0px 10px 0px 5px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     height: 50px;
     width: 50px;
 }
