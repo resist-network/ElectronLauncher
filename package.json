@@ -55,8 +55,8 @@
   },
   "build": {
     "appId": "resistnetworkinstaller",
-    "productName": "Resist.Network Installer",
-    "artifactName": "${productName}.${ext}",
+    "productName": "Resist.Network",
+    "artifactName": "${productName} Installer.${ext}",
     "copyright": "Copyright © 2018 Resist.Network",
     "directories": {
       "buildResources": "build",
