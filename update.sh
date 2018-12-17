@@ -1,8 +1,9 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-version=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk -F "\"*:\"*" '{print $2}' | sed 's/"//g' |sed 's/\,//g' | sed 's/ //g')
-echo "Old Distribution Version: "$version
+oldVersion=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk -F "\"*:\"*" '{print $2}' | sed 's/"//g' |sed 's/\,//g' | sed 's/ //g')
+newVersion=$((oldVersion + 1))
+echo "Old Distribution Version: "$oldVersion
 node mods.js;
 jsonlint -i app/assets/distribution.json
-echo "New Distribution Version: "$version
+echo "New Distribution Version: "$newVersion
 bash push.sh;
