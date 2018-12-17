@@ -1,5 +1,5 @@
 ![](https://resist.network/images/128x128.png)
-<p style="text-align:center;"># launcher-pack</p>
+<center># launcher-pack</center>
 Resist.Network Launcher Pack
 ![Resist.Network Launcher Screenshot](https://i.imgur.com/Wpk2eS7.png)
 
