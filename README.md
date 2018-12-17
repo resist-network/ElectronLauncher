@@ -1,4 +1,4 @@
-<img align="center" src="https://resist.network/images/128x128.png">
+<p align="center"><img align="center" src="https://resist.network/images/128x128.png"></p>
 <h1 align="center">launcher-pack</h1>
 Resist.Network Launcher Pack
 <img align="center" src="https://i.imgur.com/Wpk2eS7.png">
