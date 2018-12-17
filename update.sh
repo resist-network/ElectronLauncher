@@ -10,5 +10,6 @@ echo "Old Minor Distribution Version: "$oldAllParts
 node mods.js;
 jsonlint -i app/assets/distribution.json
 sed -i "s/$oldAllParts.*address/$newAllParts/g" app/assets/distribution.json
+sed -i "s/$oldAllParts.*address/$newAllParts/g" app/assets/distribution-template.json
 echo "New Major Distribution Version: "$newAllParts
 bash push.sh;
