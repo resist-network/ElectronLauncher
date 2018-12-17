@@ -489,7 +489,7 @@ body, button {
 /* Logo on login form. */
 #loginImageSeal {
     border-radius: 50%;
-    border: 2px solid #cad7e1;
+    /*border: 2px solid #cad7e1;*/
     background: rgba(1, 2, 1, 0.5);
     height: 125px;
     width: 125px;
