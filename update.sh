@@ -9,6 +9,6 @@ newAllParts="$oldFirstPart.$oldSecondPart.$newThirdPart"
 echo "Old Minor Distribution Version: "$oldAllParts
 node mods.js;
 jsonlint -i app/assets/distribution.json
-sed -i 's/$oldAllParts/$newAllParts/g' app/assets/distribution.json
+sed -i "s/$oldAllParts/$newAllParts/g" app/assets/distribution.json
 echo "New Major Distribution Version: "$newAllParts
 bash push.sh;
