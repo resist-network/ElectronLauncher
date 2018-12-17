@@ -18,7 +18,7 @@ var allJSONrequired = ''
 var thisJSONrequired = '\t\t\t\t'
 var allJSONoptional = ''
 var thisJSONoptional = '\t\t\t\t'
-fs.createReadStream(__dirname+'app/assets/distribution-template.json').pipe(fs.createWriteStream('app/assets/distribution.json'))
+fs.createReadStream(__dirname+'/app/assets/distribution-template.json').pipe(fs.createWriteStream(__dirname+'/app/assets/distribution.json'))
 dir.files('../mod-pack', function(err, files) {
 	files.forEach(function(file) {
 		var modFile = path.basename(file)
