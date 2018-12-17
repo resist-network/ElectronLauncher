@@ -1,13 +1,13 @@
-![](https://resist.network/images/128x128.png)
-<h1 align="center"># launcher-pack</h1>
+<p align="center">![](https://resist.network/images/128x128.png)</p>
+<h1 align="center">launcher-pack</h1>
 Resist.Network Launcher Pack
-![Resist.Network Launcher Screenshot](https://i.imgur.com/Wpk2eS7.png)
+<p align="center">![Resist.Network Launcher Screenshot](https://i.imgur.com/Wpk2eS7.png)</p>
 
-# modification credits
-Resist.Network Team: [Resist.Network Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
+<h1 align="center">modification credits</h1>
+<p align="center">Resist.Network Team: [Resist.Network Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]</p>
 
-# original author
-Daniel Scalzi: [WesterosCraft Website][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
+<h1 align="center">original author</h1>
+<p align="center">Daniel Scalzi: [WesterosCraft Website][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]</p>
 
 
 [westeroscraftweb]: https://www.westeroscraft.com/
