@@ -35,7 +35,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_name = fileName
 			console.log(target_url)
 			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/').replace('/config','')
+			var target_path = file.toString().replace(/\\/g, '/').replace('/config','').replace(/mod-pack\//g,'')
 			var thisJSONoptional = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
 		} else if(pathSearch.indexOf('\\mods-optional\\') > 0) {
@@ -63,7 +63,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_name = fileName
 			console.log(target_url)
 			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/')
+			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/').replace(/mod-pack\//g,'')
 			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
 		} else if(pathSearch.indexOf('\\config\\') > 0) {
@@ -77,7 +77,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_name = fileName
 			console.log(target_url)
 			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/')
+			var target_path = file.toString().replace(/\\/g, '/').replace(/mod-pack\//g,'')
 			var thisJSONoptional = '{\r\n\t\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
 		} else if(pathSearch.indexOf('\\resources\\') > 0) {
@@ -91,7 +91,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_name = fileName
 			console.log(target_url)
 			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/').replace('/config','')
+			var target_path = file.toString().replace(/\\/g, '/').replace('/config','').replace(/mod-pack\//g,'')
 			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
 		}
