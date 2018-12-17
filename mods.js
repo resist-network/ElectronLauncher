@@ -9,10 +9,6 @@ function getFilesizeInBytes(filename) {
 	const fileSizeInBytes = stats.size
 	return fileSizeInBytes
 }
-if (!fs.existsSync('../config')){ fs.mkdirSync('config') }
-if (!fs.existsSync('../liteconfig')){ fs.mkdirSync('liteconfig') }
-if (!fs.existsSync('../mods')){ fs.mkdirSync('mods') }
-if (!fs.existsSync('../mods-optional')){ fs.mkdirSync('mods-optional') }
 console.log('Scanning and creating JSON modlist file, please wait...')
 var allJSONrequired = ''
 var thisJSONrequired = '\t\t\t\t'
