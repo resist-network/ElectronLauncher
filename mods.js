@@ -1,28 +1,29 @@
-const path = require('path')
-const fs = require('fs-extra')
-const exec = require('child_process')
-const execSync = require('child_process').execSync
-const dir = require('node-dir')
-const packFolder = '../mod-pack/'
-const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
-const mcVersion = '1.12.2'
+const path = require('path'),
+fs = require('fs'),
+execSync = require('child_process').execSync,
+dir = require('node-dir'),
 md5File = require('md5-file'),
-fs.removeSync('app/assets/distribution.json')
-function getFilesizeInBytes(filename){
+const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
+function getFilesizeInBytes(filename) {
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
 	return fileSizeInBytes
 }
+if (!fs.existsSync('config')){ fs.mkdirSync('config') }
+if (!fs.existsSync('liteconfig')){ fs.mkdirSync('liteconfig') }
+if (!fs.existsSync('mods')){ fs.mkdirSync('mods') }
+if (!fs.existsSync('mods-optional')){ fs.mkdirSync('mods-optional') }
 console.log('Scanning and creating JSON modlist file, please wait...')
-var allJSON = ''
-var thisJSON = ''
-fs.createReadStream('app/assets/distribution-'+mcVersion+'.json').pipe(fs.createWriteStream('app/assets/distribution.json'))
-dir.files(packFolder,function(err, files){
-	if (err) throw err
-	files.forEach(function(file){
-		var fileName = path.basename(file)
+var allJSONrequired = ''
+var thisJSONrequired = '\t\t\t\t'
+var allJSONoptional = ''
+var thisJSONoptional = '\t\t\t\t'
+fs.createReadStream(__dirname+'/distribution-template.json').pipe(fs.createWriteStream('distribution.json'))
+dir.files('../WA-Mod-Pack', function(err, files) {
+	files.forEach(function(file) {
 		var modFile = path.basename(file)
 		var pathSearch = file.toString()
+		//For now we do the libraries manually, but will eventually add them so they don't continually download due to hash mismatch!
 		 if(pathSearch.indexOf('\\liteconfig\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
@@ -45,7 +46,7 @@ dir.files(packFolder,function(err, files){
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.replace(/ /g,"%20")
 			console.log(fileName+' >> '+target_md5)
-			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
+			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
 			var target_name =fileName
 			console.log(file)
 			var target_path = 'mods-optional/'+fileName+ext
@@ -58,7 +59,7 @@ dir.files(packFolder,function(err, files){
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20")
 			console.log(fileName+' >> '+target_md5)
-			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
+			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
 			var target_name = fileName
 			console.log(file)
 			var ext = path.extname(file)
@@ -95,19 +96,30 @@ dir.files(packFolder,function(err, files){
 			allJSONoptional += thisJSONoptional.toString()
 		}
 	})
- 	allJSON = allJSON.slice(0, -1).toString()
-	fs.appendFile('app/assets/distribution.json',allJSON.replace(/\\/g, '/')+'\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}',function(err){
+	allJSONoptional = allJSONoptional.slice(0, -1).toString()
+	allJSONrequired = allJSONrequired.slice(0, -1).toString()
+	if(allJSONrequired == ''){
+	allJSON = allJSONoptional+']\r\n\t\t}]\r\n}'
+	} else {
+		if(allJSONoptional == ''){
+			allJSON = allJSONrequired+']\r\n\t\t}]\r\n}'
+		} else {
+			allJSON = allJSONrequired+','+allJSONoptional+']\r\n\t\t}]\r\n}'
+		}
+	}
+	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/WA-Mod-Pack/g,'')+'', function (err) {
 		if (err) throw err
-		fs.readFile('app/assets/distribution.json','utf8',function(err,data){
-			if(err){
+		var fs = require('fs')
+		fs.readFile('distribution.json', 'utf8', function (err,data) {
+			if (err) {
 				return console.log(err)
 			}
-			var result = data.replace(/RESIST_CDN/g,downloadCDN)
-			fs.writeFile('app/assets/distribution.json',result,'utf8',function(err){
-				if(err){
-					console.log('ERROR: '+err)
-				}
+			var result = data.replace(/RESIST_CDN/g, downloadCDN)
+
+			fs.writeFile('distribution.json', result, 'utf8', function (err) {
+				if (err) return console.log(err)
+				console.log('Wrote distribution.json to launcher repository!');
 			})
 		})
-	})
+	})	
 })
