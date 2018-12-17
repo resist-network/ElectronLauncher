@@ -20,6 +20,7 @@ dir.files(packFolder,function(err, files){
 	if (err) throw err
 	files.forEach(function(file){
 		var fileName = path.basename(file)
+		var modFile = path.basename(file)
 		var pathSearch = file.toString()
 		 if(pathSearch.indexOf('\\liteconfig\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
