@@ -29,7 +29,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.toString().replace(/ /g,"%20")
+			var target_url = downloadCDN+'///'+file.toString().replace(" ","%20")
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
 			var target_name = fileName
@@ -44,7 +44,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_size = getFilesizeInBytes(file)
 			var ext = path.extname(file)
 			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.replace(/ /g,"%20")
+			var target_url = downloadCDN+'///'+file.toString().replace(" ","%20")
 			console.log(fileName+' >> '+target_md5)
 			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
 			var target_name =fileName
@@ -57,7 +57,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_type = 'ForgeMod'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.toString().replace(/ /g,"%20")
+			var target_url = downloadCDN+'///'+file.toString().replace(" ","%20")
 			console.log(fileName+' >> '+target_md5)
 			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
 			var target_name = fileName
@@ -71,7 +71,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.toString().replace(/ /g,"%20")
+			var target_url = downloadCDN+'///'+file.toString().replace(" ","%20")
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
 			var target_name = fileName
@@ -85,7 +85,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.toString().replace(/ /g,"%20")
+			var target_url = downloadCDN+'///'+file.toString().replace(" ","%20")
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
 			var target_name = fileName
