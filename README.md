@@ -6,6 +6,6 @@
 <h1 align="center">modification credits</h1>
 <p align="center">Resist.Network Team: <a href="https://resist.network">Resist.Network Website</a> | <a href="https://github.com/resist-network">GitHub</a> | <a href="https://github.com/resist-network/launcher-pack">Launcher</a></p>
 
-<h1 align="center">original author</h1>
+<h1 align="center">original author credits</h1>
 <p align="center">Daniel Scalzi: <a href="https://www.westeroscraft.com/">WesterosCraft Website</a> | <a href="https://github.com/WesterosCraftCode">GitHub</a> | <a href="https://github.com/WesterosCraftCode/ElectronLauncher">Launcher</a></p>
 
