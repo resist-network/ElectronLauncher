@@ -107,16 +107,16 @@ dir.files('../mod-pack', function(err, files) {
 			allJSON = allJSONrequired+','+allJSONoptional+']\r\n\t\t}]\r\n}'
 		}
 	}
-	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/mod-pack/g,'')+'', function (err) {
+	fs.appendFile(__dirname+'/app/assets/distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/mod-pack/g,'')+'', function (err) {
 		if (err) throw err
 		var fs = require('fs')
-		fs.readFile('distribution.json', 'utf8', function (err,data) {
+		fs.readFile(__dirname+'/app/assets/distribution.json', 'utf8', function (err,data) {
 			if (err) {
 				return console.log(err)
 			}
 			var result = data.replace(/RESIST_CDN/g, downloadCDN)
 
-			fs.writeFile('distribution.json', result, 'utf8', function (err) {
+			fs.writeFile(__dirname+'/app/assets/distribution.json', result, 'utf8', function (err) {
 				if (err) return console.log(err)
 				console.log('Wrote distribution.json to launcher repository!');
 			})
