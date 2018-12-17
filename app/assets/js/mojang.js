@@ -19,7 +19,7 @@ const statuses = [
     {
         service: 'sessionserver.mojang.com',
         status: 'grey',
-        name: 'Multiplayer Session Service',
+        name: 'Session Service',
         essential: true
     },
     {
@@ -49,7 +49,7 @@ const statuses = [
     {
         service: 'account.mojang.com',
         status: 'grey',
-        name: 'Mojang Accounts Website',
+        name: 'Mojang Accounts',
         essential: false
     }
 ]
