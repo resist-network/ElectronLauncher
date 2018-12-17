@@ -22,7 +22,7 @@ exports.getAbsoluteMaxRAM = function(){
 
 function resolveMaxRAM(){
     const mem = os.totalmem()
-    return mem >= 8000000000 ? '4G' : (mem >= 6000000000 ? '3G' : '2G')
+    return mem >= 8000000000 ? '6G' : (mem >= 6000000000 ? '3G' : '2G')
 }
 
 function resolveMinRAM(){
@@ -49,8 +49,8 @@ const DEFAULT_CONFIG = {
             ],
         },
         game: {
-            resWidth: 1280,
-            resHeight: 720,
+            resWidth: 856,
+            resHeight: 482,
             fullscreen: false,
             autoConnect: true,
             launchDetached: true
