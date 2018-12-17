@@ -107,25 +107,25 @@
                 </div>
             </div>
             <div id="settingsModsContainer">
+                <div id="settingsDropinModsContainer">
+                    <div class="settingsModsHeader">Optional Mods</div>
+                    <button id="settingsDropinFileSystemButton">+ Add Mods <span id="settingsDropinRefreshNote">(F5 to Refresh)</span></button>
+                    <div id="settingsDropinModsContent">
+                        
+                    </div>
+                </div>
                 <div id="settingsReqModsContainer">
                     <div class="settingsModsHeader">Required Mods</div>
                     <div id="settingsReqModsContent">
 
                     </div>
                 </div>
-                <div id="settingsOptModsContainer">
-                    <div class="settingsModsHeader">Optional Mods</div>
+                <!--<div id="settingsOptModsContainer">
+                    <div class="settingsModsHeader">Required Mods</div>
                     <div id="settingsOptModsContent">
                         
                     </div>
-                </div>
-                <div id="settingsDropinModsContainer">
-                    <div class="settingsModsHeader">Drop-in Mods</div>
-                    <button id="settingsDropinFileSystemButton">+ Add Mods <span id="settingsDropinRefreshNote">(F5 to Refresh)</span></button>
-                    <div id="settingsDropinModsContent">
-                        
-                    </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div id="settingsTabJava" class="settingsTab" style="display: none;">
@@ -247,8 +247,8 @@
             <div id="settingsAboutCurrentContainer">
                 <div id="settingsAboutCurrentContent">
                     <div id="settingsAboutCurrentHeadline">
-                        <img id="settingsAboutLogo" src="./assets/images/WesterosSealSquare.png">
-                        <span id="settingsAboutTitle">WesterosCraft Launcher</span>
+                        <img id="settingsAboutLogo" src="./assets/images/256x256.png">
+                        <span id="settingsAboutTitle">Resist.Network Launcher</span>
                     </div>
                     <div id="settingsAboutCurrentVersion">
                         <div id="settingsAboutCurrentVersionCheck">&#10003;</div>
@@ -262,14 +262,13 @@
                     </div>
                 </div>
                 <div id="settingsAboutButtons">
-                    <a href="https://github.com/WesterosCraftCode/ElectronLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Source (GitHub)</a>
-                    <!-- The following must be included in third-party usage. -->
-                    <!-- <a href="https://github.com/WesterosCraftCode/ElectronLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Original Source</a> -->
-                    <a href="http://www.westeroscraft.com/forum/support.40/" id="settingsAboutSupportButton" class="settingsAboutButton">Support</a>
-                    <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton">DevTools Console</a>
+                    <a href="https://resist.network" id="settingsAboutSupportButton" class="settingsAboutButton">Website</a>
+					<a href="https://github.com/WesterosCraftCode/ElectronLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Original Source</a>
+                    <a href="https://discord.gg/VvtcH7h" id="settingsAboutSupportButton" class="settingsAboutButton">Discord</a>
+                    <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton">Developement Console</a>
                 </div>
             </div>
-            <div class="settingsChangelogContainer">
+            <!--<div class="settingsChangelogContainer">
                 <div class="settingsChangelogContent">
                     <div class="settingsChangelogHeadline">
                         <div class="settingsChangelogLabel">Release Notes</div>
@@ -280,9 +279,9 @@
                     </div>
                 </div>
                 <div class="settingsChangelogActions">
-                    <a class="settingsChangelogButton settingsAboutButton" href="#">View Release Notes on GitHub</a>
+                    <a class="settingsChangelogButton settingsAboutButton" href="#">View Full Release Notes on Resist.Network</a>
                 </div>
-            </div>
+            </div>-->
         </div>
         <div id="settingsTabUpdate" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
@@ -309,7 +308,7 @@
                     </div>
                 </div>
             </div>
-            <div class="settingsChangelogContainer">
+            <!--<div class="settingsChangelogContainer">
                 <div class="settingsChangelogContent">
                     <div class="settingsChangelogHeadline">
                         <div class="settingsChangelogLabel">What's New</div>
@@ -319,7 +318,7 @@
                         No Release Notes
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
     <script src="./assets/js/scripts/settings.js"></script>

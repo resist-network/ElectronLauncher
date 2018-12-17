@@ -1,11 +1,11 @@
 // Requirements
-const os     = require('os')
-const semver = require('semver')
+const os=require('os')
+const semver=require('semver')
 
-const { AssetGuard } = require('./assets/js/assetguard')
-const DropinModUtil  = require('./assets/js/dropinmodutil')
+const {AssetGuard}=require('./assets/js/assetguard')
+const DropinModUtil =require('./assets/js/dropinmodutil')
 
-const settingsState = {
+const settingsState={
     invalid: new Set()
 }
 
@@ -21,14 +21,14 @@ const settingsState = {
   * process. More complex UI may need to be bound separately.
   */
 function initSettingsValidators(){
-    const sEls = document.getElementById('settingsContainer').querySelectorAll('[cValue]')
+    const sEls=document.getElementById('settingsContainer').querySelectorAll('[cValue]')
     Array.from(sEls).map((v, index, arr) => {
-        const vFn = ConfigManager['validate' + v.getAttribute('cValue')]
+        const vFn=ConfigManager['validate' + v.getAttribute('cValue')]
         if(typeof vFn === 'function'){
             if(v.tagName === 'INPUT'){
                 if(v.type === 'number' || v.type === 'text'){
                     v.addEventListener('keyup', (e) => {
-                        const v = e.target
+                        const v=e.target
                         if(!vFn(v.value)){
                             settingsState.invalid.add(v.id)
                             v.setAttribute('error', '')
@@ -54,34 +54,34 @@ function initSettingsValidators(){
  * Load configuration values onto the UI. This is an automated process.
  */
 function initSettingsValues(){
-    const sEls = document.getElementById('settingsContainer').querySelectorAll('[cValue]')
+    const sEls=document.getElementById('settingsContainer').querySelectorAll('[cValue]')
     Array.from(sEls).map((v, index, arr) => {
-        const cVal = v.getAttribute('cValue')
-        const gFn = ConfigManager['get' + cVal]
+        const cVal=v.getAttribute('cValue')
+        const gFn=ConfigManager['get' + cVal]
         if(typeof gFn === 'function'){
             if(v.tagName === 'INPUT'){
                 if(v.type === 'number' || v.type === 'text'){
                     // Special Conditions
                     if(cVal === 'JavaExecutable'){
                         populateJavaExecDetails(v.value)
-                        v.value = gFn()
+                        v.value=gFn()
                     } else if(cVal === 'JVMOptions'){
-                        v.value = gFn().join(' ')
+                        v.value=gFn().join(' ')
                     } else {
-                        v.value = gFn()
+                        v.value=gFn()
                     }
                 } else if(v.type === 'checkbox'){
-                    v.checked = gFn()
+                    v.checked=gFn()
                 }
             } else if(v.tagName === 'DIV'){
                 if(v.classList.contains('rangeSlider')){
                     // Special Conditions
                     if(cVal === 'MinRAM' || cVal === 'MaxRAM'){
-                        let val = gFn()
+                        let val=gFn()
                         if(val.endsWith('M')){
-                            val = Number(val.substring(0, val.length-1))/1000
+                            val=Number(val.substring(0, val.length-1))/1000
                         } else {
-                            val = Number.parseFloat(val)
+                            val=Number.parseFloat(val)
                         }
 
                         v.setAttribute('value', val)
@@ -99,10 +99,10 @@ function initSettingsValues(){
  * Save the settings values.
  */
 function saveSettingsValues(){
-    const sEls = document.getElementById('settingsContainer').querySelectorAll('[cValue]')
+    const sEls=document.getElementById('settingsContainer').querySelectorAll('[cValue]')
     Array.from(sEls).map((v, index, arr) => {
-        const cVal = v.getAttribute('cValue')
-        const sFn = ConfigManager['set' + cVal]
+        const cVal=v.getAttribute('cValue')
+        const sFn=ConfigManager['set' + cVal]
         if(typeof sFn === 'function'){
             if(v.tagName === 'INPUT'){
                 if(v.type === 'number' || v.type === 'text'){
@@ -123,11 +123,11 @@ function saveSettingsValues(){
                 if(v.classList.contains('rangeSlider')){
                     // Special Conditions
                     if(cVal === 'MinRAM' || cVal === 'MaxRAM'){
-                        let val = Number(v.getAttribute('value'))
+                        let val=Number(v.getAttribute('value'))
                         if(val%1 > 0){
-                            val = val*1000 + 'M'
+                            val=val*1000 + 'M'
                         } else {
-                            val = val + 'G'
+                            val=val + 'G'
                         }
 
                         sFn(val)
@@ -140,7 +140,7 @@ function saveSettingsValues(){
     })
 }
 
-let selectedSettingsTab = 'settingsTabAccount'
+let selectedSettingsTab='settingsTabAccount'
 
 /**
  * Modify the settings container UI when the scroll threshold reaches
@@ -162,7 +162,7 @@ function settingsTabScrollListener(e){
 function setupSettingsTabs(){
     Array.from(document.getElementsByClassName('settingsNavItem')).map((val) => {
         if(val.hasAttribute('rSc')){
-            val.onclick = () => {
+            val.onclick=() => {
                 settingsNavItemListener(val)
             }
         }
@@ -176,22 +176,22 @@ function setupSettingsTabs(){
  * @param {Element} ele The nav item which has been clicked.
  * @param {boolean} fade Optional. True to fade transition.
  */
-function settingsNavItemListener(ele, fade = true){
+function settingsNavItemListener(ele, fade=true){
     if(ele.hasAttribute('selected')){
         return
     }
-    const navItems = document.getElementsByClassName('settingsNavItem')
+    const navItems=document.getElementsByClassName('settingsNavItem')
     for(let i=0; i<navItems.length; i++){
         if(navItems[i].hasAttribute('selected')){
             navItems[i].removeAttribute('selected')
         }
     }
     ele.setAttribute('selected', '')
-    let prevTab = selectedSettingsTab
-    selectedSettingsTab = ele.getAttribute('rSc')
+    let prevTab=selectedSettingsTab
+    selectedSettingsTab=ele.getAttribute('rSc')
 
-    document.getElementById(prevTab).onscroll = null
-    document.getElementById(selectedSettingsTab).onscroll = settingsTabScrollListener
+    document.getElementById(prevTab).onscroll=null
+    document.getElementById(selectedSettingsTab).onscroll=settingsTabScrollListener
 
     if(fade){
         $(`#${prevTab}`).fadeOut(250, () => {
@@ -218,7 +218,7 @@ function settingsNavItemListener(ele, fade = true){
     }
 }
 
-const settingsNavDone = document.getElementById('settingsNavDone')
+const settingsNavDone=document.getElementById('settingsNavDone')
 
 /**
  * Set if the settings save (done) button is disabled.
@@ -226,11 +226,11 @@ const settingsNavDone = document.getElementById('settingsNavDone')
  * @param {boolean} v True to disable, false to enable.
  */
 function settingsSaveDisabled(v){
-    settingsNavDone.disabled = v
+    settingsNavDone.disabled=v
 }
 
 /* Closes the settings view and saves all data. */
-settingsNavDone.onclick = () => {
+settingsNavDone.onclick=() => {
     saveSettingsValues()
     saveModConfiguration()
     ConfigManager.save()
@@ -243,10 +243,10 @@ settingsNavDone.onclick = () => {
  */
 
 // Bind the add account button.
-document.getElementById('settingsAddAccount').onclick = (e) => {
+document.getElementById('settingsAddAccount').onclick=(e) => {
     switchView(getCurrentView(), VIEWS.login, 500, 500, () => {
-        loginViewOnCancel = VIEWS.settings
-        loginViewOnSuccess = VIEWS.settings
+        loginViewOnCancel=VIEWS.settings
+        loginViewOnSuccess=VIEWS.settings
         loginCancelEnabled(true)
     })
 }
@@ -257,19 +257,19 @@ document.getElementById('settingsAddAccount').onclick = (e) => {
  */
 function bindAuthAccountSelect(){
     Array.from(document.getElementsByClassName('settingsAuthAccountSelect')).map((val) => {
-        val.onclick = (e) => {
+        val.onclick=(e) => {
             if(val.hasAttribute('selected')){
                 return
             }
-            const selectBtns = document.getElementsByClassName('settingsAuthAccountSelect')
+            const selectBtns=document.getElementsByClassName('settingsAuthAccountSelect')
             for(let i=0; i<selectBtns.length; i++){
                 if(selectBtns[i].hasAttribute('selected')){
                     selectBtns[i].removeAttribute('selected')
-                    selectBtns[i].innerHTML = 'Select Account'
+                    selectBtns[i].innerHTML='Select Account'
                 }
             }
             val.setAttribute('selected', '')
-            val.innerHTML = 'Selected Account &#10004;'
+            val.innerHTML='Selected Account &#10004;'
             setSelectedAccount(val.closest('.settingsAuthAccount').getAttribute('uuid'))
         }
     })
@@ -282,10 +282,10 @@ function bindAuthAccountSelect(){
  */
 function bindAuthAccountLogOut(){
     Array.from(document.getElementsByClassName('settingsAuthAccountLogOut')).map((val) => {
-        val.onclick = (e) => {
-            let isLastAccount = false
+        val.onclick=(e) => {
+            let isLastAccount=false
             if(Object.keys(ConfigManager.getAuthAccounts()).length === 1){
-                isLastAccount = true
+                isLastAccount=true
                 setOverlayContent(
                     'Warning<br>This is Your Last Account',
                     'In order to use the launcher you must be logged into at least one account. You will need to login again after.<br><br>Are you sure you want to log out?',
@@ -316,12 +316,12 @@ function bindAuthAccountLogOut(){
  * @param {boolean} isLastAccount If this logout is on the last added account.
  */
 function processLogOut(val, isLastAccount){
-    const parent = val.closest('.settingsAuthAccount')
-    const uuid = parent.getAttribute('uuid')
-    const prevSelAcc = ConfigManager.getSelectedAccount()
+    const parent=val.closest('.settingsAuthAccount')
+    const uuid=parent.getAttribute('uuid')
+    const prevSelAcc=ConfigManager.getSelectedAccount()
     AuthManager.removeAccount(uuid).then(() => {
         if(!isLastAccount && uuid === prevSelAcc.uuid){
-            const selAcc = ConfigManager.getSelectedAccount()
+            const selAcc=ConfigManager.getSelectedAccount()
             refreshAuthAccountSelected(selAcc.uuid)
             updateSelectedAccount(selAcc)
             validateSelectedAccount()
@@ -340,36 +340,36 @@ function processLogOut(val, isLastAccount){
  */
 function refreshAuthAccountSelected(uuid){
     Array.from(document.getElementsByClassName('settingsAuthAccount')).map((val) => {
-        const selBtn = val.getElementsByClassName('settingsAuthAccountSelect')[0]
+        const selBtn=val.getElementsByClassName('settingsAuthAccountSelect')[0]
         if(uuid === val.getAttribute('uuid')){
             selBtn.setAttribute('selected', '')
-            selBtn.innerHTML = 'Selected Account &#10004;'
+            selBtn.innerHTML='Selected Account &#10004;'
         } else {
             if(selBtn.hasAttribute('selected')){
                 selBtn.removeAttribute('selected')
             }
-            selBtn.innerHTML = 'Select Account'
+            selBtn.innerHTML='Select Account'
         }
     })
 }
 
-const settingsCurrentAccounts = document.getElementById('settingsCurrentAccounts')
+const settingsCurrentAccounts=document.getElementById('settingsCurrentAccounts')
 
 /**
  * Add auth account elements for each one stored in the authentication database.
  */
 function populateAuthAccounts(){
-    const authAccounts = ConfigManager.getAuthAccounts()
-    const authKeys = Object.keys(authAccounts)
+    const authAccounts=ConfigManager.getAuthAccounts()
+    const authKeys=Object.keys(authAccounts)
     if(authKeys.length === 0){
         return
     }
-    const selectedUUID = ConfigManager.getSelectedAccount().uuid
+    const selectedUUID=ConfigManager.getSelectedAccount().uuid
 
-    let authAccountStr = ''
+    let authAccountStr=''
 
     authKeys.map((val) => {
-        const acc = authAccounts[val]
+        const acc=authAccounts[val]
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
                 <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="https://crafatar.com/renders/body/${acc.uuid}?scale=3&default=MHF_Steve&overlay">
@@ -395,7 +395,7 @@ function populateAuthAccounts(){
         </div>`
     })
 
-    settingsCurrentAccounts.innerHTML = authAccountStr
+    settingsCurrentAccounts.innerHTML=authAccountStr
 }
 
 /**
@@ -429,21 +429,21 @@ document.getElementById('settingsGameHeight').addEventListener('keydown', (e) =>
  * Mods Tab
  */
 
-const settingsModsContainer = document.getElementById('settingsModsContainer')
+const settingsModsContainer=document.getElementById('settingsModsContainer')
 
 /**
  * Resolve and update the mods on the UI.
  */
 function resolveModsForUI(){
-    const serv = ConfigManager.getSelectedServer()
+    const serv=ConfigManager.getSelectedServer()
 
-    const distro = DistroManager.getDistribution()
-    const servConf = ConfigManager.getModConfiguration(serv)
+    const distro=DistroManager.getDistribution()
+    const servConf=ConfigManager.getModConfiguration(serv)
 
-    const modStr = parseModulesForUI(distro.getServer(serv).getModules(), false, servConf.mods)
-
-    document.getElementById('settingsReqModsContent').innerHTML = modStr.reqMods
-    document.getElementById('settingsOptModsContent').innerHTML = modStr.optMods
+    const modStr=parseModulesForUI(distro.getServer(serv).getModules(), false, servConf.mods)
+	//here
+    //document.getElementById('settingsReqModsContent').innerHTML=modStr.reqMods
+    //document.getElementById('settingsOptModsContent').innerHTML=modStr.optMods
 }
 
 /**
@@ -455,8 +455,8 @@ function resolveModsForUI(){
  */
 function parseModulesForUI(mdls, submodules, servConf){
 
-    let reqMods = ''
-    let optMods = ''
+    let reqMods=''
+    let optMods=''
 
     for(const mdl of mdls){
 
@@ -485,8 +485,8 @@ function parseModulesForUI(mdls, submodules, servConf){
 
             } else {
 
-                const conf = servConf[mdl.getVersionlessID()]
-                const val = typeof conf === 'object' ? conf.value : conf
+                const conf=servConf[mdl.getVersionlessID()]
+                const val=typeof conf === 'object' ? conf.value : conf
 
                 optMods += `<div id="${mdl.getVersionlessID()}" class="settingsBaseMod settings${submodules ? 'Sub' : ''}Mod" ${val ? 'enabled' : ''}>
                     <div class="settingsModContent">
@@ -523,9 +523,9 @@ function parseModulesForUI(mdls, submodules, servConf){
  * will also switch the status color on the left of the mod UI.
  */
 function bindModsToggleSwitch(){
-    const sEls = settingsModsContainer.querySelectorAll('[formod]')
+    const sEls=settingsModsContainer.querySelectorAll('[formod]')
     Array.from(sEls).map((v, index, arr) => {
-        v.onchange = () => {
+        v.onchange=() => {
             if(v.checked) {
                 document.getElementById(v.getAttribute('formod')).setAttribute('enabled', '')
             } else {
@@ -540,9 +540,9 @@ function bindModsToggleSwitch(){
  * Save the mod configuration based on the UI values.
  */
 function saveModConfiguration(){
-    const serv = ConfigManager.getSelectedServer()
-    const modConf = ConfigManager.getModConfiguration(serv)
-    modConf.mods = _saveModConfiguration(modConf.mods)
+    const serv=ConfigManager.getSelectedServer()
+    const modConf=ConfigManager.getModConfiguration(serv)
+    modConf.mods=_saveModConfiguration(modConf.mods)
     ConfigManager.setModConfiguration(serv, modConf)
 }
 
@@ -552,20 +552,20 @@ function saveModConfiguration(){
  * @param {Object} modConf Mod config object to save.
  */
 function _saveModConfiguration(modConf){
-    for(let m of Object.entries(modConf)){
-        const tSwitch = settingsModsContainer.querySelectorAll(`[formod='${m[0]}']`)
-        if(!tSwitch[0].hasAttribute('dropin')){
-            if(typeof m[1] === 'boolean'){
-                modConf[m[0]] = tSwitch[0].checked
-            } else {
-                if(m[1] != null){
-                    if(tSwitch.length > 0){
-                        modConf[m[0]].value = tSwitch[0].checked
-                    }
-                    modConf[m[0]].mods = _saveModConfiguration(modConf[m[0]].mods)
-                }
-            }
-        }
+    for(m of Object.entries(modConf)){
+        const tSwitch=settingsModsContainer.querySelectorAll(`[formod='${m[0]}']`)
+        //if(!tSwitch[0].hasAttribute('dropin')){
+            //if(typeof m[1] === 'boolean'){
+                //modConf[m[0]]=tSwitch[0].checked
+            //} else {
+                //if(m[1] != null){
+                    //if(tSwitch.length > 0){
+                        //modConf[m[0]].value=tSwitch[0].checked
+                    //}
+                    //modConf[m[0]].mods=_saveModConfiguration(modConf[m[0]].mods)
+                //}
+            //}
+        //}
     }
     return modConf
 }
@@ -580,11 +580,13 @@ let CACHE_DROPIN_MODS
  * populate the results onto the UI.
  */
 function resolveDropinModsForUI(){
-    const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
-    CACHE_SETTINGS_MODS_DIR = path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'mods')
-    CACHE_DROPIN_MODS = DropinModUtil.scanForDropinMods(CACHE_SETTINGS_MODS_DIR, serv.getMinecraftVersion())
-
-    let dropinMods = ''
+    const serv=DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
+    CACHE_SETTINGS_MODS_DIR=path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'mods-optional')
+    CACHE_SETTINGS_MODS_REQUIRED_DIR=path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'modstore')
+    CACHE_DROPIN_MODS=DropinModUtil.scanForDropinMods(CACHE_SETTINGS_MODS_DIR, serv.getMinecraftVersion())
+	CACHE_REQUIRED_MODS=DropinModUtil.scanForRequiredMods(CACHE_SETTINGS_MODS_REQUIRED_DIR, serv.getMinecraftVersion())
+	
+    let dropinMods=''
 
     for(dropin of CACHE_DROPIN_MODS){
         dropinMods += `<div id="${dropin.fullName}" class="settingsBaseMod settingsDropinMod" ${!dropin.disabled ? 'enabled' : ''}>
@@ -606,18 +608,39 @@ function resolveDropinModsForUI(){
                 </div>`
     }
 
-    document.getElementById('settingsDropinModsContent').innerHTML = dropinMods
+    document.getElementById('settingsDropinModsContent').innerHTML=dropinMods
+	
+    let requiredMods=''
+
+    for(required of CACHE_REQUIRED_MODS){
+        requiredMods += `<div id="${required.fullName}" class="settingsBaseMod settingsDropinMod" ${!required.disabled ? 'enabled' : ''}>
+                    <div class="settingsModContent">
+                        <div class="settingsModMainWrapper">
+                            <div class="settingsModStatus"></div>
+                            <div class="settingsModDetails">
+                                <span class="settingsModName">${required.name}</span>
+                            </div>
+                        </div>
+                        <label class="toggleSwitch" reqmod>
+                            <input type="checkbox" checked>
+                            <span class="toggleSwitchSlider"></span>
+                        </label>
+                    </div>
+                </div>`
+    }
+
+    document.getElementById('settingsReqModsContent').innerHTML=requiredMods	
 }
 
 /**
  * Bind the remove button for each loaded drop-in mod.
  */
 function bindDropinModsRemoveButton(){
-    const sEls = settingsModsContainer.querySelectorAll('[remmod]')
+    const sEls=settingsModsContainer.querySelectorAll('[remmod]')
     Array.from(sEls).map((v, index, arr) => {
-        v.onclick = () => {
-            const fullName = v.getAttribute('remmod')
-            const res = DropinModUtil.deleteDropinMod(CACHE_SETTINGS_MODS_DIR, fullName)
+        v.onclick=() => {
+            const fullName=v.getAttribute('remmod')
+            const res=DropinModUtil.deleteDropinMod(CACHE_SETTINGS_MODS_DIR, fullName)
             if(res){
                 document.getElementById(fullName).remove()
             } else {
@@ -638,29 +661,9 @@ function bindDropinModsRemoveButton(){
  * server configuration.
  */
 function bindDropinModFileSystemButton(){
-    const fsBtn = document.getElementById('settingsDropinFileSystemButton')
-    fsBtn.onclick = () => {
-        DropinModUtil.validateModsDir(CACHE_SETTINGS_MODS_DIR)
+    const fsBtn=document.getElementById('settingsDropinFileSystemButton')
+    fsBtn.onclick=() => {
         shell.openItem(CACHE_SETTINGS_MODS_DIR)
-    }
-    fsBtn.ondragenter = e => {
-        e.dataTransfer.dropEffect = 'move'
-        fsBtn.setAttribute('drag', '')
-        e.preventDefault()
-    }
-    fsBtn.ondragover = e => {
-        e.preventDefault()
-    }
-    fsBtn.ondragleave = e => {
-        fsBtn.removeAttribute('drag')
-    }
-
-    fsBtn.ondrop = e => {
-        fsBtn.removeAttribute('drag')
-        e.preventDefault()
-
-        DropinModUtil.addDropinMods(e.dataTransfer.files, CACHE_SETTINGS_MODS_DIR)
-        reloadDropinMods()
     }
 }
 
@@ -670,9 +673,9 @@ function bindDropinModFileSystemButton(){
  */
 function saveDropinModConfiguration(){
     for(dropin of CACHE_DROPIN_MODS){
-        const dropinUI = document.getElementById(dropin.fullName)
+        const dropinUI=document.getElementById(dropin.fullName)
         if(dropinUI != null){
-            const dropinUIEnabled = dropinUI.hasAttribute('enabled')
+            const dropinUIEnabled=dropinUI.hasAttribute('enabled')
             if(DropinModUtil.isDropinModEnabled(dropin.fullName) != dropinUIEnabled){
                 DropinModUtil.toggleDropinMod(CACHE_SETTINGS_MODS_DIR, dropin.fullName, dropinUIEnabled).catch(err => {
                     if(!isOverlayVisible()){
@@ -695,17 +698,13 @@ function saveDropinModConfiguration(){
 document.addEventListener('keydown', (e) => {
     if(getCurrentView() === VIEWS.settings && selectedSettingsTab === 'settingsTabMods'){
         if(e.key === 'F5'){
-            reloadDropinMods()
+            resolveDropinModsForUI()
+            bindDropinModsRemoveButton()
+            bindDropinModFileSystemButton()
+            bindModsToggleSwitch()
         }
     }
 })
-
-function reloadDropinMods(){
-    resolveDropinModsForUI()
-    bindDropinModsRemoveButton()
-    bindDropinModFileSystemButton()
-    bindModsToggleSwitch()
-}
 
 // Server status bar functions.
 
@@ -713,9 +712,9 @@ function reloadDropinMods(){
  * Load the currently selected server information onto the mods tab.
  */
 function loadSelectedServerOnModsTab(){
-    const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
+    const serv=DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
 
-    document.getElementById('settingsSelServContent').innerHTML = `
+    document.getElementById('settingsSelServContent').innerHTML=`
         <img class="serverListingImg" src="${serv.getIcon()}"/>
         <div class="serverListingDetails">
             <span class="serverListingName">${serv.getName()}</span>
@@ -745,20 +744,14 @@ document.getElementById('settingsSwitchServerButton').addEventListener('click', 
 })
 
 /**
- * Save mod configuration for the current selected server.
- */
-function saveAllModConfigurations(){
-    saveModConfiguration()
-    ConfigManager.save()
-    saveDropinModConfiguration()
-}
-
-/**
  * Function to refresh the mods tab whenever the selected
  * server is changed.
  */
 function animateModsTabRefresh(){
     $('#settingsTabMods').fadeOut(500, () => {
+        saveModConfiguration()
+        ConfigManager.save()
+        saveDropinModConfiguration()
         prepareModsTab()
         $('#settingsTabMods').fadeIn(500)
     })
@@ -781,19 +774,19 @@ function prepareModsTab(first){
  */
 
 // DOM Cache
-const settingsMaxRAMRange     = document.getElementById('settingsMaxRAMRange')
-const settingsMinRAMRange     = document.getElementById('settingsMinRAMRange')
-const settingsMaxRAMLabel     = document.getElementById('settingsMaxRAMLabel')
-const settingsMinRAMLabel     = document.getElementById('settingsMinRAMLabel')
-const settingsMemoryTotal     = document.getElementById('settingsMemoryTotal')
-const settingsMemoryAvail     = document.getElementById('settingsMemoryAvail')
-const settingsJavaExecDetails = document.getElementById('settingsJavaExecDetails')
-const settingsJavaExecVal     = document.getElementById('settingsJavaExecVal')
-const settingsJavaExecSel     = document.getElementById('settingsJavaExecSel')
+const settingsMaxRAMRange    =document.getElementById('settingsMaxRAMRange')
+const settingsMinRAMRange    =document.getElementById('settingsMinRAMRange')
+const settingsMaxRAMLabel    =document.getElementById('settingsMaxRAMLabel')
+const settingsMinRAMLabel    =document.getElementById('settingsMinRAMLabel')
+const settingsMemoryTotal    =document.getElementById('settingsMemoryTotal')
+const settingsMemoryAvail    =document.getElementById('settingsMemoryAvail')
+const settingsJavaExecDetails=document.getElementById('settingsJavaExecDetails')
+const settingsJavaExecVal    =document.getElementById('settingsJavaExecVal')
+const settingsJavaExecSel    =document.getElementById('settingsJavaExecSel')
 
 // Store maximum memory values.
-const SETTINGS_MAX_MEMORY = ConfigManager.getAbsoluteMaxRAM()
-const SETTINGS_MIN_MEMORY = ConfigManager.getAbsoluteMinRAM()
+const SETTINGS_MAX_MEMORY=ConfigManager.getAbsoluteMaxRAM()
+const SETTINGS_MIN_MEMORY=ConfigManager.getAbsoluteMinRAM()
 
 // Set the max and min values for the ranged sliders.
 settingsMaxRAMRange.setAttribute('max', SETTINGS_MAX_MEMORY)
@@ -802,66 +795,66 @@ settingsMinRAMRange.setAttribute('max', SETTINGS_MAX_MEMORY)
 settingsMinRAMRange.setAttribute('min', SETTINGS_MIN_MEMORY )
 
 // Bind on change event for min memory container.
-settingsMinRAMRange.onchange = (e) => {
+settingsMinRAMRange.onchange=(e) => {
 
     // Current range values
-    const sMaxV = Number(settingsMaxRAMRange.getAttribute('value'))
-    const sMinV = Number(settingsMinRAMRange.getAttribute('value'))
+    const sMaxV=Number(settingsMaxRAMRange.getAttribute('value'))
+    const sMinV=Number(settingsMinRAMRange.getAttribute('value'))
 
     // Get reference to range bar.
-    const bar = e.target.getElementsByClassName('rangeSliderBar')[0]
+    const bar=e.target.getElementsByClassName('rangeSliderBar')[0]
     // Calculate effective total memory.
-    const max = (os.totalmem()-1000000000)/1000000000
+    const max=(os.totalmem()-1000000000)/1000000000
 
     // Change range bar color based on the selected value.
     if(sMinV >= max/2){
-        bar.style.background = '#e86060'
+        bar.style.background='#e86060'
     } else if(sMinV >= max/4) {
-        bar.style.background = '#e8e18b'
+        bar.style.background='#e8e18b'
     } else {
-        bar.style.background = null
+        bar.style.background=null
     }
 
     // Increase maximum memory if the minimum exceeds its value.
     if(sMaxV < sMinV){
-        const sliderMeta = calculateRangeSliderMeta(settingsMaxRAMRange)
+        const sliderMeta=calculateRangeSliderMeta(settingsMaxRAMRange)
         updateRangedSlider(settingsMaxRAMRange, sMinV,
             ((sMinV-sliderMeta.min)/sliderMeta.step)*sliderMeta.inc)
-        settingsMaxRAMLabel.innerHTML = sMinV.toFixed(1) + 'G'
+        settingsMaxRAMLabel.innerHTML=sMinV.toFixed(1) + 'G'
     }
 
     // Update label
-    settingsMinRAMLabel.innerHTML = sMinV.toFixed(1) + 'G'
+    settingsMinRAMLabel.innerHTML=sMinV.toFixed(1) + 'G'
 }
 
 // Bind on change event for max memory container.
-settingsMaxRAMRange.onchange = (e) => {
+settingsMaxRAMRange.onchange=(e) => {
     // Current range values
-    const sMaxV = Number(settingsMaxRAMRange.getAttribute('value'))
-    const sMinV = Number(settingsMinRAMRange.getAttribute('value'))
+    const sMaxV=Number(settingsMaxRAMRange.getAttribute('value'))
+    const sMinV=Number(settingsMinRAMRange.getAttribute('value'))
 
     // Get reference to range bar.
-    const bar = e.target.getElementsByClassName('rangeSliderBar')[0]
+    const bar=e.target.getElementsByClassName('rangeSliderBar')[0]
     // Calculate effective total memory.
-    const max = (os.totalmem()-1000000000)/1000000000
+    const max=(os.totalmem()-1000000000)/1000000000
 
     // Change range bar color based on the selected value.
     if(sMaxV >= max/2){
-        bar.style.background = '#e86060'
+        bar.style.background='#e86060'
     } else if(sMaxV >= max/4) {
-        bar.style.background = '#e8e18b'
+        bar.style.background='#e8e18b'
     } else {
-        bar.style.background = null
+        bar.style.background=null
     }
 
     // Decrease the minimum memory if the maximum value is less.
     if(sMaxV < sMinV){
-        const sliderMeta = calculateRangeSliderMeta(settingsMaxRAMRange)
+        const sliderMeta=calculateRangeSliderMeta(settingsMaxRAMRange)
         updateRangedSlider(settingsMinRAMRange, sMaxV,
             ((sMaxV-sliderMeta.min)/sliderMeta.step)*sliderMeta.inc)
-        settingsMinRAMLabel.innerHTML = sMaxV.toFixed(1) + 'G'
+        settingsMinRAMLabel.innerHTML=sMaxV.toFixed(1) + 'G'
     }
-    settingsMaxRAMLabel.innerHTML = sMaxV.toFixed(1) + 'G'
+    settingsMaxRAMLabel.innerHTML=sMaxV.toFixed(1) + 'G'
 }
 
 /**
@@ -871,13 +864,13 @@ settingsMaxRAMRange.onchange = (e) => {
  * @returns {Object} An object with meta values for the provided ranged slider.
  */
 function calculateRangeSliderMeta(v){
-    const val = {
+    const val={
         max: Number(v.getAttribute('max')),
         min: Number(v.getAttribute('min')),
         step: Number(v.getAttribute('step')),
     }
-    val.ticks = (val.max-val.min)/val.step
-    val.inc = 100/val.ticks
+    val.ticks=(val.max-val.min)/val.step
+    val.inc=100/val.ticks
     return val
 }
 
@@ -889,36 +882,36 @@ function bindRangeSlider(){
     Array.from(document.getElementsByClassName('rangeSlider')).map((v) => {
 
         // Reference the track (thumb).
-        const track = v.getElementsByClassName('rangeSliderTrack')[0]
+        const track=v.getElementsByClassName('rangeSliderTrack')[0]
 
         // Set the initial slider value.
-        const value = v.getAttribute('value')
-        const sliderMeta = calculateRangeSliderMeta(v)
+        const value=v.getAttribute('value')
+        const sliderMeta=calculateRangeSliderMeta(v)
 
         updateRangedSlider(v, value, ((value-sliderMeta.min)/sliderMeta.step)*sliderMeta.inc)
 
         // The magic happens when we click on the track.
-        track.onmousedown = (e) => {
+        track.onmousedown=(e) => {
 
             // Stop moving the track on mouse up.
-            document.onmouseup = (e) => {
-                document.onmousemove = null
-                document.onmouseup = null
+            document.onmouseup=(e) => {
+                document.onmousemove=null
+                document.onmouseup=null
             }
 
             // Move slider according to the mouse position.
-            document.onmousemove = (e) => {
+            document.onmousemove=(e) => {
 
                 // Distance from the beginning of the bar in pixels.
-                const diff = e.pageX - v.offsetLeft - track.offsetWidth/2
+                const diff=e.pageX - v.offsetLeft - track.offsetWidth/2
                 
                 // Don't move the track off the bar.
                 if(diff >= 0 && diff <= v.offsetWidth-track.offsetWidth/2){
 
                     // Convert the difference to a percentage.
-                    const perc = (diff/v.offsetWidth)*100
+                    const perc=(diff/v.offsetWidth)*100
                     // Calculate the percentage of the closest notch.
-                    const notch = Number(perc/sliderMeta.inc).toFixed(0)*sliderMeta.inc
+                    const notch=Number(perc/sliderMeta.inc).toFixed(0)*sliderMeta.inc
 
                     // If we're close to that notch, stick to it.
                     if(Math.abs(perc-notch) < sliderMeta.inc/2){
@@ -938,30 +931,30 @@ function bindRangeSlider(){
  * @param {number} notch The notch that the slider should now be at.
  */
 function updateRangedSlider(element, value, notch){
-    const oldVal = element.getAttribute('value')
-    const bar = element.getElementsByClassName('rangeSliderBar')[0]
-    const track = element.getElementsByClassName('rangeSliderTrack')[0]
+    const oldVal=element.getAttribute('value')
+    const bar=element.getElementsByClassName('rangeSliderBar')[0]
+    const track=element.getElementsByClassName('rangeSliderTrack')[0]
     
     element.setAttribute('value', value)
 
     if(notch < 0){
-        notch = 0
+        notch=0
     } else if(notch > 100) {
-        notch = 100
+        notch=100
     }
 
-    const event = new MouseEvent('change', {
+    const event=new MouseEvent('change', {
         target: element,
         type: 'change',
         bubbles: false,
         cancelable: true
     })
 
-    let cancelled = !element.dispatchEvent(event)
+    let cancelled=!element.dispatchEvent(event)
 
     if(!cancelled){
-        track.style.left = notch + '%'
-        bar.style.width = notch + '%'
+        track.style.left=notch + '%'
+        bar.style.width=notch + '%'
     } else {
         element.setAttribute('value', oldVal)
     }
@@ -971,13 +964,13 @@ function updateRangedSlider(element, value, notch){
  * Display the total and available RAM.
  */
 function populateMemoryStatus(){
-    settingsMemoryTotal.innerHTML = Number((os.totalmem()-1000000000)/1000000000).toFixed(1) + 'G'
-    settingsMemoryAvail.innerHTML = Number(os.freemem()/1000000000).toFixed(1) + 'G'
+    settingsMemoryTotal.innerHTML=Number((os.totalmem()-1000000000)/1000000000).toFixed(1) + 'G'
+    settingsMemoryAvail.innerHTML=Number(os.freemem()/1000000000).toFixed(1) + 'G'
 }
 
 // Bind the executable file input to the display text input.
-settingsJavaExecSel.onchange = (e) => {
-    settingsJavaExecVal.value = settingsJavaExecSel.files[0].path
+settingsJavaExecSel.onchange=(e) => {
+    settingsJavaExecVal.value=settingsJavaExecSel.files[0].path
     populateJavaExecDetails(settingsJavaExecVal.value)
 }
 
@@ -990,9 +983,9 @@ settingsJavaExecSel.onchange = (e) => {
 function populateJavaExecDetails(execPath){
     AssetGuard._validateJavaBinary(execPath).then(v => {
         if(v.valid){
-            settingsJavaExecDetails.innerHTML = `Selected: Java ${v.version.major} Update ${v.version.update} (x${v.arch})`
+            settingsJavaExecDetails.innerHTML=`Selected: Java ${v.version.major} Update ${v.version.update} (x${v.arch})`
         } else {
-            settingsJavaExecDetails.innerHTML = 'Invalid Selection'
+            settingsJavaExecDetails.innerHTML='Invalid Selection'
         }
     })
 }
@@ -1009,14 +1002,14 @@ function prepareJavaTab(){
  * About Tab
  */
 
-const settingsTabAbout             = document.getElementById('settingsTabAbout')
-const settingsAboutChangelogTitle  = settingsTabAbout.getElementsByClassName('settingsChangelogTitle')[0]
-const settingsAboutChangelogText   = settingsTabAbout.getElementsByClassName('settingsChangelogText')[0]
-const settingsAboutChangelogButton = settingsTabAbout.getElementsByClassName('settingsChangelogButton')[0]
+const settingsTabAbout            =document.getElementById('settingsTabAbout')
+const settingsAboutChangelogTitle =settingsTabAbout.getElementsByClassName('settingsChangelogTitle')[0]
+const settingsAboutChangelogText  =settingsTabAbout.getElementsByClassName('settingsChangelogText')[0]
+const settingsAboutChangelogButton=settingsTabAbout.getElementsByClassName('settingsChangelogButton')[0]
 
 // Bind the devtools toggle button.
-document.getElementById('settingsAboutDevToolsButton').onclick = (e) => {
-    let window = remote.getCurrentWindow()
+document.getElementById('settingsAboutDevToolsButton').onclick=(e) => {
+    let window=remote.getCurrentWindow()
     window.toggleDevTools()
 }
 
@@ -1027,7 +1020,7 @@ document.getElementById('settingsAboutDevToolsButton').onclick = (e) => {
  * @returns {boolean} True if the version is a prerelease, otherwise false.
  */
 function isPrerelease(version){
-    const preRelComp = semver.prerelease(version)
+    const preRelComp=semver.prerelease(version)
     return preRelComp != null && preRelComp.length > 0
 }
 
@@ -1041,15 +1034,15 @@ function isPrerelease(version){
  * @param {Element} checkElement The check mark element.
  */
 function populateVersionInformation(version, valueElement, titleElement, checkElement){
-    valueElement.innerHTML = version
+    valueElement.innerHTML=version
     if(isPrerelease(version)){
-        titleElement.innerHTML = 'Pre-release'
-        titleElement.style.color = '#ff886d'
-        checkElement.style.background = '#ff886d'
+        titleElement.innerHTML='Pre-release'
+        titleElement.style.color='#ff886d'
+        checkElement.style.background='#ff886d'
     } else {
-        titleElement.innerHTML = 'Stable Release'
-        titleElement.style.color = null
-        checkElement.style.background = null
+        titleElement.innerHTML='Stable Release'
+        titleElement.style.color=null
+        checkElement.style.background=null
     }
 }
 
@@ -1066,27 +1059,31 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/WesterosCraftCode/ElectronLauncher/releases.atom',
-        success: (data) => {
-            const version = 'v' + remote.app.getVersion()
-            const entries = $(data).find('entry')
-            
+        url: 'https://www.worldautomation.net/categories/launcher/feed/atom/',
+        complete: (data) => {
+	    //alert(data.responseText[0])
+            //console.log('TEST')
+            const version='v' + remote.app.getVersion()
+            const entries=$($.parseXML(data.responseText.replace(';ssl=1',''))).find('entry')
+            //console.log('ENTRIES: '+entries)            
             for(let i=0; i<entries.length; i++){
-                const entry = $(entries[i])
-                let id = entry.find('id').text()
-                id = id.substring(id.lastIndexOf('/')+1)
-
-                if(id === version){
-                    settingsAboutChangelogTitle.innerHTML = entry.find('title').text()
-                    settingsAboutChangelogText.innerHTML = entry.find('content').text()
-                    settingsAboutChangelogButton.href = entry.find('link').attr('href')
+                const entry=$(entries[i])
+             	//console.log('ENTRY: '+entry)
+				let id=entry.find('title').text()
+                //id=id.substring(id.lastIndexOf('/')+1)
+		
+                if(version.indexOf(id)){
+                    settingsAboutChangelogTitle.innerHTML=entry.find('title').text()
+                    settingsAboutChangelogText.innerHTML=entry.find('content').text()
+                    settingsAboutChangelogButton.href=entry.find('link').attr('href')
                 }
             }
 
         },
-        timeout: 2500
+        timeout: 5000
     }).catch(err => {
-        settingsAboutChangelogText.innerHTML = 'Failed to load release notes.'
+	console.log(err)
+        settingsAboutChangelogText.innerHTML='Failed to load release notes.'
     })
 }
 
@@ -1102,15 +1099,15 @@ function prepareAboutTab(){
  * Update Tab
  */
 
-const settingsTabUpdate            = document.getElementById('settingsTabUpdate')
-const settingsUpdateTitle          = document.getElementById('settingsUpdateTitle')
-const settingsUpdateVersionCheck   = document.getElementById('settingsUpdateVersionCheck')
-const settingsUpdateVersionTitle   = document.getElementById('settingsUpdateVersionTitle')
-const settingsUpdateVersionValue   = document.getElementById('settingsUpdateVersionValue')
-const settingsUpdateChangelogTitle = settingsTabUpdate.getElementsByClassName('settingsChangelogTitle')[0]
-const settingsUpdateChangelogText  = settingsTabUpdate.getElementsByClassName('settingsChangelogText')[0]
-const settingsUpdateChangelogCont  = settingsTabUpdate.getElementsByClassName('settingsChangelogContainer')[0]
-const settingsUpdateActionButton   = document.getElementById('settingsUpdateActionButton')
+const settingsTabUpdate           =document.getElementById('settingsTabUpdate')
+const settingsUpdateTitle         =document.getElementById('settingsUpdateTitle')
+const settingsUpdateVersionCheck  =document.getElementById('settingsUpdateVersionCheck')
+const settingsUpdateVersionTitle  =document.getElementById('settingsUpdateVersionTitle')
+const settingsUpdateVersionValue  =document.getElementById('settingsUpdateVersionValue')
+const settingsUpdateChangelogTitle=settingsTabUpdate.getElementsByClassName('settingsChangelogTitle')[0]
+const settingsUpdateChangelogText =settingsTabUpdate.getElementsByClassName('settingsChangelogText')[0]
+const settingsUpdateChangelogCont =settingsTabUpdate.getElementsByClassName('settingsChangelogContainer')[0]
+const settingsUpdateActionButton  =document.getElementById('settingsUpdateActionButton')
 
 /**
  * Update the properties of the update action button.
@@ -1119,11 +1116,11 @@ const settingsUpdateActionButton   = document.getElementById('settingsUpdateActi
  * @param {boolean} disabled Optional. Disable or enable the button
  * @param {function} handler Optional. New button event handler.
  */
-function settingsUpdateButtonStatus(text, disabled = false, handler = null){
-    settingsUpdateActionButton.innerHTML = text
-    settingsUpdateActionButton.disabled = disabled
+function settingsUpdateButtonStatus(text, disabled=false, handler=null){
+    settingsUpdateActionButton.innerHTML=text
+    settingsUpdateActionButton.disabled=disabled
     if(handler != null){
-        settingsUpdateActionButton.onclick = handler
+        settingsUpdateActionButton.onclick=handler
     }
 }
 
@@ -1134,22 +1131,15 @@ function settingsUpdateButtonStatus(text, disabled = false, handler = null){
  */
 function populateSettingsUpdateInformation(data){
     if(data != null){
-        settingsUpdateTitle.innerHTML = `New ${isPrerelease(data.version) ? 'Pre-release' : 'Release'} Available`
-        settingsUpdateChangelogCont.style.display = null
-        settingsUpdateChangelogTitle.innerHTML = data.releaseName
-        settingsUpdateChangelogText.innerHTML = data.releaseNotes
+        settingsUpdateTitle.innerHTML=`New ${isPrerelease(data.version) ? 'Pre-release' : 'Release'} Available`
+        settingsUpdateChangelogCont.style.display=null
+        settingsUpdateChangelogTitle.innerHTML=data.releaseName
+        settingsUpdateChangelogText.innerHTML=data.releaseNotes
         populateVersionInformation(data.version, settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
-        
-        if(process.platform === 'darwin'){
-            settingsUpdateButtonStatus('Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>', false, () => {
-                shell.openExternal(data.darwindownload)
-            })
-        } else {
-            settingsUpdateButtonStatus('Downloading..', true)
-        }
+        settingsUpdateButtonStatus('Downloading..', true)
     } else {
-        settingsUpdateTitle.innerHTML = 'You Are Running the Latest Version'
-        settingsUpdateChangelogCont.style.display = 'none'
+        settingsUpdateTitle.innerHTML='You Are Running the Latest Version'
+        settingsUpdateChangelogCont.style.display='none'
         populateVersionInformation(remote.app.getVersion(), settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
         settingsUpdateButtonStatus('Check for Updates', false, () => {
             if(!isDev){
@@ -1165,7 +1155,7 @@ function populateSettingsUpdateInformation(data){
  * 
  * @param {Object} data The update data.
  */
-function prepareUpdateTab(data = null){
+function prepareUpdateTab(data=null){
     populateSettingsUpdateInformation(data)
 }
 
@@ -1178,7 +1168,7 @@ function prepareUpdateTab(data = null){
   * 
   * @param {boolean} first Whether or not it is the first load.
   */
-function prepareSettings(first = false) {
+function prepareSettings(first=false) {
     if(first){
         setupSettingsTabs()
         initSettingsValidators()

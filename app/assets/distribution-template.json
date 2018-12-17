@@ -43,7 +43,7 @@
                             "artifact": {
                                 "size": 32999,
                                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/launchwrapper-1.12.jar"
+                                "url": "RESIST_CDN/libraries/launchwrapper-1.12.jar"
                             }
                         },
                         {
@@ -53,7 +53,7 @@
                             "artifact": {
                                 "size": 241639,
                                 "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/asm-all-5.2.jar"
+                                "url": "RESIST_CDN/libraries/asm-all-5.2.jar"
                             }
                         },
                         {
@@ -63,7 +63,7 @@
                             "artifact": {
                                 "size": 1474672,
                                 "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-library-2.11.1.jar"
+                                "url": "RESIST_CDN/libraries/scala-library-2.11.1.jar"
                             }
                         },
                         {
@@ -73,7 +73,7 @@
                             "artifact": {
                                 "size": 3076920,
                                 "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-compiler-2.11.1.jar"
+                                "url": "RESIST_CDN/libraries/scala-compiler-2.11.1.jar"
                             }
                         },
                         {
@@ -83,7 +83,7 @@
                             "artifact": {
                                 "size": 21324,
                                 "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-actors-migration_2.11-1.1.0.jar"
+                                "url": "RESIST_CDN/libraries/scala-actors-migration_2.11-1.1.0.jar"
                             }
                         },
                         {
@@ -93,7 +93,7 @@
                             "artifact": {
                                 "size": 7956,
                                 "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-continuations-library_2.11-1.0.2.jar"
+                                "url": "RESIST_CDN/libraries/scala-continuations-library_2.11-1.0.2.jar"
                             }
                         },
                         {
@@ -103,7 +103,7 @@
                             "artifact": {
                                 "size": 46140,
                                 "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                                "url": "RESIST_CDN/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
                             }
                         },
                         {
@@ -113,7 +113,7 @@
                             "artifact": {
                                 "size": 85568,
                                 "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+                                "url": "RESIST_CDN/libraries/scala-parser-combinators_2.11-1.0.1.jar"
                             }
                         },
                         {
@@ -123,7 +123,7 @@
                             "artifact": {
                                 "size": 1070312,
                                 "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-reflect-2.11.1.jar"
+                                "url": "RESIST_CDN/libraries/scala-reflect-2.11.1.jar"
                             }
                         },
                         {
@@ -133,7 +133,7 @@
                             "artifact": {
                                 "size": 736795,
                                 "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-swing_2.11-1.0.1.jar"
+                                "url": "RESIST_CDN/libraries/scala-swing_2.11-1.0.1.jar"
                             }
                         },
                         {
@@ -143,7 +143,7 @@
                             "artifact": {
                                 "size": 217812,
                                 "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/scala-xml_2.11-1.0.2.jar"
+                                "url": "RESIST_CDN/libraries/scala-xml_2.11-1.0.2.jar"
                             }
                         },
                         {
@@ -153,7 +153,7 @@
                             "artifact": {
                                 "size": 746612,
                                 "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/akka-actor_2.11-2.3.3.jar"
+                                "url": "RESIST_CDN/libraries/akka-actor_2.11-2.3.3.jar"
                             }
                         },
                         {
@@ -163,7 +163,7 @@
                             "artifact": {
                                 "size": 56636,
                                 "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/config-1.2.1.jar"
+                                "url": "RESIST_CDN/libraries/config-1.2.1.jar"
                             }
                         },
                         {
@@ -173,7 +173,7 @@
                             "artifact": {
                                 "size": 5762,
                                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/lzma-0.0.1.jar"
+                                "url": "RESIST_CDN/libraries/lzma-0.0.1.jar"
                             }
                         },
                         {
@@ -183,7 +183,7 @@
                             "artifact": {
                                 "size": 2523218,
                                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/trove4j-3.0.3.jar"
+                                "url": "RESIST_CDN/libraries/trove4j-3.0.3.jar"
                             }
                         },
                         {
@@ -193,7 +193,7 @@
                             "artifact": {
                                 "size": 318956,
                                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/vecmath-1.5.2.jar"
+                                "url": "RESIST_CDN/libraries/vecmath-1.5.2.jar"
                             }
                         },
                         {
@@ -203,7 +203,7 @@
                             "artifact": {
                                 "size": 318956,
                                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "https://github.com/resist-network/mod-pack/raw/master/libraries/maven-artifact-3.5.3.jar"
+                                "url": "RESIST_CDN/libraries/maven-artifact-3.5.3.jar"
                             }
                         }
                     ]

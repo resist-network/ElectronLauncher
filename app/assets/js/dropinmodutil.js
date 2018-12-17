@@ -1,22 +1,12 @@
-const fs        = require('fs-extra')
-const path      = require('path')
-const { shell } = require('electron')
+const fs=require('fs')
+const path=require('path')
+const {shell}=require('electron')
 
 // Group #1: File Name (without .disabled, if any)
 // Group #2: File Extension (jar, zip, or litemod)
 // Group #3: If it is disabled (if string 'disabled' is present)
-const MOD_REGEX = /^(.+(jar|zip|litemod))(?:\.(disabled))?$/
-const DISABLED_EXT = '.disabled'
-
-/**
- * Validate that the given mods directory exists. If not,
- * it is created.
- * 
- * @param {string} modsDir The path to the mods directory.
- */
-exports.validateModsDir = function(modsDir) {
-    fs.ensureDirSync(modsDir)
-}
+const MOD_REGEX=/^(.+(jar|zip|litemod))(?:\.(disabled))?$/
+const DISABLED_EXT='.disabled'
 
 /**
  * Scan for drop-in mods in both the mods folder and version
@@ -28,17 +18,17 @@ exports.validateModsDir = function(modsDir) {
  * @returns {{fullName: string, name: string, ext: string, disabled: boolean}[]}
  * An array of objects storing metadata about each discovered mod.
  */
-exports.scanForDropinMods = function(modsDir, version) {
-    const modsDiscovered = []
+exports.scanForDropinMods=function(modsDir, version) {
+    const modsDiscovered=[]
     if(fs.existsSync(modsDir)){
-        let modCandidates = fs.readdirSync(modsDir)
-        let verCandidates = []
-        const versionDir = path.join(modsDir, version)
+        let modCandidates=fs.readdirSync(modsDir)
+        let verCandidates=[]
+        const versionDir=path.join(modsDir, version)
         if(fs.existsSync(versionDir)){
-            verCandidates = fs.readdirSync(versionDir)
+            verCandidates=fs.readdirSync(versionDir)
         }
         for(let file of modCandidates){
-            const match = MOD_REGEX.exec(file)
+            const match=MOD_REGEX.exec(file)
             if(match != null){
                 modsDiscovered.push({
                     fullName: match[0],
@@ -49,7 +39,7 @@ exports.scanForDropinMods = function(modsDir, version) {
             }
         }
         for(let file of verCandidates){
-            const match = MOD_REGEX.exec(file)
+            const match=MOD_REGEX.exec(file)
             if(match != null){
                 modsDiscovered.push({
                     fullName: path.join(version, match[0]),
@@ -62,25 +52,40 @@ exports.scanForDropinMods = function(modsDir, version) {
     }
     return modsDiscovered
 }
-
-/**
- * Add dropin mods.
- * 
- * @param {FileList} files The files to add.
- * @param {string} modsDir The path to the mods directory.
- */
-exports.addDropinMods = function(files, modsdir) {
-
-    exports.validateModsDir(modsdir)
-
-    for(let f of files) {
-        if(MOD_REGEX.exec(f.name) != null) {
-            fs.moveSync(f.path, path.join(modsdir, f.name))
+exports.scanForRequiredMods=function(modsDir, version) {
+    const modsDiscovered=[]
+    if(fs.existsSync(modsDir)){
+        let modCandidates=fs.readdirSync(modsDir)
+        let verCandidates=[]
+        const versionDir=path.join(modsDir, version)
+        if(fs.existsSync(versionDir)){
+            verCandidates=fs.readdirSync(versionDir)
+        }
+        for(let file of modCandidates){
+            const match=MOD_REGEX.exec(file)
+            if(match != null){
+                modsDiscovered.push({
+                    fullName: match[0],
+                    name: match[1],
+                    ext: match[2],
+                    disabled: match[3] != null
+                })
+            }
+        }
+        for(let file of verCandidates){
+            const match=MOD_REGEX.exec(file)
+            if(match != null){
+                modsDiscovered.push({
+                    fullName: path.join(version, match[0]),
+                    name: match[1],
+                    ext: match[2],
+                    disabled: match[3] != null
+                })
+            }
         }
     }
-
+    return modsDiscovered
 }
-
 /**
  * Delete a drop-in mod from the file system.
  * 
@@ -89,8 +94,8 @@ exports.addDropinMods = function(files, modsdir) {
  * 
  * @returns {boolean} True if the mod was deleted, otherwise false.
  */
-exports.deleteDropinMod = function(modsDir, fullName){
-    const res = shell.moveItemToTrash(path.join(modsDir, fullName))
+exports.deleteDropinMod=function(modsDir, fullName){
+    const res=shell.moveItemToTrash(path.join(modsDir, fullName))
     if(!res){
         shell.beep()
     }
@@ -108,10 +113,10 @@ exports.deleteDropinMod = function(modsDir, fullName){
  * @returns {Promise.<void>} A promise which resolves when the mod has
  * been toggled. If an IO error occurs the promise will be rejected.
  */
-exports.toggleDropinMod = function(modsDir, fullName, enable){
+exports.toggleDropinMod=function(modsDir, fullName, enable){
     return new Promise((resolve, reject) => {
-        const oldPath = path.join(modsDir, fullName)
-        const newPath = path.join(modsDir, enable ? fullName.substring(0, fullName.indexOf(DISABLED_EXT)) : fullName + DISABLED_EXT)
+        const oldPath=path.join(modsDir, fullName)
+        const newPath=path.join(modsDir, enable ? fullName.substring(0, fullName.indexOf(DISABLED_EXT)) : fullName + DISABLED_EXT)
 
         fs.rename(oldPath, newPath, (err) => {
             if(err){
@@ -129,6 +134,6 @@ exports.toggleDropinMod = function(modsDir, fullName, enable){
  * @param {string} fullName The fullName of the discovered mod to toggle.
  * @returns {boolean} True if the mod is enabled, otherwise false.
  */
-exports.isDropinModEnabled = function(fullName){
+exports.isDropinModEnabled=function(fullName){
     return !fullName.endsWith(DISABLED_EXT)
 }
