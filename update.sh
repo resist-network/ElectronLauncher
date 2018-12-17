@@ -5,7 +5,7 @@ oldFirstPart=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk 
 oldSecondPart=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk -F "\"*:\"*" '{print $2}' | sed 's/"//g' |sed 's/\,//g' | sed 's/ //g' | awk -F "\." '{print $2}')
 oldThirdPart=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk -F "\"*:\"*" '{print $2}' | sed 's/"//g' |sed 's/\,//g' | sed 's/ //g' | awk -F "\." '{print $3}')
 oldFourthPart=$(grep -m2 "version" app/assets/distribution.json | tail -n1 | awk -F "\"*:\"*" '{print $2}' | sed 's/"//g' |sed 's/\,//g' | sed 's/ //g' | awk -F "\." '{print $4}')
-newFourthPart=$((oldThirdPart + 1))
+newFourthPart=$((oldFourthPart + 1))
 newAllParts="$oldFirstPart.$oldSecondPart.$oldThirdPart.$newFourthPart"
 sed -i "s/$oldAllParts/$newAllParts/g" app/assets/distribution-template.json
 echo "Old Minor Distribution Version: "$oldAllParts
