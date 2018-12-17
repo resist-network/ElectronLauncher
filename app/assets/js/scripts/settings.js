@@ -1070,7 +1070,7 @@ function populateReleaseNotes(){
                 id = id.substring(id.lastIndexOf('/')+1)
 
                 if(id === version){
-                    settingsAboutChangelogTitle.innerHTML = entry.find('title').text()
+                    //settingsAboutChangelogTitle.innerHTML = entry.find('title').text()
                     settingsAboutChangelogText.innerHTML = entry.find('content').text()
                     settingsAboutChangelogButton.href = entry.find('link').attr('href')
                 }
@@ -1128,7 +1128,7 @@ function settingsUpdateButtonStatus(text, disabled=false, handler=null){
 function populateSettingsUpdateInformation(data){
     if(data != null){
         settingsUpdateTitle.innerHTML=`New ${isPrerelease(data.version) ? 'Pre-release' : 'Release'} Available`
-        settingsUpdateChangelogCont.style.display=null
+        //settingsUpdateChangelogCont.style.display=null
         settingsUpdateChangelogTitle.innerHTML=data.releaseName
         settingsUpdateChangelogText.innerHTML=data.releaseNotes
         populateVersionInformation(data.version, settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
