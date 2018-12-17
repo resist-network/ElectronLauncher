@@ -70,7 +70,8 @@
           "arch": "x64"
         }
       ],
-      "icon": "build/icon.ico"
+      "icon": "build/icon.ico",
+	  "publish": ["github"]
     },
     "nsis": {
       "oneClick": false,
@@ -82,7 +83,8 @@
     "mac": {
       "target": "dmg",
       "category": "public.app-category.games",
-      "icon": "build/icon.icns"
+      "icon": "build/icon.icns",
+	  "publish": ["github"]
     },
     "linux": {
       "target": "AppImage",
@@ -90,7 +92,8 @@
       "vendor": "Resist.Network",
       "synopsis": "Custom Launcher for Resist.Network",
       "description": "Custom launcher which allows users to join Resist.Network. All mods, configurations, and updates are handled automatically.",
-      "category": "Game"
+      "category": "Game",
+	  "publish": ["github"]
     },
     "deb": {
       "compression": "xz",
