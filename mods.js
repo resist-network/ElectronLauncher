@@ -107,7 +107,7 @@ dir.files('../mod-pack', function(err, files) {
 			allJSON = allJSONrequired+','+allJSONoptional+']\r\n\t\t}]\r\n}'
 		}
 	}
-	fs.appendFile(__dirname+'/app/assets/distribution.json', allJSON.replace(/\\/g, '/').replace(/mod-pack\//g,'').replace(/\.\./g,'')+'', function (err) {
+	fs.appendFile(__dirname+'/app/assets/distribution.json', allJSON.replace(/\\/g, '/').replace(/\.\./g,'')+'', function (err) {
 		if (err) throw err
 		var fs = require('fs')
 		fs.readFile(__dirname+'/app/assets/distribution.json', 'utf8', function (err,data) {
