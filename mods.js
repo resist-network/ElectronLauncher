@@ -6,6 +6,7 @@ const dir = require('node-dir')
 const packFolder = '../mod-pack/'
 const downloadCDN = 'https://github.com/resist-network/mod-pack/raw/master'
 const mcVersion = '1.12.2'
+md5File = require('md5-file'),
 fs.removeSync('app/assets/distribution.json')
 function getFilesizeInBytes(filename){
 	const stats = fs.statSync(filename)
