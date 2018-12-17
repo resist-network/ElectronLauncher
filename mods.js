@@ -46,7 +46,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.replace(/ /g,"%20")
 			console.log(fileName+' >> '+target_md5)
-			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
+			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
 			var target_name =fileName
 			console.log(file)
 			var target_path = 'mods-optional/'+fileName+ext
@@ -59,7 +59,7 @@ dir.files('../mod-pack', function(err, files) {
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20")
 			console.log(fileName+' >> '+target_md5)
-			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
+			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
 			var target_name = fileName
 			console.log(file)
 			var ext = path.extname(file)
