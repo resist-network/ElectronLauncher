@@ -1,7 +1,7 @@
 ![](https://resist.network/assets/uploads/system/site-logo.png)
 # launcher-pack
 Resist.Network Launcher Pack
-![Resist.Network Launcher Screenshot](https://i.imgur.com/iEJb4FJ.png)
+![Resist.Network Launcher Screenshot](https://i.imgur.com/Wpk2eS7.png)
 
 # modification credits
 Resist.Network Team: [Resist.Network Website][resistweb] | [GitHub][resistgithub] | [Launcher][resistgithublauncher]
