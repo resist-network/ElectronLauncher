@@ -1,4 +1,4 @@
-![](https://resist.network/images/128x128.png)
+<img align="center" src="https://resist.network/images/128x128.png">
 <h1 align="center">launcher-pack</h1>
 Resist.Network Launcher Pack
 <img align="center" src="https://i.imgur.com/Wpk2eS7.png">
