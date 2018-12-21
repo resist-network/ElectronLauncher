@@ -2355,10 +2355,15 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     padding: 0px 15px 0px 15px;
 }
+#newsArticleContentScrollable p {
+	padding-bottom:5px;
+}
 #newsArticleContentScrollable img,
 #newsArticleContentScrollable iframe {
     max-width: 95%;
-    display: block;
+    /*display: block;*/
+	padding-top:5px;
+	padding-bottom:5px;
     margin: 0 auto;
 }
 #newsArticleContentScrollable a {
