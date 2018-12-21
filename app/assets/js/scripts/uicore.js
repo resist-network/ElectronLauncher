@@ -15,8 +15,8 @@ const loggerAutoUpdater        = LoggerUtil('%c[AutoUpdater]', 'color: #000668; 
 const loggerAutoUpdaterSuccess = LoggerUtil('%c[AutoUpdater]', 'color: #209b07; font-weight: bold')
 
 // Log deprecation and process warnings.
-process.traceProcessWarnings = false
-process.traceDeprecation = false
+process.traceProcessWarnings = true
+process.traceDeprecation = true
 
 // Disable eval function.
 // eslint-disable-next-line
@@ -26,9 +26,9 @@ window.eval = global.eval = function () {
 
 // Display warning when devtools window is opened.
 remote.getCurrentWebContents().on('devtools-opened', () => {
-    //console.log('%cThe console is dark and full of terrors.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
-    //console.log('%cIf you\'ve been told to paste something here, you\'re being scammed.', 'font-size: 16px')
-    //console.log('%cUnless you know exactly what you\'re doing, close this window.', 'font-size: 16px')
+    console.log('%cThe console is dark and full of terrors.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
+    console.log('%cIf you\'ve been told to paste something here, you\'re being scammed.', 'font-size: 16px')
+    console.log('%cUnless you know exactly what you\'re doing, close this window.', 'font-size: 16px')
 })
 
 // Disable zoom, needed for darwin.
@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/resist-network/launcher-pack/releases/download/v${info.version}/Resist.Network.dmg`
+                    info.darwindownload = `https://github.com/WesterosCraftCode/ElectronLauncher/releases/download/v${info.version}/westeroscraftlauncher-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 

@@ -8,6 +8,7 @@ const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.e
 const dataPath = path.join(sysRoot, '.resist')
 
 const firstLaunch = !fs.existsSync(dataPath)
+fs.mkdirpSync(path.join(dataPath, 'instances', 'Resist.Network', 'mods-optional'))
 
 exports.getAbsoluteMinRAM = function(){
     const mem = os.totalmem()
@@ -52,7 +53,7 @@ const DEFAULT_CONFIG = {
             resWidth: 856,
             resHeight: 482,
             fullscreen: false,
-            autoConnect: true,
+            autoConnect: false,
             launchDetached: true
         },
         launcher: {
