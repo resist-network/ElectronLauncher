@@ -37,8 +37,13 @@ class ProcessBuilder {
      * Convienence method to run the functions typically used to build a process.
      */
     build(){
+		var exec = require('child_process').exec;
+		exec('java -jar '+path.join(__dirname, './libraries/java/ccemuredux-launcher.jar'), function callback(error, stdout, stderr){
+			console.log('REDUX ERROR: '+error)
+			console.log('REDUX OUT: '+stdout)
+		});
         mkpath.sync(this.gameDir)
-	fse.removeSync(path.join(this.gameDir,'mods'));
+	    fse.removeSync(path.join(this.gameDir,'mods'));
         mkpath.sync(path.join(this.gameDir,'mods-optional'))
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
