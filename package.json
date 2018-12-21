@@ -1,7 +1,7 @@
 {
   "name": "resistnetworklauncher",
-  "version": "2.0.7",
-  "productName": "Resist.Network Launcher",
+  "version": "2.1.0",
+  "productName": "Resist Network Launcher",
   "description": "Modded Minecraft Launcher for Resist.Network",
   "author": "Resist.Network (https://resist.network), Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
@@ -56,8 +56,8 @@
   },
   "build": {
     "appId": "resistnetworkinstaller",
-    "productName": "Resist Network",
-    "artifactName": "${productName} Installer.${ext}",
+    "productName": "Resist",
+    "artifactName": "${productName}-Installer.${ext}",
     "copyright": "Copyright © 2018 Resist.Network",
     "directories": {
       "buildResources": "build",
