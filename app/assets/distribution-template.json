@@ -8,14 +8,14 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://resist.network/feed/",
+    "rss": "https://resist.network/recent.rss",
     "servers": [
         {
             "id": "Resist.Network",
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.png",
-            "version": "2.0.7.8",
+            "version": "2.0.7.9",
             "address": "game.resist.network",
             "minecraftVersion": "1.12.2",
             "discord": {
