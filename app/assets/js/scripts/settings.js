@@ -1077,7 +1077,7 @@ function populateReleaseNotes(){
             }
 
         },
-        timeout: 2500
+        timeout: 3000
     }).catch(err => {
         settingsAboutChangelogText.innerHTML = 'Failed to load release notes.'
     })

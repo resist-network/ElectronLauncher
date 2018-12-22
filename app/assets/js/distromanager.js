@@ -534,7 +534,7 @@ exports.pullRemote = function(){
         const distroURL = 'https://raw.githubusercontent.com/resist-network/launcher-pack/master/app/assets/distribution.json'
         const opts = {
             url: distroURL,
-            timeout: 2500
+            timeout: 10000
         }
         const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
         request(opts, (error, resp, body) => {

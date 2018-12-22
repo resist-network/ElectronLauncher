@@ -1097,7 +1097,7 @@ function loadNews(){
                         articles
                     })
                 },
-                timeout: 2500
+                timeout: 3000
             }
         ).catch(err => {
             resolve({
