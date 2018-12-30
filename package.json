@@ -1,6 +1,6 @@
 {
   "name": "resistnetworklauncher",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "productName": "Resist Network Launcher",
   "description": "Modded Minecraft Launcher for Resist.Network",
   "author": "Resist.Network (https://resist.network), Daniel Scalzi (https://github.com/dscalzi/)",
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resist-network/launcher-pack.git"
+    "url": "git+https://github.com/resist-network/resist-launcher-pack.git"
   },
   "build": {
     "appId": "resistnetworkinstaller",

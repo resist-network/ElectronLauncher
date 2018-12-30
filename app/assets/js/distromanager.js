@@ -531,7 +531,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://raw.githubusercontent.com/resist-network/launcher-pack/master/app/assets/distribution.json'
+        const distroURL = 'https://raw.githubusercontent.com/resist-network/resist-launcher-pack/master/app/assets/distribution.json'
         const opts = {
             url: distroURL,
             timeout: 10000
