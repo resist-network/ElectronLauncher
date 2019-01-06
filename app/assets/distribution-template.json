@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.png",
-            "version": "2.3.0.6",
+            "version": "2.3.0.7",
             "address": "portal.resist.network:25565",
             "minecraftVersion": "1.12.2",
             "discord": {
