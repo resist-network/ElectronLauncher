@@ -839,9 +839,9 @@ settingsMaxRAMRange.onchange=(e) => {
     const max=(os.totalmem()-1000000000)/1000000000
 
     // Change range bar color based on the selected value.
-    if(sMaxV >= max/1){
+    if(sMaxV >= max/2){
         bar.style.background='#e86060'
-    } else if(sMaxV >= max/1) {
+    } else if(sMaxV >= max/4) {
         bar.style.background='#e8e18b'
     } else {
         bar.style.background=null
