@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.png",
-            "version": "2.3.0.10",
+            "version": "2.3.0.11",
             "address": "play.resist.network:25566",
             "minecraftVersion": "1.12.2",
             "discord": {
@@ -33,7 +33,7 @@
                     "artifact": {
                         "size": 4450992,
                         "MD5": "761de9c6f5ad7d5b1b29552266c85169",
-                        "url": "RESIST_CDN/libraries/forge-1.12.2-14.23.5.2768-universal.jar"
+                        "url": "RESIST_CDN/libraries/forge-1.12.2-14.23.5.2793-universal.jar"
                     },
                     "subModules": [
                         {
