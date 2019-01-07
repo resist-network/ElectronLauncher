@@ -62,6 +62,20 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/').replace(/resist-mod-pack\//g,'')
 			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
+		}  else if(pathSearch.indexOf('\\Flans\\') > 0) {
+			var fileName = modFile.split('.').slice(0, -1).join('.')
+			var target_type = 'ForgeMod'
+			var target_size = getFilesizeInBytes(file)
+			var target_md5 = md5File.sync(file)
+			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
+			console.log(fileName+' >> '+target_md5)
+			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
+			var target_name = fileName
+			console.log(target_url)
+			var ext = path.extname(file)
+			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/').replace(/resist-mod-pack\//g,'')
+			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
+			allJSONoptional += thisJSONoptional.toString()
 		} else if(pathSearch.indexOf('\\config\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
