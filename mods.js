@@ -64,7 +64,7 @@ dir.files('../resist-mod-pack', function(err, files) {
 			allJSONoptional += thisJSONoptional.toString()
 		}  else if(pathSearch.indexOf('\\Flan\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
-			var target_type = 'ForgeMod'
+			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
