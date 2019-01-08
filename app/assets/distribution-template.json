@@ -6,7 +6,7 @@
         "smallImageKey": "resist-logo-512"
     },
     "java": {
-        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2.3..58.html"
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2.3..59.html"
     },
     "rss": "https://resist.network/feed/",
     "servers": [
@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.png",
-            "version": "2.3..58",
+            "version": "2.3..59",
             "address": "play.resist.network:25566",
             "minecraftVersion": "1.12.2",
             "discord": {
