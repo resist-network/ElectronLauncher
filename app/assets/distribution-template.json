@@ -15,7 +15,7 @@
             "name": "Resist.Network",
             "description": "Want to play a game?",
             "icon": "RESIST_CDN/pack.png",
-            "version": "2.4.1.10",
+            "version": "2.4.1.11",
             "address": "play.resist.network:25566",
             "minecraftVersion": "1.12.2",
             "discord": {
@@ -62,7 +62,7 @@
                             "type": "Library",
                             "artifact": {
                                 "size": 1474672,
-                                "MD5": "379c15c4f72.4.1.10d5d7aecedaf87a6",
+                                "MD5": "379c15c4f72.4.1.11d5d7aecedaf87a6",
                                 "url": "RESIST_CDN/libraries/scala-library-2.11.1.jar"
                             }
                         },
