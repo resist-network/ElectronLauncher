@@ -45,6 +45,8 @@ class ProcessBuilder {
         mkpath.sync(this.gameDir)
 	    fse.removeSync(path.join(this.gameDir,'mods'));
         mkpath.sync(path.join(this.gameDir,'mods-optional'))
+		//need to check version.txt for latest distribution.json #
+	    //fse.removeSync(path.join(this.gameDir,'resources'));
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
         this.setupLiteLoader()
