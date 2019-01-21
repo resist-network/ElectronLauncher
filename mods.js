@@ -3,7 +3,7 @@ fs = require('fs'),
 execSync = require('child_process').execSync,
 dir = require('node-dir'),
 md5File = require('md5-file'),
-downloadCDN = 'http://45.62.233.95:8080'
+downloadCDN = 'https://casper.resist.network'
 function getFilesizeInBytes(filename) {
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
