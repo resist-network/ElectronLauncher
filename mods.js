@@ -24,7 +24,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
@@ -39,7 +44,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var ext = path.extname(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
@@ -52,7 +62,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'ForgeMod'
 			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = 'net.resist:mod:'+target_md5.slice(0, -28)
@@ -66,7 +81,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
@@ -80,7 +100,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
@@ -94,7 +119,12 @@ dir.files('../resist-mod-pack', function(err, files) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
+			// Requires md5sum on the Shell (Only Shell Dependent Aspect Currently for Speed)
+			var md5 = execSync("md5sum \""+file+"\" | awk '{ print $1 }'")
+			var target_md5 = md5.toString().replace(/\n|\r/g, "").replace('\\','')			
+			//Node.JS MD5
+			//var target_md5 = md5File.sync(file)
+			//
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20").replace(/resist-mod-pack\//g,'')
 			console.log(fileName+' >> '+target_md5)
 			var target_id = fileName
