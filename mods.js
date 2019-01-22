@@ -3,7 +3,7 @@ fs = require('fs'),
 execSync = require('child_process').execSync,
 dir = require('node-dir'),
 md5File = require('md5-file'),
-downloadCDN = 'https://thor.resist.network/download'
+downloadCDN = 'https://raw.githubusercontent.com/resist-network/resist-mod-pack/master'
 function getFilesizeInBytes(filename) {
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
