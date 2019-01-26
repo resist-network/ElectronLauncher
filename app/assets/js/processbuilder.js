@@ -45,6 +45,7 @@ class ProcessBuilder {
         mkpath.sync(this.gameDir)
 	    fse.removeSync(path.join(this.gameDir,'mods'));
         mkpath.sync(path.join(this.gameDir,'mods-optional'))
+        mkpath.sync(path.join(this.gameDir,'config-optional'))
 		//need to check version.txt for latest distribution.json #
 	    //fse.removeSync(path.join(this.gameDir,'resources'));
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
@@ -223,6 +224,7 @@ class ProcessBuilder {
         }
 		//Now Optional Mods
 		fse.copySync(path.join(this.gameDir,'mods-optional'), path.join(this.gameDir,'mods'))
+		fse.copySync(path.join(this.gameDir,'config-optional'), path.join(this.gameDir,'config'))
         modList.modRef = ids
 		modList.requiredFiles = requiredFiles
         

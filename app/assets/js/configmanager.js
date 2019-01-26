@@ -9,6 +9,7 @@ const dataPath = path.join(sysRoot, '.resist')
 
 const firstLaunch = !fs.existsSync(dataPath)
 fs.mkdirpSync(path.join(dataPath, 'instances', 'Resist.Network', 'mods-optional'))
+fs.mkdirpSync(path.join(dataPath, 'instances', 'Resist.Network', 'config-optional'))
 
 exports.getAbsoluteMinRAM = function(){
     const mem = os.totalmem()

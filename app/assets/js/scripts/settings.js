@@ -573,6 +573,7 @@ function _saveModConfiguration(modConf){
 // Drop-in mod elements.
 
 let CACHE_SETTINGS_MODS_DIR
+let CACHE_SETTINGS_CONFIGS_DIR
 let CACHE_DROPIN_MODS
 
 /**
@@ -582,6 +583,7 @@ let CACHE_DROPIN_MODS
 function resolveDropinModsForUI(){
     const serv=DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
     CACHE_SETTINGS_MODS_DIR=path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'mods-optional')
+    CACHE_SETTINGS_CONFIGS_DIR=path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'config-optional')
     CACHE_SETTINGS_MODS_REQUIRED_DIR=path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'modstore')
     CACHE_DROPIN_MODS=DropinModUtil.scanForDropinMods(CACHE_SETTINGS_MODS_DIR, serv.getMinecraftVersion())
 	CACHE_REQUIRED_MODS=DropinModUtil.scanForRequiredMods(CACHE_SETTINGS_MODS_REQUIRED_DIR, serv.getMinecraftVersion())
@@ -666,7 +668,12 @@ function bindDropinModFileSystemButton(){
         shell.openItem(CACHE_SETTINGS_MODS_DIR)
     }
 }
-
+function bindDropinConfigsFileSystemButton(){
+    const fsBtn=document.getElementById('settingsDropinConfigsFileSystemButton')
+    fsBtn.onclick=() => {
+        shell.openItem(CACHE_SETTINGS_CONFIGS_DIR)
+    }
+}
 /**
  * Save drop-in mod states. Enabling and disabling is just a matter
  * of adding/removing the .disabled extension.
@@ -701,6 +708,7 @@ document.addEventListener('keydown', (e) => {
             resolveDropinModsForUI()
             bindDropinModsRemoveButton()
             bindDropinModFileSystemButton()
+            bindDropinConfigsFileSystemButton()
             bindModsToggleSwitch()
         }
     }
@@ -765,6 +773,7 @@ function prepareModsTab(first){
     resolveDropinModsForUI()
     bindDropinModsRemoveButton()
     bindDropinModFileSystemButton()
+    bindDropinConfigsFileSystemButton()	
     bindModsToggleSwitch()
     loadSelectedServerOnModsTab()
 }
