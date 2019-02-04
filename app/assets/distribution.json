@@ -15,7 +15,7 @@
       "name": "Resist.Network",
       "description": "Want to play a game?",
       "icon": "https://cdn.resist.network/pack.png",
-      "version": "2.4.9.42",
+      "version": "2.4.9.43",
       "address": "play.resist.network:25566",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -359,21 +359,6 @@
           }
         },
         {
-          "id": "net.resist:mod:8eed",
-          "name": "Avaritia-1.12.2-3.3.0.33-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 972581,
-            "path": "/modstore/Avaritia-1.12.2-3.3.0.33-universal.jar",
-            "MD5": "8eedd678495a7ce0958c026a7873fc62",
-            "url": "https://cdn.resist.network/mods/Avaritia-1.12.2-3.3.0.33-universal.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:51ab",
           "name": "auxiliumequivalence-1.12.2-1.2.1",
           "type": "ForgeMod",
@@ -386,6 +371,21 @@
             "path": "/modstore/auxiliumequivalence-1.12.2-1.2.1.jar",
             "MD5": "51ab6073e09dce98858f7a3198eb997e",
             "url": "https://cdn.resist.network/mods/auxiliumequivalence-1.12.2-1.2.1.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:8eed",
+          "name": "Avaritia-1.12.2-3.3.0.33-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 972581,
+            "path": "/modstore/Avaritia-1.12.2-3.3.0.33-universal.jar",
+            "MD5": "8eedd678495a7ce0958c026a7873fc62",
+            "url": "https://cdn.resist.network/mods/Avaritia-1.12.2-3.3.0.33-universal.jar"
           }
         },
         {
@@ -554,18 +554,18 @@
           }
         },
         {
-          "id": "net.resist:mod:7276",
-          "name": "Clumps-3.1.1",
+          "id": "net.resist:mod:4683",
+          "name": "chiselsandbits-14.30",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 13723,
-            "path": "/modstore/Clumps-3.1.1.jar",
-            "MD5": "727689d86739f9dc987e05259de1a68d",
-            "url": "https://cdn.resist.network/mods/Clumps-3.1.1.jar"
+            "size": 730687,
+            "path": "/modstore/chiselsandbits-14.30.jar",
+            "MD5": "4683a0252fbcccf10034b3dc9ebee90f",
+            "url": "https://cdn.resist.network/mods/chiselsandbits-14.30.jar"
           }
         },
         {
@@ -581,6 +581,21 @@
             "path": "/modstore/Chunk+Pregenerator+V1.12-2.0.jar",
             "MD5": "9e0744b7bd56ac044c0d66d817b164a4",
             "url": "https://cdn.resist.network/mods/Chunk+Pregenerator+V1.12-2.0.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:7276",
+          "name": "Clumps-3.1.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 13723,
+            "path": "/modstore/Clumps-3.1.1.jar",
+            "MD5": "727689d86739f9dc987e05259de1a68d",
+            "url": "https://cdn.resist.network/mods/Clumps-3.1.1.jar"
           }
         },
         {
@@ -674,21 +689,6 @@
           }
         },
         {
-          "id": "net.resist:mod:f531",
-          "name": "CookingForBlockheads_1.12.2-6.4.69",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 586812,
-            "path": "/modstore/CookingForBlockheads_1.12.2-6.4.69.jar",
-            "MD5": "f53121423ac9056e59a726dd3acc62ac",
-            "url": "https://cdn.resist.network/mods/CookingForBlockheads_1.12.2-6.4.69.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:df63",
           "name": "ComputerCraft1.80pr1",
           "type": "ForgeMod",
@@ -704,33 +704,18 @@
           }
         },
         {
-          "id": "net.resist:mod:6d9a",
-          "name": "CraftTweaker2-1.12-4.1.14",
+          "id": "net.resist:mod:f531",
+          "name": "CookingForBlockheads_1.12.2-6.4.69",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1327552,
-            "path": "/modstore/CraftTweaker2-1.12-4.1.14.jar",
-            "MD5": "6d9ad88722a6a779255afcd725762218",
-            "url": "https://cdn.resist.network/mods/CraftTweaker2-1.12-4.1.14.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:ffd1",
-          "name": "CraftingTweaks_1.12.2-8.1.9",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 97854,
-            "path": "/modstore/CraftingTweaks_1.12.2-8.1.9.jar",
-            "MD5": "ffd1e2b5c4f244f4a7c6d4ee2e4c2090",
-            "url": "https://cdn.resist.network/mods/CraftingTweaks_1.12.2-8.1.9.jar"
+            "size": 586812,
+            "path": "/modstore/CookingForBlockheads_1.12.2-6.4.69.jar",
+            "MD5": "f53121423ac9056e59a726dd3acc62ac",
+            "url": "https://cdn.resist.network/mods/CookingForBlockheads_1.12.2-6.4.69.jar"
           }
         },
         {
@@ -779,6 +764,21 @@
           }
         },
         {
+          "id": "net.resist:mod:7ac6",
+          "name": "CyclopsCore-1.12.2-1.0.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 976941,
+            "path": "/modstore/CyclopsCore-1.12.2-1.0.2.jar",
+            "MD5": "7ac6e6a51459f7345592e5e24a36dd5d",
+            "url": "https://cdn.resist.network/mods/CyclopsCore-1.12.2-1.0.2.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:1e06",
           "name": "DankNull-1.12-1.4.46",
           "type": "ForgeMod",
@@ -824,21 +824,6 @@
           }
         },
         {
-          "id": "net.resist:mod:4683",
-          "name": "chiselsandbits-14.30",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 730687,
-            "path": "/modstore/chiselsandbits-14.30.jar",
-            "MD5": "4683a0252fbcccf10034b3dc9ebee90f",
-            "url": "https://cdn.resist.network/mods/chiselsandbits-14.30.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:3dc4",
           "name": "DoomlikeDungeons-1.12.2-MC1.12.2",
           "type": "ForgeMod",
@@ -866,6 +851,21 @@
             "path": "/modstore/EnderCore-1.12.2-0.5.43.jar",
             "MD5": "1ede234a49239cdea92632b568ffe4be",
             "url": "https://cdn.resist.network/mods/EnderCore-1.12.2-0.5.43.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:5f71",
+          "name": "EnderIO-1.12.2-5.0.39",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7106613,
+            "path": "/modstore/EnderIO-1.12.2-5.0.39.jar",
+            "MD5": "5f713093547f087b2596fb34bddc75e0",
+            "url": "https://cdn.resist.network/mods/EnderIO-1.12.2-5.0.39.jar"
           }
         },
         {
@@ -944,21 +944,6 @@
           }
         },
         {
-          "id": "net.resist:mod:5f71",
-          "name": "EnderIO-1.12.2-5.0.39",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7106613,
-            "path": "/modstore/EnderIO-1.12.2-5.0.39.jar",
-            "MD5": "5f713093547f087b2596fb34bddc75e0",
-            "url": "https://cdn.resist.network/mods/EnderIO-1.12.2-5.0.39.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:1846",
           "name": "ExpandedEquivalence-1.12.2-11b",
           "type": "ForgeMod",
@@ -989,21 +974,6 @@
           }
         },
         {
-          "id": "net.resist:mod:2f55",
-          "name": "FarmingForBlockheads_1.12.2-3.1.26",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 242247,
-            "path": "/modstore/FarmingForBlockheads_1.12.2-3.1.26.jar",
-            "MD5": "2f55dbd8c852fe4482a4be5de838aa80",
-            "url": "https://cdn.resist.network/mods/FarmingForBlockheads_1.12.2-3.1.26.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:35b0",
           "name": "ExtremeReactors-1.12.2-0.4.5.50",
           "type": "ForgeMod",
@@ -1019,18 +989,18 @@
           }
         },
         {
-          "id": "net.resist:mod:7ac6",
-          "name": "CyclopsCore-1.12.2-1.0.2",
+          "id": "net.resist:mod:2f55",
+          "name": "FarmingForBlockheads_1.12.2-3.1.26",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 976941,
-            "path": "/modstore/CyclopsCore-1.12.2-1.0.2.jar",
-            "MD5": "7ac6e6a51459f7345592e5e24a36dd5d",
-            "url": "https://cdn.resist.network/mods/CyclopsCore-1.12.2-1.0.2.jar"
+            "size": 242247,
+            "path": "/modstore/FarmingForBlockheads_1.12.2-3.1.26.jar",
+            "MD5": "2f55dbd8c852fe4482a4be5de838aa80",
+            "url": "https://cdn.resist.network/mods/FarmingForBlockheads_1.12.2-3.1.26.jar"
           }
         },
         {
@@ -1049,6 +1019,21 @@
           }
         },
         {
+          "id": "net.resist:mod:9f7c",
+          "name": "FasterLadderClimbing-1.12-0.1-146",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 32750,
+            "path": "/modstore/FasterLadderClimbing-1.12-0.1-146.jar",
+            "MD5": "9f7c289b438817d581a3825ef0015611",
+            "url": "https://cdn.resist.network/mods/FasterLadderClimbing-1.12-0.1-146.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:55eb",
           "name": "FastFurnace-1.12.2-1.2.1",
           "type": "ForgeMod",
@@ -1064,18 +1049,18 @@
           }
         },
         {
-          "id": "net.resist:mod:9f7c",
-          "name": "FasterLadderClimbing-1.12-0.1-146",
+          "id": "net.resist:mod:5cb2",
+          "name": "FastWorkbench-1.12.2-1.6.0",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 32750,
-            "path": "/modstore/FasterLadderClimbing-1.12-0.1-146.jar",
-            "MD5": "9f7c289b438817d581a3825ef0015611",
-            "url": "https://cdn.resist.network/mods/FasterLadderClimbing-1.12-0.1-146.jar"
+            "size": 25347,
+            "path": "/modstore/FastWorkbench-1.12.2-1.6.0.jar",
+            "MD5": "5cb2db7a23e5c8290f0d57011015f01d",
+            "url": "https://cdn.resist.network/mods/FastWorkbench-1.12.2-1.6.0.jar"
           }
         },
         {
@@ -1094,18 +1079,18 @@
           }
         },
         {
-          "id": "net.resist:mod:5cb2",
-          "name": "FastWorkbench-1.12.2-1.6.0",
+          "id": "net.resist:mod:55b2",
+          "name": "foamfix-0.10.3-1.12.2",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 25347,
-            "path": "/modstore/FastWorkbench-1.12.2-1.6.0.jar",
-            "MD5": "5cb2db7a23e5c8290f0d57011015f01d",
-            "url": "https://cdn.resist.network/mods/FastWorkbench-1.12.2-1.6.0.jar"
+            "size": 216000,
+            "path": "/modstore/foamfix-0.10.3-1.12.2.jar",
+            "MD5": "55b225238af64ead15ef6175d5da0bf9",
+            "url": "https://cdn.resist.network/mods/foamfix-0.10.3-1.12.2.jar"
           }
         },
         {
@@ -1274,6 +1259,21 @@
           }
         },
         {
+          "id": "net.resist:mod:96d7",
+          "name": "HammerCore-1.12.2-2.0.4.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2245224,
+            "path": "/modstore/HammerCore-1.12.2-2.0.4.1.jar",
+            "MD5": "96d7b651c01f9437cdf7bfa7d79c3625",
+            "url": "https://cdn.resist.network/mods/HammerCore-1.12.2-2.0.4.1.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:2f44",
           "name": "ICBM-classic-1.12.2-3.0.0b29",
           "type": "ForgeMod",
@@ -1334,21 +1334,6 @@
           }
         },
         {
-          "id": "net.resist:mod:55b2",
-          "name": "foamfix-0.10.3-1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 216000,
-            "path": "/modstore/foamfix-0.10.3-1.12.2.jar",
-            "MD5": "55b225238af64ead15ef6175d5da0bf9",
-            "url": "https://cdn.resist.network/mods/foamfix-0.10.3-1.12.2.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:efa2",
           "name": "industrialcraft-2-2.8.109-ex112",
           "type": "ForgeMod",
@@ -1379,21 +1364,6 @@
           }
         },
         {
-          "id": "net.resist:mod:3f8c",
-          "name": "IndustrialWires-1.7-35",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1229046,
-            "path": "/modstore/IndustrialWires-1.7-35.jar",
-            "MD5": "3f8c8a769967ea55c95f5005ace77da7",
-            "url": "https://cdn.resist.network/mods/IndustrialWires-1.7-35.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:647c",
           "name": "industrialmeat-1.12-1.0.2",
           "type": "ForgeMod",
@@ -1409,6 +1379,21 @@
           }
         },
         {
+          "id": "net.resist:mod:3f8c",
+          "name": "IndustrialWires-1.7-35",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1229046,
+            "path": "/modstore/IndustrialWires-1.7-35.jar",
+            "MD5": "3f8c8a769967ea55c95f5005ace77da7",
+            "url": "https://cdn.resist.network/mods/IndustrialWires-1.7-35.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:fb06",
           "name": "IntegrationForegoing-1.12.2-1.8.2",
           "type": "ForgeMod",
@@ -1421,21 +1406,6 @@
             "path": "/modstore/IntegrationForegoing-1.12.2-1.8.2.jar",
             "MD5": "fb069b3d85ee6b208cc42cf62a58c93e",
             "url": "https://cdn.resist.network/mods/IntegrationForegoing-1.12.2-1.8.2.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:96d7",
-          "name": "HammerCore-1.12.2-2.0.4.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2245224,
-            "path": "/modstore/HammerCore-1.12.2-2.0.4.1.jar",
-            "MD5": "96d7b651c01f9437cdf7bfa7d79c3625",
-            "url": "https://cdn.resist.network/mods/HammerCore-1.12.2-2.0.4.1.jar"
           }
         },
         {
@@ -1649,6 +1619,21 @@
           }
         },
         {
+          "id": "net.resist:mod:a4c3",
+          "name": "LittleLooter-1.1.5",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 273967,
+            "path": "/modstore/LittleLooter-1.1.5.jar",
+            "MD5": "a4c3cae902cde29553c11db0d4eb1137",
+            "url": "https://cdn.resist.network/mods/LittleLooter-1.1.5.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:c535",
           "name": "llibrary-1.7.17-1.12.2",
           "type": "ForgeMod",
@@ -1676,21 +1661,6 @@
             "path": "/modstore/LootBags-1.12.2-2.5.7.jar",
             "MD5": "7a77afe525208299dba777a528ce8229",
             "url": "https://cdn.resist.network/mods/LootBags-1.12.2-2.5.7.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:a4c3",
-          "name": "LittleLooter-1.1.5",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 273967,
-            "path": "/modstore/LittleLooter-1.1.5.jar",
-            "MD5": "a4c3cae902cde29553c11db0d4eb1137",
-            "url": "https://cdn.resist.network/mods/LittleLooter-1.1.5.jar"
           }
         },
         {
@@ -1739,6 +1709,21 @@
           }
         },
         {
+          "id": "net.resist:mod:0f01",
+          "name": "malisisadvert-1.12.2-6.1.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 882177,
+            "path": "/modstore/malisisadvert-1.12.2-6.1.0.jar",
+            "MD5": "0f01b33c122711b7775dc5431fdf3135",
+            "url": "https://cdn.resist.network/mods/malisisadvert-1.12.2-6.1.0.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:5d70",
           "name": "malisiscore-1.12.2-6.4.0",
           "type": "ForgeMod",
@@ -1769,21 +1754,6 @@
           }
         },
         {
-          "id": "net.resist:mod:0f01",
-          "name": "malisisadvert-1.12.2-6.1.0",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 882177,
-            "path": "/modstore/malisisadvert-1.12.2-6.1.0.jar",
-            "MD5": "0f01b33c122711b7775dc5431fdf3135",
-            "url": "https://cdn.resist.network/mods/malisisadvert-1.12.2-6.1.0.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:d031",
           "name": "malisisswitches-1.12.2-5.1.0",
           "type": "ForgeMod",
@@ -1799,21 +1769,6 @@
           }
         },
         {
-          "id": "net.resist:mod:6b3d",
-          "name": "MatterOverdrive-1.12.2-0.6.3.13-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 18213013,
-            "path": "/modstore/MatterOverdrive-1.12.2-0.6.3.13-universal.jar",
-            "MD5": "6b3d5042faa651ebfde51ba19de756aa",
-            "url": "https://cdn.resist.network/mods/MatterOverdrive-1.12.2-0.6.3.13-universal.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:ae2a",
           "name": "Mantle-1.12-1.3.3.39",
           "type": "ForgeMod",
@@ -1826,6 +1781,21 @@
             "path": "/modstore/Mantle-1.12-1.3.3.39.jar",
             "MD5": "ae2a1f5f1b36191acbb07a56a17760de",
             "url": "https://cdn.resist.network/mods/Mantle-1.12-1.3.3.39.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:6b3d",
+          "name": "MatterOverdrive-1.12.2-0.6.3.13-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 18213013,
+            "path": "/modstore/MatterOverdrive-1.12.2-0.6.3.13-universal.jar",
+            "MD5": "6b3d5042faa651ebfde51ba19de756aa",
+            "url": "https://cdn.resist.network/mods/MatterOverdrive-1.12.2-0.6.3.13-universal.jar"
           }
         },
         {
@@ -1859,21 +1829,6 @@
           }
         },
         {
-          "id": "net.resist:mod:a93b",
-          "name": "MobGrindingUtils-0.3.13",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 951922,
-            "path": "/modstore/MobGrindingUtils-0.3.13.jar",
-            "MD5": "a93bd7ac7c3fe91626308c9636ba0e46",
-            "url": "https://cdn.resist.network/mods/MobGrindingUtils-0.3.13.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:6dda",
           "name": "modnametooltip_1.12.2-1.10.0",
           "type": "ForgeMod",
@@ -1886,6 +1841,21 @@
             "path": "/modstore/modnametooltip_1.12.2-1.10.0.jar",
             "MD5": "6dda75b858fc93e2d18ccd42585aec03",
             "url": "https://cdn.resist.network/mods/modnametooltip_1.12.2-1.10.0.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:a93b",
+          "name": "MobGrindingUtils-0.3.13",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 951922,
+            "path": "/modstore/MobGrindingUtils-0.3.13.jar",
+            "MD5": "a93bd7ac7c3fe91626308c9636ba0e46",
+            "url": "https://cdn.resist.network/mods/MobGrindingUtils-0.3.13.jar"
           }
         },
         {
@@ -1904,21 +1874,6 @@
           }
         },
         {
-          "id": "net.resist:mod:ff51",
-          "name": "mp3spi-1.9.5-1",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 33102,
-            "path": "/modstore/mp3spi-1.9.5-1.jar",
-            "MD5": "ff5140599f4ddd17e6df29980cc9805e",
-            "url": "https://cdn.resist.network/mods/mp3spi-1.9.5-1.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:a56d",
           "name": "Morph-o-Tool-1.2-21",
           "type": "ForgeMod",
@@ -1931,6 +1886,21 @@
             "path": "/modstore/Morph-o-Tool-1.2-21.jar",
             "MD5": "a56d6a54721acef7fa4863d4efd20638",
             "url": "https://cdn.resist.network/mods/Morph-o-Tool-1.2-21.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:ff51",
+          "name": "mp3spi-1.9.5-1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 33102,
+            "path": "/modstore/mp3spi-1.9.5-1.jar",
+            "MD5": "ff5140599f4ddd17e6df29980cc9805e",
+            "url": "https://cdn.resist.network/mods/mp3spi-1.9.5-1.jar"
           }
         },
         {
@@ -1964,21 +1934,6 @@
           }
         },
         {
-          "id": "net.resist:mod:c4fa",
-          "name": "noRecipeBook_v1.2.2formc1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4053,
-            "path": "/modstore/noRecipeBook_v1.2.2formc1.12.2.jar",
-            "MD5": "c4fa33c05a45db33c5dd0fa6bec82c61",
-            "url": "https://cdn.resist.network/mods/noRecipeBook_v1.2.2formc1.12.2.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:97ff",
           "name": "NetherPortalFix_1.12.1-5.3.17",
           "type": "ForgeMod",
@@ -1991,6 +1946,21 @@
             "path": "/modstore/NetherPortalFix_1.12.1-5.3.17.jar",
             "MD5": "97ff3e60aa9725cedbc64f19e179f813",
             "url": "https://cdn.resist.network/mods/NetherPortalFix_1.12.1-5.3.17.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:c4fa",
+          "name": "noRecipeBook_v1.2.2formc1.12.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4053,
+            "path": "/modstore/noRecipeBook_v1.2.2formc1.12.2.jar",
+            "MD5": "c4fa33c05a45db33c5dd0fa6bec82c61",
+            "url": "https://cdn.resist.network/mods/noRecipeBook_v1.2.2formc1.12.2.jar"
           }
         },
         {
@@ -2114,6 +2084,36 @@
           }
         },
         {
+          "id": "net.resist:mod:cfd5",
+          "name": "OpenFM-1.12.2-0.1.0.19",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 926519,
+            "path": "/modstore/OpenFM-1.12.2-0.1.0.19.jar",
+            "MD5": "cfd531b1d2c89aea763bc5044fca38bd",
+            "url": "https://cdn.resist.network/mods/OpenFM-1.12.2-0.1.0.19.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:8dc5",
+          "name": "OpenModsLib-1.12.2-0.12.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2639564,
+            "path": "/modstore/OpenModsLib-1.12.2-0.12.1.jar",
+            "MD5": "8dc58701a5c48958a68aca418390e4f3",
+            "url": "https://cdn.resist.network/mods/OpenModsLib-1.12.2-0.12.1.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:7764",
           "name": "openmodularturrets-1.12.2-3.0.1-264",
           "type": "ForgeMod",
@@ -2141,51 +2141,6 @@
             "path": "/modstore/OpenPeripheralAddons-1.7.10-0.6.jar",
             "MD5": "73f9ac8a80ebb978d8fd304cb78c77a9",
             "url": "https://cdn.resist.network/mods/OpenPeripheralAddons-1.7.10-0.6.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:8dc5",
-          "name": "OpenModsLib-1.12.2-0.12.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2639564,
-            "path": "/modstore/OpenModsLib-1.12.2-0.12.1.jar",
-            "MD5": "8dc58701a5c48958a68aca418390e4f3",
-            "url": "https://cdn.resist.network/mods/OpenModsLib-1.12.2-0.12.1.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:cfd5",
-          "name": "OpenFM-1.12.2-0.1.0.19",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 926519,
-            "path": "/modstore/OpenFM-1.12.2-0.1.0.19.jar",
-            "MD5": "cfd531b1d2c89aea763bc5044fca38bd",
-            "url": "https://cdn.resist.network/mods/OpenFM-1.12.2-0.1.0.19.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:4edd",
-          "name": "OpenPrinter-1.12.2-0.1.0.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 210911,
-            "path": "/modstore/OpenPrinter-1.12.2-0.1.0.2.jar",
-            "MD5": "4edd15f50e67ad280e9342fe0b4c5489",
-            "url": "https://cdn.resist.network/mods/OpenPrinter-1.12.2-0.1.0.2.jar"
           }
         },
         {
@@ -2219,6 +2174,21 @@
           }
         },
         {
+          "id": "net.resist:mod:4edd",
+          "name": "OpenPrinter-1.12.2-0.1.0.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 210911,
+            "path": "/modstore/OpenPrinter-1.12.2-0.1.0.2.jar",
+            "MD5": "4edd15f50e67ad280e9342fe0b4c5489",
+            "url": "https://cdn.resist.network/mods/OpenPrinter-1.12.2-0.1.0.2.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:2a13",
           "name": "OpenSecurity-MC1.12.2-1.0-14",
           "type": "ForgeMod",
@@ -2249,21 +2219,6 @@
           }
         },
         {
-          "id": "net.resist:mod:aa70",
-          "name": "plethora-1.12.2-1.1.13",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 987492,
-            "path": "/modstore/plethora-1.12.2-1.1.13.jar",
-            "MD5": "aa70d19735db9794e11cd72fabffc0a2",
-            "url": "https://cdn.resist.network/mods/plethora-1.12.2-1.1.13.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:d4a0",
           "name": "OreLib-1.12.2-3.5.2.2",
           "type": "ForgeMod",
@@ -2276,6 +2231,36 @@
             "path": "/modstore/OreLib-1.12.2-3.5.2.2.jar",
             "MD5": "d4a01946d05fb29e18a505c000007e0c",
             "url": "https://cdn.resist.network/mods/OreLib-1.12.2-3.5.2.2.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:0af5",
+          "name": "p455w0rdslib-1.12.2-2.0.36",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 305888,
+            "path": "/modstore/p455w0rdslib-1.12.2-2.0.36.jar",
+            "MD5": "0af5bef734c55f30cc5eba9065abe09d",
+            "url": "https://cdn.resist.network/mods/p455w0rdslib-1.12.2-2.0.36.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:aa70",
+          "name": "plethora-1.12.2-1.1.13",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 987492,
+            "path": "/modstore/plethora-1.12.2-1.1.13.jar",
+            "MD5": "aa70d19735db9794e11cd72fabffc0a2",
+            "url": "https://cdn.resist.network/mods/plethora-1.12.2-1.1.13.jar"
           }
         },
         {
@@ -2414,21 +2399,6 @@
           }
         },
         {
-          "id": "net.resist:mod:0af5",
-          "name": "p455w0rdslib-1.12.2-2.0.36",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 305888,
-            "path": "/modstore/p455w0rdslib-1.12.2-2.0.36.jar",
-            "MD5": "0af5bef734c55f30cc5eba9065abe09d",
-            "url": "https://cdn.resist.network/mods/p455w0rdslib-1.12.2-2.0.36.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:09c1",
           "name": "PTRLib-1.0.3",
           "type": "ForgeMod",
@@ -2564,21 +2534,6 @@
           }
         },
         {
-          "id": "net.resist:mod:0ab1",
-          "name": "rftools-1.12-7.59",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2892808,
-            "path": "/modstore/rftools-1.12-7.59.jar",
-            "MD5": "0ab1f3987a55a0c1745310c7de75caa1",
-            "url": "https://cdn.resist.network/mods/rftools-1.12-7.59.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:42dc",
           "name": "refinedstorageaddons-0.4.3",
           "type": "ForgeMod",
@@ -2606,6 +2561,21 @@
             "path": "/modstore/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57",
             "url": "https://cdn.resist.network/mods/ResourceLoader-MC1.12.1-1.5.3.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:0ab1",
+          "name": "rftools-1.12-7.59",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2892808,
+            "path": "/modstore/rftools-1.12-7.59.jar",
+            "MD5": "0ab1f3987a55a0c1745310c7de75caa1",
+            "url": "https://cdn.resist.network/mods/rftools-1.12-7.59.jar"
           }
         },
         {
@@ -2669,6 +2639,21 @@
           }
         },
         {
+          "id": "net.resist:mod:7cec",
+          "name": "SGCraft-1.3-mc1.12.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1175045,
+            "path": "/modstore/SGCraft-1.3-mc1.12.2.jar",
+            "MD5": "7cecb5ad4bcc154486f8e6f0e5760164",
+            "url": "https://cdn.resist.network/mods/SGCraft-1.3-mc1.12.2.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:2ad8",
           "name": "SilentLib-1.12.2-3.0.9-159",
           "type": "ForgeMod",
@@ -2696,21 +2681,6 @@
             "path": "/modstore/simplegenerators-1.12.2-2.0.19.1.jar",
             "MD5": "bb92e92e79817f13a16ad5dc75fb51b9",
             "url": "https://cdn.resist.network/mods/simplegenerators-1.12.2-2.0.19.1.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:7cec",
-          "name": "SGCraft-1.3-mc1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1175045,
-            "path": "/modstore/SGCraft-1.3-mc1.12.2.jar",
-            "MD5": "7cecb5ad4bcc154486f8e6f0e5760164",
-            "url": "https://cdn.resist.network/mods/SGCraft-1.3-mc1.12.2.jar"
           }
         },
         {
@@ -3104,6 +3074,21 @@
           }
         },
         {
+          "id": "net.resist:mod:a732",
+          "name": "woot-1.12.2-1.4.9",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 871494,
+            "path": "/modstore/woot-1.12.2-1.4.9.jar",
+            "MD5": "a7325a578264a27e628e16d9baaab8ed",
+            "url": "https://cdn.resist.network/mods/woot-1.12.2-1.4.9.jar"
+          }
+        },
+        {
           "id": "net.resist:mod:2b8c",
           "name": "WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768",
           "type": "ForgeMod",
@@ -3134,21 +3119,6 @@
           }
         },
         {
-          "id": "net.resist:mod:a732",
-          "name": "woot-1.12.2-1.4.9",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 871494,
-            "path": "/modstore/woot-1.12.2-1.4.9.jar",
-            "MD5": "a7325a578264a27e628e16d9baaab8ed",
-            "url": "https://cdn.resist.network/mods/woot-1.12.2-1.4.9.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:aaf2",
           "name": "WR-CBE-1.12.2-2.3.1.30-universal",
           "type": "ForgeMod",
@@ -3161,21 +3131,6 @@
             "path": "/modstore/WR-CBE-1.12.2-2.3.1.30-universal.jar",
             "MD5": "aaf2999992613ae5bed991d97b214467",
             "url": "https://cdn.resist.network/mods/WR-CBE-1.12.2-2.3.1.30-universal.jar"
-          }
-        },
-        {
-          "id": "net.resist:mod:d89a",
-          "name": "[1.12.2] SecurityCraft v1.8.10",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1357318,
-            "path": "/modstore/[1.12.2] SecurityCraft v1.8.10.jar",
-            "MD5": "d89a9f6e78b74d263211ed68e133e98e",
-            "url": "https://cdn.resist.network/mods/[1.12.2]%20SecurityCraft%20v1.8.10.jar"
           }
         },
         {
@@ -3209,18 +3164,18 @@
           }
         },
         {
-          "id": "foamfix",
-          "name": "foamfix",
-          "type": "File",
+          "id": "net.resist:mod:d89a",
+          "name": "[1.12.2] SecurityCraft v1.8.10",
+          "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 6278,
-            "path": "/config/foamfix.cfg",
-            "MD5": "762bc50c3045846825412f7b8543cc00",
-            "url": "https://cdn.resist.network/config/foamfix.cfg"
+            "size": 1357318,
+            "path": "/modstore/[1.12.2] SecurityCraft v1.8.10.jar",
+            "MD5": "d89a9f6e78b74d263211ed68e133e98e",
+            "url": "https://cdn.resist.network/mods/[1.12.2]%20SecurityCraft%20v1.8.10.jar"
           }
         },
         {
@@ -3236,6 +3191,21 @@
             "path": "/config/splash.properties",
             "MD5": "ecc27323fb435d59d219db2de56c1817",
             "url": "https://cdn.resist.network/config/splash.properties"
+          }
+        },
+        {
+          "id": "foamfix",
+          "name": "foamfix",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6278,
+            "path": "/config/foamfix.cfg",
+            "MD5": "762bc50c3045846825412f7b8543cc00",
+            "url": "https://cdn.resist.network/config/foamfix.cfg"
           }
         },
         {
@@ -3404,21 +3374,6 @@
           }
         },
         {
-          "id": "mbutton",
-          "name": "mbutton",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1046,
-            "path": "/resources/resist/menu/mbutton.png",
-            "MD5": "ea32c2fcab1b5788b6df0b0fc9b947c7",
-            "url": "https://cdn.resist.network/resources/resist/menu/mbutton.png"
-          }
-        },
-        {
           "id": "longbutton",
           "name": "longbutton",
           "type": "File",
@@ -3434,6 +3389,36 @@
           }
         },
         {
+          "id": "mbutton",
+          "name": "mbutton",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1046,
+            "path": "/resources/resist/menu/mbutton.png",
+            "MD5": "ea32c2fcab1b5788b6df0b0fc9b947c7",
+            "url": "https://cdn.resist.network/resources/resist/menu/mbutton.png"
+          }
+        },
+        {
+          "id": "store_shelf",
+          "name": "store_shelf",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2392,
+            "path": "/resources/littlelooter/textures/blocks/store_shelf.png",
+            "MD5": "3b2c7857ac051081a5aa0102373945d5",
+            "url": "https://cdn.resist.network/resources/littlelooter/textures/blocks/store_shelf.png"
+          }
+        },
+        {
           "id": "en_US",
           "name": "en_US",
           "type": "File",
@@ -3446,6 +3431,126 @@
             "path": "/resources/lootbags/lang/en_US.lang",
             "MD5": "936e1b48eea1d3e26087c2271054a19d",
             "url": "https://cdn.resist.network/resources/lootbags/lang/en_US.lang"
+          }
+        },
+        {
+          "id": "lootbag_CommonCrate",
+          "name": "lootbag_CommonCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 97,
+            "path": "/resources/lootbags/models/item/lootbag_CommonCrate.json",
+            "MD5": "eac20a4eca17f4ed188a243ef79a255c",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_CommonCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_InfantryCrate",
+          "name": "lootbag_InfantryCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 96,
+            "path": "/resources/lootbags/models/item/lootbag_InfantryCrate.json",
+            "MD5": "c940a875873852df77b73ab50c4240fd",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_InfantryCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_MedicalCrate",
+          "name": "lootbag_MedicalCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 98,
+            "path": "/resources/lootbags/models/item/lootbag_MedicalCrate.json",
+            "MD5": "93e27b740f80098e288281ea9e89f58b",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_MedicalCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_MiningCrate",
+          "name": "lootbag_MiningCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 99,
+            "path": "/resources/lootbags/models/item/lootbag_MiningCrate.json",
+            "MD5": "cd0208583b87d1c7b9a0d96098b93462",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_MiningCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_OutpostCrate",
+          "name": "lootbag_OutpostCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 97,
+            "path": "/resources/lootbags/models/item/lootbag_OutpostCrate.json",
+            "MD5": "2be71447c74d767ed9cbf5f9a64a4120",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_OutpostCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_RationCrate",
+          "name": "lootbag_RationCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 99,
+            "path": "/resources/lootbags/models/item/lootbag_RationCrate.json",
+            "MD5": "a5e158103d4fcbb3cb640ac46320d369",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_RationCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_NotSoCommonCrate",
+          "name": "lootbag_NotSoCommonCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 98,
+            "path": "/resources/lootbags/models/item/lootbag_NotSoCommonCrate.json",
+            "MD5": "91a20c8f89cfa58b3fa17d3535d9d0fd",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_NotSoCommonCrate.json"
+          }
+        },
+        {
+          "id": "lootbag_ToolCrate",
+          "name": "lootbag_ToolCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 99,
+            "path": "/resources/lootbags/models/item/lootbag_ToolCrate.json",
+            "MD5": "6930657922cfcbd9af34bf73cfbc59e0",
+            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_ToolCrate.json"
           }
         },
         {
@@ -3539,21 +3644,6 @@
           }
         },
         {
-          "id": "lootbagsYellowCrate",
-          "name": "lootbagsYellowCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 12197,
-            "path": "/resources/lootbags/textures/items/lootbagsYellowCrate.png",
-            "MD5": "0e3ee96d160e2e1ca09c247c53950f62",
-            "url": "https://cdn.resist.network/resources/lootbags/textures/items/lootbagsYellowCrate.png"
-          }
-        },
-        {
           "id": "lootbagsWhiteCrate",
           "name": "lootbagsWhiteCrate",
           "type": "File",
@@ -3569,138 +3659,33 @@
           }
         },
         {
-          "id": "lootbag_CommonCrate",
-          "name": "lootbag_CommonCrate",
+          "id": "lootbagsYellowCrate",
+          "name": "lootbagsYellowCrate",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 97,
-            "path": "/resources/lootbags/models/item/lootbag_CommonCrate.json",
-            "MD5": "eac20a4eca17f4ed188a243ef79a255c",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_CommonCrate.json"
+            "size": 12197,
+            "path": "/resources/lootbags/textures/items/lootbagsYellowCrate.png",
+            "MD5": "0e3ee96d160e2e1ca09c247c53950f62",
+            "url": "https://cdn.resist.network/resources/lootbags/textures/items/lootbagsYellowCrate.png"
           }
         },
         {
-          "id": "lootbag_InfantryCrate",
-          "name": "lootbag_InfantryCrate",
+          "id": "sign",
+          "name": "sign",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 96,
-            "path": "/resources/lootbags/models/item/lootbag_InfantryCrate.json",
-            "MD5": "c940a875873852df77b73ab50c4240fd",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_InfantryCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_MiningCrate",
-          "name": "lootbag_MiningCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 99,
-            "path": "/resources/lootbags/models/item/lootbag_MiningCrate.json",
-            "MD5": "cd0208583b87d1c7b9a0d96098b93462",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_MiningCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_MedicalCrate",
-          "name": "lootbag_MedicalCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 98,
-            "path": "/resources/lootbags/models/item/lootbag_MedicalCrate.json",
-            "MD5": "93e27b740f80098e288281ea9e89f58b",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_MedicalCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_NotSoCommonCrate",
-          "name": "lootbag_NotSoCommonCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 98,
-            "path": "/resources/lootbags/models/item/lootbag_NotSoCommonCrate.json",
-            "MD5": "91a20c8f89cfa58b3fa17d3535d9d0fd",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_NotSoCommonCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_OutpostCrate",
-          "name": "lootbag_OutpostCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 97,
-            "path": "/resources/lootbags/models/item/lootbag_OutpostCrate.json",
-            "MD5": "2be71447c74d767ed9cbf5f9a64a4120",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_OutpostCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_RationCrate",
-          "name": "lootbag_RationCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 99,
-            "path": "/resources/lootbags/models/item/lootbag_RationCrate.json",
-            "MD5": "a5e158103d4fcbb3cb640ac46320d369",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_RationCrate.json"
-          }
-        },
-        {
-          "id": "lootbag_ToolCrate",
-          "name": "lootbag_ToolCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 99,
-            "path": "/resources/lootbags/models/item/lootbag_ToolCrate.json",
-            "MD5": "6930657922cfcbd9af34bf73cfbc59e0",
-            "url": "https://cdn.resist.network/resources/lootbags/models/item/lootbag_ToolCrate.json"
-          }
-        },
-        {
-          "id": "store_shelf",
-          "name": "store_shelf",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2392,
-            "path": "/resources/littlelooter/textures/blocks/store_shelf.png",
-            "MD5": "3b2c7857ac051081a5aa0102373945d5",
-            "url": "https://cdn.resist.network/resources/littlelooter/textures/blocks/store_shelf.png"
+            "size": 7270,
+            "path": "/resources/minecraft/textures/entity/sign.png",
+            "MD5": "93109fff859d37763928caf3a860c153",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/entity/sign.png"
           }
         },
         {
@@ -3731,21 +3716,6 @@
             "path": "/resources/minecraft/textures/painting/paintings_kristoffer_zetterstrand.png",
             "MD5": "953fee435e0f08248597b324bd2682b2",
             "url": "https://cdn.resist.network/resources/minecraft/textures/painting/paintings_kristoffer_zetterstrand.png"
-          }
-        },
-        {
-          "id": "sign",
-          "name": "sign",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7270,
-            "path": "/resources/minecraft/textures/entity/sign.png",
-            "MD5": "93109fff859d37763928caf3a860c153",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/entity/sign.png"
           }
         },
         {
@@ -3899,21 +3869,6 @@
           }
         },
         {
-          "id": "tabs",
-          "name": "tabs",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2075,
-            "path": "/resources/minecraft/textures/gui/advancements/tabs.png",
-            "MD5": "f083bc5dc5f943c977a4a3ec4af0c47f",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/advancements/tabs.png"
-          }
-        },
-        {
           "id": "widgets",
           "name": "widgets",
           "type": "File",
@@ -3926,6 +3881,21 @@
             "path": "/resources/minecraft/textures/gui/advancements/widgets.png",
             "MD5": "1b60eb2cca796faf607030edb5056ab8",
             "url": "https://cdn.resist.network/resources/minecraft/textures/gui/advancements/widgets.png"
+          }
+        },
+        {
+          "id": "tabs",
+          "name": "tabs",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2075,
+            "path": "/resources/minecraft/textures/gui/advancements/tabs.png",
+            "MD5": "f083bc5dc5f943c977a4a3ec4af0c47f",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/advancements/tabs.png"
           }
         },
         {
@@ -3956,141 +3926,6 @@
             "path": "/resources/minecraft/textures/gui/advancements/backgrounds/nether.png",
             "MD5": "cb29ddf3cb77fabb7f987550cb30b44d",
             "url": "https://cdn.resist.network/resources/minecraft/textures/gui/advancements/backgrounds/nether.png"
-          }
-        },
-        {
-          "id": "edition",
-          "name": "edition",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 220,
-            "path": "/resources/minecraft/textures/gui/title/edition.png",
-            "MD5": "f547e618687524b9628a60c48968fa28",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/edition.png"
-          }
-        },
-        {
-          "id": "minecraft",
-          "name": "minecraft",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 24815,
-            "path": "/resources/minecraft/textures/gui/title/minecraft.png",
-            "MD5": "9d31eb4b36e750d8ecba3abcaecdc794",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/minecraft.png"
-          }
-        },
-        {
-          "id": "mojang",
-          "name": "mojang",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 45414,
-            "path": "/resources/minecraft/textures/gui/title/mojang.png",
-            "MD5": "72809652fd61d416769bc7b3ea452331",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/mojang.png"
-          }
-        },
-        {
-          "id": "panorama_0",
-          "name": "panorama_0",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 200866,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_0.png",
-            "MD5": "6b11803a2f50b565c149192391abb0ff",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_0.png"
-          }
-        },
-        {
-          "id": "panorama_1",
-          "name": "panorama_1",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 210559,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_1.png",
-            "MD5": "1b979dfe8679d8478faf3cbfca19ec24",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_1.png"
-          }
-        },
-        {
-          "id": "panorama_2",
-          "name": "panorama_2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 167788,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_2.png",
-            "MD5": "a0e9657eb81b9cae9ef518142c846952",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_2.png"
-          }
-        },
-        {
-          "id": "panorama_3",
-          "name": "panorama_3",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 186502,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_3.png",
-            "MD5": "e7ae2c74526b19edb81b08d614bc7ac4",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_3.png"
-          }
-        },
-        {
-          "id": "panorama_4",
-          "name": "panorama_4",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6764,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_4.png",
-            "MD5": "62ec3450b4b9e15a1abca6df6d2befd3",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_4.png"
-          }
-        },
-        {
-          "id": "panorama_5",
-          "name": "panorama_5",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 46338,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_5.png",
-            "MD5": "1a7b0c32eb0a92d167b2c0f01032f67a",
-            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_5.png"
           }
         },
         {
@@ -4271,6 +4106,141 @@
             "path": "/resources/minecraft/textures/gui/container/creative_inventory/tab_item_search.png",
             "MD5": "384725a0f50274f8759be7dc4744a001",
             "url": "https://cdn.resist.network/resources/minecraft/textures/gui/container/creative_inventory/tab_item_search.png"
+          }
+        },
+        {
+          "id": "edition",
+          "name": "edition",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 220,
+            "path": "/resources/minecraft/textures/gui/title/edition.png",
+            "MD5": "f547e618687524b9628a60c48968fa28",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/edition.png"
+          }
+        },
+        {
+          "id": "minecraft",
+          "name": "minecraft",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 24815,
+            "path": "/resources/minecraft/textures/gui/title/minecraft.png",
+            "MD5": "9d31eb4b36e750d8ecba3abcaecdc794",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "mojang",
+          "name": "mojang",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 45414,
+            "path": "/resources/minecraft/textures/gui/title/mojang.png",
+            "MD5": "72809652fd61d416769bc7b3ea452331",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/mojang.png"
+          }
+        },
+        {
+          "id": "panorama_0",
+          "name": "panorama_0",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 200866,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_0.png",
+            "MD5": "6b11803a2f50b565c149192391abb0ff",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1",
+          "name": "panorama_1",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 210559,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_1.png",
+            "MD5": "1b979dfe8679d8478faf3cbfca19ec24",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2",
+          "name": "panorama_2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 167788,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_2.png",
+            "MD5": "a0e9657eb81b9cae9ef518142c846952",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3",
+          "name": "panorama_3",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 186502,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_3.png",
+            "MD5": "e7ae2c74526b19edb81b08d614bc7ac4",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4",
+          "name": "panorama_4",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6764,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_4.png",
+            "MD5": "62ec3450b4b9e15a1abca6df6d2befd3",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5",
+          "name": "panorama_5",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 46338,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_5.png",
+            "MD5": "1a7b0c32eb0a92d167b2c0f01032f67a",
+            "url": "https://cdn.resist.network/resources/minecraft/textures/gui/title/background/panorama_5.png"
           }
         }
       ]
