@@ -15,7 +15,7 @@
       "name": "Resist.Network",
       "description": "Want to play a game?",
       "icon": "https://github.com/resist-network/resist-mod-pack/raw/master/pack.png",
-      "version": "2.5.1.11",
+      "version": "2.5.1.12",
       "address": "play.resist.network",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -299,21 +299,6 @@
           }
         },
         {
-          "id": "net.resist:mod:e562",
-          "name": "ActuallyAdditions-1.12.2-r144",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2906137,
-            "path": "/modstore/ActuallyAdditions-1.12.2-r144.jar",
-            "MD5": "e562116b7cf9e99bbca4c1ed74343980",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ActuallyAdditions-1.12.2-r144.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:71b8",
           "name": "ActuallyBaubles-1.12-1.1",
           "type": "ForgeMod",
@@ -326,6 +311,21 @@
             "path": "/modstore/ActuallyBaubles-1.12-1.1.jar",
             "MD5": "71b8dfb3383bf90c615ff4be27f425b7",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ActuallyBaubles-1.12-1.1.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:e562",
+          "name": "ActuallyAdditions-1.12.2-r144",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2906137,
+            "path": "/modstore/ActuallyAdditions-1.12.2-r144.jar",
+            "MD5": "e562116b7cf9e99bbca4c1ed74343980",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ActuallyAdditions-1.12.2-r144.jar"
           }
         },
         {
@@ -509,21 +509,6 @@
           }
         },
         {
-          "id": "net.resist:mod:e42e",
-          "name": "Chameleon-1.12-4.1.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 96859,
-            "path": "/modstore/Chameleon-1.12-4.1.3.jar",
-            "MD5": "e42efa8f4fd42d2918128a826b740e98",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Chameleon-1.12-4.1.3.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:b15b",
           "name": "catwalks-1.12.2-4.0.44",
           "type": "ForgeMod",
@@ -536,6 +521,21 @@
             "path": "/modstore/catwalks-1.12.2-4.0.44.jar",
             "MD5": "b15b7fc6df2c85d0f0f78a1d29ca649b",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/catwalks-1.12.2-4.0.44.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:e42e",
+          "name": "Chameleon-1.12-4.1.3",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 96859,
+            "path": "/modstore/Chameleon-1.12-4.1.3.jar",
+            "MD5": "e42efa8f4fd42d2918128a826b740e98",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Chameleon-1.12-4.1.3.jar"
           }
         },
         {
@@ -584,21 +584,6 @@
           }
         },
         {
-          "id": "net.resist:mod:dd65",
-          "name": "CoFHCore-1.12.2-4.6.1.22-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 844143,
-            "path": "/modstore/CoFHCore-1.12.2-4.6.1.22-universal.jar",
-            "MD5": "dd6593a086ba969dd3eaeae281f669ff",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/CoFHCore-1.12.2-4.6.1.22-universal.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:f8b4",
           "name": "CodeChickenLib-1.12.2-3.2.2.353-universal",
           "type": "ForgeMod",
@@ -611,6 +596,21 @@
             "path": "/modstore/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
             "MD5": "f8b4843eccafb2213512ba9be17bfad2",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:dd65",
+          "name": "CoFHCore-1.12.2-4.6.1.22-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 844143,
+            "path": "/modstore/CoFHCore-1.12.2-4.6.1.22-universal.jar",
+            "MD5": "dd6593a086ba969dd3eaeae281f669ff",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/CoFHCore-1.12.2-4.6.1.22-universal.jar"
           }
         },
         {
@@ -644,21 +644,6 @@
           }
         },
         {
-          "id": "net.resist:mod:717a",
-          "name": "compactmachines3-1.12.2-3.0.13-b236",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 633874,
-            "path": "/modstore/compactmachines3-1.12.2-3.0.13-b236.jar",
-            "MD5": "717a390c893b4110369187069496d023",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/compactmachines3-1.12.2-3.0.13-b236.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:df63",
           "name": "ComputerCraft1.80pr1",
           "type": "ForgeMod",
@@ -671,6 +656,21 @@
             "path": "/modstore/ComputerCraft1.80pr1.jar",
             "MD5": "df638d71e9f8834cf7f0784cf4ab4f41",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ComputerCraft1.80pr1.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:717a",
+          "name": "compactmachines3-1.12.2-3.0.13-b236",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 633874,
+            "path": "/modstore/compactmachines3-1.12.2-3.0.13-b236.jar",
+            "MD5": "717a390c893b4110369187069496d023",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/compactmachines3-1.12.2-3.0.13-b236.jar"
           }
         },
         {
@@ -749,21 +749,6 @@
           }
         },
         {
-          "id": "net.resist:mod:1d49",
-          "name": "Cyclic-1.12.2-1.17.16",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 3667464,
-            "path": "/modstore/Cyclic-1.12.2-1.17.16.jar",
-            "MD5": "1d49b1a2cd82af6c1625a4d32920b10b",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Cyclic-1.12.2-1.17.16.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:7ac6",
           "name": "CyclopsCore-1.12.2-1.0.2",
           "type": "ForgeMod",
@@ -776,6 +761,21 @@
             "path": "/modstore/CyclopsCore-1.12.2-1.0.2.jar",
             "MD5": "7ac6e6a51459f7345592e5e24a36dd5d",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/CyclopsCore-1.12.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:1d49",
+          "name": "Cyclic-1.12.2-1.17.16",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 3667464,
+            "path": "/modstore/Cyclic-1.12.2-1.17.16.jar",
+            "MD5": "1d49b1a2cd82af6c1625a4d32920b10b",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Cyclic-1.12.2-1.17.16.jar"
           }
         },
         {
@@ -1964,21 +1964,6 @@
           }
         },
         {
-          "id": "net.resist:mod:8dc5",
-          "name": "OpenModsLib-1.12.2-0.12.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2639564,
-            "path": "/modstore/OpenModsLib-1.12.2-0.12.1.jar",
-            "MD5": "8dc58701a5c48958a68aca418390e4f3",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenModsLib-1.12.2-0.12.1.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:ed96",
           "name": "OpenGlasses-MC1.12.2-2.0.7",
           "type": "ForgeMod",
@@ -1991,6 +1976,21 @@
             "path": "/modstore/OpenGlasses-MC1.12.2-2.0.7.jar",
             "MD5": "ed96caa051df37b45e24299bc9b29d3b",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenGlasses-MC1.12.2-2.0.7.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:8dc5",
+          "name": "OpenModsLib-1.12.2-0.12.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2639564,
+            "path": "/modstore/OpenModsLib-1.12.2-0.12.1.jar",
+            "MD5": "8dc58701a5c48958a68aca418390e4f3",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenModsLib-1.12.2-0.12.1.jar"
           }
         },
         {
@@ -2024,21 +2024,6 @@
           }
         },
         {
-          "id": "net.resist:mod:9605",
-          "name": "OpenPeripheralIntegration-1.7.10-0.6",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 272855,
-            "path": "/modstore/OpenPeripheralIntegration-1.7.10-0.6.jar",
-            "MD5": "9605fa8af0b27adf3417e3d8d9fa99a8",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenPeripheralIntegration-1.7.10-0.6.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:40a2",
           "name": "OpenPeripheralCore-1.7.10-1.4",
           "type": "ForgeMod",
@@ -2051,6 +2036,21 @@
             "path": "/modstore/OpenPeripheralCore-1.7.10-1.4.jar",
             "MD5": "40a20aa1af43c8364293d7eeb0e1cbe2",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenPeripheralCore-1.7.10-1.4.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:9605",
+          "name": "OpenPeripheralIntegration-1.7.10-0.6",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 272855,
+            "path": "/modstore/OpenPeripheralIntegration-1.7.10-0.6.jar",
+            "MD5": "9605fa8af0b27adf3417e3d8d9fa99a8",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/OpenPeripheralIntegration-1.7.10-0.6.jar"
           }
         },
         {
@@ -2234,21 +2234,6 @@
           }
         },
         {
-          "id": "net.resist:mod:206c",
-          "name": "ProjectRed-1.12.2-4.9.1.92-mechanical",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2586694,
-            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
-            "MD5": "206c601a3800e3ff0e21763f2e9e8b9c",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:09c1",
           "name": "PTRLib-1.0.3",
           "type": "ForgeMod",
@@ -2264,18 +2249,18 @@
           }
         },
         {
-          "id": "net.resist:mod:6fc4",
-          "name": "QuantumStorage-1.12-4.6.6",
+          "id": "net.resist:mod:206c",
+          "name": "ProjectRed-1.12.2-4.9.1.92-mechanical",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 219681,
-            "path": "/modstore/QuantumStorage-1.12-4.6.6.jar",
-            "MD5": "6fc4ce80ce0ed250b2347703f9a725e9",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/QuantumStorage-1.12-4.6.6.jar"
+            "size": 2586694,
+            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
+            "MD5": "206c601a3800e3ff0e21763f2e9e8b9c",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar"
           }
         },
         {
@@ -2291,6 +2276,21 @@
             "path": "/modstore/Quark-r1.5-145.jar",
             "MD5": "661e12f63b8e3e367e67323031599eb9",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Quark-r1.5-145.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:6fc4",
+          "name": "QuantumStorage-1.12-4.6.6",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 219681,
+            "path": "/modstore/QuantumStorage-1.12-4.6.6.jar",
+            "MD5": "6fc4ce80ce0ed250b2347703f9a725e9",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/QuantumStorage-1.12-4.6.6.jar"
           }
         },
         {
@@ -2384,21 +2384,6 @@
           }
         },
         {
-          "id": "net.resist:mod:5114",
-          "name": "ResourceLoader-MC1.12.1-1.5.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 16612,
-            "path": "/modstore/ResourceLoader-MC1.12.1-1.5.3.jar",
-            "MD5": "51141e882f96ce756b9b3d25f2acdf57",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ResourceLoader-MC1.12.1-1.5.3.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:42dc",
           "name": "refinedstorageaddons-0.4.3",
           "type": "ForgeMod",
@@ -2414,18 +2399,18 @@
           }
         },
         {
-          "id": "net.resist:mod:2394",
-          "name": "rftools-1.12-7.60",
+          "id": "net.resist:mod:5114",
+          "name": "ResourceLoader-MC1.12.1-1.5.3",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 2898889,
-            "path": "/modstore/rftools-1.12-7.60.jar",
-            "MD5": "23946aa09696cde1d39f3c570bdfd0a2",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/rftools-1.12-7.60.jar"
+            "size": 16612,
+            "path": "/modstore/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ResourceLoader-MC1.12.1-1.5.3.jar"
           }
         },
         {
@@ -2441,6 +2426,21 @@
             "path": "/modstore/rftoolsctrl-1.12-1.9.3.jar",
             "MD5": "24274a9e8e99b82573e7399e309b8737",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/rftoolsctrl-1.12-1.9.3.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:2394",
+          "name": "rftools-1.12-7.60",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2898889,
+            "path": "/modstore/rftools-1.12-7.60.jar",
+            "MD5": "23946aa09696cde1d39f3c570bdfd0a2",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/rftools-1.12-7.60.jar"
           }
         },
         {
@@ -2669,21 +2669,6 @@
           }
         },
         {
-          "id": "net.resist:mod:bc6b",
-          "name": "ThermalDynamics-1.12.2-2.5.3.16-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 761778,
-            "path": "/modstore/ThermalDynamics-1.12.2-2.5.3.16-universal.jar",
-            "MD5": "bc6bac8d036285d4c4a1281b1809434c",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ThermalDynamics-1.12.2-2.5.3.16-universal.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:6384",
           "name": "theoneprobe-1.12-1.4.28",
           "type": "ForgeMod",
@@ -2714,18 +2699,18 @@
           }
         },
         {
-          "id": "net.resist:mod:8291",
-          "name": "ThermalFoundation-1.12.2-2.6.1.22-universal",
+          "id": "net.resist:mod:bc6b",
+          "name": "ThermalDynamics-1.12.2-2.5.3.16-universal",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 2304958,
-            "path": "/modstore/ThermalFoundation-1.12.2-2.6.1.22-universal.jar",
-            "MD5": "829163490a6033c0ff833501249a7e63",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ThermalFoundation-1.12.2-2.6.1.22-universal.jar"
+            "size": 761778,
+            "path": "/modstore/ThermalDynamics-1.12.2-2.5.3.16-universal.jar",
+            "MD5": "bc6bac8d036285d4c4a1281b1809434c",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ThermalDynamics-1.12.2-2.5.3.16-universal.jar"
           }
         },
         {
@@ -2744,18 +2729,18 @@
           }
         },
         {
-          "id": "net.resist:mod:f8ce",
-          "name": "tinyprogressions-1.12.2-3.3.32-Release",
+          "id": "net.resist:mod:8291",
+          "name": "ThermalFoundation-1.12.2-2.6.1.22-universal",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 1134308,
-            "path": "/modstore/tinyprogressions-1.12.2-3.3.32-Release.jar",
-            "MD5": "f8ceeb65df734a956ebc60773265a148",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/tinyprogressions-1.12.2-3.3.32-Release.jar"
+            "size": 2304958,
+            "path": "/modstore/ThermalFoundation-1.12.2-2.6.1.22-universal.jar",
+            "MD5": "829163490a6033c0ff833501249a7e63",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/ThermalFoundation-1.12.2-2.6.1.22-universal.jar"
           }
         },
         {
@@ -2771,6 +2756,21 @@
             "path": "/modstore/Toast+Control-1.12.2-1.8.0.jar",
             "MD5": "ca37b781267e9f0a1c34066e7275ac6c",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Toast+Control-1.12.2-1.8.0.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:f8ce",
+          "name": "tinyprogressions-1.12.2-3.3.32-Release",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1134308,
+            "path": "/modstore/tinyprogressions-1.12.2-3.3.32-Release.jar",
+            "MD5": "f8ceeb65df734a956ebc60773265a148",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/tinyprogressions-1.12.2-3.3.32-Release.jar"
           }
         },
         {
@@ -2834,21 +2834,6 @@
           }
         },
         {
-          "id": "net.resist:mod:82d0",
-          "name": "Whoosh-1.12.2-0.1.12.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 68378,
-            "path": "/modstore/Whoosh-1.12.2-0.1.12.1-universal.jar",
-            "MD5": "82d03da44b93851e3cfaa180d9cf0bbc",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Whoosh-1.12.2-0.1.12.1-universal.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:da46",
           "name": "WanionLib-1.12.2-2.2",
           "type": "ForgeMod",
@@ -2861,6 +2846,21 @@
             "path": "/modstore/WanionLib-1.12.2-2.2.jar",
             "MD5": "da46d9a391cb6ac4d3bd453db2158e58",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/WanionLib-1.12.2-2.2.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:82d0",
+          "name": "Whoosh-1.12.2-0.1.12.1-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 68378,
+            "path": "/modstore/Whoosh-1.12.2-0.1.12.1-universal.jar",
+            "MD5": "82d03da44b93851e3cfaa180d9cf0bbc",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/Whoosh-1.12.2-0.1.12.1-universal.jar"
           }
         },
         {
@@ -2879,21 +2879,6 @@
           }
         },
         {
-          "id": "net.resist:mod:2b8c",
-          "name": "WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 459294,
-            "path": "/modstore/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar",
-            "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
-          }
-        },
-        {
           "id": "net.resist:mod:73ec",
           "name": "worldedit-forge-mc1.12-6.1.8-dist",
           "type": "ForgeMod",
@@ -2906,6 +2891,21 @@
             "path": "/modstore/worldedit-forge-mc1.12-6.1.8-dist.jar",
             "MD5": "73ecbb8656a5fd5823852078f0fb7ca7",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/worldedit-forge-mc1.12-6.1.8-dist.jar"
+          }
+        },
+        {
+          "id": "net.resist:mod:2b8c",
+          "name": "WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 459294,
+            "path": "/modstore/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar",
+            "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/mods/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
           }
         },
         {
@@ -3029,21 +3029,6 @@
           }
         },
         {
-          "id": "Lootbags_BagConfig.cfg",
-          "name": "Lootbags_BagConfig.cfg",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 11849,
-            "path": "/config/Lootbags_BagConfig.cfg.orig",
-            "MD5": "7b4a9a0c778191f6db6f78abe556f9e2",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/Lootbags_BagConfig.cfg.orig"
-          }
-        },
-        {
           "id": "Lootbags_BagConfig",
           "name": "Lootbags_BagConfig",
           "type": "File",
@@ -3056,6 +3041,21 @@
             "path": "/config/Lootbags_BagConfig.cfg",
             "MD5": "557ac525fd10cea1af4ab1d49671a88c",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/Lootbags_BagConfig.cfg"
+          }
+        },
+        {
+          "id": "Lootbags_BagConfig.cfg",
+          "name": "Lootbags_BagConfig.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 11849,
+            "path": "/config/Lootbags_BagConfig.cfg.orig",
+            "MD5": "7b4a9a0c778191f6db6f78abe556f9e2",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/Lootbags_BagConfig.cfg.orig"
           }
         },
         {
@@ -3104,63 +3104,18 @@
           }
         },
         {
-          "id": "keybindings",
-          "name": "keybindings",
+          "id": "mainmenu",
+          "name": "mainmenu",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 8653,
-            "path": "/config/defaultoptions/keybindings.txt",
-            "MD5": "43e3a276a6125510cca0cf2dd0d25149",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/keybindings.txt"
-          }
-        },
-        {
-          "id": "options",
-          "name": "options",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1453,
-            "path": "/config/defaultoptions/options.txt",
-            "MD5": "4a7b3a94d137a8709ae8f8477fb72ba0",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/options.txt"
-          }
-        },
-        {
-          "id": "optionsof",
-          "name": "optionsof",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1434,
-            "path": "/config/defaultoptions/optionsof.txt",
-            "MD5": "986bf008820a6235c5928319090630c4",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/optionsof.txt"
-          }
-        },
-        {
-          "id": "servers",
-          "name": "servers",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 87,
-            "path": "/config/defaultoptions/servers.dat",
-            "MD5": "db7b93cfc657f99613b2bdf4b3b47aba",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/servers.dat"
+            "size": 4166,
+            "path": "/config/CustomMainMenu/mainmenu.json",
+            "MD5": "02f903e4fc4f9a880c7b17771e989c5f",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/CustomMainMenu/mainmenu.json"
           }
         },
         {
@@ -3344,18 +3299,63 @@
           }
         },
         {
-          "id": "mainmenu",
-          "name": "mainmenu",
+          "id": "keybindings",
+          "name": "keybindings",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 4166,
-            "path": "/config/CustomMainMenu/mainmenu.json",
-            "MD5": "02f903e4fc4f9a880c7b17771e989c5f",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/CustomMainMenu/mainmenu.json"
+            "size": 8653,
+            "path": "/config/defaultoptions/keybindings.txt",
+            "MD5": "43e3a276a6125510cca0cf2dd0d25149",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options",
+          "name": "options",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1453,
+            "path": "/config/defaultoptions/options.txt",
+            "MD5": "4a7b3a94d137a8709ae8f8477fb72ba0",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "optionsof",
+          "name": "optionsof",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1434,
+            "path": "/config/defaultoptions/optionsof.txt",
+            "MD5": "986bf008820a6235c5928319090630c4",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/optionsof.txt"
+          }
+        },
+        {
+          "id": "servers",
+          "name": "servers",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 87,
+            "path": "/config/defaultoptions/servers.dat",
+            "MD5": "db7b93cfc657f99613b2bdf4b3b47aba",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/config/defaultoptions/servers.dat"
           }
         },
         {
@@ -3644,18 +3644,18 @@
           }
         },
         {
-          "id": "mbutton",
-          "name": "mbutton",
+          "id": "logo",
+          "name": "logo",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1046,
-            "path": "/resources/resist/menu/mbutton.png",
-            "MD5": "ea32c2fcab1b5788b6df0b0fc9b947c7",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/resist/menu/mbutton.png"
+            "size": 7639,
+            "path": "/resources/resist/menu/logo.png",
+            "MD5": "470d97c75fd1fe01784b7a6da92be5ef",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/resist/menu/logo.png"
           }
         },
         {
@@ -3674,18 +3674,18 @@
           }
         },
         {
-          "id": "logo",
-          "name": "logo",
+          "id": "mbutton",
+          "name": "mbutton",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 7639,
-            "path": "/resources/resist/menu/logo.png",
-            "MD5": "470d97c75fd1fe01784b7a6da92be5ef",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/resist/menu/logo.png"
+            "size": 1046,
+            "path": "/resources/resist/menu/mbutton.png",
+            "MD5": "ea32c2fcab1b5788b6df0b0fc9b947c7",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/resist/menu/mbutton.png"
           }
         },
         {
@@ -3854,6 +3854,21 @@
           }
         },
         {
+          "id": "lootbag_InfantryCrate",
+          "name": "lootbag_InfantryCrate",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 96,
+            "path": "/resources/lootbags/models/item/lootbag_InfantryCrate.json",
+            "MD5": "c940a875873852df77b73ab50c4240fd",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/lootbags/models/item/lootbag_InfantryCrate.json"
+          }
+        },
+        {
           "id": "lootbag_MedicalCrate",
           "name": "lootbag_MedicalCrate",
           "type": "File",
@@ -3899,21 +3914,6 @@
           }
         },
         {
-          "id": "lootbag_RationCrate",
-          "name": "lootbag_RationCrate",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 99,
-            "path": "/resources/lootbags/models/item/lootbag_RationCrate.json",
-            "MD5": "a5e158103d4fcbb3cb640ac46320d369",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/lootbags/models/item/lootbag_RationCrate.json"
-          }
-        },
-        {
           "id": "lootbag_OutpostCrate",
           "name": "lootbag_OutpostCrate",
           "type": "File",
@@ -3929,18 +3929,18 @@
           }
         },
         {
-          "id": "lootbag_InfantryCrate",
-          "name": "lootbag_InfantryCrate",
+          "id": "lootbag_RationCrate",
+          "name": "lootbag_RationCrate",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 96,
-            "path": "/resources/lootbags/models/item/lootbag_InfantryCrate.json",
-            "MD5": "c940a875873852df77b73ab50c4240fd",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/lootbags/models/item/lootbag_InfantryCrate.json"
+            "size": 99,
+            "path": "/resources/lootbags/models/item/lootbag_RationCrate.json",
+            "MD5": "a5e158103d4fcbb3cb640ac46320d369",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/lootbags/models/item/lootbag_RationCrate.json"
           }
         },
         {
@@ -4019,6 +4019,21 @@
           }
         },
         {
+          "id": "normal",
+          "name": "normal",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6488,
+            "path": "/resources/minecraft/textures/entity/chest/normal.png",
+            "MD5": "54726ad4eeee9a6e602cd68e5eeeeeff",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/entity/chest/normal.png"
+          }
+        },
+        {
           "id": "normal_double",
           "name": "normal_double",
           "type": "File",
@@ -4061,21 +4076,6 @@
             "path": "/resources/minecraft/textures/entity/chest/trapped_double.png",
             "MD5": "fa0b55a212a1c5bfda2a1f4ee6585c98",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/entity/chest/trapped_double.png"
-          }
-        },
-        {
-          "id": "normal",
-          "name": "normal",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6488,
-            "path": "/resources/minecraft/textures/entity/chest/normal.png",
-            "MD5": "54726ad4eeee9a6e602cd68e5eeeeeff",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/entity/chest/normal.png"
           }
         },
         {
@@ -4184,21 +4184,6 @@
           }
         },
         {
-          "id": "toasts",
-          "name": "toasts",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 27183,
-            "path": "/resources/minecraft/textures/gui/toasts.png",
-            "MD5": "f4edfabdf42de434f5bf0d9f95ed6263",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/toasts.png"
-          }
-        },
-        {
           "id": "widgets",
           "name": "widgets",
           "type": "File",
@@ -4226,6 +4211,21 @@
             "path": "/resources/minecraft/textures/gui/world_selection.png",
             "MD5": "a90d8d8cc94d183ebf8f027126618ce3",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/world_selection.png"
+          }
+        },
+        {
+          "id": "toasts",
+          "name": "toasts",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 27183,
+            "path": "/resources/minecraft/textures/gui/toasts.png",
+            "MD5": "f4edfabdf42de434f5bf0d9f95ed6263",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/toasts.png"
           }
         },
         {
@@ -4286,141 +4286,6 @@
             "path": "/resources/minecraft/textures/gui/advancements/backgrounds/nether.png",
             "MD5": "cb29ddf3cb77fabb7f987550cb30b44d",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/advancements/backgrounds/nether.png"
-          }
-        },
-        {
-          "id": "edition",
-          "name": "edition",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 220,
-            "path": "/resources/minecraft/textures/gui/title/edition.png",
-            "MD5": "f547e618687524b9628a60c48968fa28",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/edition.png"
-          }
-        },
-        {
-          "id": "minecraft",
-          "name": "minecraft",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 24815,
-            "path": "/resources/minecraft/textures/gui/title/minecraft.png",
-            "MD5": "9d31eb4b36e750d8ecba3abcaecdc794",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/minecraft.png"
-          }
-        },
-        {
-          "id": "mojang",
-          "name": "mojang",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 45414,
-            "path": "/resources/minecraft/textures/gui/title/mojang.png",
-            "MD5": "72809652fd61d416769bc7b3ea452331",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/mojang.png"
-          }
-        },
-        {
-          "id": "panorama_0",
-          "name": "panorama_0",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 200866,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_0.png",
-            "MD5": "6b11803a2f50b565c149192391abb0ff",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_0.png"
-          }
-        },
-        {
-          "id": "panorama_1",
-          "name": "panorama_1",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 210559,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_1.png",
-            "MD5": "1b979dfe8679d8478faf3cbfca19ec24",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_1.png"
-          }
-        },
-        {
-          "id": "panorama_2",
-          "name": "panorama_2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 167788,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_2.png",
-            "MD5": "a0e9657eb81b9cae9ef518142c846952",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_2.png"
-          }
-        },
-        {
-          "id": "panorama_3",
-          "name": "panorama_3",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 186502,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_3.png",
-            "MD5": "e7ae2c74526b19edb81b08d614bc7ac4",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_3.png"
-          }
-        },
-        {
-          "id": "panorama_4",
-          "name": "panorama_4",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6764,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_4.png",
-            "MD5": "62ec3450b4b9e15a1abca6df6d2befd3",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_4.png"
-          }
-        },
-        {
-          "id": "panorama_5",
-          "name": "panorama_5",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 46338,
-            "path": "/resources/minecraft/textures/gui/title/background/panorama_5.png",
-            "MD5": "1a7b0c32eb0a92d167b2c0f01032f67a",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_5.png"
           }
         },
         {
@@ -4604,6 +4469,141 @@
           }
         },
         {
+          "id": "edition",
+          "name": "edition",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 220,
+            "path": "/resources/minecraft/textures/gui/title/edition.png",
+            "MD5": "f547e618687524b9628a60c48968fa28",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/edition.png"
+          }
+        },
+        {
+          "id": "minecraft",
+          "name": "minecraft",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 24815,
+            "path": "/resources/minecraft/textures/gui/title/minecraft.png",
+            "MD5": "9d31eb4b36e750d8ecba3abcaecdc794",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "mojang",
+          "name": "mojang",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 45414,
+            "path": "/resources/minecraft/textures/gui/title/mojang.png",
+            "MD5": "72809652fd61d416769bc7b3ea452331",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/mojang.png"
+          }
+        },
+        {
+          "id": "panorama_0",
+          "name": "panorama_0",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 200866,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_0.png",
+            "MD5": "6b11803a2f50b565c149192391abb0ff",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1",
+          "name": "panorama_1",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 210559,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_1.png",
+            "MD5": "1b979dfe8679d8478faf3cbfca19ec24",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2",
+          "name": "panorama_2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 167788,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_2.png",
+            "MD5": "a0e9657eb81b9cae9ef518142c846952",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3",
+          "name": "panorama_3",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 186502,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_3.png",
+            "MD5": "e7ae2c74526b19edb81b08d614bc7ac4",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4",
+          "name": "panorama_4",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6764,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_4.png",
+            "MD5": "62ec3450b4b9e15a1abca6df6d2befd3",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5",
+          "name": "panorama_5",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 46338,
+            "path": "/resources/minecraft/textures/gui/title/background/panorama_5.png",
+            "MD5": "1a7b0c32eb0a92d167b2c0f01032f67a",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/textures/gui/title/background/panorama_5.png"
+          }
+        },
+        {
           "id": "menu1",
           "name": "menu1",
           "type": "File",
@@ -4769,21 +4769,6 @@
           }
         },
         {
-          "id": "nuance2",
-          "name": "nuance2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 5284700,
-            "path": "/resources/minecraft/sounds/music/game/nuance2.ogg",
-            "MD5": "480b94afcf158e92347bcd4f09738636",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nuance2.ogg"
-          }
-        },
-        {
           "id": "nuance1",
           "name": "nuance1",
           "type": "File",
@@ -4796,6 +4781,21 @@
             "path": "/resources/minecraft/sounds/music/game/nuance1.ogg",
             "MD5": "fdb675e476c6ece0a15b558f68e239fe",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nuance1.ogg"
+          }
+        },
+        {
+          "id": "nuance2",
+          "name": "nuance2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 5284700,
+            "path": "/resources/minecraft/sounds/music/game/nuance2.ogg",
+            "MD5": "480b94afcf158e92347bcd4f09738636",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nuance2.ogg"
           }
         },
         {
@@ -4841,66 +4841,6 @@
             "path": "/resources/minecraft/sounds/music/game/piano3.ogg",
             "MD5": "4e47704945c409313ab30c922918bcac",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/piano3.ogg"
-          }
-        },
-        {
-          "id": "nether1",
-          "name": "nether1",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2731933,
-            "path": "/resources/minecraft/sounds/music/game/nether/nether1.ogg",
-            "MD5": "daa937fb986a91d0beeec68f0b2a41ef",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether1.ogg"
-          }
-        },
-        {
-          "id": "nether2",
-          "name": "nether2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2783300,
-            "path": "/resources/minecraft/sounds/music/game/nether/nether2.ogg",
-            "MD5": "a14a79981f07c07bf5b4d883178d9255",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether2.ogg"
-          }
-        },
-        {
-          "id": "nether4",
-          "name": "nether4",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2771287,
-            "path": "/resources/minecraft/sounds/music/game/nether/nether4.ogg",
-            "MD5": "660be3853a25b1713ad2645b8fce5de5",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether4.ogg"
-          }
-        },
-        {
-          "id": "nether3",
-          "name": "nether3",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2460079,
-            "path": "/resources/minecraft/sounds/music/game/nether/nether3.ogg",
-            "MD5": "6ff07f747440fba9722b8edee0f754ce",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether3.ogg"
           }
         },
         {
@@ -4964,21 +4904,6 @@
           }
         },
         {
-          "id": "creative6",
-          "name": "creative6",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4090224,
-            "path": "/resources/minecraft/sounds/music/game/creative/creative6.ogg",
-            "MD5": "d33005de44b24f1597bd7f1d7b6353db",
-            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/creative/creative6.ogg"
-          }
-        },
-        {
           "id": "creative5",
           "name": "creative5",
           "type": "File",
@@ -4991,6 +4916,21 @@
             "path": "/resources/minecraft/sounds/music/game/creative/creative5.ogg",
             "MD5": "d33005de44b24f1597bd7f1d7b6353db",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/creative/creative5.ogg"
+          }
+        },
+        {
+          "id": "creative6",
+          "name": "creative6",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4090224,
+            "path": "/resources/minecraft/sounds/music/game/creative/creative6.ogg",
+            "MD5": "d33005de44b24f1597bd7f1d7b6353db",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/creative/creative6.ogg"
           }
         },
         {
@@ -5036,6 +4976,66 @@
             "path": "/resources/minecraft/sounds/music/game/end/end.ogg",
             "MD5": "7396170984ed2312873012129b7f6599",
             "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/end/end.ogg"
+          }
+        },
+        {
+          "id": "nether2",
+          "name": "nether2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2783300,
+            "path": "/resources/minecraft/sounds/music/game/nether/nether2.ogg",
+            "MD5": "a14a79981f07c07bf5b4d883178d9255",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether2.ogg"
+          }
+        },
+        {
+          "id": "nether1",
+          "name": "nether1",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2731933,
+            "path": "/resources/minecraft/sounds/music/game/nether/nether1.ogg",
+            "MD5": "daa937fb986a91d0beeec68f0b2a41ef",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether1.ogg"
+          }
+        },
+        {
+          "id": "nether4",
+          "name": "nether4",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2771287,
+            "path": "/resources/minecraft/sounds/music/game/nether/nether4.ogg",
+            "MD5": "660be3853a25b1713ad2645b8fce5de5",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether4.ogg"
+          }
+        },
+        {
+          "id": "nether3",
+          "name": "nether3",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2460079,
+            "path": "/resources/minecraft/sounds/music/game/nether/nether3.ogg",
+            "MD5": "6ff07f747440fba9722b8edee0f754ce",
+            "url": "https://github.com/resist-network/resist-mod-pack/raw/master/resources/minecraft/sounds/music/game/nether/nether3.ogg"
           }
         }
       ]
